@@ -8,55 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 30 15% 20%;
+    --background: 40 25% 98%;
+    --foreground: 25 20% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 30 15% 20%;
+    --card-foreground: 25 20% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 15% 20%;
+    --popover-foreground: 25 20% 25%;
 
-    /* Italian Villa Yellow/Gold */
-    --primary: 45 95% 50%;
-    --primary-foreground: 30 15% 20%;
-    --primary-dark: 45 85% 40%;
+    /* Elegant Gold */
+    --primary: 45 80% 55%;
+    --primary-foreground: 25 20% 25%;
+    --primary-dark: 45 75% 45%;
 
-    /* Italian Flag Green */
-    --secondary: 151 100% 29%;
+    /* Terracotta Red - Italian Villa */
+    --secondary: 8 70% 40%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-dark: 151 100% 22%;
+    --secondary-dark: 8 75% 32%;
 
-    /* Italian Flag Red */
-    --accent: 352 73% 49%;
+    /* Deep Terracotta Accent */
+    --accent: 8 70% 40%;
     --accent-foreground: 0 0% 100%;
-    --accent-dark: 352 80% 38%;
+    --accent-dark: 8 75% 32%;
 
-    /* Italian Red for CTAs */
-    --cta: 352 73% 49%;
+    /* Terracotta for CTAs */
+    --cta: 8 70% 40%;
     --cta-foreground: 0 0% 100%;
-    --cta-dark: 352 80% 38%;
+    --cta-dark: 8 75% 32%;
 
-    --muted: 42 30% 95%;
-    --muted-foreground: 30 10% 45%;
+    --muted: 40 20% 92%;
+    --muted-foreground: 25 15% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 42 30% 90%;
-    --input: 42 30% 90%;
-    --ring: 42 65% 65%;
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 45 75% 60%;
 
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(151 100% 29%) 0%, hsl(352 73% 49%) 100%);
-    --gradient-warm: linear-gradient(180deg, hsl(45 30% 97%) 0%, hsl(0 0% 100%) 100%);
-    --gradient-italia: linear-gradient(90deg, hsl(151 100% 29%) 0%, hsl(0 0% 100%) 33%, hsl(0 0% 100%) 66%, hsl(352 73% 49%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(8 70% 40%) 0%, hsl(45 80% 55%) 100%);
+    --gradient-warm: linear-gradient(180deg, hsl(40 25% 96%) 0%, hsl(40 20% 98%) 100%);
+    --gradient-italia: linear-gradient(90deg, hsl(8 70% 40%) 0%, hsl(45 80% 55%) 50%, hsl(8 70% 40%) 100%);
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px hsla(42, 30%, 50%, 0.15);
-    --shadow-hover: 0 8px 30px hsla(42, 30%, 50%, 0.25);
+    --shadow-soft: 0 4px 20px hsla(8, 50%, 40%, 0.15);
+    --shadow-hover: 0 8px 30px hsla(8, 50%, 40%, 0.25);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,40 +72,40 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 30 20% 12%;
-    --foreground: 42 30% 95%;
+    --background: 25 25% 12%;
+    --foreground: 40 25% 92%;
 
-    --card: 30 20% 15%;
-    --card-foreground: 42 30% 95%;
+    --card: 25 20% 15%;
+    --card-foreground: 40 25% 92%;
 
-    --popover: 30 20% 15%;
-    --popover-foreground: 42 30% 95%;
+    --popover: 25 20% 15%;
+    --popover-foreground: 40 25% 92%;
 
-    --primary: 45 90% 55%;
-    --primary-foreground: 30 15% 20%;
-    --primary-dark: 45 80% 45%;
+    --primary: 45 75% 60%;
+    --primary-foreground: 25 20% 20%;
+    --primary-dark: 45 70% 50%;
 
-    --secondary: 151 90% 35%;
+    --secondary: 8 65% 45%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-dark: 151 85% 28%;
+    --secondary-dark: 8 70% 35%;
 
-    --accent: 352 70% 55%;
+    --accent: 8 65% 50%;
     --accent-foreground: 0 0% 100%;
-    --accent-dark: 352 75% 45%;
+    --accent-dark: 8 70% 40%;
 
-    --cta: 352 70% 55%;
+    --cta: 8 65% 50%;
     --cta-foreground: 0 0% 100%;
-    --cta-dark: 352 75% 45%;
+    --cta-dark: 8 70% 40%;
 
-    --muted: 30 15% 20%;
-    --muted-foreground: 42 20% 70%;
+    --muted: 25 15% 20%;
+    --muted-foreground: 40 20% 70%;
 
     --destructive: 0 72% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 15% 25%;
-    --input: 30 15% 25%;
-    --ring: 42 65% 55%;
+    --border: 25 15% 25%;
+    --input: 25 15% 25%;
+    --ring: 45 70% 55%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
