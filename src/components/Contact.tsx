@@ -76,12 +76,12 @@ const Contact = () => {
             <div className="bg-primary/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-8 h-8 text-primary-foreground" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Localização</h3>
-            <p className="text-muted-foreground mb-4">Praia da Armação, Penha/SC</p>
+            <h3 className="font-bold text-lg mb-2">Endereço</h3>
+            <p className="text-muted-foreground mb-4 text-sm">R. Luís Vicente da Silva, 183<br />Centro, Penha - SC, 88385-000</p>
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.open("https://maps.google.com", "_blank")}
+              onClick={() => window.open("https://goo.gl/maps/uDdApnDSJKVc2EJN7", "_blank")}
             >
               Ver Mapa
             </Button>
@@ -119,17 +119,28 @@ const Contact = () => {
         </Card>
 
         {/* Info Footer */}
-        <div className="mt-12 text-center text-muted-foreground">
-          <p className="mb-2">
-            <strong>Endereço:</strong> Praia da Armação, Penha - Santa Catarina
-          </p>
-          <p className="mb-2">
-            <strong>Distância Beto Carrero:</strong> 5 minutos de carro / 1,5 km
-          </p>
-          <p>
-            <strong>Distância Praia:</strong> 30-80 metros
-          </p>
-        </div>
+        <Card className="mt-12 p-8 bg-primary/10 border-2 border-primary shadow-soft">
+          <div className="flex items-start gap-4 justify-center">
+            <MapPin className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div className="text-center">
+              <h3 className="font-bold text-2xl text-foreground mb-3">Nosso Endereço</h3>
+              <p className="text-lg text-foreground font-semibold mb-2">
+                R. Luís Vicente da Silva, 183 - Centro
+              </p>
+              <p className="text-lg text-foreground font-semibold mb-4">
+                Penha - SC, 88385-000, Brasil
+              </p>
+              <div className="grid md:grid-cols-2 gap-4 mt-6 text-left max-w-2xl mx-auto">
+                <p className="text-muted-foreground">
+                  <strong className="text-foreground">Beto Carrero:</strong> 5 minutos de carro (1,5 km)
+                </p>
+                <p className="text-muted-foreground">
+                  <strong className="text-foreground">Praia:</strong> 30-80 metros
+                </p>
+              </div>
+            </div>
+          </div>
+        </Card>
       </div>
     </section>
   );
