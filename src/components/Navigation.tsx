@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo-villa-ditalia.gif";
+import logoGreen from "@/assets/logo-villa-ditalia-green.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,12 +49,12 @@ const Navigation = () => {
             className="flex items-center gap-3 hover:opacity-80 transition-smooth"
           >
             <img 
-              src={logo} 
+              src={isScrolled ? logoGreen : logo}
               alt="Pousada Villa D'Italia" 
-              className={`h-12 md:h-16 w-auto transition-all duration-500`}
+              className="h-12 md:h-16 w-auto transition-all duration-500"
               style={{
                 filter: isScrolled 
-                  ? "hue-rotate(0deg) saturate(1.5) brightness(0.9) contrast(1.2)" 
+                  ? "none" 
                   : "brightness(1.3) contrast(1.1) drop-shadow(0 2px 8px rgba(0,0,0,0.8))"
               }}
             />
