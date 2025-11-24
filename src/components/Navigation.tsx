@@ -51,7 +51,7 @@ const Navigation = () => {
             <img 
               src={isScrolled ? logoGreen : logo}
               alt="Pousada Villa D'Italia" 
-              className="h-12 md:h-16 w-auto transition-all duration-500"
+              className="h-14 md:h-20 w-auto transition-all duration-500"
               style={{
                 filter: isScrolled 
                   ? "none" 
