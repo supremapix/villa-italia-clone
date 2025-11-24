@@ -50,7 +50,12 @@ const Navigation = () => {
             <img 
               src={logo} 
               alt="Pousada Villa D'Italia" 
-              className="h-12 md:h-16 w-auto"
+              className={`h-12 md:h-16 w-auto transition-all duration-300 ${
+                isScrolled ? "brightness-100" : "drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
+              }`}
+              style={{
+                filter: isScrolled ? "none" : "brightness(1.2) contrast(1.1)"
+              }}
             />
           </button>
 
