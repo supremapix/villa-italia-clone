@@ -6,10 +6,12 @@ import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
 import Location from "@/components/Location";
 import PenhaSection from "@/components/PenhaSection";
+import InstagramFeed from "@/components/InstagramFeed";
 import Suggestions from "@/components/Suggestions";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -23,11 +25,13 @@ const Index = () => {
         <BetoCarrero />
         <Location />
         <PenhaSection />
+        <InstagramFeed />
         <Suggestions />
         <Contact />
       </main>
       <Footer />
       <FloatingButtons />
+      <ScrollToTop />
     </div>
   );
 };
