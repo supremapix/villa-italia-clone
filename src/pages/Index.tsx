@@ -5,9 +5,11 @@ import Story from "@/components/Story";
 import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
 import Location from "@/components/Location";
+import PenhaSection from "@/components/PenhaSection";
 import Suggestions from "@/components/Suggestions";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingButtons from "@/components/FloatingButtons";
 
 const Index = () => {
   return (
@@ -20,10 +22,12 @@ const Index = () => {
         <Amenities />
         <BetoCarrero />
         <Location />
+        <PenhaSection />
         <Suggestions />
         <Contact />
       </main>
       <Footer />
+      <FloatingButtons />
     </div>
   );
 };
