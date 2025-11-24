@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo-villa-ditalia.gif";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,9 +17,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-3xl font-display font-bold text-primary mb-4">
-              Villa D'Itália
-            </h3>
+            <div className="mb-4">
+              <img 
+                src={logo} 
+                alt="Pousada Villa D'Italia" 
+                className="h-20 w-auto brightness-0 invert"
+              />
+            </div>
             <p className="text-background/80 mb-6">
               Seu refúgio perfeito entre o mar e a diversão no litoral norte de Santa Catarina.
             </p>
