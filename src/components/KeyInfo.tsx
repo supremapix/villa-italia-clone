@@ -4,10 +4,16 @@ import { MapPin, Plane, Coffee, Clock, Waves, Car } from "lucide-react";
 const KeyInfo = () => {
   const infoItems = [
     {
+      icon: MapPin,
+      title: "Endereço",
+      description: "R. Luís Vicente da Silva, 183 - Centro",
+      highlight: "Penha - SC, 88385-000"
+    },
+    {
       icon: Waves,
-      title: "Localização",
+      title: "Praia",
       description: "A poucos passos da Praia de Armação",
-      highlight: "Penha, SC"
+      highlight: "30-80 metros"
     },
     {
       icon: Car,
@@ -53,7 +59,7 @@ const KeyInfo = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in-up">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 animate-fade-in-up">
           {infoItems.map((item, index) => {
             const Icon = item.icon;
             return (

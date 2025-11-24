@@ -122,8 +122,9 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-cta mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-background/80">Praia da Armação</p>
-                  <p className="text-background/80">Penha - Santa Catarina</p>
+                  <p className="text-background/90 font-semibold">R. Luís Vicente da Silva, 183</p>
+                  <p className="text-background/80">Centro, Penha - SC</p>
+                  <p className="text-background/80">CEP: 88385-000</p>
                 </div>
               </li>
             </ul>
