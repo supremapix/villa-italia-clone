@@ -1,0 +1,103 @@
+import { Card } from "@/components/ui/card";
+import {
+  Waves,
+  Dumbbell,
+  Wifi,
+  Car,
+  Tv,
+  Snowflake,
+  Coffee,
+  Flame,
+  Wind,
+  Trees,
+  Utensils,
+} from "lucide-react";
+import poolImage from "@/assets/pool-outdoor.jpg";
+import breakfastImage from "@/assets/breakfast.jpg";
+
+const amenities = [
+  { icon: Waves, title: "Duas Piscinas", description: "Externa e coberta com hidromassagem" },
+  { icon: Dumbbell, title: "Academia", description: "Espaço para exercícios" },
+  { icon: Car, title: "Estacionamento", description: "Gratuito para hóspedes" },
+  { icon: Flame, title: "Lareira", description: "Sala de estar aconchegante" },
+  { icon: Wifi, title: "Wi-Fi Grátis", description: "Alta velocidade" },
+  { icon: Tv, title: "TV a Cabo", description: "Em todos os quartos" },
+  { icon: Snowflake, title: "Ar-Condicionado", description: "Controle individual" },
+  { icon: Wind, title: "Frigobar", description: "Em cada acomodação" },
+  { icon: Coffee, title: "Café da Manhã", description: "Incluso na diária" },
+  { icon: Trees, title: "Jardim Amplo", description: "Área verde relaxante" },
+  { icon: Utensils, title: "Secador", description: "De cabelo disponível" },
+];
+
+const Amenities = () => {
+  return (
+    <section id="leisure" className="py-20 gradient-warm">
+      <div className="container mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
+            Você merece aproveitar uma estadia dos sonhos
+          </h2>
+          <div className="w-20 h-1 bg-cta rounded-full mx-auto mb-6" />
+          <p className="text-xl text-foreground max-w-3xl mx-auto">
+            Venha conhecer a Pousada Vila D'Itália! Aqui você encontra uma estrutura completa para proporcionar dias incríveis de descanso e diversão.
+          </p>
+        </div>
+
+        {/* Images Grid */}
+        <div className="grid md:grid-cols-2 gap-6 mb-16 animate-fade-in-up">
+          <div className="relative rounded-2xl overflow-hidden shadow-hover h-[400px]">
+            <img
+              src={poolImage}
+              alt="Piscina externa"
+              className="w-full h-full object-cover hover:scale-105 transition-smooth"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+              <h3 className="text-white text-2xl font-display font-bold">Piscinas Exclusivas</h3>
+              <p className="text-white/90">Externa e coberta com hidromassagem</p>
+            </div>
+          </div>
+          <div className="relative rounded-2xl overflow-hidden shadow-hover h-[400px]">
+            <img
+              src={breakfastImage}
+              alt="Café da manhã"
+              className="w-full h-full object-cover hover:scale-105 transition-smooth"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+              <h3 className="text-white text-2xl font-display font-bold">Café da Manhã</h3>
+              <p className="text-white/90">Incluso com produtos frescos</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Amenities Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 animate-scale-in">
+          {amenities.map((amenity, index) => {
+            const Icon = amenity.icon;
+            return (
+              <Card
+                key={index}
+                className="p-6 text-center hover:shadow-hover transition-smooth cursor-pointer group bg-background border-none shadow-soft"
+              >
+                <div className="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary group-hover:scale-110 transition-smooth">
+                  <Icon className="w-8 h-8 text-secondary group-hover:text-secondary-foreground" />
+                </div>
+                <h3 className="font-bold text-lg mb-2 text-foreground">{amenity.title}</h3>
+                <p className="text-sm text-muted-foreground">{amenity.description}</p>
+              </Card>
+            );
+          })}
+        </div>
+
+        {/* Bottom Text */}
+        <div className="mt-12 text-center max-w-3xl mx-auto">
+          <p className="text-lg text-foreground">
+            Pensamos em todos os detalhes para o seu conforto. Existem passeios para os pontos turísticos da região. Os apartamentos contam com TV, ar-condicionado, frigobar e secador de cabelo. Queremos que sinta que está em casa!
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Amenities;
