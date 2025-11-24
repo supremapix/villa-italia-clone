@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo-villa-ditalia.gif";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,9 +45,13 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl md:text-3xl font-display font-bold text-secondary hover:text-secondary-dark transition-smooth"
+            className="flex items-center gap-3 hover:opacity-80 transition-smooth"
           >
-            Villa D'Itália
+            <img 
+              src={logo} 
+              alt="Pousada Villa D'Italia" 
+              className="h-12 md:h-16 w-auto"
+            />
           </button>
 
           {/* Desktop Navigation */}
