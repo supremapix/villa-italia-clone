@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
+import KeyInfo from "@/components/KeyInfo";
 import Welcome from "@/components/Welcome";
 import Story from "@/components/Story";
 import Amenities from "@/components/Amenities";
@@ -19,6 +20,7 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
+        <KeyInfo />
         <Welcome />
         <Story />
         <Amenities />
