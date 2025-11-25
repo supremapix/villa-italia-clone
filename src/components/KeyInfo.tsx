@@ -88,9 +88,30 @@ const KeyInfo = () => {
           })}
         </div>
 
-        <div className="mt-8 text-center">
-          <Card className="inline-block bg-cta border-none p-6 shadow-elegant">
-            <p className="text-cta-foreground text-lg font-semibold">
+        <div className="mt-12 text-center">
+          <Card className="bg-gradient-to-r from-cta to-cta-dark border-none p-8 shadow-elegant">
+            <h3 className="text-3xl font-display font-bold text-cta-foreground mb-6">
+              Diárias a partir de R$ 149
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-cta-foreground">
+              <div className="flex items-center gap-2 justify-center">
+                <span className="text-2xl">✓</span>
+                <span className="font-semibold">Estacionamento Grátis</span>
+              </div>
+              <div className="flex items-center gap-2 justify-center">
+                <span className="text-2xl">✓</span>
+                <span className="font-semibold">Café da Manhã Incluso</span>
+              </div>
+              <div className="flex items-center gap-2 justify-center">
+                <span className="text-2xl">✓</span>
+                <span className="font-semibold">Área de Lazer Completa</span>
+              </div>
+              <div className="flex items-center gap-2 justify-center">
+                <span className="text-2xl">✓</span>
+                <span className="font-semibold">Wi-Fi Gratuito</span>
+              </div>
+            </div>
+            <p className="text-cta-foreground/90 text-lg mt-6">
               🏖️ Pousada Vila D'Italia - Seu refúgio em Penha, Santa Catarina
             </p>
           </Card>

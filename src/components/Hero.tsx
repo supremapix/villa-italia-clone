@@ -65,13 +65,13 @@ const Hero = () => {
               Reserve sua estadia
             </Button>
             <Button
-              variant="outline"
+              variant="outline-white"
               size="lg"
               onClick={() => {
                 const element = document.getElementById("about");
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}
-              className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-foreground"
+              className="text-lg px-8 py-6"
             >
               Saiba mais
             </Button>
