@@ -62,11 +62,11 @@ const Contact = () => {
               <Instagram className="w-8 h-8 text-cta" />
             </div>
             <h3 className="font-bold text-lg mb-2">Instagram</h3>
-            <p className="text-muted-foreground mb-4">@viladitalia</p>
+            <p className="text-muted-foreground mb-4">@viladitaliapousada</p>
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.open("https://instagram.com", "_blank")}
+              onClick={() => window.open("https://www.instagram.com/viladitaliapousada/", "_blank")}
             >
               Seguir
             </Button>

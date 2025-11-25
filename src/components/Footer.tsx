@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
 import logo from "@/assets/logo-villa-ditalia.gif";
 
 const Footer = () => {
@@ -29,20 +29,53 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/viladitaliapousada/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-secondary-dark transition-smooth"
+                aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5 text-secondary-foreground" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/viladitalia/?ref=embed_page"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-accent rounded-full flex items-center justify-center hover:bg-accent-dark transition-smooth"
+                aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5 text-accent-foreground" />
+              </a>
+              <a
+                href="https://www.youtube.com/@POUSADAVILADITÁLIA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-cta rounded-full flex items-center justify-center hover:bg-cta-dark transition-smooth"
+                aria-label="YouTube"
+              >
+                <Youtube className="w-5 h-5 text-cta-foreground" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@pousadaviladitalia?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary-dark transition-smooth"
+                aria-label="TikTok"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-primary-foreground">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                </svg>
+              </a>
+              <a
+                href="https://br.pinterest.com/pousadaviladitalia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-muted rounded-full flex items-center justify-center hover:bg-muted/80 transition-smooth"
+                aria-label="Pinterest"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-muted-foreground">
+                  <path d="M12 0a12 12 0 0 0-4.37 23.17c-.1-.92-.19-2.32 0-3.32l1.34-5.67s-.34-.69-.34-1.7c0-1.59.92-2.78 2.07-2.78.98 0 1.45.73 1.45 1.61 0 .98-.63 2.45-.95 3.81-.27 1.14.57 2.07 1.69 2.07 2.03 0 3.59-2.14 3.59-5.23 0-2.73-1.96-4.64-4.76-4.64-3.24 0-5.14 2.43-5.14 4.94 0 .98.38 2.03.85 2.6a.36.36 0 0 1 .08.35c-.09.38-.3 1.21-.34 1.38-.05.22-.17.27-.39.16-1.42-.66-2.31-2.73-2.31-4.39 0-3.6 2.61-6.9 7.53-6.9 3.95 0 7.02 2.82 7.02 6.58 0 3.93-2.48 7.09-5.92 7.09-1.16 0-2.25-.6-2.62-1.31l-.71 2.71c-.26.99-.96 2.23-1.43 2.99A12 12 0 1 0 12 0z"/>
+                </svg>
               </a>
             </div>
           </div>
@@ -69,7 +102,7 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("accommodations")}
+                  onClick={() => window.location.href = "/acomodacoes"}
                   className="text-background/80 hover:text-primary transition-smooth"
                 >
                   Acomodações

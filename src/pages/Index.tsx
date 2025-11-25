@@ -7,6 +7,7 @@ import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
 import Location from "@/components/Location";
 import PenhaSection from "@/components/PenhaSection";
+import SocialMedia from "@/components/SocialMedia";
 import InstagramFeed from "@/components/InstagramFeed";
 import Suggestions from "@/components/Suggestions";
 import Contact from "@/components/Contact";
@@ -27,6 +28,7 @@ const Index = () => {
         <BetoCarrero />
         <Location />
         <PenhaSection />
+        <SocialMedia />
         <InstagramFeed />
         <Suggestions />
         <Contact />
