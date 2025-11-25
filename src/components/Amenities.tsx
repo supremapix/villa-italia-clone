@@ -1,7 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {
   Waves,
-  Dumbbell,
   Wifi,
   Car,
   Tv,
@@ -11,21 +10,21 @@ import {
   Wind,
   Trees,
   Utensils,
+  Star,
 } from "lucide-react";
 import poolImage from "@/assets/pool-outdoor.jpg";
 import breakfastImage from "@/assets/breakfast.jpg";
 
 const amenities = [
   { icon: Waves, title: "Duas Piscinas", description: "Externa e coberta com hidromassagem" },
-  { icon: Dumbbell, title: "Academia", description: "Espaço para exercícios" },
-  { icon: Car, title: "Estacionamento", description: "Gratuito para hóspedes" },
+  { icon: Car, title: "Estacionamento Grátis", description: "Gratuito para hóspedes" },
   { icon: Flame, title: "Lareira", description: "Sala de estar aconchegante" },
-  { icon: Wifi, title: "Wi-Fi Grátis", description: "Alta velocidade" },
+  { icon: Wifi, title: "Wi-Fi Grátis", description: "Em toda a propriedade" },
   { icon: Tv, title: "TV a Cabo", description: "Em todos os quartos" },
   { icon: Snowflake, title: "Ar-Condicionado", description: "Controle individual" },
   { icon: Wind, title: "Frigobar", description: "Em cada acomodação" },
   { icon: Coffee, title: "Café da Manhã", description: "Incluso na diária" },
-  { icon: Trees, title: "Jardim Amplo", description: "Área verde relaxante" },
+  { icon: Trees, title: "Área de Lazer", description: "Jardim e espaços relaxantes" },
   { icon: Utensils, title: "Secador", description: "De cabelo disponível" },
 ];
 
@@ -52,6 +51,11 @@ const Amenities = () => {
               alt="Piscina externa"
               className="w-full h-full object-cover hover:scale-105 transition-smooth"
             />
+            <div className="absolute top-4 right-4 flex gap-1">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+              ))}
+            </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
               <h3 className="text-white text-2xl font-display font-bold">Piscinas Exclusivas</h3>
               <p className="text-white/90">Externa e coberta com hidromassagem</p>
@@ -63,6 +67,11 @@ const Amenities = () => {
               alt="Café da manhã"
               className="w-full h-full object-cover hover:scale-105 transition-smooth"
             />
+            <div className="absolute top-4 right-4 flex gap-1">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+              ))}
+            </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
               <h3 className="text-white text-2xl font-display font-bold">Café da Manhã</h3>
               <p className="text-white/90">Incluso com produtos frescos</p>

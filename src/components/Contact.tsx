@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Instagram, ExternalLink } from "lucide-react";
 
 const Contact = () => {
-  const whatsappNumber = "5547999999999"; // Número de exemplo - substituir pelo real
+  const whatsappNumber = "5547992738090";
   const whatsappMessage = encodeURIComponent(
     "Olá! Gostaria de fazer uma reserva na Pousada Vila D'Itália."
   );
@@ -32,7 +32,7 @@ const Contact = () => {
               <Phone className="w-8 h-8 text-secondary" />
             </div>
             <h3 className="font-bold text-lg mb-2">Telefone</h3>
-            <p className="text-muted-foreground mb-4">(47) 9999-9999</p>
+            <p className="text-muted-foreground mb-4">+55 47 99273-8090</p>
             <Button
               variant="secondary"
               size="sm"
