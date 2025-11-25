@@ -16,6 +16,16 @@ import room7 from "@/assets/room-7.jpg";
 import room8 from "@/assets/room-8.jpg";
 import room9 from "@/assets/room-9.jpg";
 import room10 from "@/assets/room-10.jpg";
+import room11 from "@/assets/room-11.jpg";
+import room12 from "@/assets/room-12.jpg";
+import room13 from "@/assets/room-13.jpg";
+import room14 from "@/assets/room-14.jpg";
+import room15 from "@/assets/room-15.jpg";
+import room16 from "@/assets/room-16.jpg";
+import room17 from "@/assets/room-17.jpg";
+import room18 from "@/assets/room-18.jpg";
+import room19 from "@/assets/room-19.jpg";
+import room20 from "@/assets/room-20.jpg";
 
 type RoomCategory = "todos" | "casal" | "familia" | "suite";
 
@@ -108,6 +118,86 @@ const rooms: Room[] = [
     title: "Quarto Casal Romântico",
     description: "Ambiente romântico com detalhes especiais e decoração acolhedora.",
     amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis"]
+  },
+  {
+    id: 11,
+    image: room11,
+    category: "suite",
+    title: "Suíte Duplex Premium",
+    description: "Suíte duplex moderna com dois níveis, perfeita para conforto e privacidade.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "2 Andares"]
+  },
+  {
+    id: 12,
+    image: room12,
+    category: "familia",
+    title: "Quarto Família Premium",
+    description: "Amplo quarto familiar com decoração vibrante e múltiplas camas.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Múltiplas Camas"]
+  },
+  {
+    id: 13,
+    image: room13,
+    category: "familia",
+    title: "Quarto Família Confortável",
+    description: "Espaço aconchegante com várias opções de camas para toda a família.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "4 Camas"]
+  },
+  {
+    id: 14,
+    image: room14,
+    category: "suite",
+    title: "Suíte Duplex Executiva",
+    description: "Suíte com dois andares, ideal para estadias prolongadas.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Mezanino"]
+  },
+  {
+    id: 15,
+    image: room15,
+    category: "familia",
+    title: "Quarto Família Mezanino Premium",
+    description: "Quarto com mezanino em estilo chalé, proporcionando muito espaço.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Mezanino"]
+  },
+  {
+    id: 16,
+    image: room16,
+    category: "casal",
+    title: "Quarto com Varanda",
+    description: "Quarto com vista para a área externa e varanda privativa.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Varanda"]
+  },
+  {
+    id: 17,
+    image: room17,
+    category: "casal",
+    title: "Quarto Casal Luxo",
+    description: "Quarto elegante com decoração romântica e toques especiais.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Decoração Especial"]
+  },
+  {
+    id: 18,
+    image: room18,
+    category: "casal",
+    title: "Suíte Casal Romântica",
+    description: "Suíte moderna com decoração especial para ocasiões especiais.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Decoração Romântica"]
+  },
+  {
+    id: 19,
+    image: room19,
+    category: "familia",
+    title: "Quarto Família Clássico",
+    description: "Quarto espaçoso com múltiplas camas e ambiente acolhedor.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "3 Camas"]
+  },
+  {
+    id: 20,
+    image: room20,
+    category: "casal",
+    title: "Quarto com Vista Externa",
+    description: "Quarto com vista privilegiada para a área externa da pousada.",
+    amenities: ["Ar-condicionado", "TV a Cabo", "Frigobar", "Wi-Fi Grátis", "Vista Externa"]
   }
 ];
 
