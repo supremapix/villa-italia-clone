@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo-villa-ditalia.gif";
 import logoRed from "@/assets/logo-villa-ditalia-red.png";
 
 const Navigation = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -17,20 +20,35 @@ const Navigation = () => {
   }, []);
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
+    setIsMobileMenuOpen(false);
+  };
+
+  const handleNavigate = (path: string) => {
+    navigate(path);
+    setIsMobileMenuOpen(false);
   };
 
   const navLinks = [
-    { label: "Início", id: "hero" },
-    { label: "Sobre", id: "about" },
-    { label: "Acomodações", id: "accommodations" },
-    { label: "Lazer", id: "leisure" },
-    { label: "Localização", id: "location" },
-    { label: "Contato", id: "contact" },
+    { label: "Início", id: "hero", type: "scroll" as const },
+    { label: "Sobre", id: "about", type: "scroll" as const },
+    { label: "Acomodações", id: "/acomodacoes", type: "route" as const },
+    { label: "Lazer", id: "leisure", type: "scroll" as const },
+    { label: "Localização", id: "location", type: "scroll" as const },
+    { label: "Contato", id: "contact", type: "scroll" as const },
   ];
 
   return (
@@ -65,7 +83,7 @@ const Navigation = () => {
             {navLinks.map((link) => (
               <button
                 key={link.id}
-                onClick={() => scrollToSection(link.id)}
+                onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
                 className="text-foreground hover:text-secondary transition-smooth font-medium"
               >
                 {link.label}
@@ -93,7 +111,7 @@ const Navigation = () => {
               {navLinks.map((link) => (
                 <button
                   key={link.id}
-                  onClick={() => scrollToSection(link.id)}
+                  onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
                   className="text-left px-4 py-2 text-foreground hover:text-secondary hover:bg-muted transition-smooth font-medium rounded-md"
                 >
                   {link.label}
