@@ -72,7 +72,7 @@ const Hero = () => {
                 const element = document.getElementById("about");
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}
-              className="text-lg px-8 py-6 border-2 border-white text-white hover:bg-white hover:text-secondary"
+              className="text-lg px-8 py-6 border-2 border-secondary text-secondary bg-white hover:bg-secondary hover:text-white"
             >
               Saiba mais
             </Button>

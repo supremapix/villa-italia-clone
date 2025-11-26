@@ -91,14 +91,14 @@ const PenhaSection = () => {
           <div className="h-px bg-border my-12"></div>
 
           {/* Traveler Info */}
-          <div className="bg-accent/10 rounded-2xl p-8 mb-12 animate-fade-in">
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">
-              Informações para Viajantes
+          <div className="bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-2xl p-10 mb-12 animate-fade-in shadow-hover border-2 border-primary/30">
+            <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
+              📋 Informações para Viajantes
             </h3>
-            <div className="grid md:grid-cols-2 gap-6 text-foreground">
+            <div className="grid md:grid-cols-2 gap-8 text-foreground">
               <div>
-                <h4 className="font-semibold text-lg mb-3">🏖️ Praias Principais</h4>
-                <ul className="space-y-2 text-muted-foreground">
+                <h4 className="font-bold text-xl mb-4 text-primary">🏖️ Praias Principais</h4>
+                <ul className="space-y-3 text-foreground text-base">
                   <li>• Praia da Armação - A poucos metros da Praia de Armação!</li>
                   <li>• Praia Grande</li>
                   <li>• Praia do Trapiche</li>
@@ -106,8 +106,8 @@ const PenhaSection = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-3">🎢 Atrações</h4>
-                <ul className="space-y-2 text-muted-foreground">
+                <h4 className="font-bold text-xl mb-4 text-primary">🎢 Atrações</h4>
+                <ul className="space-y-3 text-foreground text-base">
                   <li>• Beto Carrero World (5 min de carro)</li>
                   <li>• Unipraias Balneário Camboriú (24 km)</li>
                   <li>• Cristo Luz (30 km)</li>
@@ -115,8 +115,8 @@ const PenhaSection = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-3">🍽️ Gastronomia</h4>
-                <ul className="space-y-2 text-muted-foreground">
+                <h4 className="font-bold text-xl mb-4 text-primary">🍽️ Gastronomia</h4>
+                <ul className="space-y-3 text-foreground text-base">
                   <li>• Restaurantes de frutos do mar</li>
                   <li>• Opções de comida italiana</li>
                   <li>• Lanchonetes na orla</li>
@@ -124,8 +124,8 @@ const PenhaSection = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-3">🚗 Acesso</h4>
-                <ul className="space-y-2 text-muted-foreground">
+                <h4 className="font-bold text-xl mb-4 text-primary">🚗 Acesso</h4>
+                <ul className="space-y-3 text-foreground text-base">
                   <li>• Aeroporto Navegantes: 14 km</li>
                   <li>• BR-101 próxima</li>
                   <li>• Estacionamento gratuito</li>
