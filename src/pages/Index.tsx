@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import KeyInfo from "@/components/KeyInfo";
 import Welcome from "@/components/Welcome";
+import WhyPenha from "@/components/WhyPenha";
 import Story from "@/components/Story";
 import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
@@ -24,6 +25,7 @@ const Index = () => {
         <Hero />
         <KeyInfo />
         <Welcome />
+        <WhyPenha />
         <Story />
         <Amenities />
         <BetoCarrero />

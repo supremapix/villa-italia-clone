@@ -124,11 +124,11 @@ const Contact = () => {
             <Button
               variant="outline"
               size="lg"
-              className="text-lg px-8 border-2 border-white text-white hover:bg-white hover:text-secondary"
-              onClick={() => window.open("https://pousadaviladitalia.com.br", "_blank")}
+              className="text-lg px-8 border-2 border-secondary text-secondary bg-white hover:bg-secondary hover:text-white"
+              onClick={() => window.open("https://goo.gl/maps/uDdApnDSJKVc2EJN7", "_blank")}
             >
-              <ExternalLink className="w-5 h-5" />
-              Visite nosso site
+              <MapPin className="w-5 h-5" />
+              Ver no Mapa
             </Button>
           </div>
         </Card>
