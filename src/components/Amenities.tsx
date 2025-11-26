@@ -9,8 +9,8 @@ import {
   Flame,
   Wind,
   Trees,
-  Utensils,
   Star,
+  Droplets,
 } from "lucide-react";
 import poolImage from "@/assets/pool-outdoor.jpg";
 import breakfastImage from "@/assets/breakfast.jpg";
@@ -25,7 +25,7 @@ const amenities = [
   { icon: Wind, title: "Frigobar", description: "Em cada acomodação" },
   { icon: Coffee, title: "Café da Manhã", description: "Incluso na diária" },
   { icon: Trees, title: "Área de Lazer", description: "Jardim e espaços relaxantes" },
-  { icon: Utensils, title: "Secador", description: "De cabelo disponível" },
+  { icon: Droplets, title: "Secador", description: "De cabelo disponível" },
 ];
 
 const Amenities = () => {

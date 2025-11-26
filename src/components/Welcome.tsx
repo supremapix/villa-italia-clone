@@ -63,7 +63,7 @@ const Welcome = () => {
                     Localização Estratégica
                   </h3>
                   <p className="text-primary-foreground">
-                    A apenas 5 minutos do Beto Carrero World e a poucos passos da Praia de Armação
+                    A apenas 5 minutos do Beto Carrero World - A poucos metros da Praia de Armação!
                   </p>
                 </div>
               </div>

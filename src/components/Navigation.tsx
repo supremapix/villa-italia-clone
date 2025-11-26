@@ -84,20 +84,30 @@ const Navigation = () => {
               <button
                 key={link.id}
                 onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
-                className="text-foreground hover:text-secondary transition-smooth font-medium"
+                className={`${
+                  isScrolled 
+                    ? "text-foreground hover:text-secondary" 
+                    : "text-white hover:text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
+                } transition-smooth font-medium`}
               >
                 {link.label}
               </button>
             ))}
-            <Button variant="cta" size="lg" onClick={() => scrollToSection("contact")}>
-              <Phone className="w-4 h-4" />
-              Reserve Agora
-            </Button>
+            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+              <Button variant="cta" size="lg">
+                <Phone className="w-4 h-4" />
+                Reserve Agora
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground hover:text-secondary transition-smooth"
+            className={`lg:hidden p-2 ${
+              isScrolled 
+                ? "text-foreground hover:text-secondary" 
+                : "text-white hover:text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
+            } transition-smooth`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -118,15 +128,16 @@ const Navigation = () => {
                 </button>
               ))}
               <div className="px-4 pt-2">
-                <Button
-                  variant="cta"
-                  size="lg"
-                  className="w-full"
-                  onClick={() => scrollToSection("contact")}
-                >
-                  <Phone className="w-4 h-4" />
-                  Reserve Agora
-                </Button>
+                <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer" className="block">
+                  <Button
+                    variant="cta"
+                    size="lg"
+                    className="w-full"
+                  >
+                    <Phone className="w-4 h-4" />
+                    Reserve Agora
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

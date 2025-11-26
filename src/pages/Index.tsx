@@ -8,6 +8,7 @@ import BetoCarrero from "@/components/BetoCarrero";
 import Location from "@/components/Location";
 import PenhaSection from "@/components/PenhaSection";
 import SocialMedia from "@/components/SocialMedia";
+import Blog from "@/components/Blog";
 import InstagramFeed from "@/components/InstagramFeed";
 import Suggestions from "@/components/Suggestions";
 import Contact from "@/components/Contact";
@@ -29,6 +30,7 @@ const Index = () => {
         <Location />
         <PenhaSection />
         <SocialMedia />
+        <Blog />
         <InstagramFeed />
         <Suggestions />
         <Contact />

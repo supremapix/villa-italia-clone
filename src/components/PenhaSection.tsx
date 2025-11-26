@@ -99,7 +99,7 @@ const PenhaSection = () => {
               <div>
                 <h4 className="font-semibold text-lg mb-3">🏖️ Praias Principais</h4>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Praia da Armação (30-80m da pousada)</li>
+                  <li>• Praia da Armação - A poucos metros da Praia de Armação!</li>
                   <li>• Praia Grande</li>
                   <li>• Praia do Trapiche</li>
                   <li>• Praia Alegre</li>
