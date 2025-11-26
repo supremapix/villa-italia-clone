@@ -55,15 +55,16 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button
-              variant="hero"
-              size="lg"
-              onClick={scrollToContact}
-              className="text-lg px-8 py-6"
-            >
-              <Phone className="w-5 h-5" />
-              Reserve sua estadia
-            </Button>
+            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="hero"
+                size="lg"
+                className="text-lg px-8 py-6"
+              >
+                <Phone className="w-5 h-5" />
+                Reserve sua estadia
+              </Button>
+            </a>
             <Button
               variant="outline"
               size="lg"
@@ -71,7 +72,7 @@ const Hero = () => {
                 const element = document.getElementById("about");
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}
-              className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-secondary"
+              className="text-lg px-8 py-6 border-2 border-white text-white hover:bg-white hover:text-secondary"
             >
               Saiba mais
             </Button>

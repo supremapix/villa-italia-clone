@@ -148,8 +148,19 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-background/80 break-all">contato@viladitalia.com.br</p>
+                <div className="space-y-1">
+                  <a 
+                    href="mailto:contato@viladitalia.com.br"
+                    className="text-background/80 break-all hover:text-primary transition-smooth block"
+                  >
+                    contato@viladitalia.com.br
+                  </a>
+                  <a 
+                    href="mailto:marketing.viladitalia@gmail.com"
+                    className="text-background/80 break-all hover:text-primary transition-smooth block"
+                  >
+                    marketing.viladitalia@gmail.com
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -187,12 +198,20 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-background/20 pt-8 text-center">
+        <div className="border-t border-background/20 pt-8 text-center space-y-3">
           <p className="text-background/60">
             © {currentYear} Pousada Vila D'Itália. Todos os direitos reservados.
           </p>
-          <p className="text-background/40 text-sm mt-2">
-            Desenvolvido com carinho para proporcionar a melhor experiência aos nossos hóspedes.
+          <p className="text-background/80 flex items-center justify-center gap-2 text-base">
+            Feito com <span className="text-red-500 text-2xl animate-pulse">❤️</span> 
+            <a 
+              href="https://supremamidia.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-semibold text-primary hover:text-primary-dark transition-smooth underline"
+            >
+              Suprema Midia Marketing Digital
+            </a>
           </p>
         </div>
       </div>

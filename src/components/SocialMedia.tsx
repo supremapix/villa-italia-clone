@@ -55,7 +55,7 @@ const SocialMedia = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-col md:flex-row flex-wrap justify-center gap-4 md:gap-6">
           {socialLinks.map((social) => {
             const IconComponent = social.icon;
             return (
@@ -64,7 +64,7 @@ const SocialMedia = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => window.open(social.url, "_blank")}
-                className={`flex items-center gap-3 px-8 py-6 text-lg font-semibold bg-white text-secondary border-2 border-white hover:text-white transition-smooth ${social.color}`}
+                className={`flex items-center gap-3 px-8 py-6 text-lg font-semibold bg-white text-secondary border-2 border-white hover:text-white transition-smooth w-full md:w-auto ${social.color}`}
               >
                 <IconComponent className="w-6 h-6" />
                 {social.name}

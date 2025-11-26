@@ -31,8 +31,8 @@ const Contact = () => {
             <div className="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Phone className="w-8 h-8 text-secondary" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Telefone</h3>
-            <p className="text-muted-foreground mb-4">+55 47 99273-8090</p>
+            <h3 className="font-bold text-2xl mb-2">Telefone</h3>
+            <p className="text-muted-foreground mb-4 text-lg font-semibold">+55 47 99273-8090</p>
             <Button
               variant="secondary"
               size="sm"
@@ -46,23 +46,37 @@ const Contact = () => {
             <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Mail className="w-8 h-8 text-accent" />
             </div>
-            <h3 className="font-bold text-lg mb-2">E-mail</h3>
-            <p className="text-muted-foreground mb-4 break-all">contato@viladitalia.com.br</p>
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => window.location.href = "mailto:contato@viladitalia.com.br"}
-            >
-              Enviar E-mail
-            </Button>
+            <h3 className="font-bold text-2xl mb-2">E-mail</h3>
+            <div className="mb-4 space-y-1">
+              <p className="text-muted-foreground break-all text-base font-semibold">contato@viladitalia.com.br</p>
+              <p className="text-muted-foreground break-all text-base font-semibold">marketing.viladitalia@gmail.com</p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => window.location.href = "mailto:contato@viladitalia.com.br"}
+                className="text-sm"
+              >
+                Contato
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => window.location.href = "mailto:marketing.viladitalia@gmail.com"}
+                className="text-sm"
+              >
+                Marketing
+              </Button>
+            </div>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-hover transition-smooth bg-background border-none shadow-soft">
             <div className="bg-cta/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Instagram className="w-8 h-8 text-cta" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Instagram</h3>
-            <p className="text-muted-foreground mb-4">@viladitaliapousada</p>
+            <h3 className="font-bold text-2xl mb-2">Instagram</h3>
+            <p className="text-muted-foreground mb-4 text-lg font-semibold">@viladitaliapousada</p>
             <Button
               variant="outline"
               size="sm"
@@ -76,8 +90,8 @@ const Contact = () => {
             <div className="bg-primary/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-8 h-8 text-primary-foreground" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Endereço</h3>
-            <p className="text-muted-foreground mb-4 text-sm">R. Luís Vicente da Silva, 183<br />Centro, Penha - SC, 88385-000</p>
+            <h3 className="font-bold text-2xl mb-2">Endereço</h3>
+            <p className="text-muted-foreground mb-4 text-sm font-semibold">R. Luís Vicente da Silva, 183<br />Centro, Penha - SC, 88385-000</p>
             <Button
               variant="outline"
               size="sm"
@@ -97,15 +111,16 @@ const Contact = () => {
             Entre em contato conosco agora e garanta as melhores datas para sua estadia na Pousada Vila D'Itália!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="cta"
-              size="lg"
-              className="text-lg px-8"
-              onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank")}
-            >
-              <Phone className="w-5 h-5" />
-              Reserve pelo WhatsApp
-            </Button>
+            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="cta"
+                size="lg"
+                className="text-lg px-8"
+              >
+                <Phone className="w-5 h-5" />
+                Reserve pelo WhatsApp
+              </Button>
+            </a>
             <Button
               variant="outline"
               size="lg"
