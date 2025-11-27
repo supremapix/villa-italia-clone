@@ -1,8 +1,45 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Star, Phone } from "lucide-react";
+import { useEffect, useState } from "react";
 import heroImage from "@/assets/hero-pousada.jpg";
 
 const Hero = () => {
+  const phrases = [
+    "Pousada com Piscina e Café da Manhã em Penha",
+    "Melhor Custo-Benefício para Famílias em Penha",
+    "Tranquilidade e Segurança a Passos da Praia"
+  ];
+  
+  const [currentPhrase, setCurrentPhrase] = useState(0);
+  const [displayedText, setDisplayedText] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [charIndex, setCharIndex] = useState(0);
+
+  useEffect(() => {
+    const typingSpeed = isDeleting ? 50 : 100;
+    const phrase = phrases[currentPhrase];
+
+    if (!isDeleting && charIndex < phrase.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText(phrase.substring(0, charIndex + 1));
+        setCharIndex(charIndex + 1);
+      }, typingSpeed);
+      return () => clearTimeout(timeout);
+    } else if (isDeleting && charIndex > 0) {
+      const timeout = setTimeout(() => {
+        setDisplayedText(phrase.substring(0, charIndex - 1));
+        setCharIndex(charIndex - 1);
+      }, typingSpeed);
+      return () => clearTimeout(timeout);
+    } else if (!isDeleting && charIndex === phrase.length) {
+      const timeout = setTimeout(() => setIsDeleting(true), 2000);
+      return () => clearTimeout(timeout);
+    } else if (isDeleting && charIndex === 0) {
+      setIsDeleting(false);
+      setCurrentPhrase((currentPhrase + 1) % phrases.length);
+    }
+  }, [charIndex, isDeleting, currentPhrase, phrases]);
+
   const scrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {
@@ -31,9 +68,12 @@ const Hero = () => {
             <span className="font-semibold">A 5 minutos do Beto Carrero World</span>
           </div>
 
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight">
-            A Pousada Villa D'Italia é seu refúgio perfeito entre o mar e a diversão
+          {/* Main Heading with Typing Effect */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight min-h-[180px] md:min-h-[150px] flex items-center justify-center">
+            <span className="inline-block">
+              {displayedText}
+              <span className="animate-pulse">|</span>
+            </span>
           </h1>
 
           {/* Subheading */}
@@ -72,7 +112,7 @@ const Hero = () => {
                 const element = document.getElementById("about");
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}
-              className="text-lg px-8 py-6 border-2 border-secondary text-secondary bg-white hover:bg-secondary hover:text-white"
+              className="text-lg px-8 py-6 border-2 border-white text-white bg-transparent hover:bg-white hover:text-secondary"
             >
               Saiba mais
             </Button>
