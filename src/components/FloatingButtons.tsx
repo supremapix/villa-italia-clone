@@ -8,7 +8,7 @@ const FloatingButtons = () => {
   const bookingUrl = "https://book.omnibees.com/hotel/18988";
 
   return (
-    <div className="fixed right-4 bottom-4 z-50 flex flex-col gap-3">
+    <div className="fixed right-2 md:right-4 bottom-2 md:bottom-4 z-50 flex flex-col gap-2 md:gap-3">
       {/* WhatsApp Button */}
       <a
         href={whatsappUrl}
@@ -18,9 +18,9 @@ const FloatingButtons = () => {
       >
         <Button
           size="icon"
-          className="h-14 w-14 rounded-full bg-[#25D366] hover:bg-[#20BA5A] shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+          className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-[#25D366] hover:bg-[#20BA5A] shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
-          <MessageCircle className="h-6 w-6 text-white" />
+          <MessageCircle className="h-5 w-5 md:h-6 md:w-6 text-white" />
         </Button>
       </a>
 
@@ -33,9 +33,9 @@ const FloatingButtons = () => {
       >
         <Button
           size="icon"
-          className="h-14 w-14 rounded-full bg-cta hover:bg-cta-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+          className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-cta hover:bg-cta-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
-          <MapPin className="h-6 w-6 text-white" />
+          <MapPin className="h-5 w-5 md:h-6 md:w-6 text-white" />
         </Button>
       </a>
 
@@ -46,9 +46,9 @@ const FloatingButtons = () => {
       >
         <Button
           size="icon"
-          className="h-14 w-14 rounded-full bg-secondary hover:bg-secondary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+          className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-secondary hover:bg-secondary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
-          <Mail className="h-6 w-6 text-white" />
+          <Mail className="h-5 w-5 md:h-6 md:w-6 text-white" />
         </Button>
       </a>
 
@@ -61,9 +61,9 @@ const FloatingButtons = () => {
       >
         <Button
           size="icon"
-          className="h-14 w-14 rounded-full bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+          className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
-          <Calendar className="h-6 w-6 text-white" />
+          <Calendar className="h-5 w-5 md:h-6 md:w-6 text-white" />
         </Button>
       </a>
     </div>
