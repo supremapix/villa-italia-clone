@@ -99,7 +99,7 @@ const PenhaSection = () => {
               <div>
                 <h4 className="font-bold text-xl mb-4 text-primary">🏖️ Praias Principais</h4>
                 <ul className="space-y-3 text-foreground text-base">
-                  <li>• Praia da Armação - A poucos metros da Praia de Armação!</li>
+                  <li>• Praia da Armação - A poucos passos da Praia de Armação!</li>
                   <li>• Praia Grande</li>
                   <li>• Praia do Trapiche</li>
                   <li>• Praia Alegre</li>
@@ -141,7 +141,7 @@ const PenhaSection = () => {
               Como Chegar até a Pousada
             </h3>
             <p className="text-lg text-muted-foreground mb-8">
-              A apenas 1,5 km do Beto Carrero World e 30 metros da praia. Veja a melhor rota!
+              A apenas 1,5 km do Beto Carrero World. Veja a melhor rota!
             </p>
             <a
               href={routeUrl}

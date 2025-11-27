@@ -3,7 +3,8 @@ import { Card } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Instagram, ExternalLink } from "lucide-react";
 
 const Contact = () => {
-  const whatsappNumber = "5547992738090";
+  const whatsappNumber = "5547992045122";
+  const whatsappNumber2 = "5547992738090";
   const whatsappMessage = encodeURIComponent(
     "Olá! Gostaria de fazer uma reserva na Pousada Vila D'Itália."
   );
@@ -32,14 +33,26 @@ const Contact = () => {
               <Phone className="w-8 h-8 text-secondary" />
             </div>
             <h3 className="font-bold text-2xl mb-2">Telefone</h3>
-            <p className="text-muted-foreground mb-4 text-lg font-semibold">+55 47 99273-8090</p>
-            <Button
-              variant="secondary"
-              size="sm"
-              onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank")}
-            >
-              WhatsApp
-            </Button>
+            <div className="mb-4 space-y-1">
+              <p className="text-muted-foreground text-lg font-semibold">+55 47 99204-5122</p>
+              <p className="text-muted-foreground text-lg font-semibold">+55 47 99273-8090</p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <Button
+                variant="secondary"
+                size="sm"
+                onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank")}
+              >
+                WhatsApp 1
+              </Button>
+              <Button
+                variant="secondary"
+                size="sm"
+                onClick={() => window.open(`https://wa.me/${whatsappNumber2}?text=${whatsappMessage}`, "_blank")}
+              >
+                WhatsApp 2
+              </Button>
+            </div>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-hover transition-smooth bg-background border-none shadow-soft">
@@ -124,7 +137,7 @@ const Contact = () => {
             <Button
               variant="outline"
               size="lg"
-              className="text-lg px-8 border-2 border-secondary text-secondary bg-white hover:bg-secondary hover:text-white"
+              className="text-lg px-8 border-2 border-white text-white bg-transparent hover:bg-white hover:text-secondary"
               onClick={() => window.open("https://goo.gl/maps/uDdApnDSJKVc2EJN7", "_blank")}
             >
               <MapPin className="w-5 h-5" />
@@ -150,7 +163,7 @@ const Contact = () => {
                   <strong className="text-foreground">Beto Carrero:</strong> 5 minutos de carro (1,5 km)
                 </p>
                 <p className="text-muted-foreground">
-                  <strong className="text-foreground">Praia:</strong> 30-80 metros
+                  <strong className="text-foreground">Praia:</strong> A poucos passos da Praia de Armação
                 </p>
               </div>
             </div>

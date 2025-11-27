@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { MapPin, Plane, Coffee, Clock, Waves, Car } from "lucide-react";
 
 const KeyInfo = () => {
@@ -13,7 +14,7 @@ const KeyInfo = () => {
       icon: Waves,
       title: "Praia",
       description: "A poucos passos da Praia de Armação",
-      highlight: "30-80 metros"
+      highlight: "Caminhada rápida"
     },
     {
       icon: Car,
@@ -114,6 +115,27 @@ const KeyInfo = () => {
             <p className="text-cta-foreground/90 text-lg mt-6">
               🏖️ Pousada Vila D'Italia - Seu refúgio em Penha, Santa Catarina
             </p>
+          </Card>
+        </div>
+
+        {/* Prominent Booking Card */}
+        <div className="mt-8 text-center">
+          <Card className="bg-gradient-to-br from-primary via-secondary to-cta border-none p-10 shadow-glow animate-pulse">
+            <h3 className="text-4xl font-display font-bold text-white mb-4 animate-bounce">
+              🎉 Reserve Agora e Garanta Sua Vaga! 🎉
+            </h3>
+            <p className="text-xl text-white/90 mb-6">
+              Não perca a oportunidade de viver momentos inesquecíveis na Pousada Vila D'Italia
+            </p>
+            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="hero"
+                size="lg"
+                className="text-2xl px-12 py-8 bg-white text-primary hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-glow"
+              >
+                ✨ RESERVE SUA ESTADIA ✨
+              </Button>
+            </a>
           </Card>
         </div>
       </div>

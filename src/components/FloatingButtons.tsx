@@ -2,7 +2,7 @@ import { MapPin, MessageCircle, Mail, Calendar } from "lucide-react";
 import { Button } from "./ui/button";
 
 const FloatingButtons = () => {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5547992738090&text=Ol%C3%A1!%20Estou%20no%20site:%20*Site:%20Pousada%20Villa%20D%27Italia*%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20reservas";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5547992045122&text=Ol%C3%A1!%20Estou%20no%20site:%20*Site:%20Pousada%20Villa%20D%27Italia*%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20reservas";
   const mapsUrl = "https://goo.gl/maps/uDdApnDSJKVc2EJN7";
   const emailUrl = "mailto:contato@pousadaviladitalia.com.br";
   const bookingUrl = "https://book.omnibees.com/hotel/18988";
