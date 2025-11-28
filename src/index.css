@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 25 20% 25%;
 
-    /* Elegant Gold */
+    /* Elegant Gold - Ocre Toscano */
     --primary: 45 80% 55%;
     --primary-foreground: 25 20% 25%;
     --primary-dark: 45 75% 45%;
@@ -47,6 +47,16 @@ All colors MUST be HSL.
     --cta-foreground: 0 0% 100%;
     --cta-dark: 8 75% 32%;
 
+    /* Italian Theme Colors */
+    --olive-green: 80 30% 40%;
+    --olive-green-foreground: 0 0% 100%;
+    --navy-blue: 210 100% 20%;
+    --navy-blue-foreground: 0 0% 100%;
+    
+    /* Italian Accents */
+    --tuscany-gold: 45 85% 60%;
+    --mediterranean-blue: 200 80% 45%;
+
     --muted: 40 20% 92%;
     --muted-foreground: 25 15% 50%;
 
@@ -63,10 +73,14 @@ All colors MUST be HSL.
     --gradient-hero: linear-gradient(135deg, hsl(8 70% 40%) 0%, hsl(45 80% 55%) 100%);
     --gradient-warm: linear-gradient(180deg, hsl(40 25% 96%) 0%, hsl(40 20% 98%) 100%);
     --gradient-italia: linear-gradient(90deg, hsl(8 70% 40%) 0%, hsl(45 80% 55%) 50%, hsl(8 70% 40%) 100%);
+    --gradient-mediterranean: linear-gradient(135deg, hsl(200 80% 45%) 0%, hsl(210 100% 20%) 100%);
+    --gradient-tuscany: linear-gradient(180deg, hsl(45 85% 60%) 0%, hsl(80 30% 40%) 100%);
     
     /* Shadows */
     --shadow-soft: 0 4px 20px hsla(8, 50%, 40%, 0.15);
     --shadow-hover: 0 8px 30px hsla(8, 50%, 40%, 0.25);
+    --shadow-elegant: 0 10px 40px hsla(8, 50%, 40%, 0.2);
+    --shadow-glow: 0 0 30px hsla(45, 85%, 60%, 0.3);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -167,12 +181,28 @@ All colors MUST be HSL.
     background: var(--gradient-italia);
   }
 
+  .gradient-mediterranean {
+    background: var(--gradient-mediterranean);
+  }
+
+  .gradient-tuscany {
+    background: var(--gradient-tuscany);
+  }
+
   .shadow-soft {
     box-shadow: var(--shadow-soft);
   }
 
   .shadow-hover {
     box-shadow: var(--shadow-hover);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
   }
 
   .transition-smooth {

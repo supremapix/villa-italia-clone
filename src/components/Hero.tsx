@@ -5,9 +5,9 @@ import heroImage from "@/assets/hero-pousada.jpg";
 
 const Hero = () => {
   const phrases = [
-    "Pousada com Piscina e Café da Manhã em Penha",
-    "Melhor Custo-Benefício para Famílias em Penha",
-    "Tranquilidade e Segurança a Passos da Praia"
+    "Sua Dolce Vita à Beira-Mar em Penha",
+    "Pousada com Piscina e Café da Manhã Italiano",
+    "O Charme da Toscana no Litoral Catarinense"
   ];
   
   const [currentPhrase, setCurrentPhrase] = useState(0);
@@ -78,7 +78,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto">
-            Seja bem-vindo à Pousada Villa D'Italia, seu paraíso pessoal no litoral norte de Santa Catarina!
+            O charme italiano encontra o paraíso de Santa Catarina. Reserve sua experiência de verão!
           </p>
 
           {/* Location Info */}

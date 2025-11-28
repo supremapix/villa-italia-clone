@@ -1,74 +1,138 @@
-import { Card } from "@/components/ui/card";
-import { Waves, Ship, Palmtree, Rocket, Church, Utensils } from "lucide-react";
-
-const suggestions = [
-  {
-    icon: Waves,
-    title: "Praia da Armação",
-    description: "Combina beleza natural, atividades ao ar livre e um ambiente perfeito para relaxar.",
-  },
-  {
-    icon: Ship,
-    title: "Ilha Feia",
-    description: "Um verdadeiro paraíso natural com águas cristalinas e vegetação preservada.",
-  },
-  {
-    icon: Palmtree,
-    title: "Praia do Quilombo",
-    description: "Conhecida por suas águas claras, areias douradas e ambiente tranquilo.",
-  },
-  {
-    icon: Rocket,
-    title: "Beto Carrero World",
-    description: "O parque mais divertido do Brasil fica a apenas 8km da pousada. Prepare-se para muita emoção!",
-  },
-  {
-    icon: Church,
-    title: "Centro Histórico",
-    description: "Conheça as belas igrejas, casarios e o charmoso comércio da parte antiga da cidade.",
-  },
-  {
-    icon: Utensils,
-    title: "Gastronomia",
-    description: "Experimente os frutos do mar frescos das barracas de praia e os pratos típicos locais.",
-  },
-];
+import { Card } from "./ui/card";
+import { Button } from "./ui/button";
+import { Waves, Utensils, Compass, Calendar, Ship, Mountain } from "lucide-react";
 
 const Suggestions = () => {
+  const summerActivities = [
+    {
+      icon: Waves,
+      title: "Praias Paradisíacas",
+      description: "Descubra as praias menos movimentadas de Penha: Praia Grande, Praia da Armação e Praia Vermelha com águas cristalinas.",
+      color: "text-mediterranean-blue"
+    },
+    {
+      icon: Utensils,
+      title: "Gastronomia Local",
+      description: "Penha é a capital nacional dos mariscos! Experimente os melhores frutos do mar em restaurantes à beira-mar.",
+      color: "text-cta"
+    },
+    {
+      icon: Ship,
+      title: "Passeios de Barco",
+      description: "Explore a costa de Penha com passeios de escuna, mergulho e pesca esportiva. Aventuras inesquecíveis no mar!",
+      color: "text-navy-blue"
+    },
+    {
+      icon: Mountain,
+      title: "Trilhas Ecológicas",
+      description: "Conheça as trilhas da região com vistas panorâmicas do litoral. Contato com a natureza e ar puro garantidos!",
+      color: "text-olive-green"
+    },
+    {
+      icon: Compass,
+      title: "Beto Carrero World",
+      description: "A apenas 5 minutos da pousada! O maior parque temático da América Latina espera por você.",
+      color: "text-primary"
+    },
+    {
+      icon: Calendar,
+      title: "Eventos de Verão",
+      description: "Festas típicas, feiras de artesanato e shows ao ar livre animam as noites de verão em Penha.",
+      color: "text-secondary"
+    }
+  ];
+
   return (
-    <section className="py-20 bg-background">
+    <section className="py-16 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-4">
-        {/* Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
-            Sugestões Imperdíveis para sua Estadia
+        <div className="text-center mb-12 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+            Roteiro de Verão Vila D'Italia
           </h2>
-          <div className="w-20 h-1 bg-cta rounded-full mx-auto mb-6" />
-          <p className="text-xl text-foreground max-w-3xl mx-auto">
-            Roteiros especiais para aproveitar o melhor de Penha e região
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto italic mb-2">
+            Penha no Verão: Sol, Mar e Aventura
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Descubra as melhores experiências e atrações para aproveitar sua estadia
           </p>
         </div>
 
-        {/* Suggestions Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 animate-scale-in">
-          {suggestions.map((suggestion, index) => {
-            const Icon = suggestion.icon;
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {summerActivities.map((activity, index) => {
+            const Icon = activity.icon;
             return (
               <Card
                 key={index}
-                className="p-8 hover:shadow-hover transition-smooth cursor-pointer group bg-muted border-none shadow-soft relative overflow-hidden"
+                className="p-6 hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-primary/30"
               >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-secondary/10 to-transparent rounded-bl-full" />
-                <div className="relative">
-                  <div className="bg-secondary text-secondary-foreground w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-smooth shadow-soft">
-                    <Icon className="w-8 h-8" />
-                  </div>
-                  <h3 className="font-bold text-2xl mb-3 text-foreground">{suggestion.title}</h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed">{suggestion.description}</p>
+                <div className={`p-3 bg-background rounded-full w-fit mb-4 ${activity.color}`}>
+                  <Icon className="w-8 h-8" />
                 </div>
+                <h3 className="text-xl font-display font-bold text-foreground mb-3">
+                  {activity.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {activity.description}
+                </p>
               </Card>
             );
           })}
+        </div>
+
+        {/* Dicas Importantes */}
+        <Card className="p-8 bg-gradient-to-r from-primary/10 to-cta/10 border-2 border-primary/30">
+          <h3 className="text-2xl font-display font-bold text-foreground mb-6 text-center">
+            📋 Avisos Importantes para sua Viagem
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <h4 className="font-bold text-foreground flex items-center gap-2">
+                🚗 Dica de Trânsito
+              </h4>
+              <p className="text-muted-foreground">
+                No verão, o acesso às praias é mais intenso. Planeje-se e evite horários de pico (10h-12h e 15h-17h).
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h4 className="font-bold text-foreground flex items-center gap-2">
+                🍽️ Horários Estendidos
+              </h4>
+              <p className="text-muted-foreground">
+                Restaurantes e atrações com horários especiais de verão. Aproveite as noites vibrantes de Penha!
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h4 className="font-bold text-foreground flex items-center gap-2">
+                🌊 Segurança nas Praias
+              </h4>
+              <p className="text-muted-foreground">
+                Observe sempre as bandeiras de sinalização e respeite as orientações dos salva-vidas.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h4 className="font-bold text-foreground flex items-center gap-2">
+                🎟️ Ingressos Antecipados
+              </h4>
+              <p className="text-muted-foreground">
+                Para o Beto Carrero World, compre ingressos online com antecedência e evite filas!
+              </p>
+            </div>
+          </div>
+        </Card>
+
+        <div className="text-center mt-12">
+          <p className="text-lg text-muted-foreground mb-6">
+            Precisa de mais informações ou dicas personalizadas?
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=5547992045122&text=Ol%C3%A1!%20Gostaria%20de%20dicas%20sobre%20passeios%20em%20Penha" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="hero"
+              size="lg"
+              className="text-lg px-8 py-6"
+            >
+              Fale Conosco no WhatsApp
+            </Button>
+          </a>
         </div>
       </div>
     </section>
