@@ -1,7 +1,9 @@
 import Navigation from "@/components/Navigation";
+import SummerAlert from "@/components/SummerAlert";
 import Hero from "@/components/Hero";
 import KeyInfo from "@/components/KeyInfo";
 import Gallery from "@/components/Gallery";
+import GoogleReviews from "@/components/GoogleReviews";
 import Welcome from "@/components/Welcome";
 import PenhaAccordion from "@/components/PenhaAccordion";
 import Story from "@/components/Story";
@@ -22,10 +24,12 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <SummerAlert />
       <main>
         <Hero />
         <KeyInfo />
         <Gallery />
+        <GoogleReviews />
         <Welcome />
         <PenhaAccordion />
         <Story />

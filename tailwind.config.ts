@@ -39,6 +39,16 @@ export default {
           foreground: "hsl(var(--cta-foreground))",
           dark: "hsl(var(--cta-dark))",
         },
+        "olive-green": {
+          DEFAULT: "hsl(var(--olive-green))",
+          foreground: "hsl(var(--olive-green-foreground))",
+        },
+        "navy-blue": {
+          DEFAULT: "hsl(var(--navy-blue))",
+          foreground: "hsl(var(--navy-blue-foreground))",
+        },
+        "tuscany-gold": "hsl(var(--tuscany-gold))",
+        "mediterranean-blue": "hsl(var(--mediterranean-blue))",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",

@@ -6,6 +6,18 @@ const Welcome = () => {
   return (
     <section id="about" className="py-20 gradient-warm">
       <div className="container mx-auto px-4">
+        <div className="text-center mb-12 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+            Nossa Vila: Um Refúgio Italiano em Penha
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto italic">
+            Il vostro angolo di paradiso tra il mare e le montagne
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-2">
+            Seu refúgio de tranquilidade e charme italiano no litoral catarinense
+          </p>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative animate-fade-in">
@@ -27,13 +39,6 @@ const Welcome = () => {
 
           {/* Content */}
           <div className="space-y-6 animate-fade-in-up">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
-                Seja bem-vindo à Pousada Villa D'Italia
-              </h2>
-              <div className="w-20 h-1 bg-cta rounded-full" />
-            </div>
-
             <div className="space-y-4 text-lg text-foreground leading-relaxed">
               <p>
                 Preparamos com carinho este espaço para recebê-lo e proporcionar uma estadia inesquecível em Armação, Penha. Queremos que aqui você encontre tranquilidade, conforto e muita comodidade para dias maravilhosos.
