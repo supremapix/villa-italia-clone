@@ -176,9 +176,8 @@ const Gallery = () => {
         <div className="text-center mt-12">
           <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
             <Button
-              variant="hero"
               size="lg"
-              className="text-xl px-10 py-7 shadow-glow hover:scale-105 transition-all duration-300"
+              className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-xl px-10 py-7 shadow-glow hover:scale-105 transition-all duration-300"
             >
               Reserve Sua Estadia Agora
             </Button>

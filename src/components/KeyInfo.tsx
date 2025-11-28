@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MapPin, Plane, Coffee, Clock, Waves, Car, Calendar, Star } from "lucide-react";
+import { MapPin, Plane, Coffee, Clock, Waves, Car, Calendar, Star, Phone } from "lucide-react";
 
 const KeyInfo = () => {
   const infoItems = [
@@ -143,7 +143,7 @@ const KeyInfo = () => {
                 <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
                   <Button 
                     size="lg"
-                    className="bg-olive-green text-white hover:bg-olive-green/90 font-bold text-base md:text-lg px-6 md:px-10 py-5 md:py-7 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 border-2 border-white"
+                    className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white font-bold text-base md:text-lg px-6 md:px-10 py-5 md:py-7 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                   >
                     <Calendar className="w-5 h-5 mr-2" />
                     RESERVE SUA ESTADIA

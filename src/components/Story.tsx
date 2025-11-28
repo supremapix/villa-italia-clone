@@ -10,7 +10,7 @@ const Story = () => {
           <div className="text-center mb-12 animate-fade-in">
             <Quote className="w-16 h-16 text-secondary mx-auto mb-4" />
             <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
-              Uma Experiência Inesquecível
+              Depoimento de Hóspedes
             </h2>
             <div className="w-20 h-1 bg-cta rounded-full mx-auto" />
           </div>

@@ -6,6 +6,13 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { MapPin, ArrowLeft, Home } from "lucide-react";
+import penhaBeach1 from "@/assets/penha-beach-1.webp";
+import penhaBeach2 from "@/assets/penha-beach-2.webp";
+import penhaBeach3 from "@/assets/penha-beach-3.jpg";
+import penhaBeach5 from "@/assets/penha-beach-5.webp";
+import penhaBeach6 from "@/assets/penha-beach-6.webp";
+import penhaBeach7 from "@/assets/penha-beach-7.webp";
+import penhaBeach8 from "@/assets/penha-beach-8.jpg";
 
 interface Neighborhood {
   id: string;
@@ -15,6 +22,7 @@ interface Neighborhood {
   beaches: string[];
   attractions: string[];
   distance: string;
+  image?: string;
 }
 
 const neighborhoods: Record<string, Neighborhood> = {
@@ -36,7 +44,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Feira de artesanato local",
       "Parque Natural Municipal da Costeira"
     ],
-    distance: "Centro de Penha - 3km"
+    distance: "Centro de Penha - 3km",
+    image: penhaBeach1
   },
   "praia-alegre": {
     id: "praia-alegre",
@@ -56,7 +65,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Área de lazer",
       "Pesca artesanal"
     ],
-    distance: "Centro de Penha - 2km"
+    distance: "Centro de Penha - 2km",
+    image: penhaBeach2
   },
   "bacia-da-vovo": {
     id: "bacia-da-vovo",
@@ -75,7 +85,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Mirantes naturais",
       "Pesca de arremesso"
     ],
-    distance: "Centro de Penha - 4km"
+    distance: "Centro de Penha - 4km",
+    image: penhaBeach3
   },
   "paciencia": {
     id: "paciencia",
@@ -94,7 +105,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Barcos tradicionais",
       "Culinária regional autêntica"
     ],
-    distance: "Centro de Penha - 5km"
+    distance: "Centro de Penha - 5km",
+    image: penhaBeach5
   },
   "poa": {
     id: "poa",
@@ -113,7 +125,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Beach tennis",
       "Quiosques modernos"
     ],
-    distance: "Centro de Penha - 6km"
+    distance: "Centro de Penha - 6km",
+    image: penhaBeach6
   },
   "praia-grande": {
     id: "praia-grande",
@@ -134,7 +147,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Esportes na areia",
       "Feira noturna"
     ],
-    distance: "Centro de Penha - 1km"
+    distance: "Centro de Penha - 1km",
+    image: penhaBeach7
   },
   "praia-vermelha": {
     id: "praia-vermelha",
@@ -153,7 +167,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Piscinas naturais (maré baixa)",
       "Trilhas costeiras"
     ],
-    distance: "Centro de Penha - 7km"
+    distance: "Centro de Penha - 7km",
+    image: penhaBeach8
   },
   "sao-miguel": {
     id: "sao-miguel",
@@ -172,7 +187,8 @@ const neighborhoods: Record<string, Neighborhood> = {
       "Pequenos mercados",
       "Restaurantes familiares"
     ],
-    distance: "Centro de Penha - 8km"
+    distance: "Centro de Penha - 8km",
+    image: penhaBeach1
   }
 };
 
@@ -196,6 +212,16 @@ const Neighborhoods = () => {
               <ArrowLeft className="mr-2 h-4 w-4" />
               Voltar para Bairros
             </Button>
+
+            {neighborhood.image && (
+              <div className="mb-8 rounded-2xl overflow-hidden shadow-hover">
+                <img 
+                  src={neighborhood.image} 
+                  alt={neighborhood.name}
+                  className="w-full h-[400px] object-cover"
+                />
+              </div>
+            )}
 
             <div className="mb-12">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
