@@ -3,7 +3,6 @@ import SummerAlert from "@/components/SummerAlert";
 import Hero from "@/components/Hero";
 import KeyInfo from "@/components/KeyInfo";
 import Gallery from "@/components/Gallery";
-import GoogleReviews from "@/components/GoogleReviews";
 import Welcome from "@/components/Welcome";
 import PenhaAccordion from "@/components/PenhaAccordion";
 import Story from "@/components/Story";
@@ -32,8 +31,6 @@ const Index = () => {
         <KeyInfo />
         <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Gallery />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
-        <GoogleReviews />
         <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Welcome />
         <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
