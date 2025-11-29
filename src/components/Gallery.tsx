@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { ChevronLeft, ChevronRight, Star, Expand } from "lucide-react";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -15,6 +16,7 @@ import gallery10 from "@/assets/gallery-10.jpg";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
   const galleryItems = [
     {
@@ -106,12 +108,48 @@ const Gallery = () => {
         {/* Gallery Slider */}
         <div className="relative max-w-5xl mx-auto">
           <Card className="overflow-hidden shadow-elegant border-none">
-            <div className="relative aspect-video md:aspect-[16/10]">
+            <div className="relative aspect-video md:aspect-[16/10] group">
               <img
                 src={galleryItems[currentIndex].image}
                 alt={galleryItems[currentIndex].title}
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
+              
+              {/* Lightbox Trigger */}
+              <Dialog open={isLightboxOpen} onOpenChange={setIsLightboxOpen}>
+                <DialogTrigger asChild>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta opacity-0 group-hover:opacity-100 transition-opacity z-20"
+                  >
+                    <Expand className="h-5 w-5 text-cta" />
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="max-w-7xl w-[95vw] h-[90vh] p-0">
+                  <div className="relative w-full h-full flex items-center justify-center bg-black/90">
+                    <img
+                      src={galleryItems[currentIndex].image}
+                      alt={galleryItems[currentIndex].title}
+                      className="max-w-full max-h-full object-contain"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
+                      <div className="flex items-center gap-1 mb-2">
+                        {[...Array(galleryItems[currentIndex].rating)].map((_, i) => (
+                          <Star key={i} className="h-5 w-5 fill-cta text-cta" />
+                        ))}
+                      </div>
+                      <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-2">
+                        {galleryItems[currentIndex].title}
+                      </h3>
+                      <p className="text-white/90 text-base md:text-lg">
+                        {galleryItems[currentIndex].description}
+                      </p>
+                    </div>
+                  </div>
+                </DialogContent>
+              </Dialog>
               
               {/* Navigation Arrows */}
               <Button

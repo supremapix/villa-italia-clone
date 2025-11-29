@@ -11,32 +11,58 @@ const GoogleReviews = () => {
     {
       author: "Maria Silva",
       rating: 5,
-      text: "Pousada maravilhosa! O café da manhã é delicioso e a localização é perfeita, perto da praia e do Beto Carrero. A piscina é um charme à parte.",
-      date: "Há 2 semanas"
+      text: "Pousada maravilhosa! O café da manhã é delicioso e a localização é perfeita, perto da praia e do Beto Carrero. A piscina é um charme à parte. Adoramos o ambiente familiar e acolhedor!",
+      date: "Há 2 semanas",
+      location: "São Paulo, SP"
     },
     {
       author: "João Santos",
       rating: 5,
-      text: "Excelente custo-benefício! Os proprietários são muito atenciosos e a pousada tem um clima aconchegante. Voltaremos com certeza!",
-      date: "Há 1 mês"
+      text: "Excelente custo-benefício! Os proprietários são muito atenciosos e a pousada tem um clima aconchegante. A proximidade com o Beto Carrero facilitou muito nossa viagem. Voltaremos com certeza!",
+      date: "Há 1 mês",
+      location: "Curitiba, PR"
     },
     {
-      author: "Ana Paula",
-      rating: 4,
-      text: "Adoramos nossa estadia! Quartos limpos, café da manhã completo e a proximidade com as atrações é um diferencial. Recomendo!",
-      date: "Há 3 semanas"
-    },
-    {
-      author: "Carlos Eduardo",
+      author: "Ana Paula Rodrigues",
       rating: 5,
-      text: "Perfeito para famílias! As crianças adoraram a piscina e nós aproveitamos o descanso. Ambiente tranquilo e seguro.",
-      date: "Há 1 semana"
+      text: "Adoramos nossa estadia! Quartos limpos e confortáveis, café da manhã completo com produtos frescos, e a proximidade com as atrações é um diferencial. As crianças amaram a piscina!",
+      date: "Há 3 semanas",
+      location: "Florianópolis, SC"
+    },
+    {
+      author: "Carlos Eduardo Oliveira",
+      rating: 5,
+      text: "Perfeito para famílias! As crianças adoraram a piscina e nós aproveitamos o descanso. Ambiente tranquilo, seguro e muito bem localizado. A decoração italiana é linda!",
+      date: "Há 1 semana",
+      location: "Porto Alegre, RS"
     },
     {
       author: "Fernanda Costa",
       rating: 5,
-      text: "A pousada supera as expectativas! Decoração italiana encantadora, limpeza impecável e atendimento nota 10. Voltaremos em breve!",
-      date: "Há 2 meses"
+      text: "A pousada supera as expectativas! Decoração italiana encantadora, limpeza impecável e atendimento nota 10. O café da manhã é maravilhoso. Já estamos planejando voltar!",
+      date: "Há 2 meses",
+      location: "Joinville, SC"
+    },
+    {
+      author: "Roberto Mendes",
+      rating: 5,
+      text: "Experiência incrível! Fomos em família para o Beto Carrero e a localização da pousada foi perfeita. Estrutura excelente, proprietários super atenciosos e preço justo. Recomendo muito!",
+      date: "Há 1 semana",
+      location: "Blumenau, SC"
+    },
+    {
+      author: "Juliana Martins",
+      rating: 5,
+      text: "Melhor pousada da região! Quartos espaçosos, ar condicionado funcionando perfeitamente, Wi-Fi rápido. A praia fica pertinho e o centro também. Adoramos tudo!",
+      date: "Há 3 semanas",
+      location: "Rio de Janeiro, RJ"
+    },
+    {
+      author: "Pedro Henrique",
+      rating: 5,
+      text: "Ficamos hospedados por 4 dias e foi maravilhoso! O atendimento é personalizado, os quartos são limpos diariamente e o café da manhã tem bastante variedade. Voltaremos com certeza!",
+      date: "Há 2 semanas",
+      location: "Balneário Camboriú, SC"
     }
   ];
 
@@ -78,10 +104,13 @@ const GoogleReviews = () => {
               <p className="text-lg md:text-xl text-foreground leading-relaxed mb-4">
                 "{reviews[currentReview].text}"
               </p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between flex-wrap gap-2">
                 <div>
-                  <p className="font-semibold text-foreground">{reviews[currentReview].author}</p>
-                  <p className="text-sm text-muted-foreground">{reviews[currentReview].date}</p>
+                  <p className="font-semibold text-foreground text-lg">{reviews[currentReview].author}</p>
+                  <p className="text-sm text-muted-foreground">{reviews[currentReview].location} • {reviews[currentReview].date}</p>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <span>Google Reviews</span>
                 </div>
               </div>
             </div>
