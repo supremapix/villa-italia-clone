@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { ChevronLeft, ChevronRight, Star, Expand } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star, Expand, Pause, Play } from "lucide-react";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -17,6 +17,7 @@ import gallery10 from "@/assets/gallery-10.jpg";
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   const galleryItems = [
     {
@@ -93,6 +94,21 @@ const Gallery = () => {
     setCurrentIndex(index);
   };
 
+  const togglePlayPause = () => {
+    setIsPlaying(!isPlaying);
+  };
+
+  // Autoplay effect
+  useEffect(() => {
+    if (!isPlaying) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % galleryItems.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [isPlaying, galleryItems.length]);
+
   return (
     <section className="py-16 bg-gradient-to-b from-background to-secondary/20">
       <div className="container mx-auto px-4">
@@ -116,6 +132,20 @@ const Gallery = () => {
                 loading="lazy"
               />
               
+              {/* Play/Pause Control */}
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={togglePlayPause}
+                className="absolute top-4 left-4 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta opacity-0 group-hover:opacity-100 transition-opacity z-20"
+              >
+                {isPlaying ? (
+                  <Pause className="h-5 w-5 text-cta" />
+                ) : (
+                  <Play className="h-5 w-5 text-cta" />
+                )}
+              </Button>
+
               {/* Lightbox Trigger */}
               <Dialog open={isLightboxOpen} onOpenChange={setIsLightboxOpen}>
                 <DialogTrigger asChild>
