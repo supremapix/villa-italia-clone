@@ -16,6 +16,7 @@ import Blog from "@/components/Blog";
 import InstagramFeed from "@/components/InstagramFeed";
 import Suggestions from "@/components/Suggestions";
 import Contact from "@/components/Contact";
+import ReservationForm from "@/components/ReservationForm";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -55,6 +56,8 @@ const Index = () => {
         <InstagramFeed />
         <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Suggestions />
+        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
+        <ReservationForm />
         <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Contact />
       </main>
