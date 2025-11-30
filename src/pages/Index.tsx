@@ -27,35 +27,20 @@ const Index = () => {
       <SummerAlert />
       <main>
         <Hero />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <KeyInfo />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Gallery />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Welcome />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <PenhaAccordion />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Story />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Amenities />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <BetoCarrero />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Location />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <PenhaSection />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <SocialMedia />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Blog />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <InstagramFeed />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Suggestions />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <ReservationForm />
-        <div className="h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent my-8" />
         <Contact />
       </main>
       <Footer />
