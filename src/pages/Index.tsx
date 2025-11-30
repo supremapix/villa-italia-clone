@@ -5,11 +5,12 @@ import KeyInfo from "@/components/KeyInfo";
 import Gallery from "@/components/Gallery";
 import Welcome from "@/components/Welcome";
 import PenhaAccordion from "@/components/PenhaAccordion";
-import Story from "@/components/Story";
+
 import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
 import Location from "@/components/Location";
 import PenhaSection from "@/components/PenhaSection";
+import PenhaNews from "@/components/PenhaNews";
 import SocialMedia from "@/components/SocialMedia";
 import Blog from "@/components/Blog";
 import InstagramFeed from "@/components/InstagramFeed";
@@ -31,11 +32,11 @@ const Index = () => {
         <Gallery />
         <Welcome />
         <PenhaAccordion />
-        <Story />
         <Amenities />
         <BetoCarrero />
         <Location />
         <PenhaSection />
+        <PenhaNews />
         <SocialMedia />
         <Blog />
         <InstagramFeed />

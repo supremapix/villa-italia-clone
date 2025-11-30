@@ -13,6 +13,13 @@ import penhaBeach3 from "@/assets/penha-beach-3.jpg";
 import penhaBeach4 from "@/assets/penha-beach-4.webp";
 import penhaSunset from "@/assets/penha-sunset.jpg";
 import penhaBeach9 from "@/assets/penha-beach-9.png";
+import penhaBeach10 from "@/assets/penha-beach-10.jpg";
+import penhaBeach11 from "@/assets/penha-beach-11.jpg";
+import penhaBeach12 from "@/assets/penha-beach-12.jpg";
+import penhaBeach13 from "@/assets/penha-beach-13.jpg";
+import penhaBeach14 from "@/assets/penha-beach-14.jpg";
+import penhaBeach15 from "@/assets/penha-beach-15.jpg";
+import penhaBeach16 from "@/assets/penha-beach-16.webp";
 
 const PenhaSection = () => {
   const penha360Url = "https://app.orbitpan.com.br/penha-sc/";
@@ -25,6 +32,13 @@ const PenhaSection = () => {
     { src: penhaBeach4, alt: "Barco na Praia da Armação" },
     { src: penhaSunset, alt: "Por do sol em Penha SC" },
     { src: penhaBeach9, alt: "Praia tranquila em Penha" },
+    { src: penhaBeach10, alt: "Praia de Armação movimentada" },
+    { src: penhaBeach11, alt: "Linda vista da Praia de Armação ao entardecer" },
+    { src: penhaBeach12, alt: "Movimento na Praia de Armação em dia de sol" },
+    { src: penhaBeach13, alt: "Praia de Armação com vista para o mar" },
+    { src: penhaBeach14, alt: "Guarda-sóis coloridos na Praia de Armação" },
+    { src: penhaBeach15, alt: "Vista panorâmica da Praia de Armação" },
+    { src: penhaBeach16, alt: "Praia do Trapiche em Penha SC" },
   ];
 
   return (

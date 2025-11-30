@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
+import PenhaNews from "@/components/PenhaNews";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft } from "lucide-react";
 
@@ -186,6 +187,7 @@ const BlogPost = () => {
           </div>
         </article>
       </main>
+      <PenhaNews />
       <Footer />
       <FloatingButtons />
       <ScrollToTop />
