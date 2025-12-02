@@ -39,16 +39,18 @@ export default {
           foreground: "hsl(var(--cta-foreground))",
           dark: "hsl(var(--cta-dark))",
         },
-        "olive-green": {
-          DEFAULT: "hsl(var(--olive-green))",
-          foreground: "hsl(var(--olive-green-foreground))",
+        "brand-green": {
+          DEFAULT: "hsl(var(--brand-green))",
+          foreground: "hsl(var(--brand-green-foreground))",
         },
-        "navy-blue": {
-          DEFAULT: "hsl(var(--navy-blue))",
-          foreground: "hsl(var(--navy-blue-foreground))",
+        "brand-red": {
+          DEFAULT: "hsl(var(--brand-red))",
+          foreground: "hsl(var(--brand-red-foreground))",
         },
-        "tuscany-gold": "hsl(var(--tuscany-gold))",
-        "mediterranean-blue": "hsl(var(--mediterranean-blue))",
+        highlight: {
+          DEFAULT: "hsl(var(--highlight))",
+          light: "hsl(var(--highlight-light))",
+        },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",

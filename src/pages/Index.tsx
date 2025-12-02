@@ -8,6 +8,7 @@ import PenhaAccordion from "@/components/PenhaAccordion";
 
 import Amenities from "@/components/Amenities";
 import BetoCarrero from "@/components/BetoCarrero";
+import Restaurant from "@/components/Restaurant";
 import Location from "@/components/Location";
 import PenhaSection from "@/components/PenhaSection";
 import PenhaNews from "@/components/PenhaNews";
@@ -34,6 +35,7 @@ const Index = () => {
         <PenhaAccordion />
         <Amenities />
         <BetoCarrero />
+        <Restaurant />
         <Location />
         <PenhaSection />
         <PenhaNews />
