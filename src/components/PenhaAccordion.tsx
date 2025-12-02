@@ -85,15 +85,16 @@ const PenhaAccordion = () => {
   const neighborhoods = [
     { name: "Armação", slug: "armacao", description: "Bairro central com praias calmas e infraestrutura completa" },
     { name: "Praia Alegre", slug: "praia-alegre", description: "Praia vibrante com ótimas opções de lazer" },
-    { name: "Bacia da Vovó", slug: "bacia-da-vovo", description: "Local tranquilo ideal para famílias" },
-    { name: "Paciência", slug: "paciencia", description: "Praia calma perfeita para relaxar" },
-    { name: "Poá", slug: "poa", description: "Área residencial próxima ao Beto Carrero" },
-    { name: "Praia Grande", slug: "praia-grande", description: "Extensa faixa de areia com águas cristalinas" },
-    { name: "Praia Vermelha", slug: "praia-vermelha", description: "Visual único com areia avermelhada" },
-    { name: "São Miguel", slug: "sao-miguel", description: "Região com natureza preservada" }
+    { name: "Bacia da Vovó", slug: "bacia-da-vovo", description: "Local tranquilo ideal para famílias - Bandeira Azul" },
+    { name: "Paciência", slug: "paciencia", description: "Uma das menores praias do Brasil" },
+    { name: "Poá", slug: "poa", description: "Praia deserta e preservada" },
+    { name: "Praia Grande", slug: "praia-grande", description: "Extensa faixa de areia - ideal para surf" },
+    { name: "Praia Vermelha", slug: "praia-vermelha", description: "Areia fina e natureza preservada" },
+    { name: "São Miguel", slug: "sao-miguel", description: "Região com natureza preservada" },
+    { name: "Praia do Quilombo", slug: "quilombo", description: "Praia histórica com natureza exuberante" }
   ];
 
-  const attractions2025 = [
+  const attractions2026 = [
     "Beto Carrero World - O maior parque temático da América Latina",
     "Aquário de Penha - Vida marinha fascinante",
     "Passeios de Barco pelas 19 praias",
@@ -214,21 +215,21 @@ const PenhaAccordion = () => {
                 </AccordionContent>
               </AccordionItem>
 
-              {/* Pontos Turísticos 2025 */}
+              {/* Pontos Turísticos 2026 */}
               <AccordionItem value="tourism">
                 <AccordionTrigger className="text-2xl font-bold text-foreground hover:text-primary">
                   <div className="flex items-center gap-3">
                     <Sun className="w-8 h-8 text-primary" />
-                    <span>Pontos Turísticos em Penha 2025</span>
+                    <span>Pontos Turísticos em Penha 2026</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4">
                     <p className="text-lg text-muted-foreground mb-4">
-                      Penha oferece atrações incríveis para todas as idades em 2025:
+                      Penha oferece atrações incríveis para todas as idades em 2026:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
-                      {attractions2025.map((attraction, idx) => (
+                      {attractions2026.map((attraction, idx) => (
                         <Card key={idx} className="p-4 bg-gradient-to-br from-primary/5 to-secondary/5">
                           <div className="flex items-start gap-3">
                             <span className="text-2xl">{idx + 1}</span>
@@ -238,7 +239,7 @@ const PenhaAccordion = () => {
                       ))}
                     </div>
                     <div className="mt-6 p-6 bg-cta/10 rounded-lg">
-                      <h4 className="font-bold text-xl mb-3">🌟 Destaque 2025</h4>
+                      <h4 className="font-bold text-xl mb-3">🌟 Destaque 2026</h4>
                       <p className="text-foreground">
                         Além das 19 praias paradisíacas, Penha se consolida como destino familiar completo 
                         com infraestrutura renovada, novos restaurantes e eventos culturais durante todo o ano!

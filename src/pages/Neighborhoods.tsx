@@ -315,6 +315,41 @@ const neighborhoods: Record<string, Neighborhood> = {
         answer: "São Miguel fica a 8km do centro, cerca de 15 minutos de carro. É uma ótima opção para quem quer tranquilidade mas com acesso rápido às atrações."
       }
     ]
+  },
+  "quilombo": {
+    id: "quilombo",
+    name: "Praia do Quilombo",
+    description: "A Praia do Quilombo é uma praia histórica de Penha, cujo nome deriva do fato de que escravos eram despejados no local durante o período colonial. Hoje é uma bela praia preservada com natureza exuberante.",
+    highlights: [
+      "Praia histórica",
+      "Natureza preservada",
+      "Águas calmas",
+      "Paisagem natural única",
+      "Ilha Feia nas proximidades"
+    ],
+    beaches: ["Praia do Quilombo"],
+    attractions: [
+      "Vista para a Ilha Feia",
+      "Trilhas ecológicas",
+      "Natureza preservada",
+      "História local"
+    ],
+    distance: "Centro de Penha - 4km",
+    image: penhaBeach6,
+    faqs: [
+      {
+        question: "Por que a Praia do Quilombo tem esse nome?",
+        answer: "O nome Quilombo deriva do fato histórico de que escravos eram despejados no local durante o período colonial brasileiro."
+      },
+      {
+        question: "O que é a Ilha Feia próxima à Praia do Quilombo?",
+        answer: "A Ilha Feia é uma ilha costeira próxima à Praia do Quilombo, com vegetação de Mata Atlântica preservada. É um local de interesse ecológico e paisagístico."
+      },
+      {
+        question: "A Praia do Quilombo tem infraestrutura?",
+        answer: "A infraestrutura é limitada devido ao caráter preservado da praia. Recomenda-se levar água, lanches e protetor solar para aproveitar o local."
+      }
+    ]
   }
 };
 

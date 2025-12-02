@@ -27,10 +27,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 25 20% 25%;
 
-    /* Elegant Gold - Ocre Toscano */
-    --primary: 45 80% 55%;
-    --primary-foreground: 25 20% 25%;
-    --primary-dark: 45 75% 45%;
+    /* Verde da marca */
+    --primary: 120 35% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 120 40% 28%;
 
     /* Terracotta Red - Italian Villa */
     --secondary: 8 70% 40%;
@@ -47,15 +47,15 @@ All colors MUST be HSL.
     --cta-foreground: 0 0% 100%;
     --cta-dark: 8 75% 32%;
 
-    /* Italian Theme Colors */
-    --olive-green: 80 30% 40%;
-    --olive-green-foreground: 0 0% 100%;
-    --navy-blue: 210 100% 20%;
-    --navy-blue-foreground: 0 0% 100%;
+    /* Brand Theme Colors */
+    --brand-green: 120 35% 35%;
+    --brand-green-foreground: 0 0% 100%;
+    --brand-red: 8 70% 40%;
+    --brand-red-foreground: 0 0% 100%;
     
-    /* Italian Accents */
-    --tuscany-gold: 45 85% 60%;
-    --mediterranean-blue: 200 80% 45%;
+    /* Accent Colors */
+    --highlight: 8 70% 40%;
+    --highlight-light: 8 60% 95%;
 
     --muted: 40 20% 92%;
     --muted-foreground: 25 15% 50%;

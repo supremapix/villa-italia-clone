@@ -5,14 +5,14 @@ const PenhaNews = () => {
   const newsItems = [
     {
       icon: Calendar,
-      title: "Carnaval 2025 em Penha",
+      title: "Carnaval 2026 em Penha",
       description: "Prepare-se para os melhores blocos e festas de carnaval da região! Programação completa com shows e desfiles nas praias.",
       color: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-600"
     },
     {
       icon: Sparkles,
-      title: "Temporada de Verão 2025",
+      title: "Temporada de Verão 2026",
       description: "Aproveite as melhores tarifas para o verão! Praias limpas, águas mornas e infraestrutura completa te esperam.",
       color: "from-yellow-500/20 to-orange-500/20",
       iconColor: "text-orange-600"
@@ -26,7 +26,7 @@ const PenhaNews = () => {
     },
     {
       icon: Newspaper,
-      title: "Eventos em Penha - 2025",
+      title: "Eventos em Penha - 2026",
       description: "Festivais de frutos do mar, apresentações culturais, shows ao vivo e muito mais durante todo o ano!",
       color: "from-blue-500/20 to-indigo-500/20",
       iconColor: "text-blue-600"

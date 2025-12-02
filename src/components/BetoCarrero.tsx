@@ -54,14 +54,14 @@ const BetoCarrero = () => {
 
           {/* Features Cards */}
           <div className="space-y-6 animate-fade-in-up">
-            <Card className="p-8 bg-primary border-none shadow-soft hover:shadow-hover transition-smooth">
+            <Card className="p-8 bg-secondary border-none shadow-soft hover:shadow-hover transition-smooth">
               <div className="flex items-start gap-4">
-                <div className="bg-secondary text-secondary-foreground p-4 rounded-full">
+                <div className="bg-white text-secondary p-4 rounded-full">
                   <MapPin className="w-8 h-8" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl mb-2 text-primary-foreground">Apenas 5 Minutos</h3>
-                  <p className="text-primary-foreground text-lg">
+                  <h3 className="font-bold text-2xl mb-2 text-secondary-foreground">Apenas 5 Minutos</h3>
+                  <p className="text-secondary-foreground text-lg">
                     A pousada fica a apenas 1,5 km do parque. Você pode ir e voltar rapidamente para descansar!
                   </p>
                 </div>

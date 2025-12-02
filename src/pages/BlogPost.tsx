@@ -19,7 +19,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "melhores-praias-penha": {
     id: "melhores-praias-penha",
     title: "As Melhores Praias de Penha para Visitar",
-    date: "15 de Janeiro, 2025",
+    date: "15 de Janeiro, 2026",
     content: `
       <p>Penha é um verdadeiro paraíso para os amantes de praia! Com suas 19 praias, a cidade oferece opções para todos os gostos.</p>
       
@@ -45,7 +45,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "roteiro-3-dias-penha": {
     id: "roteiro-3-dias-penha",
     title: "Roteiro de 3 Dias em Penha e Região",
-    date: "10 de Janeiro, 2025",
+    date: "10 de Janeiro, 2026",
     content: `
       <h2>Dia 1: Beto Carrero World</h2>
       <p>Comece sua viagem com um dia inteiro no maior parque temático da América Latina. O Beto Carrero World oferece atrações para todas as idades, desde montanhas-russas radicais até shows incríveis.</p>
@@ -64,7 +64,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "gastronomia-penha": {
     id: "gastronomia-penha",
     title: "Gastronomia em Penha: Sabores do Litoral",
-    date: "5 de Janeiro, 2025",
+    date: "5 de Janeiro, 2026",
     content: `
       <h2>Frutos do Mar Fresquinhos</h2>
       <p>Penha é famosa por seus restaurantes especializados em frutos do mar. O pescado fresco chega diariamente dos barcos de pesca locais, garantindo qualidade e sabor incomparáveis.</p>
