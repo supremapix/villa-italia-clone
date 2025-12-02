@@ -155,12 +155,6 @@ const Footer = () => {
                   >
                     contato@viladitalia.com.br
                   </a>
-                  <a 
-                    href="mailto:marketing.viladitalia@gmail.com"
-                    className="text-background/80 break-all hover:text-primary transition-smooth block"
-                  >
-                    marketing.viladitalia@gmail.com
-                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -176,7 +170,7 @@ const Footer = () => {
 
           {/* Horário */}
           <div>
-            <h4 className="text-xl font-display font-bold mb-4 text-primary">Horário de Atendimento</h4>
+            <h4 className="text-xl font-display font-bold mb-4 text-primary">Horário da Recepção</h4>
             <ul className="space-y-2 text-background/80">
               <li>
                 <span className="font-semibold text-background">Segunda a Sexta:</span>

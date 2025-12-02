@@ -45,7 +45,7 @@ const ReservationForm = () => {
     );
 
     // Redirecionar para WhatsApp
-    window.open(`https://wa.me/5547992045122?text=${message}`, "_blank");
+    window.open(`https://wa.me/5547992738090?text=${message}`, "_blank");
 
     toast({
       title: "Redirecionando...",

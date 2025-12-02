@@ -15,7 +15,7 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
-            Faça sua Reserva
+            Central de Reservas
           </h2>
           <div className="w-20 h-1 bg-cta rounded-full mx-auto mb-6" />
           <p className="text-xl text-foreground max-w-3xl mx-auto">
@@ -62,26 +62,15 @@ const Contact = () => {
             <h3 className="font-bold text-2xl mb-2">E-mail</h3>
             <div className="mb-4 space-y-1">
               <p className="text-muted-foreground break-all text-base font-semibold">contato@viladitalia.com.br</p>
-              <p className="text-muted-foreground break-all text-base font-semibold">marketing.viladitalia@gmail.com</p>
             </div>
-            <div className="flex flex-col gap-2">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => window.location.href = "mailto:contato@viladitalia.com.br"}
-                className="text-sm"
-              >
-                Contato
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => window.location.href = "mailto:marketing.viladitalia@gmail.com"}
-                className="text-sm"
-              >
-                Marketing
-              </Button>
-            </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => window.location.href = "mailto:contato@viladitalia.com.br"}
+              className="text-sm"
+            >
+              Enviar E-mail
+            </Button>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-hover transition-smooth bg-background border-none shadow-soft">
@@ -124,7 +113,7 @@ const Contact = () => {
             Entre em contato conosco agora e garanta as melhores datas para sua estadia na Pousada Vila D'Itália!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/${whatsappNumber2}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
               <Button
                 variant="cta"
                 size="lg"

@@ -39,13 +39,13 @@ const neighborhoods: Record<string, Neighborhood> = {
     name: "Armação (Armação do Itapocorói)",
     description: "Armação é um dos bairros mais procurados de Penha, conhecido por sua localização privilegiada e infraestrutura completa. É aqui que a Pousada Vila D'Itália está localizada!",
     highlights: [
-      "Proximidade com o Beto Carrero World (5 minutos)",
+      "Proximidade com o Beto Carrero World (5 minutos de carro)",
       "Acesso fácil a múltiplas praias",
       "Restaurantes de frutos do mar",
       "Comércio local diversificado",
       "Atmosfera familiar e tranquila"
     ],
-    beaches: ["Praia da Armação", "Praia do Quilombo"],
+    beaches: ["Praia da Armação"],
     attractions: [
       "Beto Carrero World",
       "Restaurantes à beira-mar",
@@ -61,7 +61,7 @@ const neighborhoods: Record<string, Neighborhood> = {
       },
       {
         question: "Qual a distância de Armação até o Beto Carrero World?",
-        answer: "O Beto Carrero World fica a apenas 5 minutos (1,5km) de carro de Armação. É possível ir a pé em aproximadamente 15-20 minutos."
+        answer: "O Beto Carrero World fica em Penha, a apenas 5 minutos de carro (1,5km) de Armação. A pé são aproximadamente 40 minutos."
       },
       {
         question: "Armação tem restaurantes e supermercados?",
@@ -73,7 +73,7 @@ const neighborhoods: Record<string, Neighborhood> = {
       },
       {
         question: "Onde se hospedar em Armação?",
-        answer: "A Pousada Vila D'Itália é uma excelente opção em Armação, oferecendo localização privilegiada, piscinas, café da manhã completo e proximidade com todas as atrações."
+        answer: "A Pousada Vila D'Itália é uma excelente opção em Armação, oferecendo localização privilegiada, piscinas e proximidade com todas as atrações."
       }
     ]
   },
@@ -115,9 +115,9 @@ const neighborhoods: Record<string, Neighborhood> = {
   "bacia-da-vovo": {
     id: "bacia-da-vovo",
     name: "Bacia da Vovó",
-    description: "Com um nome carinhoso e único, a Bacia da Vovó é uma praia pequena e aconchegante, perfeita para quem procura sossego e contato com a natureza.",
+    description: "Com um nome carinhoso e único, a Bacia da Vovó é uma praia pequena e aconchegante, perfeita para quem procura sossego e contato com a natureza. Possui certificação Bandeira Azul de qualidade ambiental.",
     highlights: [
-      "Praia pequena e tranquila",
+      "Praia com Bandeira Azul",
       "Águas cristalinas",
       "Poucas construções",
       "Natureza preservada",
@@ -133,8 +133,8 @@ const neighborhoods: Record<string, Neighborhood> = {
     image: penhaBeach3,
     faqs: [
       {
-        question: "Por que o nome Bacia da Vovó?",
-        answer: "O nome vem da formação natural da praia que lembra uma bacia, e 'da Vovó' pelo caráter acolhedor e familiar do lugar, como a casa da vovó."
+        question: "O que é a Bandeira Azul da Bacia da Vovó?",
+        answer: "A Bandeira Azul é uma certificação internacional de qualidade ambiental, que atesta que a praia possui água limpa, boa gestão ambiental e infraestrutura adequada."
       },
       {
         question: "Bacia da Vovó é muito movimentada?",
@@ -148,122 +148,116 @@ const neighborhoods: Record<string, Neighborhood> = {
   },
   "paciencia": {
     id: "paciencia",
-    name: "Paciência",
-    description: "O bairro da Paciência oferece uma experiência mais rústica e autêntica de Penha, mantendo características de uma vila de pescadores.",
+    name: "Praia da Paciência",
+    description: "A Praia da Paciência é considerada uma das menores praias do Brasil. Um local rústico e autêntico, sem infraestrutura turística, perfeito para quem busca paz e contato com a natureza.",
     highlights: [
-      "Ambiente de vila de pescadores",
-      "Contato com a comunidade local",
-      "Peixe fresco diariamente",
-      "Preços mais acessíveis",
-      "Autenticidade cultural"
+      "Uma das menores praias do Brasil",
+      "Ambiente rústico e preservado",
+      "Sem infraestrutura turística",
+      "Contato com a natureza",
+      "Local para reflexão e paz"
     ],
     beaches: ["Praia da Paciência"],
     attractions: [
-      "Colônia de pescadores",
-      "Barcos tradicionais",
-      "Culinária regional autêntica"
+      "Contemplação da natureza",
+      "Fotografias únicas",
+      "Caminhadas tranquilas"
     ],
     distance: "Centro de Penha - 5km",
     image: penhaBeach5,
     faqs: [
       {
-        question: "Por que visitar o bairro Paciência?",
-        answer: "Para vivenciar a autenticidade de uma comunidade pesqueira tradicional, com contato direto com a cultura local, peixe fresco e preços mais acessíveis."
+        question: "A Praia da Paciência tem restaurantes?",
+        answer: "Não, a Praia da Paciência é uma praia sem infraestrutura turística. Recomenda-se levar água, lanches e tudo que precisar."
       },
       {
-        question: "Onde comprar peixe fresco em Penha?",
-        answer: "O bairro Paciência é o melhor lugar! Os pescadores locais vendem peixe fresco diretamente aos visitantes, garantindo qualidade e preço justo."
+        question: "Por que visitar a Praia da Paciência?",
+        answer: "Para vivenciar uma das menores praias do Brasil em um ambiente completamente natural e preservado, ideal para momentos de paz e contemplação."
       },
       {
-        question: "Paciência tem restaurantes?",
-        answer: "Sim, há pequenos restaurantes familiares especializados em frutos do mar frescos, com receitas tradicionais catarinenses e preços acessíveis."
+        question: "Praia da Paciência é um bairro?",
+        answer: "A Paciência é uma praia de Penha, não um bairro. É um local pequeno e rústico, conhecido por ser uma das menores praias do país."
       }
     ]
   },
   "poa": {
     id: "poa",
-    name: "Poá",
-    description: "O Poá é conhecido por sua praia extensa e boa para a prática de esportes náuticos. É um bairro em crescimento com boa infraestrutura.",
+    name: "Praia do Poá",
+    description: "A Praia do Poá é uma das praias mais desertas e tranquilas de Penha. Um local sem infraestrutura turística, ideal para quem busca sossego total e contato com a natureza.",
     highlights: [
-      "Praia extensa",
-      "Bom para esportes náuticos",
-      "Infraestrutura em crescimento",
-      "Área residencial tranquila",
-      "Próximo ao Parque Beto Carrero"
+      "Praia deserta e tranquila",
+      "Sem infraestrutura turística",
+      "Contato direto com a natureza",
+      "Ambiente preservado",
+      "Ideal para relaxar em paz"
     ],
     beaches: ["Praia do Poá"],
     attractions: [
-      "Escola de surf e stand-up",
-      "Beach tennis",
-      "Quiosques modernos"
+      "Contemplação da natureza",
+      "Caminhadas na areia",
+      "Paisagens preservadas"
     ],
     distance: "Centro de Penha - 6km",
     image: penhaBeach6,
     faqs: [
       {
+        question: "A Praia do Poá tem estrutura de quiosques?",
+        answer: "Não, a Praia do Poá é uma praia sem infraestrutura turística. É uma das praias mais desertas de Penha, ideal para quem busca tranquilidade total."
+      },
+      {
         question: "Praia do Poá é boa para surf?",
-        answer: "Sim! A Praia do Poá é excelente para surf, stand-up paddle e outros esportes náuticos. Há escolas de surf na região para iniciantes e praticantes avançados."
+        answer: "A Praia do Poá é mais indicada para quem busca sossego e contemplação da natureza devido ao seu caráter preservado e deserto."
       },
       {
-        question: "Tem aulas de esportes náuticos no Poá?",
-        answer: "Sim, você encontra escolas de surf, stand-up paddle e beach tennis no Poá. Os instrutores são experientes e atendem desde iniciantes até avançados."
-      },
-      {
-        question: "O Poá é um bairro residencial?",
-        answer: "Sim, o Poá é predominantemente residencial e tranquilo, mas com boa infraestrutura de comércio e serviços, ideal para famílias."
+        question: "O que levar para a Praia do Poá?",
+        answer: "Como não há infraestrutura, leve água, lanches, protetor solar, cadeira e guarda-sol. É importante estar preparado para aproveitar a tranquilidade do local."
       }
     ]
   },
   "praia-grande": {
     id: "praia-grande",
     name: "Praia Grande",
-    description: "A mais extensa e movimentada das praias de Penha. O bairro oferece a maior variedade de serviços, comércio e opções de lazer.",
+    description: "A mais extensa das praias de Penha. Com mar aberto e ondas consistentes, é ideal para a prática de surf e esportes náuticos.",
     highlights: [
       "Praia mais extensa de Penha",
-      "Vida noturna agitada",
-      "Maior variedade de restaurantes",
-      "Comércio diversificado",
-      "Eventos durante a temporada"
+      "Mar aberto ideal para surf",
+      "Ondas consistentes",
+      "Ótima para esportes náuticos",
+      "Extensa faixa de areia"
     ],
     beaches: ["Praia Grande"],
     attractions: [
-      "Calçadão à beira-mar",
-      "Bares e restaurantes",
-      "Shows e eventos",
-      "Esportes na areia",
-      "Feira noturna"
+      "Surf e bodyboard",
+      "Caminhadas na areia",
+      "Stand-up paddle"
     ],
     distance: "Centro de Penha - 1km",
     image: penhaBeach7,
     faqs: [
       {
-        question: "Praia Grande Penha tem calçadão?",
-        answer: "Sim! A Praia Grande possui um calçadão completo à beira-mar, perfeito para caminhadas, corridas e passeios de bicicleta, com vista privilegiada."
+        question: "Praia Grande Penha é boa para surf?",
+        answer: "Sim! A Praia Grande tem mar aberto com ondas consistentes, sendo uma das melhores praias da região para surf e bodyboard."
       },
       {
-        question: "Tem vida noturna na Praia Grande?",
-        answer: "Sim, a Praia Grande é o bairro com mais opções de vida noturna em Penha, com bares, restaurantes, shows ao vivo e eventos durante a temporada."
+        question: "A Praia Grande tem muitas atrações turísticas?",
+        answer: "A Praia Grande é mais conhecida pela extensão de sua faixa de areia e mar aberto, sendo ideal para quem gosta de esportes e caminhadas na praia."
       },
       {
-        question: "Qual a melhor praia de Penha para quem gosta de movimento?",
-        answer: "A Praia Grande é ideal! É a mais movimentada, com maior variedade de comércio, restaurantes, eventos e atrações durante todo o ano."
-      },
-      {
-        question: "Praia Grande Penha tem feira?",
-        answer: "Sim, durante a temporada acontece a feira noturna com artesanato local, roupas, acessórios e comidas típicas."
+        question: "Qual a melhor praia de Penha para quem gosta de surf?",
+        answer: "A Praia Grande é ideal para surfistas devido ao mar aberto e ondas consistentes. É a praia mais extensa de Penha."
       }
     ]
   },
   "praia-vermelha": {
     id: "praia-vermelha",
     name: "Praia Vermelha",
-    description: "Com areias avermelhadas que dão nome ao bairro, é uma praia belíssima e menos conhecida pelos turistas.",
+    description: "Apesar do nome, a Praia Vermelha possui areia fina e clara. É uma praia belíssima e menos conhecida pelos turistas, perfeita para quem busca tranquilidade.",
     highlights: [
-      "Areias de cor avermelhada",
+      "Areia fina e clara",
       "Menos turística",
       "Beleza natural única",
       "Águas limpas",
-      "Ideal para fotografia"
+      "Ideal para relaxar"
     ],
     beaches: ["Praia Vermelha"],
     attractions: [
@@ -276,7 +270,7 @@ const neighborhoods: Record<string, Neighborhood> = {
     faqs: [
       {
         question: "Por que a Praia Vermelha tem esse nome?",
-        answer: "A Praia Vermelha recebe esse nome devido à coloração avermelhada de sua areia, resultado da composição mineral única do solo da região."
+        answer: "Apesar do nome, a Praia Vermelha possui areia fina e clara. O nome histórico pode estar relacionado a características geológicas antigas da região."
       },
       {
         question: "Tem piscinas naturais na Praia Vermelha?",
@@ -284,7 +278,7 @@ const neighborhoods: Record<string, Neighborhood> = {
       },
       {
         question: "Praia Vermelha é boa para fotografia?",
-        answer: "Excelente! As areias avermelhadas, formações rochosas e o contraste com o mar azul criam cenários únicos e perfeitos para fotografia."
+        answer: "Excelente! A areia fina, formações rochosas e o contraste com o mar azul criam cenários únicos e perfeitos para fotografia."
       }
     ]
   },
@@ -342,7 +336,7 @@ const Neighborhoods = () => {
               className="mb-8"
             >
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Voltar para Bairros
+              Voltar para Praias
             </Button>
 
             {neighborhood.image && (

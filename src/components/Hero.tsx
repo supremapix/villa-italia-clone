@@ -5,9 +5,9 @@ import heroImage from "@/assets/hero-pousada.jpg";
 
 const Hero = () => {
   const phrases = [
-    "Sua Dolce Vita à Beira-Mar em Penha",
-    "Pousada com Piscina e Café da Manhã Italiano",
-    "O Charme da Toscana no Litoral Catarinense"
+    "Sua casa fora de casa em Penha",
+    "Pousada com Piscinas para sua Família",
+    "Tranquilidade e Comodidade em Santa Catarina"
   ];
   
   const [currentPhrase, setCurrentPhrase] = useState(0);
@@ -78,7 +78,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto">
-            O charme italiano encontra o paraíso de Santa Catarina. Reserve sua experiência de verão!
+            Pousada Vila D'Itália, sua casa fora de casa. A tranquilidade e a comodidade que sua família merece está aqui, o paraíso de Santa Catarina.
           </p>
 
           {/* Location Info */}

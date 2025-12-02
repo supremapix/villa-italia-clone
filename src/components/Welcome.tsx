@@ -8,13 +8,10 @@ const Welcome = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Nossa Vila: Um Refúgio Italiano em Penha
+            Nossa Vila: Um Refúgio em Penha
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto italic">
-            Il vostro angolo di paradiso tra il mare e le montagne
-          </p>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-2">
-            Seu refúgio de tranquilidade e charme italiano no litoral catarinense
+            Seu refúgio de tranquilidade e comodidade no litoral catarinense
           </p>
         </div>
 
@@ -45,7 +42,7 @@ const Welcome = () => {
               </p>
 
               <p>
-                Nossos quartos, decorados com todo cuidado, oferecem o máximo de bem-estar para seu descanso. Banheiro privativo, ar-condicionado, TV a cabo e Wi-Fi gratuito estão à sua disposição. E para começar o dia com ânimo, o delicioso café da manhã na nossa área de refeições!
+                Nossas suítes, decoradas com todo cuidado, oferecem o máximo de bem-estar para seu descanso. Banheiro privativo, ar-condicionado, TV fechada com mais de mil canais disponíveis e Wi-Fi gratuito estão à sua disposição.
               </p>
 
               <p>
@@ -53,7 +50,7 @@ const Welcome = () => {
               </p>
 
               <p className="font-semibold text-secondary">
-                Estamos contando os dias para recebê-lo aqui na Villa D'Italia, seu refúgio pessoal no paraíso do litoral norte catarinense. Sua chegada será uma alegria para nós!
+                Estamos contando os dias para recebê-lo aqui na Villa D'Italia, seu refúgio em Penha no paraíso do litoral norte catarinense. Sua chegada será uma alegria para nós!
               </p>
             </div>
 

@@ -6,12 +6,12 @@ const attractions = [
   {
     icon: Waves,
     title: "Praia da Armação",
-    description: "A praia mais próxima da pousada, a apenas 30 metros de distância. Águas calmas e rasas, ideal para famílias.",
+    description: "A praia mais próxima da pousada, a poucos passos de distância. Águas calmas e rasas, ideal para famílias.",
   },
   {
     icon: Waves,
     title: "Praia Grande",
-    description: "Uma praia extensa, com 8 km de extensão, perfeita para caminhadas, corridas e esportes na areia.",
+    description: "Uma praia extensa, com 8 km de extensão, mar aberto ideal para surf e caminhadas na areia.",
   },
   {
     icon: Ship,
@@ -59,7 +59,7 @@ const Location = () => {
                 <MapPin className="w-10 h-10" />
                 <div>
                   <p className="font-bold text-lg">Localização Perfeita</p>
-                  <p className="text-sm opacity-90">80m da Praia da Armação</p>
+                  <p className="text-sm opacity-90">A poucos passos da Praia da Armação</p>
                 </div>
               </div>
             </Card>
@@ -69,7 +69,7 @@ const Location = () => {
           <div className="space-y-6 animate-fade-in-up">
             <div className="space-y-4 text-lg text-foreground leading-relaxed">
               <p>
-                Penha está localizada a apenas 5 minutos de carro do Beto Carrero World, o parque temático mais divertido do Brasil. Além disso, as lindas praias da região ficam a poucos passos da pousada.
+                Penha está localizada no litoral norte de Santa Catarina. O Beto Carrero World, o parque temático mais divertido do Brasil, fica em Penha - a apenas 5 minutos de carro da pousada. Além disso, as lindas praias da região ficam a poucos passos.
               </p>
 
               <p>
