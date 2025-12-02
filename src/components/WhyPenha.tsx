@@ -83,10 +83,10 @@ const WhyPenha = () => {
           <div className="bg-accent/10 rounded-2xl p-10 animate-fade-in">
             <div className="text-center mb-8">
               <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Explore os Bairros de Penha
+                Explore as <strong>Praias de Penha</strong>
               </h3>
               <p className="text-lg text-muted-foreground">
-                Cada bairro tem sua personalidade única e belezas especiais
+                Cada praia tem sua personalidade única e belezas especiais
               </p>
             </div>
 
@@ -111,7 +111,7 @@ const WhyPenha = () => {
                 onClick={() => navigate("/bairros-penha")}
                 className="text-lg px-8"
               >
-                Ver Todos os Bairros
+                Ver Todas as Praias
               </Button>
             </div>
           </div>

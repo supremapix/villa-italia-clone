@@ -5,26 +5,21 @@ import {
   Car,
   Tv,
   Snowflake,
-  Coffee,
-  Flame,
   Wind,
   Trees,
   Star,
   Droplets,
 } from "lucide-react";
 import poolImage from "@/assets/pool-outdoor.jpg";
-import breakfastImage from "@/assets/breakfast.jpg";
 
 const amenities = [
-  { icon: Waves, title: "Duas Piscinas", description: "Externa e coberta com hidromassagem" },
+  { icon: Waves, title: "Duas Piscinas", description: "Externa e coberta" },
   { icon: Car, title: "Estacionamento Grátis", description: "Gratuito para hóspedes" },
-  { icon: Flame, title: "Lareira", description: "Sala de estar aconchegante" },
   { icon: Wifi, title: "Wi-Fi Grátis", description: "Em toda a propriedade" },
-  { icon: Tv, title: "TV a Cabo", description: "Em todos os quartos" },
+  { icon: Tv, title: "TV Fechada", description: "Mais de mil canais disponíveis" },
   { icon: Snowflake, title: "Ar-Condicionado", description: "Controle individual" },
-  { icon: Wind, title: "Frigobar", description: "Em cada acomodação" },
-  { icon: Coffee, title: "Café da Manhã", description: "Incluso na diária" },
-  { icon: Trees, title: "Área de Lazer", description: "Jardim e espaços relaxantes" },
+  { icon: Wind, title: "Frigobar", description: "Em cada suíte" },
+  { icon: Trees, title: "Jardim", description: "Espaços relaxantes" },
   { icon: Droplets, title: "Secador", description: "De cabelo disponível" },
 ];
 
@@ -44,7 +39,7 @@ const Amenities = () => {
         </div>
 
         {/* Images Grid */}
-        <div className="grid md:grid-cols-2 gap-6 mb-16 animate-fade-in-up">
+        <div className="grid md:grid-cols-1 gap-6 mb-16 animate-fade-in-up max-w-2xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-hover h-[400px]">
             <img
               src={poolImage}
@@ -57,24 +52,8 @@ const Amenities = () => {
               ))}
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-              <h3 className="text-white text-2xl font-display font-bold">Piscinas Exclusivas</h3>
-              <p className="text-white/90">Externa e coberta com hidromassagem</p>
-            </div>
-          </div>
-          <div className="relative rounded-2xl overflow-hidden shadow-hover h-[400px]">
-            <img
-              src={breakfastImage}
-              alt="Café da manhã"
-              className="w-full h-full object-cover hover:scale-105 transition-smooth"
-            />
-            <div className="absolute top-4 right-4 flex gap-1">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
-              ))}
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-              <h3 className="text-white text-2xl font-display font-bold">Café da Manhã</h3>
-              <p className="text-white/90">Incluso com produtos frescos</p>
+              <h3 className="text-white text-2xl font-display font-bold">Piscinas</h3>
+              <p className="text-white/90">Externa e coberta</p>
             </div>
           </div>
         </div>
@@ -101,7 +80,7 @@ const Amenities = () => {
         {/* Bottom Text */}
         <div className="mt-12 text-center max-w-3xl mx-auto">
           <p className="text-lg text-foreground">
-            Pensamos em todos os detalhes para o seu conforto. Existem passeios para os pontos turísticos da região. Os apartamentos contam com TV, ar-condicionado, frigobar e secador de cabelo. Queremos que sinta que está em casa!
+            Pensamos em todos os detalhes para o seu conforto. Existem passeios para os pontos turísticos da região. As suítes contam com TV fechada com mais de mil canais, ar-condicionado, frigobar e secador de cabelo. Queremos que sinta que está em casa!
           </p>
         </div>
       </div>

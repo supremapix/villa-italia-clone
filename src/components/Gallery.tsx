@@ -22,8 +22,8 @@ const Gallery = () => {
   const galleryItems = [
     {
       image: gallery1,
-      title: "Passeio de Helicóptero no Beto Carrero",
-      description: "Experiência única no maior parque temático da América Latina",
+      title: "Entrada Beto Carrero World",
+      description: "O maior parque temático da América Latina a 5 minutos da pousada",
       rating: 5
     },
     {
@@ -34,7 +34,7 @@ const Gallery = () => {
     },
     {
       image: gallery3,
-      title: "Área de Lazer Completa",
+      title: "Área de Lazer",
       description: "Espaço de convivência com sinuca e entretenimento",
       rating: 5
     },
@@ -70,14 +70,14 @@ const Gallery = () => {
     },
     {
       image: gallery9,
-      title: "Área de Café da Manhã",
+      title: "Área do Restaurante",
       description: "Espaço coberto para refeições com TV e conforto",
       rating: 5
     },
     {
       image: gallery10,
       title: "Fachada da Pousada",
-      description: "Arquitetura italiana com charme e aconchego",
+      description: "Arquitetura rústica com charme e aconchego",
       rating: 5
     }
   ];

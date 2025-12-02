@@ -19,7 +19,7 @@ const PenhaAccordion = () => {
     {
       author: "Maria Silva",
       rating: 5,
-      text: "Pousada maravilhosa! O café da manhã é delicioso e a localização é perfeita, perto da praia e do Beto Carrero. A piscina é um charme à parte. Adoramos o ambiente familiar e acolhedor!",
+      text: "Pousada maravilhosa! A localização é perfeita, perto da praia e do Beto Carrero. A piscina é um charme à parte. Adoramos o ambiente familiar e acolhedor!",
       date: "Há 2 semanas",
       location: "São Paulo, SP"
     },
@@ -33,21 +33,21 @@ const PenhaAccordion = () => {
     {
       author: "Ana Paula Rodrigues",
       rating: 5,
-      text: "Adoramos nossa estadia! Quartos limpos e confortáveis, café da manhã completo com produtos frescos, e a proximidade com as atrações é um diferencial. As crianças amaram a piscina!",
+      text: "Adoramos nossa estadia! Suítes limpas e confortáveis, e a proximidade com as atrações é um diferencial. As crianças amaram a piscina!",
       date: "Há 3 semanas",
       location: "Florianópolis, SC"
     },
     {
       author: "Carlos Eduardo Oliveira",
       rating: 5,
-      text: "Perfeito para famílias! As crianças adoraram a piscina e nós aproveitamos o descanso. Ambiente tranquilo, seguro e muito bem localizado. A decoração italiana é linda!",
+      text: "Perfeito para famílias! As crianças adoraram a piscina e nós aproveitamos o descanso. Ambiente tranquilo, seguro e muito bem localizado.",
       date: "Há 1 semana",
       location: "Porto Alegre, RS"
     },
     {
       author: "Fernanda Costa",
       rating: 5,
-      text: "A pousada supera as expectativas! Decoração italiana encantadora, limpeza impecável e atendimento nota 10. O café da manhã é maravilhoso. Já estamos planejando voltar!",
+      text: "A pousada supera as expectativas! Limpeza impecável e atendimento nota 10. Já estamos planejando voltar!",
       date: "Há 2 meses",
       location: "Joinville, SC"
     },
@@ -61,14 +61,14 @@ const PenhaAccordion = () => {
     {
       author: "Juliana Martins",
       rating: 5,
-      text: "Melhor pousada da região! Quartos espaçosos, ar condicionado funcionando perfeitamente, Wi-Fi rápido. A praia fica pertinho e o centro também. Adoramos tudo!",
+      text: "Melhor pousada da região! Suítes espaçosas, ar condicionado funcionando perfeitamente, Wi-Fi rápido. A praia fica pertinho e o centro também. Adoramos tudo!",
       date: "Há 3 semanas",
       location: "Rio de Janeiro, RJ"
     },
     {
       author: "Pedro Henrique",
       rating: 5,
-      text: "Ficamos hospedados por 4 dias e foi maravilhoso! O atendimento é personalizado, os quartos são limpos diariamente e o café da manhã tem bastante variedade. Voltaremos com certeza!",
+      text: "Ficamos hospedados por 4 dias e foi maravilhoso! O atendimento é personalizado e as suítes são limpas diariamente. Voltaremos com certeza!",
       date: "Há 2 semanas",
       location: "Balneário Camboriú, SC"
     }
@@ -95,7 +95,6 @@ const PenhaAccordion = () => {
 
   const attractions2025 = [
     "Beto Carrero World - O maior parque temático da América Latina",
-    "Parque Beto Carrero Beach Park - Nova atração aquática (2025)",
     "Aquário de Penha - Vida marinha fascinante",
     "Passeios de Barco pelas 19 praias",
     "Trilhas ecológicas na Mata Atlântica",
@@ -123,13 +122,13 @@ const PenhaAccordion = () => {
                 <AccordionTrigger className="text-2xl font-bold text-foreground hover:text-primary">
                   <div className="flex items-center gap-3">
                     <MapPin className="w-8 h-8 text-primary" />
-                    <span>Bairros de Penha</span>
+                    <span><strong>Praias de Penha</strong></span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4">
                     <p className="text-lg text-muted-foreground mb-6">
-                      Penha é dividida em diversos bairros, cada um com sua personalidade única. 
+                      Penha possui diversas praias paradisíacas, cada uma com sua personalidade única. 
                       A Pousada Vila D'Italia está localizada na Armação, uma das regiões mais privilegiadas.
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -159,17 +158,16 @@ const PenhaAccordion = () => {
                 <AccordionContent>
                   <div className="pt-4 space-y-4">
                     <p className="text-lg text-muted-foreground">
-                      A Pousada Vila D'Italia é seu refúgio perfeito em Penha! Oferecemos:
+                      A Pousada Vila D'Italia é seu refúgio em Penha! Oferecemos:
                     </p>
                     <ul className="space-y-3">
                       {[
-                        "Piscina ao ar livre e coberta com hidromassagem",
-                        "Café da manhã completo com produtos frescos incluído na diária",
-                        "Quartos confortáveis com ar-condicionado, TV a cabo e Wi-Fi grátis",
+                        "Piscina ao ar livre e coberta",
+                        "Suítes confortáveis com ar-condicionado, TV fechada com mais de mil canais e Wi-Fi grátis",
                         "Estacionamento gratuito e seguro",
                         "Área de lazer com sinuca e jardim",
                         "Localização privilegiada: a poucos passos da Praia de Armação",
-                        "5 minutos (1,5km) do Beto Carrero World",
+                        "5 minutos de carro (1,5km) do Beto Carrero World",
                         "Atendimento familiar e acolhedor",
                         "Melhor custo-benefício da região"
                       ].map((item, idx) => (
@@ -203,7 +201,6 @@ const PenhaAccordion = () => {
                           "Economize tempo de deslocamento - mais tempo para diversão",
                           "Volte para descansar no meio do dia e retorne ao parque renovado",
                           "Evite trânsito intenso nas épocas de alta temporada",
-                          "Café da manhã reforçado antes de um dia cheio de emoções",
                           "Piscina para relaxar após um dia intenso de atrações"
                         ].map((item, idx) => (
                           <li key={idx} className="flex items-start gap-2">
@@ -267,8 +264,8 @@ const PenhaAccordion = () => {
                         <p className="text-muted-foreground">Praias Paradisíacas</p>
                       </Card>
                       <Card className="p-6 text-center bg-secondary/5">
-                        <div className="text-4xl font-bold text-secondary mb-2">365</div>
-                        <p className="text-muted-foreground">Dias de Sol por Ano</p>
+                        <div className="text-4xl font-bold text-secondary mb-2">5 min</div>
+                        <p className="text-muted-foreground">Do Beto Carrero World</p>
                       </Card>
                       <Card className="p-6 text-center bg-cta/5">
                         <div className="text-4xl font-bold text-cta mb-2">100%</div>

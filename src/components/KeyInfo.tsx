@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MapPin, Plane, Coffee, Clock, Waves, Car, Calendar, Star, Phone } from "lucide-react";
+import { MapPin, Plane, Clock, Waves, Car, Calendar, Star } from "lucide-react";
 
 const KeyInfo = () => {
   const infoItems = [
@@ -33,12 +33,6 @@ const KeyInfo = () => {
       title: "Balneário Camboriú",
       description: "Fácil acesso",
       highlight: "24 km"
-    },
-    {
-      icon: Coffee,
-      title: "Café da Manhã",
-      description: "Incluso na diária",
-      highlight: "Completo"
     },
     {
       icon: Clock,
@@ -92,20 +86,16 @@ const KeyInfo = () => {
         <div className="mt-12 text-center">
           <Card className="bg-gradient-to-r from-cta to-cta-dark border-none p-8 shadow-elegant">
             <h3 className="text-3xl font-display font-bold text-cta-foreground mb-6">
-              Diárias a partir de R$ 149
+              Garanta os melhores valores com a nossa central de reservas
             </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-cta-foreground">
+            <div className="grid md:grid-cols-3 gap-4 text-cta-foreground">
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">✓</span>
                 <span className="font-semibold">Estacionamento Grátis</span>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">✓</span>
-                <span className="font-semibold">Café da Manhã Incluso</span>
-              </div>
-              <div className="flex items-center gap-2 justify-center">
-                <span className="text-2xl">✓</span>
-                <span className="font-semibold">Área de Lazer Completa</span>
+                <span className="font-semibold">Piscinas</span>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">✓</span>
