@@ -135,7 +135,7 @@ const ApartmentRental = () => {
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <MapPin className="w-5 h-5 text-cta flex-shrink-0" />
-                    <span>Localização privilegiada em Penha</span>
+                    <span>A poucos passos da praia em Penha</span>
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Phone className="w-5 h-5 text-cta flex-shrink-0" />
