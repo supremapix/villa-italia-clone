@@ -113,7 +113,7 @@ const Restaurant = () => {
                 </h3>
                 
                 <p className="text-muted-foreground mb-6 leading-relaxed text-sm sm:text-base">
-                  Desfrute de refeições saborosas preparadas com carinho em nosso restaurante. 
+                  Desfrute de refeições saborosas preparadas com carinho em nosso restaurante com comida caseira. 
                   O Quiosque do Kaká oferece um ambiente agradável e pratos deliciosos para você 
                   e sua família aproveitarem durante a estadia.
                 </p>
@@ -121,7 +121,7 @@ const Restaurant = () => {
                 <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Clock className="w-5 h-5 text-cta flex-shrink-0" />
-                    <span>Horário de funcionamento: Consulte a recepção</span>
+                    <span>Horário de funcionamento: 11:00 às 21:00 hrs</span>
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <MapPin className="w-5 h-5 text-cta flex-shrink-0" />
@@ -129,12 +129,12 @@ const Restaurant = () => {
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Phone className="w-5 h-5 text-cta flex-shrink-0" />
-                    <span>Reservas: +55 47 99273-8090</span>
+                    <span>Reservas: +55 47 99204-5122</span>
                   </div>
                 </div>
 
                 <a 
-                  href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá! Gostaria de saber mais sobre o Quiosque do Kaká"
+                  href="https://api.whatsapp.com/send?phone=5547992045122&text=Olá! Gostaria de saber mais sobre o Quiosque do Kaká"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

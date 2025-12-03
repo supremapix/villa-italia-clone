@@ -22,62 +22,62 @@ const Gallery = () => {
   const galleryItems = [
     {
       image: gallery1,
-      title: "Entrada Beto Carrero World",
-      description: "O maior parque temático da América Latina a 5 minutos da pousada",
+      title: "Vista da Varanda",
+      description: "Varanda com vista panorâmica da pousada",
       rating: 5
     },
     {
       image: gallery2,
-      title: "Localização Privilegiada",
-      description: "Acesso fácil para ônibus de turismo e grupos",
+      title: "Piscina Coberta",
+      description: "Espaço de relaxamento exclusivo para hóspedes",
       rating: 5
     },
     {
       image: gallery3,
-      title: "Área de Lazer",
-      description: "Espaço de convivência com sinuca e entretenimento",
-      rating: 5
-    },
-    {
-      image: gallery4,
-      title: "Piscina Exclusiva",
-      description: "Área de piscina com vista panorâmica e conforto",
-      rating: 5
-    },
-    {
-      image: gallery5,
-      title: "Piscina Cristalina",
+      title: "Piscina Principal",
       description: "Relaxe em nossa piscina com água cristalina",
       rating: 5
     },
     {
+      image: gallery4,
+      title: "Área do Restaurante",
+      description: "Ambiente acolhedor para refeições em família",
+      rating: 5
+    },
+    {
+      image: gallery5,
+      title: "Salão de Jogos",
+      description: "Mesa de sinuca para momentos de diversão",
+      rating: 5
+    },
+    {
       image: gallery6,
-      title: "Vista da Área de Lazer",
-      description: "Ambiente tranquilo e seguro para toda família",
+      title: "Área de Lazer Completa",
+      description: "Piscina com espreguiçadeiras e área coberta",
       rating: 5
     },
     {
       image: gallery7,
-      title: "Área de Piscina",
-      description: "Cadeiras de sol e área de descanso completa",
+      title: "Jardim Tropical",
+      description: "Ambiente tranquilo com vegetação exuberante",
       rating: 5
     },
     {
       image: gallery8,
-      title: "Espreguiçadeiras Confortáveis",
-      description: "Relaxe ao sol em nossas espreguiçadeiras",
+      title: "Vista Aérea da Piscina",
+      description: "Nossa área de lazer completa vista de cima",
       rating: 5
     },
     {
       image: gallery9,
-      title: "Área do Restaurante",
-      description: "Espaço coberto para refeições com TV e conforto",
+      title: "Fachada da Pousada",
+      description: "Arte e cores que marcam nossa identidade",
       rating: 5
     },
     {
       image: gallery10,
-      title: "Fachada da Pousada",
-      description: "Arquitetura rústica com charme e aconchego",
+      title: "Nossa Equipe",
+      description: "Time dedicado ao seu conforto e bem-estar",
       rating: 5
     }
   ];
