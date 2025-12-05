@@ -11,6 +11,13 @@ import apartment5 from "@/assets/apartment-5.jpg";
 import apartment6 from "@/assets/apartment-6.jpg";
 import apartment7 from "@/assets/apartment-7.jpg";
 import apartment8 from "@/assets/apartment-8.jpg";
+import apartment9 from "@/assets/gallery-11.jpg";
+import apartment10 from "@/assets/gallery-12.jpg";
+import apartment11 from "@/assets/gallery-13.jpg";
+import apartment12 from "@/assets/gallery-14.jpg";
+import apartment13 from "@/assets/gallery-15.jpg";
+import apartment14 from "@/assets/gallery-16.jpg";
+import apartment15 from "@/assets/gallery-17.jpg";
 
 const apartmentImages = [
   { src: apartment1, alt: "Cozinha e sala de jantar do apartamento" },
@@ -21,6 +28,13 @@ const apartmentImages = [
   { src: apartment6, alt: "Churrasqueira na varanda" },
   { src: apartment7, alt: "Quarto adicional" },
   { src: apartment8, alt: "Quarto com ar condicionado e TV" },
+  { src: apartment9, alt: "Fachada do edifício" },
+  { src: apartment10, alt: "Cozinha equipada com geladeira" },
+  { src: apartment11, alt: "Fogão cooktop" },
+  { src: apartment12, alt: "Quarto com camas de solteiro" },
+  { src: apartment13, alt: "Quarto climatizado" },
+  { src: apartment14, alt: "Decoração praiana" },
+  { src: apartment15, alt: "Banheiro moderno" },
 ];
 
 const ApartmentRental = () => {
