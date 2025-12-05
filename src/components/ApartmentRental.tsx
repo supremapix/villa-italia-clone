@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Home, MapPin, Phone, Users, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
+import ImageLightbox from "./ImageLightbox";
 
 import apartment1 from "@/assets/apartment-1.jpg";
 import apartment2 from "@/assets/apartment-2.jpg";
@@ -40,6 +41,8 @@ const apartmentImages = [
 const ApartmentRental = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
 
   const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % apartmentImages.length);
@@ -60,6 +63,11 @@ const ApartmentRental = () => {
     setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
+  const openLightbox = (index: number) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  };
+
   return (
     <section className="py-16 bg-gradient-to-b from-secondary/10 to-background">
       <div className="container mx-auto px-4">
@@ -78,8 +86,9 @@ const ApartmentRental = () => {
               {/* Image Slider Section */}
               <div className="relative h-64 sm:h-80 md:h-full md:min-h-[400px] overflow-hidden bg-secondary/20">
                 <div 
-                  className="flex transition-transform duration-500 ease-in-out h-full"
+                  className="flex transition-transform duration-500 ease-in-out h-full cursor-pointer"
                   style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                  onClick={() => openLightbox(currentSlide)}
                 >
                   {apartmentImages.map((image, index) => (
                     <div key={index} className="min-w-full h-full flex-shrink-0">
@@ -93,16 +102,21 @@ const ApartmentRental = () => {
                   ))}
                 </div>
 
+                {/* Tap hint on mobile */}
+                <div className="absolute top-2 right-2 bg-background/80 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-foreground md:hidden">
+                  Toque para ampliar
+                </div>
+
                 {/* Navigation Arrows */}
                 <button
-                  onClick={() => { prevSlide(); handleInteraction(); }}
+                  onClick={(e) => { e.stopPropagation(); prevSlide(); handleInteraction(); }}
                   className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all"
                   aria-label="Imagem anterior"
                 >
                   <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-foreground" />
                 </button>
                 <button
-                  onClick={() => { nextSlide(); handleInteraction(); }}
+                  onClick={(e) => { e.stopPropagation(); nextSlide(); handleInteraction(); }}
                   className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all"
                   aria-label="Próxima imagem"
                 >
@@ -110,11 +124,11 @@ const ApartmentRental = () => {
                 </button>
 
                 {/* Dots Indicator */}
-                <div className="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2">
+                <div className="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 flex-wrap justify-center max-w-[90%]">
                   {apartmentImages.map((_, index) => (
                     <button
                       key={index}
-                      onClick={() => { setCurrentSlide(index); handleInteraction(); }}
+                      onClick={(e) => { e.stopPropagation(); setCurrentSlide(index); handleInteraction(); }}
                       className={`transition-all duration-300 rounded-full ${
                         index === currentSlide
                           ? "bg-cta w-6 sm:w-8 h-2 sm:h-3"
@@ -175,6 +189,13 @@ const ApartmentRental = () => {
           </Card>
         </div>
       </div>
+
+      <ImageLightbox
+        images={apartmentImages}
+        initialIndex={lightboxIndex}
+        isOpen={lightboxOpen}
+        onClose={() => setLightboxOpen(false)}
+      />
     </section>
   );
 };
