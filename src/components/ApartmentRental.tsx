@@ -121,7 +121,7 @@ const ApartmentRental = () => {
                 <p className="text-muted-foreground mb-6 leading-relaxed text-sm sm:text-base">
                   Apartamento totalmente equipado para você e sua família aproveitarem as melhores férias em Penha. 
                   Com cozinha completa, churrasqueira, ar condicionado em todos os ambientes e muito conforto 
-                  para sua estadia.
+                  para sua estadia. Apartamento para ir caminhando ao Parque Beto Carrero World.
                 </p>
 
                 <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
@@ -131,7 +131,7 @@ const ApartmentRental = () => {
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Users className="w-5 h-5 text-cta flex-shrink-0" />
-                    <span>Ideal para famílias e grupos</span>
+                    <span>Ideal para famílias</span>
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <MapPin className="w-5 h-5 text-cta flex-shrink-0" />
