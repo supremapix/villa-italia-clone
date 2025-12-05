@@ -13,6 +13,13 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
+import gallery11 from "@/assets/gallery-11.jpg";
+import gallery12 from "@/assets/gallery-12.jpg";
+import gallery13 from "@/assets/gallery-13.jpg";
+import gallery14 from "@/assets/gallery-14.jpg";
+import gallery15 from "@/assets/gallery-15.jpg";
+import gallery16 from "@/assets/gallery-16.jpg";
+import gallery17 from "@/assets/gallery-17.jpg";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,6 +85,48 @@ const Gallery = () => {
       image: gallery10,
       title: "Nossa Equipe",
       description: "Time dedicado ao seu conforto e bem-estar",
+      rating: 5
+    },
+    {
+      image: gallery11,
+      title: "Fachada do Edifício",
+      description: "Vista externa do nosso condomínio moderno",
+      rating: 5
+    },
+    {
+      image: gallery12,
+      title: "Cozinha Equipada",
+      description: "Geladeira moderna e armários completos",
+      rating: 5
+    },
+    {
+      image: gallery13,
+      title: "Fogão Cooktop",
+      description: "Cozinha com cooktop de 4 bocas",
+      rating: 5
+    },
+    {
+      image: gallery14,
+      title: "Quarto com Camas",
+      description: "Quarto confortável com camas de solteiro",
+      rating: 5
+    },
+    {
+      image: gallery15,
+      title: "Quarto Climatizado",
+      description: "Ambiente com ar condicionado e ventilador",
+      rating: 5
+    },
+    {
+      image: gallery16,
+      title: "Decoração Praiana",
+      description: "Detalhes decorativos com tema de praia",
+      rating: 5
+    },
+    {
+      image: gallery17,
+      title: "Banheiro Moderno",
+      description: "Banheiro com box de vidro e acabamentos em madeira",
       rating: 5
     }
   ];
