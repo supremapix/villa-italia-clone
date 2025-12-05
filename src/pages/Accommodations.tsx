@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
+import RoomGallerySlider from "@/components/RoomGallerySlider";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Star, Users, Wifi, Coffee, AirVent, Tv, Refrigerator } from "lucide-react";
@@ -474,6 +475,8 @@ const Accommodations = () => {
           </div>
         </div>
       </section>
+
+      <RoomGallerySlider />
 
       <PenhaNews />
 

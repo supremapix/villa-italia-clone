@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { ChevronLeft, ChevronRight, Star, Expand, Pause, Play } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star, Pause, Play } from "lucide-react";
+import ImageLightbox from "./ImageLightbox";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -21,61 +21,71 @@ const Gallery = () => {
 
   const galleryItems = [
     {
-      image: gallery1,
+      src: gallery1,
+      alt: "Vista da Varanda",
       title: "Vista da Varanda",
       description: "Varanda com vista panorâmica da pousada",
       rating: 5
     },
     {
-      image: gallery2,
+      src: gallery2,
+      alt: "Piscina Coberta",
       title: "Piscina Coberta",
       description: "Espaço de relaxamento exclusivo para hóspedes",
       rating: 5
     },
     {
-      image: gallery3,
+      src: gallery3,
+      alt: "Piscina Principal",
       title: "Piscina Principal",
       description: "Relaxe em nossa piscina com água cristalina",
       rating: 5
     },
     {
-      image: gallery4,
+      src: gallery4,
+      alt: "Área do Restaurante",
       title: "Área do Restaurante",
       description: "Ambiente acolhedor para refeições em família",
       rating: 5
     },
     {
-      image: gallery5,
+      src: gallery5,
+      alt: "Salão de Jogos",
       title: "Salão de Jogos",
       description: "Mesa de sinuca para momentos de diversão",
       rating: 5
     },
     {
-      image: gallery6,
+      src: gallery6,
+      alt: "Área de Lazer Completa",
       title: "Área de Lazer Completa",
       description: "Piscina com espreguiçadeiras e área coberta",
       rating: 5
     },
     {
-      image: gallery7,
+      src: gallery7,
+      alt: "Jardim Tropical",
       title: "Jardim Tropical",
       description: "Ambiente tranquilo com vegetação exuberante",
       rating: 5
     },
     {
-      image: gallery8,
+      src: gallery8,
+      alt: "Vista Aérea da Piscina",
       title: "Vista Aérea da Piscina",
       description: "Nossa área de lazer completa vista de cima",
       rating: 5
     },
     {
-      image: gallery9,
+      src: gallery9,
+      alt: "Fachada da Pousada",
       title: "Fachada da Pousada",
       description: "Arte e cores que marcam nossa identidade",
       rating: 5
     },
     {
-      image: gallery10,
+      src: gallery10,
+      alt: "Nossa Equipe",
       title: "Nossa Equipe",
       description: "Time dedicado ao seu conforto e bem-estar",
       rating: 5
@@ -96,6 +106,11 @@ const Gallery = () => {
 
   const togglePlayPause = () => {
     setIsPlaying(!isPlaying);
+  };
+
+  const openLightbox = (index: number) => {
+    setCurrentIndex(index);
+    setIsLightboxOpen(true);
   };
 
   // Autoplay effect
@@ -124,9 +139,12 @@ const Gallery = () => {
         {/* Gallery Slider */}
         <div className="relative max-w-5xl mx-auto">
           <Card className="overflow-hidden shadow-elegant border-none">
-            <div className="relative aspect-video md:aspect-[16/10] group">
+            <div 
+              className="relative aspect-video md:aspect-[16/10] group cursor-pointer"
+              onClick={() => openLightbox(currentIndex)}
+            >
               <img
-                src={galleryItems[currentIndex].image}
+                src={galleryItems[currentIndex].src}
                 alt={galleryItems[currentIndex].title}
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -136,7 +154,7 @@ const Gallery = () => {
               <Button
                 variant="outline"
                 size="icon"
-                onClick={togglePlayPause}
+                onClick={(e) => { e.stopPropagation(); togglePlayPause(); }}
                 className="absolute top-4 left-4 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta opacity-0 group-hover:opacity-100 transition-opacity z-20"
               >
                 {isPlaying ? (
@@ -146,46 +164,16 @@ const Gallery = () => {
                 )}
               </Button>
 
-              {/* Lightbox Trigger */}
-              <Dialog open={isLightboxOpen} onOpenChange={setIsLightboxOpen}>
-                <DialogTrigger asChild>
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta opacity-0 group-hover:opacity-100 transition-opacity z-20"
-                  >
-                    <Expand className="h-5 w-5 text-cta" />
-                  </Button>
-                </DialogTrigger>
-                <DialogContent className="max-w-7xl w-[95vw] h-[90vh] p-0">
-                  <div className="relative w-full h-full flex items-center justify-center bg-black/90">
-                    <img
-                      src={galleryItems[currentIndex].image}
-                      alt={galleryItems[currentIndex].title}
-                      className="max-w-full max-h-full object-contain"
-                    />
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
-                      <div className="flex items-center gap-1 mb-2">
-                        {[...Array(galleryItems[currentIndex].rating)].map((_, i) => (
-                          <Star key={i} className="h-5 w-5 fill-cta text-cta" />
-                        ))}
-                      </div>
-                      <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-2">
-                        {galleryItems[currentIndex].title}
-                      </h3>
-                      <p className="text-white/90 text-base md:text-lg">
-                        {galleryItems[currentIndex].description}
-                      </p>
-                    </div>
-                  </div>
-                </DialogContent>
-              </Dialog>
+              {/* Tap to expand hint on mobile */}
+              <div className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-foreground md:hidden">
+                Toque para ampliar
+              </div>
               
               {/* Navigation Arrows */}
               <Button
                 variant="outline"
                 size="icon"
-                onClick={prevSlide}
+                onClick={(e) => { e.stopPropagation(); prevSlide(); }}
                 className="absolute left-4 top-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta h-12 w-12 md:h-14 md:w-14 z-10"
               >
                 <ChevronLeft className="h-6 w-6 text-cta" />
@@ -193,7 +181,7 @@ const Gallery = () => {
               <Button
                 variant="outline"
                 size="icon"
-                onClick={nextSlide}
+                onClick={(e) => { e.stopPropagation(); nextSlide(); }}
                 className="absolute right-4 top-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta h-12 w-12 md:h-14 md:w-14 z-10"
               >
                 <ChevronRight className="h-6 w-6 text-cta" />
@@ -252,6 +240,14 @@ const Gallery = () => {
           </a>
         </div>
       </div>
+
+      <ImageLightbox
+        images={galleryItems}
+        initialIndex={currentIndex}
+        isOpen={isLightboxOpen}
+        onClose={() => setIsLightboxOpen(false)}
+        autoPlayInterval={5000}
+      />
     </section>
   );
 };
