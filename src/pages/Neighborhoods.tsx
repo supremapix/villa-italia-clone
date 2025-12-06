@@ -540,8 +540,8 @@ const Neighborhoods = () => {
                 </h2>
                 <div className="grid md:grid-cols-3 gap-6 text-foreground">
                   <div>
-                    <h3 className="text-xl font-bold mb-3">🏖️ 19 Praias</h3>
-                    <p>Penha possui 19 praias paradisíacas, cada uma com sua característica única.</p>
+                    <h3 className="text-xl font-bold mb-3">🏖️ 25 Praias</h3>
+                    <p>Penha possui 25 praias paradisíacas, cada uma com sua característica única.</p>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3">🎢 Beto Carrero World</h3>

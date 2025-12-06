@@ -21,7 +21,7 @@ const blogPosts: Record<string, BlogPostData> = {
     title: "As Melhores Praias de Penha para Visitar",
     date: "15 de Janeiro, 2026",
     content: `
-      <p>Penha é um verdadeiro paraíso para os amantes de praia! Com suas 19 praias, a cidade oferece opções para todos os gostos.</p>
+      <p>Penha é um verdadeiro paraíso para os amantes de praia! Com suas 25 praias, a cidade oferece opções para todos os gostos.</p>
       
       <h2>Praia da Armação</h2>
       <p>A Praia da Armação é uma das mais procuradas, oferecendo águas calmas e cristalinas, perfeitas para famílias com crianças. Com sua areia branquinha e infraestrutura completa, é o local ideal para passar o dia inteiro.</p>

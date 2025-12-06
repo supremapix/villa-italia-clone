@@ -1,4 +1,5 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook, Youtube, MessageCircle, Clock } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo-villa-ditalia.gif";
 
 const Footer = () => {
@@ -135,59 +136,87 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contato */}
+          {/* Contato Central de Reservas */}
           <div>
-            <h4 className="text-xl font-display font-bold mb-4 text-primary">Contato</h4>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3">
+            <h4 className="text-xl font-display font-bold mb-4 text-primary">Central de Reservas</h4>
+            <div className="space-y-4">
+              <div className="flex items-center gap-2 text-background/70 text-sm">
+                <Clock className="w-4 h-4" />
+                <span>7:30 às 21h | Seg. a Seg.</span>
+              </div>
+              <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-secondary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-background/80">+55 47 99273-8090</p>
-                  <p className="text-sm text-background/60">WhatsApp disponível</p>
+                  <p className="text-background text-lg font-semibold">+55 47 99273-8090</p>
                 </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <div className="space-y-1">
+              </div>
+              <a
+                href="https://wa.me/5547992738090?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20uma%20reserva"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="w-full bg-secondary hover:bg-secondary-dark text-secondary-foreground">
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  WhatsApp - Central de Reservas
+                </Button>
+              </a>
+              <div className="pt-2">
+                <div className="flex items-start gap-3">
+                  <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <a 
                     href="mailto:contato@viladitalia.com.br"
-                    className="text-background/80 break-all hover:text-primary transition-smooth block"
+                    className="text-background/80 break-all hover:text-primary transition-smooth"
                   >
                     contato@viladitalia.com.br
                   </a>
                 </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-cta mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-background/90 font-semibold">R. Luís Vicente da Silva, 183</p>
-                  <p className="text-background/80">Centro, Penha - SC</p>
-                  <p className="text-background/80">CEP: 88385-000</p>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
 
-          {/* Horário */}
+          {/* Recepção Pousada */}
           <div>
-            <h4 className="text-xl font-display font-bold mb-4 text-primary">Horário da Recepção</h4>
-            <ul className="space-y-2 text-background/80">
-              <li>
-                <span className="font-semibold text-background">Segunda a Sexta:</span>
-                <br />8h às 20h
-              </li>
-              <li>
-                <span className="font-semibold text-background">Sábado:</span>
-                <br />9h às 18h
-              </li>
-              <li>
-                <span className="font-semibold text-background">Domingo:</span>
-                <br />9h às 17h
-              </li>
-            </ul>
-            <p className="text-sm text-background/60 mt-4">
-              Check-in: 14h | Check-out: 12h
-            </p>
+            <h4 className="text-xl font-display font-bold mb-4 text-primary">Recepção Pousada</h4>
+            <div className="space-y-4">
+              <div className="flex items-center gap-2 text-background/70 text-sm">
+                <Clock className="w-4 h-4" />
+                <span>8:00 às 22h | Seg. a Seg.</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-secondary mt-1 flex-shrink-0" />
+                <div>
+                  <a 
+                    href="tel:+5547992045122"
+                    className="text-background text-lg font-semibold hover:text-primary transition-smooth"
+                  >
+                    (47) 99204-5122
+                  </a>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/5547992045122?text=Olá!%20Vim%20do%20site%20e%20preciso%20de%20atendimento"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="w-full bg-primary hover:bg-primary-dark text-primary-foreground">
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  WhatsApp - Recepção
+                </Button>
+              </a>
+              <div className="pt-2">
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-cta mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-background/90 font-semibold">R. Luís Vicente da Silva, 183</p>
+                    <p className="text-background/80">Centro, Penha - SC</p>
+                    <p className="text-background/80">CEP: 88385-000</p>
+                  </div>
+                </div>
+              </div>
+              <p className="text-sm text-background/60 pt-2">
+                Check-in: 14h | Check-out: 12h
+              </p>
+            </div>
           </div>
         </div>
 
