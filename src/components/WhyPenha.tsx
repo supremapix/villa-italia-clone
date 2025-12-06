@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MapPin, Waves, Palmtree, UtensilsCrossed, Sun } from "lucide-react";
+import { MapPin, Waves, Trees, UtensilsCrossed, Sun } from "lucide-react";
 
 const WhyPenha = () => {
   const navigate = useNavigate();
@@ -9,11 +9,11 @@ const WhyPenha = () => {
   const curiosities = [
     {
       icon: <Waves className="w-8 h-8" />,
-      title: "19 Praias Paradisíacas",
-      description: "Penha possui 19 praias, cada uma com sua característica única - de águas calmas para famílias até ondas perfeitas para surf."
+      title: "25 Praias Paradisíacas",
+      description: "Penha possui 25 praias, cada uma com sua característica única - de águas calmas para famílias até ondas perfeitas para surf."
     },
     {
-      icon: <Palmtree className="w-8 h-8" />,
+      icon: <Trees className="w-8 h-8" />,
       title: "Clima Privilegiado",
       description: "Com clima subtropical úmido, Penha oferece temperaturas agradáveis o ano todo, perfeito para aproveitar o mar em qualquer estação."
     },
@@ -119,7 +119,7 @@ const WhyPenha = () => {
           {/* Fun Facts */}
           <div className="mt-16 grid md:grid-cols-3 gap-6 text-center">
             <Card className="p-6 bg-primary/5">
-              <div className="text-4xl font-bold text-primary mb-2">19</div>
+              <div className="text-4xl font-bold text-primary mb-2">25</div>
               <div className="text-muted-foreground">Praias para Explorar</div>
             </Card>
             <Card className="p-6 bg-secondary/5">

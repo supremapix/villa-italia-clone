@@ -7,7 +7,7 @@ import {
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { MapPin, Palmtree, UtensilsCrossed, Sun, Home, Star, Quote } from "lucide-react";
+import { MapPin, Trees, UtensilsCrossed, Sun, Home, Star, Quote } from "lucide-react";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -97,7 +97,7 @@ const PenhaAccordion = () => {
   const attractions2026 = [
     "Beto Carrero World - O maior parque temático da América Latina",
     "Aquário de Penha - Vida marinha fascinante",
-    "Passeios de Barco pelas 19 praias",
+    "Passeios de Barco pelas 25 praias",
     "Trilhas ecológicas na Mata Atlântica",
     "Gastronomia de frutos do mar frescos",
     "Festas e eventos culturais durante todo o ano"
@@ -186,7 +186,7 @@ const PenhaAccordion = () => {
               <AccordionItem value="betocarrero">
                 <AccordionTrigger className="text-2xl font-bold text-foreground hover:text-cta">
                   <div className="flex items-center gap-3">
-                    <Palmtree className="w-8 h-8 text-cta" />
+                    <Trees className="w-8 h-8 text-cta" />
                     <span>Beto Carrero World</span>
                   </div>
                 </AccordionTrigger>
@@ -241,7 +241,7 @@ const PenhaAccordion = () => {
                     <div className="mt-6 p-6 bg-cta/10 rounded-lg">
                       <h4 className="font-bold text-xl mb-3">🌟 Destaque 2026</h4>
                       <p className="text-foreground">
-                        Além das 19 praias paradisíacas, Penha se consolida como destino familiar completo 
+                        Além das 25 praias paradisíacas, Penha se consolida como destino familiar completo 
                         com infraestrutura renovada, novos restaurantes e eventos culturais durante todo o ano!
                       </p>
                     </div>
@@ -261,7 +261,7 @@ const PenhaAccordion = () => {
                   <div className="pt-4 space-y-6">
                     <div className="grid md:grid-cols-3 gap-6">
                       <Card className="p-6 text-center bg-primary/5">
-                        <div className="text-4xl font-bold text-primary mb-2">19</div>
+                        <div className="text-4xl font-bold text-primary mb-2">25</div>
                         <p className="text-muted-foreground">Praias Paradisíacas</p>
                       </Card>
                       <Card className="p-6 text-center bg-secondary/5">

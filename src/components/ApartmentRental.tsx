@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Home, MapPin, Phone, Users, ChevronLeft, ChevronRight } from "lucide-react";
+import { Home, MapPin, Phone, Users, ChevronLeft, ChevronRight, WashingMachine } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import ImageLightbox from "./ImageLightbox";
 
@@ -19,6 +19,11 @@ import apartment12 from "@/assets/gallery-14.jpg";
 import apartment13 from "@/assets/gallery-15.jpg";
 import apartment14 from "@/assets/gallery-16.jpg";
 import apartment15 from "@/assets/gallery-17.jpg";
+import apartmentNew1 from "@/assets/apartment-new-1.jpg";
+import apartmentNew2 from "@/assets/apartment-new-2.jpg";
+import apartmentNew3 from "@/assets/apartment-new-3.jpg";
+import apartmentNew4 from "@/assets/apartment-new-4.jpg";
+import apartmentNew5 from "@/assets/apartment-new-5.jpg";
 
 const apartmentImages = [
   { src: apartment1, alt: "Cozinha e sala de jantar do apartamento" },
@@ -36,6 +41,11 @@ const apartmentImages = [
   { src: apartment13, alt: "Quarto climatizado" },
   { src: apartment14, alt: "Decoração praiana" },
   { src: apartment15, alt: "Banheiro moderno" },
+  { src: apartmentNew1, alt: "Espelho e armário do banheiro" },
+  { src: apartmentNew2, alt: "Sala de estar com TV e sacada" },
+  { src: apartmentNew3, alt: "Cozinha com janela" },
+  { src: apartmentNew4, alt: "Área de serviço com lavadora e secadora" },
+  { src: apartmentNew5, alt: "Banheiro com box de vidro" },
 ];
 
 const ApartmentRental = () => {
@@ -156,6 +166,10 @@ const ApartmentRental = () => {
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Home className="w-5 h-5 text-cta flex-shrink-0" />
                     <span>Apartamento completo com cozinha e churrasqueira</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
+                    <WashingMachine className="w-5 h-5 text-cta flex-shrink-0" />
+                    <span>Com lavadora e secadora de roupa</span>
                   </div>
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">
                     <Users className="w-5 h-5 text-cta flex-shrink-0" />
