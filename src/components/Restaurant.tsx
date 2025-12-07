@@ -62,49 +62,51 @@ const Restaurant = () => {
 
         <div className="max-w-5xl mx-auto">
           <Card className="overflow-hidden shadow-elegant border-none bg-card">
-            <div className="grid md:grid-cols-2 gap-0">
+            <div className="flex flex-col md:flex-row">
               {/* Image Slider Section */}
-              <div className="relative h-64 sm:h-80 md:h-full md:min-h-[400px] overflow-hidden bg-secondary/20">
-                <div 
-                  className="flex transition-transform duration-500 ease-in-out h-full cursor-pointer"
-                  style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-                  onClick={() => openLightbox(currentSlide)}
-                >
+              <div className="relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto md:min-h-[400px] overflow-hidden bg-secondary/20 flex-shrink-0">
+                <div className="relative w-full h-full">
                   {restaurantImages.map((image, index) => (
-                    <div key={index} className="min-w-full h-full flex-shrink-0">
+                    <div 
+                      key={index} 
+                      className={`absolute inset-0 transition-opacity duration-500 ${
+                        index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
+                      }`}
+                    >
                       <img
                         src={image.src}
                         alt={image.alt}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover cursor-pointer"
                         loading="lazy"
+                        onClick={() => openLightbox(index)}
                       />
                     </div>
                   ))}
                 </div>
 
                 {/* Tap hint on mobile */}
-                <div className="absolute top-2 right-2 bg-background/80 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-foreground md:hidden">
+                <div className="absolute top-2 right-2 bg-background/80 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-foreground md:hidden z-20">
                   Toque para ampliar
                 </div>
 
                 {/* Navigation Arrows */}
                 <button
                   onClick={(e) => { e.stopPropagation(); prevSlide(); handleInteraction(); }}
-                  className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all"
+                  className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all z-20"
                   aria-label="Imagem anterior"
                 >
                   <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-foreground" />
                 </button>
                 <button
                   onClick={(e) => { e.stopPropagation(); nextSlide(); handleInteraction(); }}
-                  className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all"
+                  className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-full shadow-lg transition-all z-20"
                   aria-label="Próxima imagem"
                 >
                   <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-foreground" />
                 </button>
 
                 {/* Dots Indicator */}
-                <div className="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2">
+                <div className="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 z-20">
                   {restaurantImages.map((_, index) => (
                     <button
                       key={index}
@@ -121,7 +123,7 @@ const Restaurant = () => {
               </div>
 
               {/* Content Section */}
-              <div className="p-6 sm:p-8 md:p-10 flex flex-col justify-center">
+              <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-10 flex flex-col justify-center">
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
                   Quiosque do Kaká
                 </h3>
