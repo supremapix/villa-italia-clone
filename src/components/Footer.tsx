@@ -214,7 +214,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-sm text-background/60 pt-2">
-                Check-in: 14h | Check-out: 12h
+                Check-in: 14h | Check-out: 11:30h
               </p>
             </div>
           </div>
