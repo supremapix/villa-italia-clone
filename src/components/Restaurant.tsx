@@ -30,6 +30,14 @@ import restaurant23 from "@/assets/restaurant-23.jpg";
 import restaurant24 from "@/assets/restaurant-24.jpg";
 import restaurant25 from "@/assets/restaurant-25.jpg";
 import restaurant26 from "@/assets/restaurant-26.jpg";
+import restaurant27 from "@/assets/restaurant-27.jpg";
+import restaurant28 from "@/assets/restaurant-28.jpg";
+import restaurant29 from "@/assets/restaurant-29.jpg";
+import restaurant30 from "@/assets/restaurant-30.jpg";
+import restaurant31 from "@/assets/restaurant-31.jpg";
+import restaurant32 from "@/assets/restaurant-32.jpg";
+import restaurant33 from "@/assets/restaurant-33.jpg";
+import restaurant34 from "@/assets/restaurant-34.jpg";
 
 const restaurantImages = [
   { src: restaurant1, alt: "Area do Quiosque do Kaka" },
@@ -58,6 +66,14 @@ const restaurantImages = [
   { src: restaurant24, alt: "Vista geral do Quiosque com churrasqueira" },
   { src: restaurant25, alt: "Decoracao do Quiosque com arte" },
   { src: restaurant26, alt: "Geladeira com refrigerantes e agua" },
+  { src: restaurant27, alt: "Bife grelhado com macarrao e salada" },
+  { src: restaurant28, alt: "File empanado com ovo frito e macarrao" },
+  { src: restaurant29, alt: "Mesa servida com dois pratos executivos" },
+  { src: restaurant30, alt: "Vista do Quiosque para a piscina" },
+  { src: restaurant31, alt: "Geladeira cheia de cervejas geladas" },
+  { src: restaurant32, alt: "Prato infantil com nuggets e batata frita" },
+  { src: restaurant33, alt: "Area do Quiosque com churrasqueiras e TV" },
+  { src: restaurant34, alt: "Balcao do bar com geladeira Brahma" },
 ];
 
 const Restaurant = () => {
