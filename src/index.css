@@ -246,6 +246,19 @@ All colors MUST be HSL.
     50% { box-shadow: 0 0 40px rgba(255,255,255,0.6); }
   }
 
+  @keyframes scroll-up {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+  }
+
+  .animate-scroll-up {
+    animation: scroll-up 25s linear infinite;
+  }
+
+  .animate-scroll-up:hover {
+    animation-play-state: paused;
+  }
+
   .animate-slow-zoom {
     animation: slowZoom 20s ease-in-out infinite alternate;
   }
