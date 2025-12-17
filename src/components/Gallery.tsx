@@ -13,6 +13,21 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
+import penhaBeach17 from "@/assets/penha-beach-17.jpg";
+import penhaBeach18 from "@/assets/penha-beach-18.jpg";
+import penhaBeach19 from "@/assets/penha-beach-19.jpg";
+import penhaBeach20 from "@/assets/penha-beach-20.jpg";
+import penhaBeach21 from "@/assets/penha-beach-21.jpg";
+import penhaBeach22 from "@/assets/penha-beach-22.jpg";
+import penhaBeach23 from "@/assets/penha-beach-23.jpg";
+import penhaBeach24 from "@/assets/penha-beach-24.jpg";
+import penhaBeach25 from "@/assets/penha-beach-25.jpg";
+import penhaBeach26 from "@/assets/penha-beach-26.jpg";
+import penhaBeach27 from "@/assets/penha-beach-27.jpg";
+import penhaBeach28 from "@/assets/penha-beach-28.jpg";
+import penhaBeach29 from "@/assets/penha-beach-29.jpg";
+import penhaBeach30 from "@/assets/penha-beach-30.jpg";
+import penhaBeach31 from "@/assets/penha-beach-31.jpg";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,6 +103,111 @@ const Gallery = () => {
       alt: "Nossa Equipe",
       title: "Nossa Equipe",
       description: "Time dedicado ao seu conforto e bem-estar",
+      rating: 5
+    },
+    {
+      src: penhaBeach17,
+      alt: "Praia de Penha",
+      title: "Praia da Armacao",
+      description: "Guarda-sois coloridos e mar tranquilo em Penha - Santa Catarina",
+      rating: 5
+    },
+    {
+      src: penhaBeach18,
+      alt: "Praia de Penha Panoramica",
+      title: "Vista Panoramica da Praia",
+      description: "Praia da Armacao com montanhas ao fundo",
+      rating: 5
+    },
+    {
+      src: penhaBeach19,
+      alt: "Praia Movimentada",
+      title: "Dia de Praia em Penha",
+      description: "Turistas aproveitando as aguas calmas de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach20,
+      alt: "Mar de Penha",
+      title: "Aguas Cristalinas",
+      description: "Mar calmo e aguas transparentes ideais para banho",
+      rating: 5
+    },
+    {
+      src: penhaBeach21,
+      alt: "Por do Sol em Penha",
+      title: "Por do Sol Espetacular",
+      description: "Nascer do sol deslumbrante na praia de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach22,
+      alt: "Entardecer na Praia",
+      title: "Entardecer Magico",
+      description: "Ceu colorido no fim de tarde em Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach23,
+      alt: "Praia Lotada",
+      title: "Alta Temporada",
+      description: "Praia cheia de visitantes no verao",
+      rating: 5
+    },
+    {
+      src: penhaBeach24,
+      alt: "Jet Ski",
+      title: "Esportes Aquaticos",
+      description: "Diversao nas aguas de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach25,
+      alt: "Sombra na Praia",
+      title: "Natureza Exuberante",
+      description: "Arvores oferecem sombra natural na praia",
+      rating: 5
+    },
+    {
+      src: penhaBeach26,
+      alt: "Lua Cheia",
+      title: "Noite de Lua Cheia",
+      description: "Vista noturna espetacular de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach27,
+      alt: "Praia com Montanhas",
+      title: "Paisagem de Penha",
+      description: "Praia cercada por morros verdes",
+      rating: 5
+    },
+    {
+      src: penhaBeach28,
+      alt: "Banhistas",
+      title: "Diversao na Praia",
+      description: "Familias curtindo o mar de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach29,
+      alt: "Guarda-sois Coloridos",
+      title: "Cores da Praia",
+      description: "Guarda-sois e cadeiras na areia de Penha",
+      rating: 5
+    },
+    {
+      src: penhaBeach30,
+      alt: "Vista da Praia",
+      title: "Praia da Armacao",
+      description: "Vista colorida da praia com guarda-sois",
+      rating: 5
+    },
+    {
+      src: penhaBeach31,
+      alt: "Sombra da Arvore",
+      title: "Descanso na Praia",
+      description: "Momento de relaxamento sob as arvores",
       rating: 5
     }
   ];
