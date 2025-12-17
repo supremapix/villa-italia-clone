@@ -4,7 +4,7 @@ import { Home, MapPin, Phone, Users, ChevronLeft, ChevronRight, WashingMachine }
 import { useState, useEffect, useCallback } from "react";
 import ImageLightbox from "./ImageLightbox";
 
-import apartment1 from "@/assets/apartment-1.jpg";
+import apartment1 from "@/assets/apartment-1-new.png";
 import apartment2 from "@/assets/apartment-2.jpg";
 import apartment3 from "@/assets/apartment-3.jpg";
 import apartment4 from "@/assets/apartment-4.jpg";
