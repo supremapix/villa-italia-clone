@@ -54,8 +54,8 @@ const Amenities = () => {
         </div>
 
         {/* Images Grid */}
-        <div className="grid md:grid-cols-1 gap-6 mb-16 animate-fade-in-up max-w-2xl mx-auto">
-          <div className="relative rounded-2xl overflow-hidden shadow-hover h-[400px]">
+        <div className="mb-16 animate-fade-in-up">
+          <div className="relative rounded-2xl overflow-hidden shadow-hover h-[500px] md:h-[600px] lg:h-[700px]">
             <img
               src={poolImage}
               alt="Piscina externa"
@@ -66,9 +66,9 @@ const Amenities = () => {
                 <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
               ))}
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-              <h3 className="text-white text-2xl font-display font-bold">Piscinas</h3>
-              <p className="text-white/90">Relaxe em nossa piscina com horario estendido: das 09:00 as 21:00</p>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-8">
+              <h3 className="text-white text-3xl md:text-4xl font-display font-bold">Piscinas</h3>
+              <p className="text-white/90 text-lg">Relaxe em nossa piscina com horario estendido: das 09:00 as 21:00</p>
             </div>
           </div>
         </div>
