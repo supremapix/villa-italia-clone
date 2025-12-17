@@ -12,13 +12,6 @@ import apartment5 from "@/assets/apartment-5.jpg";
 import apartment6 from "@/assets/apartment-6.jpg";
 import apartment7 from "@/assets/apartment-7.jpg";
 import apartment8 from "@/assets/apartment-8.jpg";
-import apartment9 from "@/assets/gallery-11.jpg";
-import apartment10 from "@/assets/gallery-12.jpg";
-import apartment11 from "@/assets/gallery-13.jpg";
-import apartment12 from "@/assets/gallery-14.jpg";
-import apartment13 from "@/assets/gallery-15.jpg";
-import apartment14 from "@/assets/gallery-16.jpg";
-import apartment15 from "@/assets/gallery-17.jpg";
 import apartmentNew1 from "@/assets/apartment-new-1.jpg";
 import apartmentNew2 from "@/assets/apartment-new-2.jpg";
 import apartmentNew3 from "@/assets/apartment-new-3.jpg";
@@ -30,21 +23,14 @@ const apartmentImages = [
   { src: apartment2, alt: "Quarto principal com cama de casal" },
   { src: apartment3, alt: "Varanda com plantas" },
   { src: apartment4, alt: "Sala de estar com TV" },
-  { src: apartment5, alt: "Quarto com armário" },
+  { src: apartment5, alt: "Quarto com armario" },
   { src: apartment6, alt: "Churrasqueira na varanda" },
   { src: apartment7, alt: "Quarto adicional" },
   { src: apartment8, alt: "Quarto com ar condicionado e TV" },
-  { src: apartment9, alt: "Fachada do edifício" },
-  { src: apartment10, alt: "Cozinha equipada com geladeira" },
-  { src: apartment11, alt: "Fogão cooktop" },
-  { src: apartment12, alt: "Quarto com camas de solteiro" },
-  { src: apartment13, alt: "Quarto climatizado" },
-  { src: apartment14, alt: "Decoração praiana" },
-  { src: apartment15, alt: "Banheiro moderno" },
-  { src: apartmentNew1, alt: "Espelho e armário do banheiro" },
+  { src: apartmentNew1, alt: "Espelho e armario do banheiro" },
   { src: apartmentNew2, alt: "Sala de estar com TV e sacada" },
   { src: apartmentNew3, alt: "Cozinha com janela" },
-  { src: apartmentNew4, alt: "Área de serviço com lavadora e secadora" },
+  { src: apartmentNew4, alt: "Area de servico com lavadora e secadora" },
   { src: apartmentNew5, alt: "Banheiro com box de vidro" },
 ];
 
