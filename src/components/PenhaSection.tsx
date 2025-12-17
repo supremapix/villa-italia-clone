@@ -20,6 +20,21 @@ import penhaBeach13 from "@/assets/penha-beach-13.jpg";
 import penhaBeach14 from "@/assets/penha-beach-14.jpg";
 import penhaBeach15 from "@/assets/penha-beach-15.jpg";
 import penhaBeach16 from "@/assets/penha-beach-16.webp";
+import penhaBeach17 from "@/assets/penha-beach-17.jpg";
+import penhaBeach18 from "@/assets/penha-beach-18.jpg";
+import penhaBeach19 from "@/assets/penha-beach-19.jpg";
+import penhaBeach20 from "@/assets/penha-beach-20.jpg";
+import penhaBeach21 from "@/assets/penha-beach-21.jpg";
+import penhaBeach22 from "@/assets/penha-beach-22.jpg";
+import penhaBeach23 from "@/assets/penha-beach-23.jpg";
+import penhaBeach24 from "@/assets/penha-beach-24.jpg";
+import penhaBeach25 from "@/assets/penha-beach-25.jpg";
+import penhaBeach26 from "@/assets/penha-beach-26.jpg";
+import penhaBeach27 from "@/assets/penha-beach-27.jpg";
+import penhaBeach28 from "@/assets/penha-beach-28.jpg";
+import penhaBeach29 from "@/assets/penha-beach-29.jpg";
+import penhaBeach30 from "@/assets/penha-beach-30.jpg";
+import penhaBeach31 from "@/assets/penha-beach-31.jpg";
 
 const PenhaSection = () => {
   const penha360Url = "https://app.orbitpan.com.br/penha-sc/";
@@ -39,6 +54,21 @@ const PenhaSection = () => {
     { src: penhaBeach14, alt: "Guarda-sóis coloridos na Praia de Armação" },
     { src: penhaBeach15, alt: "Vista panorâmica da Praia de Armação" },
     { src: penhaBeach16, alt: "Praia do Trapiche em Penha SC" },
+    { src: penhaBeach17, alt: "Guarda-sóis coloridos e mar tranquilo" },
+    { src: penhaBeach18, alt: "Praia da Armação com montanhas ao fundo" },
+    { src: penhaBeach19, alt: "Turistas aproveitando as águas calmas" },
+    { src: penhaBeach20, alt: "Águas cristalinas de Penha" },
+    { src: penhaBeach21, alt: "Pôr do sol espetacular em Penha" },
+    { src: penhaBeach22, alt: "Entardecer mágico na praia" },
+    { src: penhaBeach23, alt: "Alta temporada na Praia de Armação" },
+    { src: penhaBeach24, alt: "Esportes aquáticos em Penha" },
+    { src: penhaBeach25, alt: "Natureza exuberante na praia" },
+    { src: penhaBeach26, alt: "Noite de lua cheia em Penha" },
+    { src: penhaBeach27, alt: "Praia cercada por morros verdes" },
+    { src: penhaBeach28, alt: "Famílias curtindo o mar de Penha" },
+    { src: penhaBeach29, alt: "Guarda-sóis e cadeiras na areia" },
+    { src: penhaBeach30, alt: "Vista colorida da praia" },
+    { src: penhaBeach31, alt: "Descanso sob as árvores na praia" },
   ];
 
   return (
