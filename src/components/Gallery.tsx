@@ -13,6 +13,16 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
+import gallery11 from "@/assets/gallery-11.jpg";
+import gallery12 from "@/assets/gallery-12.jpg";
+import gallery13 from "@/assets/gallery-13.jpg";
+import gallery14 from "@/assets/gallery-14.jpg";
+import gallery15 from "@/assets/gallery-15.jpg";
+import gallery16 from "@/assets/gallery-16.jpg";
+import gallery17 from "@/assets/gallery-17.jpg";
+import gallery18 from "@/assets/gallery-18.jpg";
+import gallery19 from "@/assets/gallery-19.jpg";
+import gallery20 from "@/assets/gallery-20.jpg";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,6 +98,76 @@ const Gallery = () => {
       alt: "Nossa Equipe",
       title: "Nossa Equipe",
       description: "Time dedicado ao seu conforto e bem-estar",
+      rating: 5
+    },
+    {
+      src: gallery11,
+      alt: "Piscina com Vista",
+      title: "Piscina com Vista",
+      description: "Vista panoramica da piscina e area de lazer",
+      rating: 5
+    },
+    {
+      src: gallery12,
+      alt: "Area de Descanso",
+      title: "Area de Descanso",
+      description: "Espreguicadeiras ao redor da piscina",
+      rating: 5
+    },
+    {
+      src: gallery13,
+      alt: "Piscina Cristalina",
+      title: "Piscina Cristalina",
+      description: "Agua cristalina para seu relaxamento",
+      rating: 5
+    },
+    {
+      src: gallery14,
+      alt: "Fachada Artistica",
+      title: "Fachada Artistica",
+      description: "Mural colorido na entrada da pousada",
+      rating: 5
+    },
+    {
+      src: gallery15,
+      alt: "Entrada da Pousada",
+      title: "Entrada da Pousada",
+      description: "Estacionamento e acesso principal",
+      rating: 5
+    },
+    {
+      src: gallery16,
+      alt: "Area Coberta",
+      title: "Area Coberta",
+      description: "Espaco coberto com vista para piscina",
+      rating: 5
+    },
+    {
+      src: gallery17,
+      alt: "Restaurante",
+      title: "Restaurante",
+      description: "Area de refeicoes com decoracao rustica",
+      rating: 5
+    },
+    {
+      src: gallery18,
+      alt: "Espreguicadeiras",
+      title: "Espreguicadeiras",
+      description: "Conforto ao redor da piscina",
+      rating: 5
+    },
+    {
+      src: gallery19,
+      alt: "Piscina ao Sol",
+      title: "Piscina ao Sol",
+      description: "Aproveite o sol em nossa piscina",
+      rating: 5
+    },
+    {
+      src: gallery20,
+      alt: "Vista da Piscina",
+      title: "Vista da Piscina",
+      description: "Ampla area de lazer com piscina",
       rating: 5
     }
   ];
