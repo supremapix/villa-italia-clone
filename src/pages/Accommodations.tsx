@@ -5,6 +5,7 @@ import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
 import RoomGallerySlider from "@/components/RoomGallerySlider";
+import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Star, Users, Wifi, Coffee, AirVent, Tv, Refrigerator, Quote, Sparkles } from "lucide-react";
@@ -337,6 +338,16 @@ const Accommodations = () => {
 
   return (
     <div className="min-h-screen">
+      <EnhancedSEO
+        title="Acomodacoes - Quartos e Suites em Penha SC"
+        description="Quartos e suites confortaveis na Pousada Vila D'Italia em Penha SC. Opcoes para casais, familias e grupos. Ar-condicionado, TV, Wi-Fi e cafe da manha incluso."
+        canonical="/acomodacoes"
+        keywords="quartos penha, suites penha sc, acomodacoes beto carrero, hotel familiar penha, quarto casal penha, suite familia penha"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Acomodacoes", url: "/acomodacoes" }
+        ]}
+      />
       <Navigation />
       
       {/* Hero Section */}

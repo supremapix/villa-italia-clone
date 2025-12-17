@@ -1,10 +1,10 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
+import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import {
@@ -984,31 +984,34 @@ const Neighborhoods = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
-  // SEO: Update document title and meta tags
-  useEffect(() => {
-    if (slug && neighborhoods[slug]) {
-      const neighborhood = neighborhoods[slug];
-      document.title = neighborhood.metaTitle || `${neighborhood.name} - Penha SC | Pousada Vila D'Itália`;
-      
-      // Update meta description
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute("content", neighborhood.metaDescription || neighborhood.description);
-      }
-    } else {
-      document.title = "Praias de Penha SC - Guia Completo 2026 | Pousada Vila D'Itália";
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute("content", "Guia completo das 25 praias de Penha SC. Conheça cada praia, atrações, dicas e hospedagem na Pousada Vila D'Itália!");
-      }
-    }
-  }, [slug]);
-
   if (slug && neighborhoods[slug]) {
     const neighborhood = neighborhoods[slug];
     
     return (
       <div className="min-h-screen">
+        <EnhancedSEO
+          title={neighborhood.metaTitle || `${neighborhood.name} - Penha SC`}
+          description={neighborhood.metaDescription || neighborhood.description}
+          canonical={`/bairros-penha/${slug}`}
+          keywords={`${neighborhood.name}, praia penha sc, praias santa catarina, litoral catarinense, turismo penha`}
+          breadcrumbs={[
+            { name: "Home", url: "/" },
+            { name: "Praias de Penha", url: "/bairros-penha" },
+            { name: neighborhood.name, url: `/bairros-penha/${slug}` }
+          ]}
+          structuredData={{
+            "@context": "https://schema.org",
+            "@type": "Beach",
+            "name": neighborhood.name,
+            "description": neighborhood.description,
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Penha",
+              "addressRegion": "SC",
+              "addressCountry": "BR"
+            }
+          }}
+        />
         <Navigation />
         <main className="pt-24">
           <article className="container mx-auto px-4 py-12 max-w-5xl">
@@ -1179,6 +1182,16 @@ const Neighborhoods = () => {
 
   return (
     <div className="min-h-screen">
+      <EnhancedSEO
+        title="25 Praias de Penha SC - Guia Completo 2026"
+        description="Guia completo das 25 praias de Penha SC. Conheca cada praia, atracoes, dicas e hospede-se na Pousada Vila D'Italia perto do Beto Carrero World!"
+        canonical="/bairros-penha"
+        keywords="praias penha sc, litoral santa catarina, praia armacao, praia grande penha, beto carrero world, turismo penha"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Praias de Penha", url: "/bairros-penha" }
+        ]}
+      />
       <Navigation />
       <main className="pt-24">
         <section className="py-20 bg-gradient-to-br from-background via-accent/5 to-background">
