@@ -220,13 +220,33 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Values Section */}
+        <div className="border-t border-background/20 pt-8 mb-8 text-center">
+          <p className="text-background/90 text-lg font-display italic mb-4">
+            "A energia que voce espalha e a mesma que voce recebe"
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 mb-4">
+            {["PAZ", "LUZ", "CARIDADE", "GRATIDAO", "AMOR", "ESPERANCA"].map((value) => (
+              <span
+                key={value}
+                className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-semibold"
+              >
+                {value}
+              </span>
+            ))}
+          </div>
+          <p className="text-background/70 text-sm">
+            Deus abencoe sempre estas familias
+          </p>
+        </div>
+
         {/* Bottom Bar */}
         <div className="border-t border-background/20 pt-8 text-center space-y-3">
           <p className="text-background/60">
-            © {currentYear} Pousada Vila D'Itália. Todos os direitos reservados.
+            © {currentYear} Pousada Vila D'Italia. Todos os direitos reservados.
           </p>
           <p className="text-background/80 flex items-center justify-center gap-2 text-base">
-            Feito com <span className="text-red-500 text-2xl animate-pulse">❤️</span> 
+            Feito com <span className="text-red-500 text-2xl animate-pulse">&#10084;</span> 
             <a 
               href="https://supremamidia.com.br" 
               target="_blank" 

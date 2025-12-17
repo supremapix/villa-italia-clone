@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Utensils, Clock, MapPin, Phone, ChevronLeft, ChevronRight } from "lucide-react";
+import { Utensils, Clock, MapPin, Phone, ChevronLeft, ChevronRight, UtensilsCrossed, Beer } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import ImageLightbox from "./ImageLightbox";
 
@@ -128,11 +128,33 @@ const Restaurant = () => {
                   Quiosque do Kaká
                 </h3>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed text-sm sm:text-base">
-                  Desfrute de refeições saborosas preparadas com carinho em nosso restaurante com comida caseira. 
-                  O Quiosque do Kaká oferece um ambiente agradável e pratos deliciosos para você 
-                  e sua família aproveitarem durante a estadia.
+                <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
+                  Sabores completos: De petiscos classicos a deliciosas porcoes com camarao, tudo fresquinho para voce.
+                  O Quiosque do Kaka oferece um ambiente agradavel e pratos deliciosos para voce 
+                  e sua familia aproveitarem durante a estadia.
                 </p>
+
+                {/* Menu Highlights */}
+                <div className="mb-4 p-3 bg-secondary/10 rounded-lg">
+                  <div className="flex items-center gap-2 mb-2">
+                    <UtensilsCrossed className="w-4 h-4 text-cta" />
+                    <span className="text-sm font-semibold text-foreground">Nossos Destaques:</span>
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Mini Pizza, Coxinha, Batata Frita, Frango a Passarinho, Isca de Peixe, Camarao Soltinho e Camarao Alho e Oleo
+                  </p>
+                </div>
+
+                {/* Drinks */}
+                <div className="mb-4 p-3 bg-accent/10 rounded-lg">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Beer className="w-4 h-4 text-cta" />
+                    <span className="text-sm font-semibold text-foreground">Bebidas:</span>
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Chopp Brahma, Cervejas (Antarctica, Original, Amstel, Heineken, Budweiser, Skol), Caipirinhas, Sucos e Refrigerantes
+                  </p>
+                </div>
 
                 <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                   <div className="flex items-center gap-3 text-foreground text-sm sm:text-base">

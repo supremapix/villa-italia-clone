@@ -39,7 +39,14 @@ const Story = () => {
               </p>
 
               <p className="font-semibold text-secondary italic">
-                No último dia, antes de partir, dei mais um mergulho e agradeci mentalmente a escolha. A Pousada Vila D'Itália me ofereceu o equilíbrio perfeito entre diversão e tranquilidade, sol e descanso, mar e piscina. Se você quiser repetir essa história, basta reservar seu quarto – e preparar o coração para se apaixonar por Penha.
+                No ultimo dia, antes de partir, dei mais um mergulho e agradeci mentalmente a escolha. A Pousada Vila D'Italia me ofereceu o equilibrio perfeito entre diversao e tranquilidade, sol e descanso, mar e piscina. Se voce quiser repetir essa historia, basta reservar seu quarto – e preparar o coracao para se apaixonar por Penha.
+              </p>
+            </div>
+
+            {/* Reflection Quote */}
+            <div className="mt-8 pt-6 border-t border-muted-foreground/20 text-center">
+              <p className="text-lg text-foreground italic font-display">
+                "Um gesto de amor te faz unico"
               </p>
             </div>
           </Card>
