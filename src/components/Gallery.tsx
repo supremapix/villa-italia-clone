@@ -23,6 +23,17 @@ import gallery17 from "@/assets/gallery-17.jpg";
 import gallery18 from "@/assets/gallery-18.jpg";
 import gallery19 from "@/assets/gallery-19.jpg";
 import gallery20 from "@/assets/gallery-20.jpg";
+import gallery21 from "@/assets/gallery-21.jpg";
+import gallery22 from "@/assets/gallery-22.jpg";
+import gallery23 from "@/assets/gallery-23.jpg";
+import gallery24 from "@/assets/gallery-24.jpg";
+import gallery25 from "@/assets/gallery-25.jpg";
+import gallery26 from "@/assets/gallery-26.jpg";
+import gallery27 from "@/assets/gallery-27.jpg";
+import gallery28 from "@/assets/gallery-28.jpg";
+import gallery29 from "@/assets/gallery-29.jpg";
+import gallery30 from "@/assets/gallery-30.jpg";
+import gallery31 from "@/assets/gallery-31.jpg";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -168,6 +179,83 @@ const Gallery = () => {
       alt: "Vista da Piscina",
       title: "Vista da Piscina",
       description: "Ampla area de lazer com piscina",
+      rating: 5
+    },
+    {
+      src: gallery21,
+      alt: "Detalhe da Piscina",
+      title: "Detalhe da Piscina",
+      description: "Agua cristalina e ambiente relaxante",
+      rating: 5
+    },
+    {
+      src: gallery22,
+      alt: "Estacionamento",
+      title: "Estacionamento",
+      description: "Estacionamento amplo e seguro",
+      rating: 5
+    },
+    {
+      src: gallery23,
+      alt: "Piscina com Escada",
+      title: "Piscina com Escada",
+      description: "Acesso facil a piscina",
+      rating: 5
+    },
+    {
+      src: gallery24,
+      alt: "Area de Lazer Completa",
+      title: "Area de Lazer Completa",
+      description: "Vista panoramica da area de lazer",
+      rating: 5
+    },
+    {
+      src: gallery25,
+      alt: "Salao de Sinuca",
+      title: "Salao de Sinuca",
+      description: "Mesa de sinuca para diversao",
+      rating: 5
+    },
+    {
+      src: gallery26,
+      alt: "Restaurante com Vista",
+      title: "Restaurante com Vista",
+      description: "Area de refeicoes com vista para piscina",
+      rating: 5
+    },
+    {
+      src: gallery27,
+      alt: "Espreguicadeiras",
+      title: "Espreguicadeiras",
+      description: "Conforto ao sol na beira da piscina",
+      rating: 5
+    },
+    {
+      src: gallery28,
+      alt: "Vista do Restaurante",
+      title: "Vista do Restaurante",
+      description: "Ambiente agradavel para refeicoes",
+      rating: 5
+    },
+    {
+      src: gallery29,
+      alt: "Area de Lazer",
+      title: "Area de Lazer",
+      description: "Piscina com cadeiras e ducha",
+      rating: 5
+    },
+    {
+      src: gallery30,
+      alt: "Decoracao Italiana",
+      title: "Decoracao Italiana",
+      description: "Detalhes decorativos com mensagens de carinho",
+      rating: 5
+    },
+    {
+      src: gallery31,
+      alt: "Piscina Vista Lateral",
+      title: "Piscina Vista Lateral",
+      description: "Vista lateral da piscina e area coberta",
       rating: 5
     }
   ];
