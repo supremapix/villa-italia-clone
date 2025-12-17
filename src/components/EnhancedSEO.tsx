@@ -34,7 +34,8 @@ const EnhancedSEO = ({
   breadcrumbs,
 }: SEOProps) => {
   const fullTitle = `${title} | ${SITE_NAME}`;
-  const canonicalUrl = canonical ? `${BASE_URL}${canonical}` : BASE_URL;
+  const currentPath = typeof window !== "undefined" ? window.location.pathname : "/";
+  const canonicalUrl = `${BASE_URL}${canonical || currentPath}`;
 
   const hotelStructuredData = {
     "@context": "https://schema.org",
@@ -169,9 +170,11 @@ const EnhancedSEO = ({
       <script type="application/ld+json">
         {JSON.stringify(hotelStructuredData)}
       </script>
-      <script type="application/ld+json">
-        {JSON.stringify(webPageStructuredData)}
-      </script>
+      {!structuredData && (
+        <script type="application/ld+json">
+          {JSON.stringify(webPageStructuredData)}
+        </script>
+      )}
       {breadcrumbStructuredData && (
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbStructuredData)}
