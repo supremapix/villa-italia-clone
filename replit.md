@@ -73,10 +73,15 @@ Heavy use of local image assets stored in `src/assets/` for:
 - Pinterest
 
 ### SEO & Structured Data
-- Schema.org JSON-LD markup for Hotel type
-- Open Graph and Twitter Card meta tags
+- **EnhancedSEO Component**: Centralized SEO management using react-helmet-async
+- Schema.org JSON-LD markup for Hotel type, WebPage, Beach, and BreadcrumbList
+- Open Graph and Twitter Card meta tags with dynamic page-specific content
 - Comprehensive meta descriptions targeting local search terms
 - Geo-location metadata for local SEO
+- Resource hints (preconnect, dns-prefetch) for performance optimization
+- Unique canonical URLs per page to prevent duplicate content issues
+- Pre-rendering configuration (react-snap) for static HTML generation
+- Complete sitemap.xml with all 25+ neighborhood/beach pages
 
 ### No Backend/Database
 This is a static frontend application with no server-side logic or database. All data is hardcoded in component files. Contact forms redirect to WhatsApp rather than storing submissions.
