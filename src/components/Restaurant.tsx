@@ -9,13 +9,33 @@ import restaurant2 from "@/assets/restaurant-2.jpg";
 import restaurant3 from "@/assets/restaurant-3.jpg";
 import restaurant4 from "@/assets/restaurant-4.jpg";
 import restaurant5 from "@/assets/restaurant-5.jpg";
+import restaurant6 from "@/assets/restaurant-6.jpg";
+import restaurant7 from "@/assets/restaurant-7.jpg";
+import restaurant8 from "@/assets/restaurant-8.jpg";
+import restaurant9 from "@/assets/restaurant-9.jpg";
+import restaurant10 from "@/assets/restaurant-10.jpg";
+import restaurant11 from "@/assets/restaurant-11.jpg";
+import restaurant12 from "@/assets/restaurant-12.jpg";
+import restaurant13 from "@/assets/restaurant-13.jpg";
+import restaurant14 from "@/assets/restaurant-14.jpg";
+import restaurant15 from "@/assets/restaurant-15.jpg";
 
 const restaurantImages = [
-  { src: restaurant1, alt: "Área do Quiosque do Kaká" },
-  { src: restaurant2, alt: "QR Code do cardápio digital" },
+  { src: restaurant1, alt: "Area do Quiosque do Kaka" },
+  { src: restaurant2, alt: "QR Code do cardapio digital" },
   { src: restaurant3, alt: "Vista geral do restaurante" },
   { src: restaurant4, alt: "Bebida refrescante do Quiosque" },
-  { src: restaurant5, alt: "Porção deliciosa de batatas" },
+  { src: restaurant5, alt: "Porcao deliciosa de batatas" },
+  { src: restaurant6, alt: "Marisco fresco com limao" },
+  { src: restaurant7, alt: "Frango a passarinho com salada" },
+  { src: restaurant8, alt: "Camarao alho e oleo" },
+  { src: restaurant9, alt: "Prato executivo com arroz e salada" },
+  { src: restaurant10, alt: "Area de mesas do Quiosque" },
+  { src: restaurant11, alt: "Prato com frango grelhado e macarrao" },
+  { src: restaurant12, alt: "Bife grelhado com arroz e macarrao" },
+  { src: restaurant13, alt: "Porcoes de frango a passarinho" },
+  { src: restaurant14, alt: "Frango crocante com limao" },
+  { src: restaurant15, alt: "Prato executivo completo" },
 ];
 
 const Restaurant = () => {
