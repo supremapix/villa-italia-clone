@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Star, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
-import heroImage from "@/assets/hero-pousada.jpg";
+import heroImage from "@/assets/hero-pool.jpg";
 
 const Hero = () => {
   const phrases = [
