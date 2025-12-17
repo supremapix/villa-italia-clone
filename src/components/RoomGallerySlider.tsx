@@ -24,6 +24,17 @@ import room47 from "@/assets/room-47.jpg";
 import room48 from "@/assets/room-48.jpg";
 import room49 from "@/assets/room-49.jpg";
 import room50 from "@/assets/room-50.jpg";
+import room51 from "@/assets/room-51.jpg";
+import room52 from "@/assets/room-52.jpg";
+import room53 from "@/assets/room-53.jpg";
+import room54 from "@/assets/room-54.jpg";
+import room55 from "@/assets/room-55.jpg";
+import room56 from "@/assets/room-56.jpg";
+import room57 from "@/assets/room-57.jpg";
+import room58 from "@/assets/room-58.jpg";
+import room59 from "@/assets/room-59.jpg";
+import room60 from "@/assets/room-60.jpg";
+import room61 from "@/assets/room-61.jpg";
 
 const roomImages = [
   { src: room31, alt: "Quarto casal com varanda", title: "Quarto Casal", description: "Quarto confortável com cama de casal e varanda" },
@@ -46,6 +57,17 @@ const roomImages = [
   { src: room48, alt: "Quarto casal rosa", title: "Quarto Casal Rosa", description: "Quarto com varanda e vista para piscina" },
   { src: room49, alt: "Quarto triplo colorido", title: "Quarto Triplo", description: "Quarto com camas de solteiro e decoracao colorida" },
   { src: room50, alt: "Banheiro completo", title: "Banheiro Privativo", description: "Banheiro com box e pia" },
+  { src: room51, alt: "Banheiro decorado", title: "Banheiro Completo", description: "Banheiro com box e espelho" },
+  { src: room52, alt: "Varanda com vista piscina", title: "Varanda Panoramica", description: "Varanda com mesa e vista para piscina" },
+  { src: room53, alt: "Quarto familia quadruplo", title: "Quarto Familia Quadruplo", description: "Quarto com beliche e cama de casal" },
+  { src: room54, alt: "Piscina da pousada", title: "Area de Lazer", description: "Piscina com espreguicadeiras e ducha" },
+  { src: room55, alt: "Vista da varanda", title: "Vista da Varanda", description: "Varanda com vista panoramica da piscina" },
+  { src: room56, alt: "Banheiro colorido", title: "Banheiro Tematico", description: "Banheiro com espelho decorativo e secador" },
+  { src: room57, alt: "Quarto casal azul", title: "Quarto Casal Azul", description: "Quarto com decoracao azul e TV" },
+  { src: room58, alt: "Quarto casal com varanda", title: "Quarto com Varanda", description: "Quarto aconchegante com acesso a varanda" },
+  { src: room59, alt: "Quarto duplo solteiro", title: "Quarto Duplo", description: "Quarto com duas camas de solteiro" },
+  { src: room60, alt: "Frigobar e armario", title: "Comodidades", description: "Armario com frigobar e cobertores" },
+  { src: room61, alt: "Quarto triplo rosa", title: "Quarto Triplo", description: "Quarto com camas de solteiro e casal" },
 ];
 
 const RoomGallerySlider = () => {
