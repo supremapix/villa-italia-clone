@@ -19,6 +19,17 @@ import restaurant12 from "@/assets/restaurant-12.jpg";
 import restaurant13 from "@/assets/restaurant-13.jpg";
 import restaurant14 from "@/assets/restaurant-14.jpg";
 import restaurant15 from "@/assets/restaurant-15.jpg";
+import restaurant16 from "@/assets/restaurant-16.jpg";
+import restaurant17 from "@/assets/restaurant-17.jpg";
+import restaurant18 from "@/assets/restaurant-18.jpg";
+import restaurant19 from "@/assets/restaurant-19.jpg";
+import restaurant20 from "@/assets/restaurant-20.jpg";
+import restaurant21 from "@/assets/restaurant-21.jpg";
+import restaurant22 from "@/assets/restaurant-22.jpg";
+import restaurant23 from "@/assets/restaurant-23.jpg";
+import restaurant24 from "@/assets/restaurant-24.jpg";
+import restaurant25 from "@/assets/restaurant-25.jpg";
+import restaurant26 from "@/assets/restaurant-26.jpg";
 
 const restaurantImages = [
   { src: restaurant1, alt: "Area do Quiosque do Kaka" },
@@ -36,6 +47,17 @@ const restaurantImages = [
   { src: restaurant13, alt: "Porcoes de frango a passarinho" },
   { src: restaurant14, alt: "Frango crocante com limao" },
   { src: restaurant15, alt: "Prato executivo completo" },
+  { src: restaurant16, alt: "Freezer de sorvetes Stringari" },
+  { src: restaurant17, alt: "File de frango empanado com salada" },
+  { src: restaurant18, alt: "Bife acebolado com macarrao e salada" },
+  { src: restaurant19, alt: "Area coberta do Quiosque com mesas" },
+  { src: restaurant20, alt: "Bife grelhado com arroz e macarrao" },
+  { src: restaurant21, alt: "Geladeira com cervejas geladas" },
+  { src: restaurant22, alt: "File empanado com ovo e macarrao" },
+  { src: restaurant23, alt: "Ostras frescas com limao no gelo" },
+  { src: restaurant24, alt: "Vista geral do Quiosque com churrasqueira" },
+  { src: restaurant25, alt: "Decoracao do Quiosque com arte" },
+  { src: restaurant26, alt: "Geladeira com refrigerantes e agua" },
 ];
 
 const Restaurant = () => {
