@@ -1,0 +1,55 @@
+Com certeza\! Com base nas informações extraídas da pasta "Pousada 2025" e na análise da estrutura atual do site da Pousada Vila D'Itália, criei um prompt detalhado para o Replit.
+
+Este prompt guia o desenvolvedor a inserir as novas informações em pontos estratégicos do site para maximizar a clareza dos avisos, o apelo de vendas do lazer e a comunicação dos valores da pousada.
+
+### Prompt de Atualização do Site (Replit)
+
+**Objetivo:** Atualizar as páginas do site da Pousada Vila D'Itália (<https://www.pousadaviladitalia.com.br/>) com informações cruciais de convivência, detalhes do menu e mensagens de otimismo/valores, conforme dados internos da pasta "Pousada 2025".
+
+#### 1\. Seção "Lazer" e "Piscinas" (URL: /lazer)
+
+Esta é a seção mais crítica para os avisos de regras.
+
+| Conteúdo a Inserir                                                                                                                                                                    | Local de Inserção Sugerido                                              | Tipo de Informação |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------- | :----------------: |
+| **Horário da Piscina:** 09:00 - 21:00 hrs.                                                                                                                                            | Adicionar como destaque na descrição da piscina externa e coberta.      | Aviso/Detalhe      |
+| **Profundidade:** 1,50 Mt (4 ft).                                                                                                                                                     | Adicionar junto ao horário da piscina.                                  | Detalhe            |
+| **Aviso de Regra 1:** Obrigatório tomar ducha e retirar óleos/bronzeador antes de entrar na piscina.                                                                                  | Criar um box de **"Regras de Uso da Piscina"** em destaque nesta seção. | Aviso/Regra        |
+| **Aviso de Regra 2 (Crianças):** Criança na piscina deverá estar acompanhada de um adulto e com equipamento de segurança. Obrigatório o uso de fralda em crianças menores de 03 anos. | Adicionar no box de **"Regras de Uso da Piscina"**.                     | Aviso/Regra        |
+| **Frase de Impacto (Piscina):** "Relaxe em nossa piscina com horário estendido: das 09:00 às 21:00."                                                                                  | Usar como título ou subtítulo de um dos banners de piscina.             | Vendas/Vantagem    |
+
+#### 2\. Seção "Quiosque do Kaká" (Restaurante)
+
+O menu detalhado e as marcas de bebida agregam valor e ajudam o hóspede a planejar o consumo.
+
+| Conteúdo a Inserir                                                                                                                                 | Local de Inserção Sugerido                                                               | Tipo de Informação |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :----------------: |
+| **Destaque do Cardápio:** Petiscos: Mini Pizza, Coxinha, Batata Frita, Frango à Passarinho, Isca de Peixe, Camarão Soltinho e Camarão Alho e Óleo. | Criar uma lista em destaque com **"Nossos Destaques"** logo abaixo da descrição.         | Vendas/Detalhe     |
+| **Bebidas Oferecidas:** Chopp Brahma, Cervejas (Antarctica, Original, Amstel, Heineken, Budweiser, Skol), Caipirinhas, Sucos e Refrigerantes.      | Criar uma lista de **"Bebidas"** ou inserir como texto corrido na descrição do quiosque. | Vendas/Detalhe     |
+| **Frase de Impacto (Gastronomia):** "Sabores completos: De petiscos clássicos a deliciosas porções com camarão, tudo fresquinho para você."        | Usar no banner ou no parágrafo inicial do quiosque.                                      | Vendas/Destaque    |
+
+#### 3\. Seção "Informações Importantes" (Ou criar uma nova seção de "Avisos")
+
+Incluir o detalhe sobre o "Espaço de Relaxamento" para evitar conflitos de convivência.
+
+| Conteúdo a Inserir                                                                                                                    | Local de Inserção Sugerido                                                                             | Tipo de Informação |
+| :------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------- | :----------------: |
+| **Aviso de Regra (Espaço de Relaxamento):** Proibido crianças desacompanhadas dos pais. Proibido alimentos e bebidas na área interna. | Inserir um item na lista de "Informações Importantes" ou criar um subtítulo em "Lazer".                | Aviso/Regra        |
+| **Conveniência:** Pontos para **CARREGUE AQUI SEU CELULAR**.                                                                          | Adicionar na lista de **Comodidades** ou criar um item de "Conveniência" em "Informações Importantes". | Detalhe            |
+
+#### 4\. Mensagens de Otimismo e Valores (Rodapé, Banners, Home)
+
+Essas frases fortalecem o lado emocional e a marca da pousada.
+
+| Conteúdo a Inserir                                                             | Local de Inserção Sugerido                                                                     | Tipo de Informação |
+| :----------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :----------------: |
+| **Mensagem de Boas-Vindas:** "DEUS ABENÇOE SEMPRE ESTAS FAMILIAS"              | Usar em um pop-up de boas-vindas na primeira visita ou em um banner sutil no topo da **Home**. | Valor/Otimismo     |
+| **Mensagem de Valores:** PAZ - LUZ - CARIDADE - GRATIDÃO - AMOR - ESPERANÇA    | Criar um pequeno bloco de "Nossos Valores" na página **"Sobre"** ou no **Rodapé**.             | Valor/Reflexão     |
+| **Frase de Reflexão:** "A ENERGIA QUE VOCÊ ESPALHA É A MESMA QUE VOCÊ RECEBE." | Ideal para a seção **Depoimentos de Hóspedes** ou no **Rodapé** do site.                       | Reflexão/Otimismo  |
+| **Frase de Afeto:** "UM GESTO DE AMOR TE FAZ ÚNICO"                            | Usar como legenda em uma foto da galeria ou em um pop-up de agradecimento após a reserva.      | Reflexão/Otimismo  |
+
+**Instruções Adicionais para o Replit:**
+
+  * Garantir que todos os avisos de regras sejam formatados em **negrito** e em uma cor que chame a atenção (ex: vermelho sutil ou box destacado) para visibilidade imediata.
+  * Manter a consistência do design ao introduzir as novas listas e boxes de avisos.
+  * Revisar o texto para garantir que as frases de otimismo se integrem de forma natural ao restante do conteúdo.

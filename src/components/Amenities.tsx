@@ -9,6 +9,12 @@ import {
   Trees,
   Star,
   Droplets,
+  Clock,
+  Ruler,
+  ShieldAlert,
+  Baby,
+  Smartphone,
+  Sparkles,
 } from "lucide-react";
 import poolImage from "@/assets/pool-outdoor.jpg";
 
@@ -21,6 +27,15 @@ const amenities = [
   { icon: Wind, title: "Frigobar", description: "Em cada suíte" },
   { icon: Trees, title: "Jardim", description: "Espaços relaxantes" },
   { icon: Droplets, title: "Secador", description: "De cabelo disponível" },
+];
+
+const poolRules = [
+  { icon: Clock, text: "Horario da Piscina: 09:00 - 21:00 hrs" },
+  { icon: Ruler, text: "Profundidade: 1,50 Mt (4 ft)" },
+  { icon: ShieldAlert, text: "Obrigatorio tomar ducha e retirar oleos/bronzeador antes de entrar na piscina" },
+  { icon: Baby, text: "Criancas na piscina deverao estar acompanhadas de um adulto e com equipamento de seguranca. Obrigatorio o uso de fralda em criancas menores de 03 anos" },
+  { icon: Smartphone, text: "Pontos para carregar seu celular disponiveis" },
+  { icon: Sparkles, text: "Espaco de Relaxamento: Proibido criancas desacompanhadas dos pais. Proibido alimentos e bebidas na area interna" },
 ];
 
 const Amenities = () => {
@@ -53,10 +68,33 @@ const Amenities = () => {
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
               <h3 className="text-white text-2xl font-display font-bold">Piscinas</h3>
-              <p className="text-white/90">Externa e coberta</p>
+              <p className="text-white/90">Relaxe em nossa piscina com horario estendido: das 09:00 as 21:00</p>
             </div>
           </div>
         </div>
+
+        {/* Pool Rules Section */}
+        <Card className="mb-16 p-6 md:p-8 bg-cta/10 border-2 border-cta/30 animate-fade-in-up">
+          <h3 className="text-2xl font-display font-bold text-cta mb-6 text-center">
+            Regras de Uso da Piscina
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {poolRules.map((rule, index) => {
+              const Icon = rule.icon;
+              return (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 p-4 bg-background rounded-lg"
+                >
+                  <div className="bg-cta/20 p-2 rounded-full flex-shrink-0">
+                    <Icon className="w-5 h-5 text-cta" />
+                  </div>
+                  <p className="text-sm text-foreground leading-relaxed">{rule.text}</p>
+                </div>
+              );
+            })}
+          </div>
+        </Card>
 
         {/* Amenities Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 animate-scale-in">
