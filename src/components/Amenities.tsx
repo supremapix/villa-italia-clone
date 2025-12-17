@@ -16,7 +16,7 @@ import {
   Smartphone,
   Sparkles,
 } from "lucide-react";
-import poolImage from "@/assets/pool-outdoor.jpg";
+import poolImage from "@/assets/pool-outdoor-new.jpg";
 
 const amenities = [
   { icon: Waves, title: "Duas Piscinas", description: "Externa e coberta" },
