@@ -63,7 +63,6 @@ const InstagramFeed = () => {
               height="750"
               frameBorder="0"
               scrolling="no"
-              allowTransparency={true}
               title={`Feed do Instagram da Pousada Villa D'Italia`}
               loading="lazy"
               className="max-h-[90vh]"
