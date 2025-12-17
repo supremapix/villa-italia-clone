@@ -35,6 +35,16 @@ import room58 from "@/assets/room-58.jpg";
 import room59 from "@/assets/room-59.jpg";
 import room60 from "@/assets/room-60.jpg";
 import room61 from "@/assets/room-61.jpg";
+import room62 from "@/assets/room-62.jpg";
+import room63 from "@/assets/room-63.jpg";
+import room64 from "@/assets/room-64.jpg";
+import room65 from "@/assets/room-65.jpg";
+import room66 from "@/assets/room-66.jpg";
+import room67 from "@/assets/room-67.jpg";
+import room68 from "@/assets/room-68.jpg";
+import room69 from "@/assets/room-69.jpg";
+import room70 from "@/assets/room-70.jpg";
+import room71 from "@/assets/room-71.jpg";
 
 const roomImages = [
   { src: room31, alt: "Quarto casal com varanda", title: "Quarto Casal", description: "Quarto confortável com cama de casal e varanda" },
@@ -68,6 +78,16 @@ const roomImages = [
   { src: room59, alt: "Quarto duplo solteiro", title: "Quarto Duplo", description: "Quarto com duas camas de solteiro" },
   { src: room60, alt: "Frigobar e armario", title: "Comodidades", description: "Armario com frigobar e cobertores" },
   { src: room61, alt: "Quarto triplo rosa", title: "Quarto Triplo", description: "Quarto com camas de solteiro e casal" },
+  { src: room62, alt: "Armario com frigobar", title: "Comodidades", description: "Armario com cobertores e frigobar" },
+  { src: room63, alt: "Quarto triplo aconchegante", title: "Quarto Triplo", description: "Quarto com camas e decoracao acolhedora" },
+  { src: room64, alt: "Quarto com TV", title: "Quarto com TV", description: "Quarto equipado com TV e armario" },
+  { src: room65, alt: "Quarto casal azul varanda", title: "Quarto Casal Varanda", description: "Quarto com varanda e frigobar" },
+  { src: room66, alt: "Quarto decorado leao", title: "Quarto Decorado", description: "Quarto com quadro colorido e ar-condicionado" },
+  { src: room67, alt: "Quarto triplo colorido", title: "Quarto Triplo Colorido", description: "Quarto amplo com decoracao artistica" },
+  { src: room68, alt: "Quarto casal vermelho", title: "Quarto Casal Vermelho", description: "Quarto com parede vermelha e banheiro privativo" },
+  { src: room69, alt: "Quarto casal verde", title: "Quarto Casal Verde", description: "Quarto elegante com cabeceira e criado mudo" },
+  { src: room70, alt: "Banheiro moderno", title: "Banheiro Moderno", description: "Banheiro com box de vidro e armario" },
+  { src: room71, alt: "Mezanino chale", title: "Mezanino Chale", description: "Suite com mezanino e varias camas" },
 ];
 
 const RoomGallerySlider = () => {
