@@ -199,7 +199,7 @@ const Restaurant = () => {
                     <span className="text-sm font-semibold text-foreground">Nossos Destaques:</span>
                   </div>
                   <p className="text-xs text-muted-foreground">
-                    Mini Pizza, Coxinha, Batata Frita, Frango a Passarinho, Isca de Peixe, Camarao Soltinho e Camarao Alho e Oleo
+                    Mini Pizza, Batata Frita, Frango a Passarinho, Isca de Peixe, Camarão Soltinho e Camarão Alho e Óleo
                   </p>
                 </div>
 
@@ -210,7 +210,7 @@ const Restaurant = () => {
                     <span className="text-sm font-semibold text-foreground">Bebidas:</span>
                   </div>
                   <p className="text-xs text-muted-foreground">
-                    Chopp Brahma, Cervejas (Antarctica, Original, Amstel, Heineken, Budweiser, Skol), Caipirinhas, Sucos e Refrigerantes
+                    Cervejas (Antarctica, Original, Amstel, Heineken, Budweiser, Skol), Caipirinhas, Sucos e Refrigerantes
                   </p>
                 </div>
 
