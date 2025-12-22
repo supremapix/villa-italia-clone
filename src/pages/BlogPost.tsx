@@ -23,13 +23,13 @@ interface BlogPostData {
 }
 
 const blogPosts: Record<string, BlogPostData> = {
-  "temporada-verao-2024-2025-penha-sc": {
-    id: "temporada-verao-2024-2025-penha-sc",
-    title: "Temporada de Verão 2024/2025 em Penha-SC: O Guia Completo para Suas Férias Perfeitas no Litoral Catarinense",
-    date: "22 de Dezembro, 2024",
+  "temporada-verao-2025-2026-penha-sc": {
+    id: "temporada-verao-2025-2026-penha-sc",
+    title: "Temporada de Verão 2025/2026 em Penha-SC: O Guia Completo para Suas Férias Perfeitas no Litoral Catarinense",
+    date: "22 de Dezembro, 2025",
     content: `
       <div class="blog-content">
-        <p class="lead"><strong>A temporada de verão 2024/2025</strong> chegou em <strong>Penha, Santa Catarina</strong>, e a cidade está pronta para receber milhares de turistas que buscam <strong>praias paradisíacas</strong>, <strong>diversão garantida</strong> e uma <strong>infraestrutura turística de primeira qualidade</strong>. Se você está planejando suas férias de final de ano, este é o momento ideal para descobrir tudo o que essa joia do litoral catarinense tem a oferecer.</p>
+        <p class="lead"><strong>A temporada de verão 2025/2026</strong> chegou em <strong>Penha, Santa Catarina</strong>, e a cidade está pronta para receber milhares de turistas que buscam <strong>praias paradisíacas</strong>, <strong>diversão garantida</strong> e uma <strong>infraestrutura turística de primeira qualidade</strong>. Se você está planejando suas férias de final de ano, este é o momento ideal para descobrir tudo o que essa joia do litoral catarinense tem a oferecer.</p>
 
         <h2>Por Que Escolher Penha Para Suas Férias de Verão?</h2>
         
@@ -52,7 +52,7 @@ const blogPosts: Record<string, BlogPostData> = {
 
         <p>Não há como falar de <strong>Penha</strong> sem mencionar o <strong>Beto Carrero World</strong>, o maior parque temático da América Latina. Durante a temporada de verão, o parque opera em horário estendido e apresenta <strong>programação especial de fim de ano</strong>, incluindo shows exclusivos, decoração temática e atrações sazonais que encantam visitantes de todas as idades.</p>
 
-        <p>O parque oferece mais de <strong>100 atrações</strong>, divididas em áreas temáticas que vão desde a Vila Germânica até a Área Radical, passando pelo mundo encantado da DreamWorks e suas atrações do Madagascar, Shrek e Kung Fu Panda. Para <strong>2024/2025</strong>, o parque promete novidades exclusivas e experiências ainda mais imersivas.</p>
+        <p>O parque oferece mais de <strong>100 atrações</strong>, divididas em áreas temáticas que vão desde a Vila Germânica até a Área Radical, passando pelo mundo encantado da DreamWorks e suas atrações do Madagascar, Shrek e Kung Fu Panda. Para <strong>2025/2026</strong>, o parque promete novidades exclusivas e experiências ainda mais imersivas.</p>
 
         <p>Uma dica valiosa para os visitantes: <strong>hospede-se próximo ao parque</strong> para otimizar seu tempo e energia. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> está localizada a apenas <strong>5 minutos do Beto Carrero World</strong>, permitindo que você aproveite ao máximo seu dia no parque e ainda tenha tempo para relaxar na piscina ou aproveitar a praia.</p>
 
@@ -127,7 +127,7 @@ const blogPosts: Record<string, BlogPostData> = {
 
         <h2>Reserve Sua Estadia Agora</h2>
 
-        <p>Não deixe para última hora! A <strong>temporada de verão 2024/2025</strong> promete ser uma das mais movimentadas dos últimos anos. A demanda por hospedagem de qualidade cresce a cada dia, e as melhores opções são reservadas rapidamente.</p>
+        <p>Não deixe para última hora! A <strong>temporada de verão 2025/2026</strong> promete ser uma das mais movimentadas dos últimos anos. A demanda por hospedagem de qualidade cresce a cada dia, e as melhores opções são reservadas rapidamente.</p>
 
         <p>Entre em <a href="/#contact" class="text-primary hover:text-primary/80 underline font-medium">contato conosco</a> para verificar disponibilidade e fazer sua reserva. Nossa equipe está pronta para ajudá-lo a planejar as <strong>férias perfeitas em Penha</strong>!</p>
 
@@ -136,13 +136,13 @@ const blogPosts: Record<string, BlogPostData> = {
     `,
     image: blogTemporadaVerao
   },
-  "reveillon-2025-penha-santa-catarina": {
-    id: "reveillon-2025-penha-santa-catarina",
-    title: "Réveillon 2025 em Penha-SC: Celebre a Virada do Ano no Paraíso do Litoral Catarinense",
-    date: "22 de Dezembro, 2024",
+  "reveillon-2026-penha-santa-catarina": {
+    id: "reveillon-2026-penha-santa-catarina",
+    title: "Réveillon 2026 em Penha-SC: Celebre a Virada do Ano no Paraíso do Litoral Catarinense",
+    date: "22 de Dezembro, 2025",
     content: `
       <div class="blog-content">
-        <p class="lead">O <strong>Réveillon 2025 em Penha, Santa Catarina</strong>, promete ser uma das celebrações mais <strong>memoráveis</strong> do litoral brasileiro. Com praias deslumbrantes como cenário, <strong>queima de fogos espetacular</strong> e uma atmosfera festiva única, a cidade se prepara para receber visitantes de todo o Brasil e do mundo para celebrar a chegada do novo ano de forma inesquecível.</p>
+        <p class="lead">O <strong>Réveillon 2026 em Penha, Santa Catarina</strong>, promete ser uma das celebrações mais <strong>memoráveis</strong> do litoral brasileiro. Com praias deslumbrantes como cenário, <strong>queima de fogos espetacular</strong> e uma atmosfera festiva única, a cidade se prepara para receber visitantes de todo o Brasil e do mundo para celebrar a chegada do novo ano de forma inesquecível.</p>
 
         <h2>Por Que Celebrar o Réveillon em Penha?</h2>
 
@@ -278,9 +278,9 @@ const blogPosts: Record<string, BlogPostData> = {
           <li>Equipe pronta para tornar sua estadia inesquecível</li>
         </ul>
 
-        <p>Entre em <a href="/#contact" class="text-primary hover:text-primary/80 underline font-medium">contato agora mesmo</a> e garanta seu lugar no paraíso para celebrar a chegada de 2025!</p>
+        <p>Entre em <a href="/#contact" class="text-primary hover:text-primary/80 underline font-medium">contato agora mesmo</a> e garanta seu lugar no paraíso para celebrar a chegada de 2026!</p>
 
-        <p class="highlight"><strong>Venha viver a magia do réveillon à beira-mar em Penha! Praias paradisíacas, fogos de artifício espetaculares e a tradicional hospitalidade catarinense esperam por você. Faça de 2025 um ano inesquecível desde o primeiro segundo!</strong></p>
+        <p class="highlight"><strong>Venha viver a magia do réveillon à beira-mar em Penha! Praias paradisíacas, fogos de artifício espetaculares e a tradicional hospitalidade catarinense esperam por você. Faça de 2026 um ano inesquecível desde o primeiro segundo!</strong></p>
       </div>
     `,
     image: blogReveillon
@@ -288,7 +288,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "melhores-praias-penha": {
     id: "melhores-praias-penha",
     title: "As Melhores Praias de Penha para Visitar",
-    date: "15 de Janeiro, 2026",
+    date: "15 de Outubro, 2025",
     content: `
       <div class="blog-content">
         <p class="lead"><strong>Penha</strong> é um verdadeiro paraíso para os amantes de praia! Com suas <strong>25 praias</strong>, a cidade oferece opções para todos os gostos.</p>
@@ -318,7 +318,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "roteiro-3-dias-penha": {
     id: "roteiro-3-dias-penha",
     title: "Roteiro de 3 Dias em Penha e Região",
-    date: "10 de Janeiro, 2026",
+    date: "10 de Setembro, 2025",
     content: `
       <div class="blog-content">
         <h2>Dia 1: Beto Carrero World</h2>
@@ -341,7 +341,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "gastronomia-penha": {
     id: "gastronomia-penha",
     title: "Gastronomia em Penha: Sabores do Litoral",
-    date: "5 de Janeiro, 2026",
+    date: "5 de Agosto, 2025",
     content: `
       <div class="blog-content">
         <h2>Frutos do Mar Fresquinhos</h2>
@@ -369,7 +369,7 @@ const blogPosts: Record<string, BlogPostData> = {
   "dicas-beto-carrero": {
     id: "dicas-beto-carrero",
     title: "Dicas Essenciais para Aproveitar o Beto Carrero World",
-    date: "28 de Dezembro, 2024",
+    date: "20 de Abril, 2025",
     content: `
       <div class="blog-content">
         <h2>Planeje com Antecedência</h2>
