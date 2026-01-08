@@ -5,18 +5,35 @@ import { Calendar, ArrowRight } from "lucide-react";
 
 import blogTemporadaVerao from "@/assets/blog-temporada-verao-penha.jpg";
 import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
-
+import blogVeraoJaneiro2026 from "@/assets/blog-verao-janeiro-2026.jpg";
+import blogCuidadosPele from "@/assets/blog-cuidados-pele-verao.jpg";
 const Blog = () => {
   const navigate = useNavigate();
   
   const blogPosts = [
+    {
+      slug: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
+      title: "Férias de Verão Jan/Fev/Mar 2026: Penha e Balneário Camboriú",
+      excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis, roteiros e dicas para aproveitar ao máximo suas férias de verão no litoral catarinense!",
+      date: "3 de Janeiro, 2026",
+      image: blogVeraoJaneiro2026,
+      featured: true,
+    },
+    {
+      slug: "cuidados-pele-verao-dicas-saude-praia-penha",
+      title: "Cuidados com a Pele no Verão: Guia de Proteção Solar",
+      excerpt: "Dicas essenciais de proteção solar, hidratação e saúde para curtir as praias de Penha com a pele protegida e saudável!",
+      date: "2 de Janeiro, 2026",
+      image: blogCuidadosPele,
+      featured: true,
+    },
     {
       slug: "temporada-verao-2025-2026-penha-sc",
       title: "Temporada de Verão 2025/2026 em Penha-SC",
       excerpt: "O guia completo para suas férias perfeitas no litoral catarinense. Praias, gastronomia, Beto Carrero e muito mais!",
       date: "22 de Dezembro, 2025",
       image: blogTemporadaVerao,
-      featured: true,
+      featured: false,
     },
     {
       slug: "reveillon-2026-penha-santa-catarina",
@@ -24,7 +41,7 @@ const Blog = () => {
       excerpt: "Celebre a virada do ano no paraíso do litoral catarinense. Queima de fogos, tradições e dicas para aproveitar!",
       date: "22 de Dezembro, 2025",
       image: blogReveillon,
-      featured: true,
+      featured: false,
     },
     {
       slug: "melhores-praias-penha",
