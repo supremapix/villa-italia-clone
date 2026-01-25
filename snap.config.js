@@ -5,6 +5,7 @@ module.exports = {
     "/",
     "/acomodacoes",
     "/bairros-penha",
+    // Praias oficiais (19)
     "/bairros-penha/armacao",
     "/bairros-penha/praia-alegre",
     "/bairros-penha/praia-grande",
@@ -23,13 +24,19 @@ module.exports = {
     "/bairros-penha/gravata",
     "/bairros-penha/paciencia",
     "/bairros-penha/cordas",
+    // Enseadas e trechos locais (6)
     "/bairros-penha/retiro",
     "/bairros-penha/farol",
     "/bairros-penha/pescadores",
     "/bairros-penha/fundinho",
     "/bairros-penha/mirante",
     "/bairros-penha/costao-quilombo",
-    "/bairros-penha/canto-armacao"
+    "/bairros-penha/canto-armacao",
+    // Blog posts
+    "/blog/ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
+    "/blog/cuidados-pele-verao-guia-protecao-ferias-praia",
+    "/blog/temporada-verao-2025-2026-penha-sc",
+    "/blog/reveillon-2025-2026-penha-sc"
   ],
   skipThirdPartyRequests: true,
   headless: true,

@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
+import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft } from "lucide-react";
 
@@ -772,8 +773,57 @@ const BlogPost = () => {
     );
   }
 
+  // Generate structured data for blog post
+  const articleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "image": post.image,
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Pousada Vila D'Itália",
+      "url": "https://www.pousadaviladitalia.com.br"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Pousada Vila D'Itália",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.pousadaviladitalia.com.br/og-image.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.pousadaviladitalia.com.br/blog/${slug}`
+    }
+  };
+
+  // Extract first 160 chars for meta description
+  const cleanContent = post.content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  const metaDescription = cleanContent.substring(0, 160) + '...';
+
   return (
     <div className="min-h-screen">
+      <EnhancedSEO
+        title={post.title}
+        description={metaDescription}
+        canonical={`/blog/${slug}`}
+        image={typeof post.image === 'string' ? post.image : undefined}
+        type="article"
+        keywords="pousada penha, turismo penha sc, praias penha, beto carrero world, hospedagem penha"
+        publishedTime={post.date}
+        modifiedTime={post.date}
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/#blog" },
+          { name: post.title.substring(0, 30) + '...', url: `/blog/${slug}` }
+        ]}
+        structuredData={articleStructuredData}
+        articleSection="Turismo"
+        articleTags={["Penha SC", "Turismo", "Praias", "Beto Carrero World", "Hospedagem"]}
+      />
       <Navigation />
       <main className="pt-24">
         <article className="container mx-auto px-4 py-12 max-w-4xl">

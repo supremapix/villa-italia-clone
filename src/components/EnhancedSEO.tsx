@@ -13,6 +13,8 @@ interface SEOProps {
   structuredData?: object;
   noIndex?: boolean;
   breadcrumbs?: { name: string; url: string }[];
+  articleSection?: string;
+  articleTags?: string[];
 }
 
 const BASE_URL = "https://www.pousadaviladitalia.com.br";
@@ -32,10 +34,13 @@ const EnhancedSEO = ({
   structuredData,
   noIndex = false,
   breadcrumbs,
+  articleSection,
+  articleTags,
 }: SEOProps) => {
   const fullTitle = `${title} | ${SITE_NAME}`;
   const currentPath = typeof window !== "undefined" ? window.location.pathname : "/";
   const canonicalUrl = `${BASE_URL}${canonical || currentPath}`;
+  const currentDate = new Date().toISOString().split('T')[0];
 
   const hotelStructuredData = {
     "@context": "https://schema.org",
@@ -83,6 +88,13 @@ const EnhancedSEO = ({
       "@type": "AggregateRating",
       "ratingValue": "4.8",
       "reviewCount": "247"
+    },
+    "hasMap": "https://maps.google.com/?cid=pousadaviladitalia",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   };
 
@@ -114,7 +126,65 @@ const EnhancedSEO = ({
     },
     "inLanguage": "pt-BR",
     "datePublished": publishedTime || "2024-01-01",
-    "dateModified": modifiedTime || new Date().toISOString().split('T')[0]
+    "dateModified": modifiedTime || currentDate,
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": image
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", ".lead", "p"]
+    }
+  };
+
+  const organizationStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": SITE_NAME,
+    "url": BASE_URL,
+    "logo": DEFAULT_IMAGE,
+    "sameAs": [
+      "https://www.instagram.com/pousadaviladitalia/",
+      "https://www.facebook.com/pousadaviladitalia/"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-47-99204-5122",
+      "contactType": "reservations",
+      "availableLanguage": ["Portuguese"]
+    }
+  };
+
+  const localBusinessStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": SITE_NAME,
+    "image": DEFAULT_IMAGE,
+    "url": BASE_URL,
+    "telephone": "+55-47-99204-5122",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Luis Vicente da Silva, 183",
+      "addressLocality": "Penha",
+      "addressRegion": "SC",
+      "postalCode": "88385-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -26.7729,
+      "longitude": -48.6412
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": -26.7729,
+        "longitude": -48.6412
+      },
+      "geoRadius": "50000"
+    }
   };
 
   return (
@@ -126,15 +196,22 @@ const EnhancedSEO = ({
       <meta name="author" content={author} />
       <link rel="canonical" href={canonicalUrl} />
       
+      {/* Robots e indexação avançada */}
       <meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"} />
-      <meta name="googlebot" content={noIndex ? "noindex, nofollow" : "index, follow"} />
+      <meta name="googlebot" content={noIndex ? "noindex, nofollow" : "index, follow, max-image-preview:large"} />
       <meta name="bingbot" content={noIndex ? "noindex, nofollow" : "index, follow"} />
+      <meta name="google" content="notranslate" />
+      <meta name="google-site-verification" content="" />
       
+      {/* Geolocalização */}
       <meta name="geo.region" content="BR-SC" />
       <meta name="geo.placename" content="Penha" />
       <meta name="geo.position" content="-26.7729;-48.6412" />
       <meta name="ICBM" content="-26.7729, -48.6412" />
+      <meta name="place:location:latitude" content="-26.7729" />
+      <meta name="place:location:longitude" content="-48.6412" />
       
+      {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={fullTitle} />
@@ -147,44 +224,84 @@ const EnhancedSEO = ({
       <meta property="og:site_name" content={SITE_NAME} />
       {publishedTime && <meta property="article:published_time" content={publishedTime} />}
       {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+      {articleSection && <meta property="article:section" content={articleSection} />}
+      {articleTags && articleTags.map((tag, i) => (
+        <meta key={i} property="article:tag" content={tag} />
+      ))}
       
+      {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={canonicalUrl} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:image:alt" content={title} />
+      <meta name="twitter:creator" content="@viladitalia" />
+      <meta name="twitter:site" content="@viladitalia" />
       
+      {/* Resource Hints - Performance */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link rel="preconnect" href="https://www.google-analytics.com" />
+      <link rel="preconnect" href="https://www.googletagmanager.com" />
       <link rel="dns-prefetch" href="https://book.omnibees.com" />
+      <link rel="dns-prefetch" href="https://api.whatsapp.com" />
+      <link rel="dns-prefetch" href="https://www.google.com" />
+      <link rel="dns-prefetch" href="https://maps.googleapis.com" />
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" as="style" />
       
+      {/* PWA e Mobile */}
       <meta name="theme-color" content="#2d5a27" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
       <meta name="format-detection" content="telephone=yes" />
       <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="application-name" content={SITE_NAME} />
+      <meta name="msapplication-TileColor" content="#2d5a27" />
+      <meta name="msapplication-config" content="/browserconfig.xml" />
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       
+      {/* Verificação de Propriedade */}
+      <meta name="facebook-domain-verification" content="" />
+      <meta name="p:domain_verify" content="" />
+      
+      {/* Structured Data - Hotel Principal */}
       <script type="application/ld+json">
         {JSON.stringify(hotelStructuredData)}
       </script>
+      
+      {/* Structured Data - WebPage */}
       {!structuredData && (
         <script type="application/ld+json">
           {JSON.stringify(webPageStructuredData)}
         </script>
       )}
+      
+      {/* Structured Data - Breadcrumbs */}
       {breadcrumbStructuredData && (
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbStructuredData)}
         </script>
       )}
+      
+      {/* Structured Data - Custom (Beach, Article, etc) */}
       {structuredData && (
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       )}
+      
+      {/* Structured Data - Organization */}
+      <script type="application/ld+json">
+        {JSON.stringify(organizationStructuredData)}
+      </script>
+      
+      {/* Structured Data - Local Business */}
+      <script type="application/ld+json">
+        {JSON.stringify(localBusinessStructuredData)}
+      </script>
     </Helmet>
   );
 };
