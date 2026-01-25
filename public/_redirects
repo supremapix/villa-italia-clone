@@ -1,1 +1,15 @@
-/*    /index.html   200
+# Netlify SPA Redirects
+# Todas as rotas devem redirecionar para index.html para React Router funcionar
+
+# Rotas de blog
+/blog/*  /index.html  200
+
+# Rotas de bairros/praias
+/bairros-penha  /index.html  200
+/bairros-penha/*  /index.html  200
+
+# Rota de acomodações
+/acomodacoes  /index.html  200
+
+# Catch-all para outras rotas SPA
+/*  /index.html  200
