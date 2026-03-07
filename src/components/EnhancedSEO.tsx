@@ -19,6 +19,7 @@ interface SEOProps {
 
 const BASE_URL = "https://www.pousadaviladitalia.com.br";
 const DEFAULT_IMAGE = "https://www.pousadaviladitalia.com.br/og-image.jpg";
+const LOGO_URL = "https://storage.googleapis.com/gpt-engineer-file-uploads/z3uM9QrEiaZcmzxCWIVMCntcMQg2/uploads/1764018807406-pousada-vila-d-italia-perto-beto-carero-world-128x103.png";
 const SITE_NAME = "Pousada Vila D'Italia";
 
 const EnhancedSEO = ({
@@ -142,7 +143,7 @@ const EnhancedSEO = ({
     "@type": "Organization",
     "name": SITE_NAME,
     "url": BASE_URL,
-    "logo": DEFAULT_IMAGE,
+    "logo": LOGO_URL,
     "sameAs": [
       "https://www.instagram.com/pousadaviladitalia/",
       "https://www.facebook.com/pousadaviladitalia/"
@@ -261,7 +262,8 @@ const EnhancedSEO = ({
       <meta name="msapplication-TileColor" content="#2d5a27" />
       <meta name="msapplication-config" content="/browserconfig.xml" />
       <link rel="manifest" href="/manifest.json" />
-      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" href="/favicon.png" />
+      <link rel="apple-touch-icon" href="/favicon.png" />
       
       {/* Verificação de Propriedade */}
       <meta name="facebook-domain-verification" content="" />
