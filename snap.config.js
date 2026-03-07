@@ -3,6 +3,7 @@ module.exports = {
   destination: "dist",
   include: [
     "/",
+    "/faq",
     "/acomodacoes",
     "/bairros-penha",
     // Praias oficiais (19)

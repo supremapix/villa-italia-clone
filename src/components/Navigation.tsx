@@ -48,6 +48,7 @@ const Navigation = () => {
     { label: "Acomodações", id: "/acomodacoes", type: "route" as const },
     { label: "Lazer", id: "leisure", type: "scroll" as const },
     { label: "Localização", id: "location", type: "scroll" as const },
+    { label: "FAQ", id: "/faq", type: "route" as const },
     { label: "Contato", id: "contact", type: "scroll" as const },
   ];
 
