@@ -993,7 +993,9 @@ const Neighborhoods = () => {
           title={neighborhood.metaTitle || `${neighborhood.name} - Penha SC`}
           description={neighborhood.metaDescription || neighborhood.description}
           canonical={`/bairros-penha/${slug}`}
-          keywords={`${neighborhood.name}, praia penha sc, praias santa catarina, litoral catarinense, turismo penha`}
+          type="place"
+          image={typeof neighborhood.image === 'string' ? neighborhood.image : undefined}
+          keywords={`${neighborhood.name}, praia penha sc, praias santa catarina, litoral catarinense, turismo penha, pousada penha sc, hospedagem penha`}
           breadcrumbs={[
             { name: "Home", url: "/" },
             { name: "Praias de Penha", url: "/bairros-penha" },
@@ -1009,6 +1011,20 @@ const Neighborhoods = () => {
               "addressLocality": "Penha",
               "addressRegion": "SC",
               "addressCountry": "BR"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "-26.7729",
+              "longitude": "-48.6412"
+            },
+            "touristType": "Famílias, Casais, Turistas",
+            "containedInPlace": {
+              "@type": "City",
+              "name": "Penha",
+              "containedInPlace": {
+                "@type": "State",
+                "name": "Santa Catarina"
+              }
             }
           }}
         />
