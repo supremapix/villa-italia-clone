@@ -753,6 +753,219 @@ const blogPosts: Record<string, BlogPostData> = {
       </div>
     `,
     image: penhaBeach3
+  },
+  "guia-completo-penha-sc-beto-carrero": {
+    id: "guia-completo-penha-sc-beto-carrero",
+    title: "Guia Completo de Penha SC: Beto Carrero World, Praias, Restaurantes e Hospedagem para Famílias",
+    date: "1 de Março, 2025",
+    content: `
+      <div class="blog-content">
+        <p class="lead">Penha é uma das cidades mais visitadas do litoral norte de Santa Catarina — e não é por acaso. Situada a apenas 14 km do Aeroporto Internacional de Navegantes e a 80 km de Florianópolis, a cidade reúne em poucos quilômetros o que a maioria das famílias brasileiras sonha em uma viagem: o maior parque temático da América Latina, praias de água morna e tranquilas, boa gastronomia e hospedagem de qualidade com excelente custo-benefício.</p>
+
+        <p>Com mais de 19 praias, atração para todos os gostos e infraestrutura turística desenvolvida, Penha recebe turistas de todo o Sul e Sudeste do Brasil — especialmente de São Paulo, Curitiba, Porto Alegre, Florianópolis, Blumenau e Joinville. Neste guia completo, você vai encontrar tudo que precisa para planejar sua viagem a Penha com a família e aproveitar cada dia ao máximo.</p>
+
+        <h2>Por Que Penha SC é o Destino Preferido das Famílias do Sul do Brasil</h2>
+
+        <h3>Localização Estratégica no Litoral Norte de SC</h3>
+        <p>Penha está situada entre Itajaí e Balneário Camboriú, com fácil acesso pela BR-101 — a principal rodovia do litoral catarinense. O Aeroporto Internacional de Navegantes (NVT) fica a apenas 14 km, tornando a chegada por avião extremamente prática. A cidade conecta-se facilmente a todos os grandes centros urbanos do Sul e Sudeste: 14km de Itajaí, 30km de Balneário Camboriú, 80km de Florianópolis, 95km de Joinville, 70km de Blumenau, 140km de Curitiba (via balsa em Guaratuba), 230km de Ponta Grossa, 380km de Chapecó, 400km de Cascavel, 470km de Porto Alegre, 470km de São Paulo, 520km de Londrina e 540km de Maringá. Essa localização central faz de Penha o ponto de encontro de famílias de toda a região Sul.</p>
+
+        <h3>Clima em Penha — Quando Ir</h3>
+        <p>O clima em Penha é agradável o ano todo, com características distintas por estação. No <strong>verão (dezembro a fevereiro)</strong> as temperaturas ficam entre 25°C e 32°C, com mar quente e muito movimento. O <strong>outono (março a maio)</strong> é excelente — menos turistas, temperaturas agradáveis e preços mais acessíveis. O <strong>inverno (junho a agosto)</strong> é fresco mas com sol frequente, perfeito para quem quer preços baixos e tranquilidade — a piscina aquecida da Vila D'Italia é perfeita para esta época. A <strong>primavera (setembro a novembro)</strong> oferece clima excelente, menos movimento e ótimo custo-benefício.</p>
+
+        <h2>Beto Carrero World — O Maior Parque Temático da América Latina</h2>
+
+        <h3>O Que é o Beto Carrero World</h3>
+        <p>Fundado em 1991 em Penha SC, o Beto Carrero World é o maior parque temático da América Latina, com uma área total de mais de 1,5 milhão de m². O parque conta com mais de 100 atrações entre brinquedos, shows ao vivo e áreas temáticas imersivas, sendo visitado por mais de 2 milhões de pessoas por ano. São 11 áreas temáticas que transportam o visitante para mundos diferentes: Far West, Fantasia, Mundo da Criança, África, França do Séc XVII, Floresta Encantada, Ilha da Fantasia, Esquina das Artes, Terra da Magia, Aventura Radical e Rio Country. Os shows diurnos e noturnos estão inclusos no ingresso, oferecendo entretenimento completo para todas as idades.</p>
+
+        <h3>Como Aproveitar o Beto Carrero ao Máximo</h3>
+        <p>Para aproveitar ao máximo sua visita:</p>
+        <ul>
+          <li><strong>Chegue cedo</strong> — o parque abre às 8h ou 9h dependendo da temporada</li>
+          <li><strong>Leve roupa de banho</strong> para as atrações molhadas</li>
+          <li><strong>Use sapato confortável</strong> — você vai caminhar muito</li>
+          <li><strong>Protetor solar e chapéu</strong> são essenciais</li>
+          <li><strong>Baixe o app oficial</strong> do parque para ver horários dos shows</li>
+          <li><strong>Leve lanches</strong> ou planeje refeições dentro do parque</li>
+          <li><strong>Vá de segunda a sexta</strong> para pegar menos fila</li>
+          <li><strong>Atrações infantis</strong> ficam separadas — planeje o roteiro</li>
+          <li><strong>Veja a programação</strong> dos shows no dia da visita</li>
+        </ul>
+
+        <h3>Quanto Custa o Ingresso do Beto Carrero</h3>
+        <p>Os preços variam conforme a data (pico vs baixa temporada). Estudantes têm meia-entrada com documento, e crianças até 1 metro não pagam. A compra online geralmente oferece desconto e evita filas na bilheteria. A pousada pode auxiliar com informações atualizadas — consulte na chegada.</p>
+
+        <h3>Como ir do Hotel ao Beto Carrero World</h3>
+        <p>De carro são apenas 5 a 10 minutos da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a>. Táxi e aplicativos de transporte são opções práticas. Há também ônibus municipal — consulte os horários no destino. A pousada fica a 2,5km do parque — uma das hospedagens mais próximas de Penha.</p>
+
+        <h2>As Melhores Praias de Penha SC</h2>
+
+        <h3>Praia da Armação — A Mais Famosa de Penha</h3>
+        <p>A Praia da Armação é a praia mais popular e estruturada de Penha SC. Com águas calmas e mornas, fundo de areia e ondas fracas, é o destino ideal para famílias com crianças. A infraestrutura é completa: quiosques, restaurantes, lanchonetes, banheiros, duchas e estacionamento. No verão o movimento é intenso, mas no outono e inverno a praia fica tranquila e igualmente bonita. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a apenas 80 metros desta praia — a caminhada mais curta possível!</p>
+
+        <h3>Praia do Manguinho</h3>
+        <p>Menos agitada que a Armação, a Praia do Manguinho é conhecida por suas águas mais calmas e cristalinas, sendo excelente para mergulho e snorkeling. Ideal para quem busca um dia mais tranquilo junto ao mar.</p>
+
+        <h3>Praia de Piçarras (Balneário Piçarras)</h3>
+        <p>No município vizinho, a apenas 10 minutos de carro, a Praia de Piçarras oferece águas tranquilas e boa infraestrutura de quiosques e restaurantes.</p>
+
+        <h3>Praia Alegre e Praia da Saudade</h3>
+        <p>Opções mais tranquilas no norte de Penha, perfeitas para quem quer sossego, contato com a natureza e fugir das praias mais movimentadas.</p>
+
+        <h3>As 19 Praias de Penha</h3>
+        <p>Penha tem 19 praias ao total, cada uma com personalidade própria. Vale a pena explorar as menos conhecidas para momentos de tranquilidade e descobertas.</p>
+
+        <h2>Onde se Hospedar em Penha SC para Ir ao Beto Carrero</h2>
+
+        <h3>Por Que Escolher Pousada Perto do Beto Carrero World</h3>
+        <p>Escolher uma hospedagem próxima ao parque traz inúmeras vantagens: menor deslocamento significa mais energia para aproveitar as atrações, facilidade para quem vai visitar o parque em vários dias, opção de voltar para o hotel para almoçar, menor custo com táxi/uber e mais tempo de descanso. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a 2,5km do parque e a 80m da praia — a combinação perfeita para famílias.</p>
+
+        <h3>Pousada Vila D'Italia — Pousada Perto da Praia e do Beto Carrero em Penha</h3>
+        <p>A Pousada Vila D'Italia está localizada na Rua Luís Vicente da Silva, 183, no bairro Armação em Penha SC. A apenas 80m da Praia da Armação e 2,5km do Beto Carrero World, oferece 15 quartos equipados com ar-condicionado, TV de tela plana, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (coberta aquecida + ao ar livre), jacuzzi e hidromassagem, café da manhã incluso em estilo buffet, restaurante e bar próprios, estacionamento gratuito e Wi-Fi em todas as áreas. Aceita pets e tem avaliação 8.3 no Booking e 8.5 na Decolar. "Melhor custo-benefício para famílias em Penha" é a avaliação recorrente dos hóspedes.</p>
+
+        <h2>O Que Fazer em Penha Além do Beto Carrero</h2>
+
+        <h3>Passeio de Escuna Pirata Capitão Gato</h3>
+        <p>Um passeio emocionante para toda a família! A escuna pirata navega pelas águas de Penha com animação, música e paradas para banho. As crianças adoram a experiência de pirata e os adultos aproveitam as paisagens deslumbrantes do litoral.</p>
+
+        <h3>Kartódromo Internacional Beto Carrero</h3>
+        <p>Para os amantes de velocidade, o kartódromo oferece pistas profissionais com karts para diferentes idades. Diversão garantida para adolescentes e adultos que querem uma dose extra de adrenalina.</p>
+
+        <h3>Explorando o Litoral Norte de SC</h3>
+        <p>A região do litoral norte de Santa Catarina oferece dezenas de atrações naturais: trilhas ecológicas, cachoeiras, mirantes panorâmicos e vilarejos charmosos. Cada cidade vizinha tem sua personalidade e vale uma visita.</p>
+
+        <h3>Gastronomia em Penha — Frutos do Mar</h3>
+        <p>Penha é famosa pela qualidade excepcional de seus frutos do mar. Os pescadores locais trazem diariamente peixes, camarões, lulas e ostras frescas. A sequência de camarão e o peixe na telha são pratos obrigatórios para qualquer visitante.</p>
+
+        <h3>Balneário Camboriú — 30km de Penha</h3>
+        <p>A "Dubai Brasileira" oferece a experiência urbana mais sofisticada do litoral sul. O teleférico Unipraias, o Cristo Luz, a praia central com seus arranha-céus e a vida noturna agitada fazem de BC um bate-volta obrigatório.</p>
+
+        <h3>Itajaí — 14km de Penha</h3>
+        <p>Porto comercial importante, Itajaí surpreende com seu centro histórico, o Mercado Público Municipal e praias bonitas como a Praia Brava, que atrai surfistas de todo o Brasil.</p>
+
+        <h2>Dicas Práticas para Visitar Penha com a Família</h2>
+        <ol>
+          <li><strong>Reserve a pousada com antecedência</strong> — mínimo 60 dias em alta temporada</li>
+          <li><strong>Compre o ingresso do Beto Carrero online</strong> — mais barato e sem fila</li>
+          <li><strong>Leve roupa de banho extra</strong> para o parque (atrações molhadas)</li>
+          <li><strong>Aproveite a piscina da pousada</strong> para descansar à noite</li>
+          <li><strong>Explore as praias de manhã</strong> antes do parque ou à tarde</li>
+          <li><strong>Leve dinheiro e cartão</strong> — nem tudo aceita cartão na praia</li>
+          <li><strong>Baixe o app do Beto Carrero</strong> antes de chegar</li>
+          <li><strong>Use protetor solar todos os dias</strong> — o sol do litoral é forte</li>
+          <li><strong>Experimente o fruto do mar local</strong> — sequência de camarão é imperdível</li>
+          <li><strong>Reserve 2 dias para o Beto Carrero</strong> — um dia não é suficiente</li>
+        </ol>
+
+        <h2>Conclusão</h2>
+        <p>Penha é um destino que conquista todos que visitam — a combinação de parque temático de nível mundial com praias de águas limpas e gastronomia rica de frutos do mar cria uma experiência completa para toda a família. A cidade tem infraestrutura para todos os perfis de viajante e todos os orçamentos.</p>
+
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é uma das opções com melhor custo-benefício em Penha para quem quer ficar perto de tudo. Com 80m da praia, 2,5km do Beto Carrero, piscina aquecida, café da manhã incluso e atendimento familiar, a pousada foi feita para famílias que querem conforto, praticidade e preço justo.</p>
+
+        <p class="highlight"><strong>Planeje sua viagem a Penha SC agora! Reserve sua estadia na Pousada Vila D'Italia e viva férias inesquecíveis com sua família no litoral catarinense.</strong></p>
+      </div>
+    `,
+    image: penhaBeach1
+  },
+  "praias-penha-sc-litoral-norte": {
+    id: "praias-penha-sc-litoral-norte",
+    title: "As 19 Praias de Penha SC — Guia Completo: Qual Visitar, Como Chegar e Dicas por Perfil",
+    date: "1 de Março, 2025",
+    content: `
+      <div class="blog-content">
+        <p class="lead">Poucos sabem, mas Penha em Santa Catarina tem 19 praias diferentes — e cada uma com uma personalidade própria. Enquanto a Praia da Armação concentra o maior movimento com infraestrutura completa e fica a passos do centro turístico, outras praias do município oferecem tranquilidade, águas calmas e a sensação de ter o mar quase só para você.</p>
+
+        <p>Este guia completo vai te ajudar a escolher as melhores praias de Penha para o seu perfil: seja você uma família com crianças pequenas, um casal em busca de sossego, surfistas em busca de ondas ou aventureiros que querem explorar o litoral norte de Santa Catarina sem as multidões das grandes cidades litorâneas.</p>
+
+        <h2>Mapa das Praias de Penha SC</h2>
+        <p>O litoral de Penha se estende por mais de 20 km de costa, com praias distribuídas em diferentes orientações — voltadas para norte, leste e sul. Isso significa condições variadas de mar, vento e ondas dependendo da praia escolhida. Para se locomover entre as praias, o carro é a opção mais prática, mas muitas ficam a distâncias curtas e podem ser alcançadas a pé ou de bicicleta.</p>
+
+        <h2>Praia da Armação — A Rainha das Praias de Penha</h2>
+
+        <h3>Como é a Praia da Armação</h3>
+        <p>A Praia da Armação do Itapocorói é a praia mais famosa e estruturada de Penha SC. Localizada na área central turística da cidade, oferece fácil acesso por ruas asfaltadas e sinalização clara. O mar de água morna tem fundo de areia e ondas fracas a moderadas — ideal para famílias com crianças, banho de mar e esportes aquáticos leves. A infraestrutura é completa: barracas, quiosques, duchas, estacionamento e comércio variado ao redor. No verão o movimento é muito alto, mas no outono e inverno a praia fica tranquila e igualmente bonita. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a apenas 80 metros desta praia.</p>
+
+        <h3>Como Chegar na Praia da Armação</h3>
+        <p>Da Pousada Vila D'Italia são apenas 80 metros — uma caminhada de 1 a 2 minutos. De carro, acesse pela Rua Luís Vicente da Silva no bairro Armação. Há estacionamento público e privado nas proximidades.</p>
+
+        <h3>Melhores Horários para Visitar</h3>
+        <p>Manhã cedo (antes das 9h) para quem quer tranquilidade. Tarde (após as 16h) para mar mais calmo no verão. No inverno, qualquer horário é tranquilo e agradável.</p>
+
+        <h2>Praia do Manguinho — Ideal para Mergulho</h2>
+        <p>A Praia do Manguinho é um tesouro escondido em Penha. Com águas mais claras e calmas que a maioria das praias da região, é o destino preferido para mergulho e snorkeling. A vida marinha visível a olho nu encanta visitantes de todas as idades. O acesso é fácil e a infraestrutura, embora mais simples que a Armação, atende bem os visitantes. A praia tem menor movimento mesmo no verão, tornando-a perfeita para quem busca uma experiência mais intimista com o mar. A história local conta que o nome vem dos antigos manguezais que cercavam a área.</p>
+
+        <h2>Praia Alegre — Para Quem Quer Sossego</h2>
+        <p>Fiel ao nome, a Praia Alegre é uma das praias mais tranquilas e charmosas de Penha. Com faixa de areia menor e menos estrutura comercial, atrai quem busca paz e contato direto com a natureza. As águas são calmas e mornas, com fundo de areia macia. É o tipo de praia onde você pode estender a canga, ler um livro e esquecer do mundo. Poucos turistas conhecem, o que a torna ainda mais especial para casais e famílias que valorizam sossego.</p>
+
+        <h2>Praia da Saudade</h2>
+        <p>A Praia da Saudade carrega no nome a nostalgia de quem já a visitou e não vê a hora de voltar. Com águas cristalinas e vegetação nativa ao redor, oferece uma paisagem preservada e natural. O acesso é um pouco mais rústico, mas recompensa com uma beleza quase intocada. Ideal para caminhadas, fotos e momentos de contemplação. No verão, recebe um movimento moderado, mas nunca fica lotada como as praias centrais.</p>
+
+        <h2>Praia da Bacia da Vovó</h2>
+        <p>Com um nome peculiar e encantador, a Praia da Bacia da Vovó é uma pequena enseada protegida que forma uma espécie de piscina natural. As águas são extremamente calmas e rasas — perfeitas para crianças pequenas e idosos. É uma das praias mais seguras de Penha para banho, com cenário rochoso que emoldura a paisagem.</p>
+
+        <h2>Praia da Cancela</h2>
+        <p>A Praia da Cancela é outra joia pouco explorada de Penha. Com acesso mais restrito e menor infraestrutura, atrai aventureiros e amantes da natureza. As formações rochosas ao redor criam cenários únicos para fotos. O mar varia entre calmo e moderado dependendo da maré.</p>
+
+        <h2>Outras Praias de Penha para Explorar</h2>
+
+        <h3>Praia do Itapocorói</h3>
+        <p>Uma das praias históricas de Penha, a Praia do Itapocorói mistura natureza com cultura local. A igreja centenária próxima à praia e as casas de pescadores dão um charme especial ao local. Boa para caminhadas e fotografia.</p>
+
+        <h3>Praia do Encanto</h3>
+        <p>Como o nome sugere, a Praia do Encanto surpreende pela beleza natural e pelas águas cristalinas. Menos conhecida pelos turistas, é frequentada por moradores locais que guardam bem esse segredo. Boa para mergulho e pesca.</p>
+
+        <h3>Praia da Enseada</h3>
+        <p>Protegida por uma enseada natural, esta praia oferece águas calmas e cenário tranquilo. Boa opção para quem quer variar o roteiro de praias sem se afastar muito do centro de Penha.</p>
+
+        <h3>Praia do Morro do Mosqueiro</h3>
+        <p>Para os mais aventureiros, a Praia do Morro do Mosqueiro combina trilha ecológica com praia. O acesso exige uma caminhada, mas a recompensa é uma praia quase deserta com natureza exuberante.</p>
+
+        <h2>Qual a Melhor Praia de Penha para Cada Perfil</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+          <thead>
+            <tr style="background: rgba(0,105,148,0.1);">
+              <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;"><strong>Perfil</strong></th>
+              <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;"><strong>Praia Recomendada</strong></th>
+              <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;"><strong>Por quê</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Família com crianças</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Armação</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Mar calmo, infraestrutura, 80m da pousada</td></tr>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Sossego e tranquilidade</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Praia Alegre ou Saudade</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Menos movimento</td></tr>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Esportes aquáticos</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Armação e Manguinho</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Melhor estrutura</td></tr>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Mergulho</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Manguinho</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Águas mais claras</td></tr>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Próxima ao Beto Carrero</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Armação</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Mais próximo do parque</td></tr>
+            <tr><td style="padding: 10px; border-bottom: 1px solid #eee;">Primeira visita</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Armação</td><td style="padding: 10px; border-bottom: 1px solid #eee;">Referência em Penha</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Dicas para Aproveitar as Praias de Penha</h2>
+        <ol>
+          <li><strong>Use protetor solar FPS 50+</strong> — o sol do litoral catarinense é intenso</li>
+          <li><strong>Chegue cedo às praias populares</strong> (antes das 9h no verão)</li>
+          <li><strong>Leve guarda-sol e cadeiras</strong> — nem todas as praias têm aluguel</li>
+          <li><strong>Hidrate-se constantemente</strong> — beba água o dia todo</li>
+          <li><strong>Respeite a natureza</strong> — não deixe lixo na areia</li>
+          <li><strong>Observe as bandeiras</strong> dos salva-vidas antes de entrar no mar</li>
+          <li><strong>Explore além da Armação</strong> — cada praia tem sua beleza</li>
+          <li><strong>Use calçado adequado</strong> para praias com acesso por trilha</li>
+          <li><strong>Visite no outono/primavera</strong> para praias mais vazias</li>
+          <li><strong>Leve dinheiro trocado</strong> para quiosques menores</li>
+        </ol>
+
+        <h2>Como se Hospedar Perto das Praias de Penha</h2>
+
+        <h3>Pousada na Praia da Armação — Melhor Opção</h3>
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a melhor opção para quem quer ficar perto das praias de Penha. Localizada a apenas 80 metros da Praia da Armação — a principal e mais estruturada da cidade — a pousada oferece a combinação perfeita de localização e conforto. São 15 quartos com ar-condicionado, TV, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (uma coberta aquecida para os dias mais frios), jacuzzi, café da manhã incluso, restaurante próprio e estacionamento gratuito. A 2,5km do Beto Carrero World, é a base perfeita para explorar tanto as praias quanto o parque. Aceita pets e tem avaliação 8.3 no Booking e 8.5 na Decolar.</p>
+
+        <h2>Conclusão</h2>
+        <p>Penha vai muito além do Beto Carrero World — suas 19 praias são um convite permanente para explorar, descobrir e se apaixonar pelo litoral catarinense. Cada praia tem sua personalidade, e parte da diversão é justamente encontrar aquela que combina com o seu estilo.</p>
+
+        <p>Com base na <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a>, a apenas 80 metros da Praia da Armação, você tem o ponto de partida perfeito para explorar todas as praias de Penha e região. Café da manhã para começar o dia, piscina aquecida para relaxar à noite e a praia a poucos passos — férias como devem ser.</p>
+
+        <p class="highlight"><strong>Reserve sua estadia na Pousada Vila D'Italia e descubra as 19 praias de Penha SC! De águas calmas para famílias a recantos escondidos para aventureiros, o litoral de Penha espera por você.</strong></p>
+      </div>
+    `,
+    image: penhaBeach3
   }
 };
 

@@ -130,7 +130,39 @@ const Footer = () => {
                   onClick={() => window.location.href = "/faq"}
                   className="text-background/80 hover:text-primary transition-smooth"
                 >
-                  FAQ
+                  Perguntas Frequentes
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.location.href = "/blog"}
+                  className="text-background/80 hover:text-primary transition-smooth"
+                >
+                  Blog da Pousada
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.location.href = "/blog/guia-completo-penha-sc-beto-carrero"}
+                  className="text-background/80 hover:text-primary transition-smooth"
+                >
+                  Penha e Beto Carrero
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.location.href = "/blog/praias-penha-sc-litoral-norte"}
+                  className="text-background/80 hover:text-primary transition-smooth"
+                >
+                  Praias de Penha
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.location.href = "/faq#localizacao"}
+                  className="text-background/80 hover:text-primary transition-smooth"
+                >
+                  Pousada perto Beto Carrero
                 </button>
               </li>
               <li>
