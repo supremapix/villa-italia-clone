@@ -52,6 +52,7 @@ const Index = () => {
         <Location />
         <PenhaSection />
         <PenhaNews />
+        <KnowledgeSection />
         <SocialMedia />
         <Blog />
         <InstagramFeed />
