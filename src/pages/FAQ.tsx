@@ -431,7 +431,7 @@ const FAQ = () => {
 
   const stats = [
     { value: "42", label: "Perguntas" },
-    { value: "15", label: "Quartos" },
+    { value: "18", label: "Quartos" },
     { value: "80m", label: "da Praia" },
     { value: "☕", label: "Café Incluso" },
   ];
