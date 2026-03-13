@@ -55,7 +55,7 @@ const faqItems: FAQItem[] = [
   {
     category: "quartos",
     question: "Quantos quartos a pousada tem?",
-    answer: "A Pousada Vila D'Italia tem 15 quartos aconchegantes com diferentes configurações para atender casais, famílias e grupos. Todos com ar-condicionado, TV de tela plana, frigobar, banheiro privativo com chuveiro, secador de cabelo, roupa de cama e toalhas."
+    answer: "A Pousada Vila D'Italia tem 18 quartos aconchegantes com diferentes configurações para atender casais, famílias e grupos. Todos com ar-condicionado, TV de tela plana, frigobar, banheiro privativo com chuveiro, secador de cabelo, roupa de cama e toalhas."
   },
   {
     category: "quartos",
