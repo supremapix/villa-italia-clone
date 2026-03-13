@@ -19,13 +19,31 @@ import penhaBeach3 from "@/assets/penha-beach-3.jpg";
 
 const blogPosts = [
   {
+    slug: "festas-eventos-penha-sc-abril-julho-2026",
+    title: "Festas e Eventos em Penha SC de Abril a Julho 2026: Calendário Completo",
+    excerpt: "Descubra as festas juninas, eventos gastronômicos e atrações de baixa temporada em Penha SC. Preços até 40% menores e Beto Carrero sem filas!",
+    date: "13 de Março, 2026",
+    image: blogFestasPenha,
+    category: "Eventos",
+    featured: true,
+  },
+  {
+    slug: "beto-carrero-world-guia-completo-familias-2026",
+    title: "Beto Carrero World 2026: Guia Completo para Famílias",
+    excerpt: "Tudo sobre o maior parque da América Latina: atrações por faixa etária, ingressos com desconto, roteiro de 1 dia e onde ficar a 5 min do parque.",
+    date: "13 de Março, 2026",
+    image: blogBetoCarreroOutono,
+    category: "Atrações",
+    featured: true,
+  },
+  {
     slug: "guia-completo-penha-sc-beto-carrero",
     title: "Guia Completo de Penha SC: Beto Carrero World, Praias e Onde se Hospedar",
     excerpt: "Planeje sua viagem a Penha SC com este guia completo: o que fazer, as melhores praias, como aproveitar o Beto Carrero World e dicas de hospedagem na Praia da Armação.",
     date: "1 de Março, 2025",
     image: penhaBeach1,
     category: "Guias",
-    featured: true,
+    featured: false,
   },
   {
     slug: "praias-penha-sc-litoral-norte",
@@ -34,7 +52,7 @@ const blogPosts = [
     date: "1 de Março, 2025",
     image: penhaBeach3,
     category: "Praias",
-    featured: true,
+    featured: false,
   },
   {
     slug: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
