@@ -273,7 +273,7 @@ const BlogIndex = () => {
               <Button size="lg" className="bg-secondary hover:bg-secondary-dark text-secondary-foreground text-lg px-8 py-6">Verificar Disponibilidade</Button>
             </a>
             <a href="https://wa.me/5547992738090" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6">WhatsApp</Button>
+              <Button size="lg" variant="outline" className="border-white text-white bg-transparent hover:bg-white hover:text-primary text-lg px-8 py-6">WhatsApp</Button>
             </a>
           </div>
         </div>

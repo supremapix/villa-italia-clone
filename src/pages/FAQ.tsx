@@ -695,7 +695,7 @@ const FAQ = () => {
               </Button>
             </a>
             <a href="https://wa.me/5547992738090?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20uma%20reserva" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6 gap-2">
+              <Button size="lg" variant="outline" className="border-white text-white bg-transparent hover:bg-white hover:text-primary text-lg px-8 py-6 gap-2">
                 <MessageCircle className="w-5 h-5" />
                 WhatsApp
               </Button>
