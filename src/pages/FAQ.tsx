@@ -396,7 +396,7 @@ const FAQ = () => {
       { "@type": "LocationFeatureSpecification", "name": "Academia" },
       { "@type": "LocationFeatureSpecification", "name": "Restaurante" }
     ],
-    "numberOfRooms": 15,
+    "numberOfRooms": 18,
     "petsAllowed": true,
     "checkinTime": "14:00",
     "checkoutTime": "12:00",

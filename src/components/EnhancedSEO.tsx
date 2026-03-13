@@ -73,7 +73,7 @@ const EnhancedSEO = ({
     },
     "checkinTime": "14:00",
     "checkoutTime": "11:30",
-    "numberOfRooms": "30",
+    "numberOfRooms": "18",
     "petsAllowed": false,
     "amenityFeature": [
       {"@type": "LocationFeatureSpecification", "name": "Piscina ao ar livre"},
