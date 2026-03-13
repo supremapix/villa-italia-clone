@@ -339,7 +339,7 @@ const FAQ = () => {
       id: "pousada-penha-barata",
       title: "Pousada Penha Barata",
       content: (
-        <p>A Pousada Vila D'Italia oferece o <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha SC</Link> — café da manhã incluso, piscina, Wi-Fi, estacionamento e 15 quartos confortáveis com tarifas acessíveis para famílias de todos os perfis. Compare e veja: estrutura completa com preço justo a 5 min do Beto Carrero e passos da praia.</p>
+        <p>A Pousada Vila D'Italia oferece o <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha SC</Link> — café da manhã incluso, piscina, Wi-Fi, estacionamento e 18 quartos confortáveis com tarifas acessíveis para famílias de todos os perfis. Compare e veja: estrutura completa com preço justo a 5 min do Beto Carrero e passos da praia.</p>
       )
     },
     {
