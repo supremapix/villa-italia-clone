@@ -55,7 +55,7 @@ const faqItems: FAQItem[] = [
   {
     category: "quartos",
     question: "Quantos quartos a pousada tem?",
-    answer: "A Pousada Vila D'Italia tem 15 quartos aconchegantes com diferentes configurações para atender casais, famílias e grupos. Todos com ar-condicionado, TV de tela plana, frigobar, banheiro privativo com chuveiro, secador de cabelo, roupa de cama e toalhas."
+    answer: "A Pousada Vila D'Italia tem 18 quartos aconchegantes com diferentes configurações para atender casais, famílias e grupos. Todos com ar-condicionado, TV de tela plana, frigobar, banheiro privativo com chuveiro, secador de cabelo, roupa de cama e toalhas."
   },
   {
     category: "quartos",
@@ -311,7 +311,7 @@ const FAQ = () => {
       id: "pousada-penha-2-estrelas",
       title: "Pousada Penha 2 Estrelas",
       content: (
-        <p>A Pousada Vila D'Italia oferece estrutura completa com piscina, café da manhã, Wi-Fi, estacionamento e 15 quartos confortáveis em Penha SC. Nota 8.3 no Booking.com e 8.5 na Decolar — avaliada pelos hóspedes como muito boa. O <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha</Link> para famílias e casais.</p>
+        <p>A Pousada Vila D'Italia oferece estrutura completa com piscina, café da manhã, Wi-Fi, estacionamento e 18 quartos confortáveis em Penha SC. Nota 8.3 no Booking.com e 8.5 na Decolar — avaliada pelos hóspedes como muito boa. O <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha</Link> para famílias e casais.</p>
       )
     },
     {
@@ -339,7 +339,7 @@ const FAQ = () => {
       id: "pousada-penha-barata",
       title: "Pousada Penha Barata",
       content: (
-        <p>A Pousada Vila D'Italia oferece o <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha SC</Link> — café da manhã incluso, piscina, Wi-Fi, estacionamento e 15 quartos confortáveis com tarifas acessíveis para famílias de todos os perfis. Compare e veja: estrutura completa com preço justo a 5 min do Beto Carrero e passos da praia.</p>
+        <p>A Pousada Vila D'Italia oferece o <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha SC</Link> — café da manhã incluso, piscina, Wi-Fi, estacionamento e 18 quartos confortáveis com tarifas acessíveis para famílias de todos os perfis. Compare e veja: estrutura completa com preço justo a 5 min do Beto Carrero e passos da praia.</p>
       )
     },
     {
@@ -396,7 +396,7 @@ const FAQ = () => {
       { "@type": "LocationFeatureSpecification", "name": "Academia" },
       { "@type": "LocationFeatureSpecification", "name": "Restaurante" }
     ],
-    "numberOfRooms": 15,
+    "numberOfRooms": 18,
     "petsAllowed": true,
     "checkinTime": "14:00",
     "checkoutTime": "12:00",
