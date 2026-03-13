@@ -12,6 +12,8 @@ import blogTemporadaVerao from "@/assets/blog-temporada-verao-penha.jpg";
 import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
 import blogVeraoJaneiro2026 from "@/assets/blog-verao-janeiro-2026.jpg";
 import blogCuidadosPele from "@/assets/blog-cuidados-pele-verao.jpg";
+import blogFestasPenha from "@/assets/blog-festas-penha.jpg";
+import blogBetoCarreroOutono from "@/assets/blog-beto-carrero-outono.jpg";
 import penhaBeach1 from "@/assets/penha-beach-1.webp";
 import penhaBeach2 from "@/assets/penha-beach-2.webp";
 import penhaBeach3 from "@/assets/penha-beach-3.jpg";
