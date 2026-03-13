@@ -311,7 +311,7 @@ const FAQ = () => {
       id: "pousada-penha-2-estrelas",
       title: "Pousada Penha 2 Estrelas",
       content: (
-        <p>A Pousada Vila D'Italia oferece estrutura completa com piscina, café da manhã, Wi-Fi, estacionamento e 15 quartos confortáveis em Penha SC. Nota 8.3 no Booking.com e 8.5 na Decolar — avaliada pelos hóspedes como muito boa. O <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha</Link> para famílias e casais.</p>
+        <p>A Pousada Vila D'Italia oferece estrutura completa com piscina, café da manhã, Wi-Fi, estacionamento e 18 quartos confortáveis em Penha SC. Nota 8.3 no Booking.com e 8.5 na Decolar — avaliada pelos hóspedes como muito boa. O <Link to="/#why-penha" className="text-secondary font-semibold hover:underline">melhor custo-benefício de Penha</Link> para famílias e casais.</p>
       )
     },
     {
