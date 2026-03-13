@@ -968,6 +968,330 @@ const blogPosts: Record<string, BlogPostData> = {
       </div>
     `,
     image: penhaBeach3
+  },
+
+  "festas-eventos-penha-sc-abril-julho-2026": {
+    id: "festas-eventos-penha-sc-abril-julho-2026",
+    title: "Festas e Eventos em Penha SC de Abril a Julho 2026: Calendário Completo, Festa Junina e Baixa Temporada",
+    date: "13 de Março, 2026",
+    content: `
+      <div class="blog-content">
+        <p class="lead">Penha não é só verão e Beto Carrero World. De <strong>abril a julho</strong>, a cidade se transforma em um destino acolhedor com <strong>festas tradicionais, eventos gastronômicos, clima ameno e preços até 40% menores</strong>. Se você quer curtir o litoral catarinense sem multidões e com economia, este é o período ideal. Confira o calendário completo de eventos e descubra por que a <strong>baixa temporada em Penha SC</strong> é o segredo mais bem guardado do litoral norte de Santa Catarina.</p>
+
+        <h2>Por Que Visitar Penha de Abril a Julho?</h2>
+
+        <h3>Clima Agradável e Praias Tranquilas</h3>
+        <p>O <strong>outono e início de inverno em Penha</strong> têm temperaturas entre 15°C e 25°C — perfeitas para passear, visitar o <strong>Beto Carrero World</strong> sem filas enormes e curtir as praias com tranquilidade. A <strong>Praia da Armação</strong>, a 80 metros da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a>, fica praticamente vazia nos dias úteis, ideal para caminhadas e contemplação.</p>
+
+        <p>A <strong>piscina aquecida</strong> da pousada é o grande diferencial nessa época: enquanto o mar esfria um pouco, você aproveita a água quentinha da piscina coberta — perfeita para crianças e adultos. Muitas famílias de <strong>Curitiba, Joinville, Blumenau e Florianópolis</strong> escolhem esse período justamente pela combinação de conforto e economia.</p>
+
+        <h3>Preços de Baixa Temporada — Economia Real</h3>
+        <p>As <strong>diárias em Penha de abril a julho</strong> podem custar até <strong>40% menos</strong> do que na alta temporada. Isso vale para hospedagem, alimentação e até para os ingressos do <strong>Beto Carrero World</strong>, que frequentemente lança promoções nesse período. Para famílias que planejam com antecedência, a economia é significativa — e o conforto é o mesmo.</p>
+
+        <p>Na <strong>Pousada Vila D'Italia</strong>, os 18 quartos com <strong>ar-condicionado, TV, frigobar e café da manhã incluso</strong> mantêm o mesmo padrão de qualidade o ano todo. A diferença é que na baixa temporada você paga menos e tem mais tranquilidade para aproveitar as <strong>2 piscinas, jacuzzi, restaurante e estacionamento gratuito</strong>.</p>
+
+        <h2>Calendário de Festas e Eventos — Abril a Julho 2026</h2>
+
+        <h3>Abril — Semana Santa e Páscoa (Início de Abril)</h3>
+        <p>A <strong>Semana Santa</strong> é um dos períodos mais procurados da baixa temporada em Penha. A cidade recebe turistas de todo o <strong>Sul e Sudeste do Brasil</strong> para o feriado prolongado. Eventos típicos incluem:</p>
+        <ul>
+          <li><strong>Procissões e celebrações religiosas</strong> nas igrejas históricas de Penha e Armação</li>
+          <li><strong>Festival de Frutos do Mar</strong> — restaurantes da região servem pratos especiais com peixes, camarões e mariscos frescos</li>
+          <li><strong>Beto Carrero World em operação especial</strong> — horários estendidos no feriado com menor movimento que no verão</li>
+          <li><strong>Feira de artesanato</strong> na Praia da Armação com produtos regionais e souvenirs</li>
+        </ul>
+        <p><strong>Dica:</strong> Reserve com pelo menos 30 dias de antecedência para a Semana Santa, pois as pousadas em Penha lotam nesse feriado.</p>
+
+        <h3>Maio — Mês das Mães e Tranquilidade Total</h3>
+        <p><strong>Maio em Penha</strong> é sinônimo de tranquilidade. Com as temperaturas ainda agradáveis (18°C a 24°C), é o mês perfeito para casais e famílias que buscam sossego. Destaques:</p>
+        <ul>
+          <li><strong>Dia das Mães</strong> (segundo domingo) — restaurantes da região preparam menus especiais. O restaurante da Pousada Vila D'Italia serve pratos com ingredientes locais</li>
+          <li><strong>Passeios de escuna</strong> pela costa de Penha com menos lotação e preços especiais</li>
+          <li><strong>Trilhas ecológicas</strong> pelo Morro do Careca e áreas de mata atlântica preservada</li>
+          <li><strong>Pesca artesanal</strong> — acompanhe os pescadores da Armação em suas jornadas matinais</li>
+        </ul>
+        <p>Maio é também o melhor mês para quem quer conhecer o <strong>Beto Carrero World com calma</strong> — filas curtas, todas as atrações abertas e clima perfeito para caminhar pelo parque o dia inteiro.</p>
+
+        <h3>Junho — Festa Junina em Penha SC</h3>
+        <p>Junho é o grande mês festivo da baixa temporada em Penha! As <strong>festas juninas</strong> tomam conta da cidade com uma programação animada e colorida:</p>
+        <ul>
+          <li><strong>Arraial de Penha</strong> — tradicional festa junina no centro da cidade com barracas de comidas típicas, quadrilha, fogueira e forró ao vivo</li>
+          <li><strong>Festa Junina nas praias</strong> — quiosques da Praia da Armação decorados com bandeirinhas e servindo quentão, paçoca, milho verde, canjica e pinhão</li>
+          <li><strong>Festa de São João</strong> (24 de junho) — celebrações nas comunidades locais com danças tradicionais e shows</li>
+          <li><strong>Festival do Pinhão e Quentão</strong> — evento gastronômico com o melhor da culinária junina catarinense</li>
+          <li><strong>Beto Carrero World temático</strong> — o parque entra no clima junino com decoração especial, comidas típicas e apresentações temáticas</li>
+        </ul>
+        <p>A <strong>Festa Junina em Penha</strong> é especialmente popular entre famílias com crianças. As escolas locais organizam apresentações de quadrilha abertas ao público, e os restaurantes da região servem <strong>pratos típicos do inverno catarinense</strong> como caldo de peixe, polenta com molho e galinhada caipira.</p>
+
+        <h3>Julho — Férias de Inverno e Beto Carrero</h3>
+        <p>As <strong>férias de julho</strong> aquecem novamente o turismo em Penha, mas com muito menos movimento que o verão. É considerada a <strong>"mini temporada"</strong> do litoral norte de SC:</p>
+        <ul>
+          <li><strong>Férias escolares</strong> — famílias de todo o Paraná, São Paulo e Rio Grande do Sul visitam o Beto Carrero World</li>
+          <li><strong>Festival de Inverno de Penha</strong> — programação cultural com shows musicais, teatro e exposições</li>
+          <li><strong>Beto Carrero World em programação especial de inverno</strong> — horários adaptados e promoções em ingressos</li>
+          <li><strong>Gastronomia de inverno</strong> — restaurantes servem sopas, caldos, fondues e pratos quentes com frutos do mar</li>
+          <li><strong>Passeios para Blumenau</strong> (70 km) — aproveite para conhecer a cultura alemã e a gastronomia colonial</li>
+        </ul>
+        <p>A <strong>piscina aquecida e coberta</strong> da Pousada Vila D'Italia é o grande trunfo de julho: enquanto a temperatura externa fica entre 12°C e 20°C, a piscina da pousada garante diversão para as crianças e relaxamento para os pais. O <strong>café da manhã incluso</strong> no buffet começa o dia com energia para enfrentar o parque.</p>
+
+        <h2>Beto Carrero World na Baixa Temporada — Vantagens Exclusivas</h2>
+
+        <h3>Menos Filas, Mais Diversão</h3>
+        <p>Visitar o <strong>Beto Carrero World de abril a julho</strong> (exceto feriados) é uma experiência completamente diferente da alta temporada. As filas que chegam a <strong>60 minutos no verão</strong> caem para <strong>5 a 15 minutos</strong> — ou seja, você consegue aproveitar muito mais atrações em um único dia.</p>
+
+        <h3>Promoções e Ingressos com Desconto</h3>
+        <p>O parque frequentemente lança <strong>promoções de baixa temporada</strong>: ingressos com desconto para compra online, pacotes família com entrada gratuita para crianças e combos com alimentação inclusa. Fique atento ao site oficial do parque e às redes sociais da <strong>Pousada Vila D'Italia</strong> para as melhores ofertas.</p>
+
+        <h3>Shows e Atrações Especiais</h3>
+        <p>O Beto Carrero mantém sua programação de <strong>shows diários</strong> mesmo na baixa temporada. Os espetáculos de acrobacias, o show do Velozes e Furiosos e as apresentações no Teatro são realizados normalmente. A diferença é que você consegue <strong>lugares melhores</strong> e com mais conforto.</p>
+
+        <h2>O Que Fazer em Penha Além do Beto Carrero (Abril a Julho)</h2>
+
+        <h3>Passeio de Escuna Pirata Capitão Gato</h3>
+        <p>O <strong>passeio de escuna</strong> pela costa de Penha funciona o ano todo (quando o mar permite). No outono e inverno, a experiência é ainda mais especial: o mar mais calmo proporciona uma navegação tranquila com vistas incríveis da <strong>costa catarinense</strong>. O passeio dura cerca de 2 horas e é diversão garantida para crianças e adultos.</p>
+
+        <h3>Gastronomia de Inverno — Frutos do Mar Quentes</h3>
+        <p>Os <strong>restaurantes de Penha</strong> brilham no inverno com pratos que aquecem a alma: <strong>moqueca catarinense, caldeirada de peixe, risoto de camarão, polenta com molho de frutos do mar e sopa de peixe</strong>. O próprio restaurante da Pousada Vila D'Italia serve opções quentes no jantar — sem precisar sair da pousada nos dias mais frios.</p>
+
+        <h3>Cidades Vizinhas para Passeio de Um Dia</h3>
+        <ul>
+          <li><strong>Balneário Camboriú</strong> (30 km) — teleférico Unipraias, Cristo Luz, gastronomia sofisticada</li>
+          <li><strong>Blumenau</strong> (70 km) — cultura alemã, cervejarias artesanais, Vila Germânica</li>
+          <li><strong>Itajaí</strong> (14 km) — porto, Mercado Público, praias urbanas</li>
+          <li><strong>Bombinhas</strong> (50 km) — mergulho, praias paradisíacas, Reserva Biológica Marinha</li>
+          <li><strong>Joinville</strong> (95 km) — maior cidade de SC, museus, jardim botânico</li>
+        </ul>
+
+        <h2>Onde se Hospedar em Penha na Baixa Temporada</h2>
+
+        <h3>Pousada Vila D'Italia — Conforto o Ano Todo</h3>
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a escolha ideal para quem visita Penha de abril a julho. Com <strong>18 quartos</strong> equipados, <strong>piscina aquecida e coberta</strong>, <strong>café da manhã incluso</strong> e localização privilegiada a <strong>80 metros da Praia da Armação</strong> e <strong>2,5 km do Beto Carrero World</strong>, a pousada oferece tudo que sua família precisa para uma estadia confortável mesmo nos meses mais frios.</p>
+
+        <p>Destaques para a baixa temporada:</p>
+        <ul>
+          <li><strong>Piscina aquecida coberta</strong> — funciona o ano todo, perfeita para o inverno</li>
+          <li><strong>Jacuzzi/hidromassagem</strong> — relaxe após um dia no parque</li>
+          <li><strong>Restaurante próprio</strong> — pratos quentes sem sair da pousada</li>
+          <li><strong>Wi-Fi gratuito</strong> em todos os ambientes</li>
+          <li><strong>Estacionamento gratuito</strong> — essencial para quem vem de carro de Curitiba, Joinville ou Florianópolis</li>
+          <li><strong>Pet friendly</strong> — traga seu animal de estimação</li>
+          <li><strong>Tarifas especiais</strong> de baixa temporada — consulte pelo WhatsApp</li>
+        </ul>
+
+        <h2>Dicas Práticas para Visitar Penha de Abril a Julho</h2>
+        <ol>
+          <li><strong>Traga agasalhos</strong> — as noites podem ser frias (10°C a 15°C), especialmente em junho e julho</li>
+          <li><strong>Reserve pelo site ou WhatsApp</strong> — tarifas diretas costumam ser melhores que nos comparadores</li>
+          <li><strong>Compre ingressos do Beto Carrero online</strong> — desconto garantido e sem fila na bilheteria</li>
+          <li><strong>Aproveite os dias de sol</strong> — mesmo no inverno, Penha tem dias ensolarados e agradáveis</li>
+          <li><strong>Visite as praias pela manhã</strong> — o sol da manhã aquece a areia e as caminhadas são deliciosas</li>
+          <li><strong>Experimente a gastronomia local</strong> — frutos do mar frescos o ano todo</li>
+          <li><strong>Planeje passeios para cidades vizinhas</strong> — Blumenau e Balneário Camboriú valem a visita</li>
+          <li><strong>Fique pelo menos 3 noites</strong> — tempo ideal para curtir o parque, praias e passeios regionais</li>
+        </ol>
+
+        <h2>Conclusão — Penha na Baixa Temporada é Uma Experiência Única</h2>
+        <p>Visitar <strong>Penha de abril a julho</strong> é descobrir um lado da cidade que poucos conhecem: praias tranquilas, festas juninas autênticas, gastronomia de inverno reconfortante e o <strong>Beto Carrero World</strong> sem as filas do verão. Com preços mais acessíveis e o mesmo charme do litoral catarinense, a baixa temporada é perfeita para famílias, casais e viajantes que buscam qualidade sem agitação.</p>
+
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é sua base perfeita: <strong>piscina aquecida para os dias frios, café da manhã para começar o dia com energia, 80 metros da praia e 5 minutos do Beto Carrero</strong>. Consulte as tarifas especiais de baixa temporada pelo WhatsApp e garanta a melhor hospedagem em Penha SC.</p>
+
+        <p class="highlight"><strong>Reserve agora sua estadia na Pousada Vila D'Italia para abril, maio, junho ou julho e aproveite as melhores tarifas do ano! Piscina aquecida, café incluso e a 5 min do Beto Carrero World.</strong></p>
+      </div>
+    `,
+    image: blogFestasPenha
+  },
+
+  "beto-carrero-world-guia-completo-familias-2026": {
+    id: "beto-carrero-world-guia-completo-familias-2026",
+    title: "Beto Carrero World 2026: Guia Completo para Famílias — Atrações, Ingressos, Dicas e Onde Ficar",
+    date: "13 de Março, 2026",
+    content: `
+      <div class="blog-content">
+        <p class="lead">O <strong>Beto Carrero World</strong> é o <strong>maior parque temático da América Latina</strong> e um dos destinos mais procurados por famílias brasileiras. Localizado em <strong>Penha, no litoral norte de Santa Catarina</strong>, o parque recebe mais de <strong>2 milhões de visitantes por ano</strong> e oferece mais de <strong>100 atrações</strong> para todas as idades. Neste guia completo e atualizado para <strong>2026</strong>, você encontra tudo que precisa para planejar a visita perfeita com sua família.</p>
+
+        <h2>Conhecendo o Beto Carrero World</h2>
+
+        <h3>História e Grandeza do Parque</h3>
+        <p>Fundado em <strong>1991</strong> pelo empresário João Batista Sérgio Murad — o lendário "Beto Carrero" — o parque nasceu de um sonho: criar um espaço de entretenimento e cultura que rivalizasse com os maiores parques do mundo. Com mais de <strong>1,5 milhão de metros quadrados</strong> de área total, o Beto Carrero World supera em extensão muitos parques internacionais e é reconhecido como uma das melhores atrações turísticas do Brasil.</p>
+
+        <p>O parque fica a apenas <strong>2,5 km da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a></strong> — cerca de 5 a 10 minutos de carro. Essa proximidade é uma das maiores vantagens de se hospedar na <strong>Praia da Armação em Penha</strong>: você economiza tempo, dinheiro com deslocamento e pode voltar para a pousada no intervalo do almoço se preferir.</p>
+
+        <h3>As 11 Áreas Temáticas do Parque</h3>
+        <p>O Beto Carrero World é dividido em <strong>11 áreas temáticas</strong>, cada uma com sua ambientação, atrações e shows exclusivos:</p>
+        <ol>
+          <li><strong>Mundo Animal</strong> — zoológico com mais de 700 animais de 100 espécies diferentes, incluindo grandes felinos, primatas e aves exóticas</li>
+          <li><strong>Aventura Radical</strong> — montanhas-russas de tirar o fôlego: Big Tower, Fire Whip e a icônica Star Mountain</li>
+          <li><strong>Terra da Fantasia</strong> — área dedicada às crianças pequenas com brinquedos suaves e interativos</li>
+          <li><strong>Ilha Pirata</strong> — atrações aquáticas, navio pirata e shows com efeitos especiais</li>
+          <li><strong>Mundo Radical</strong> — adrenalina pura com brinquedos radicais como o Crazy River e o Splash</li>
+          <li><strong>Vila Germânica</strong> — homenagem à cultura alemã de Santa Catarina com gastronomia típica</li>
+          <li><strong>Far West</strong> — velho oeste americano com shows de cowboys e tiroteios cênicos</li>
+          <li><strong>Mundo dos Dinossauros</strong> — réplicas em tamanho real de dinossauros com animatrônicos</li>
+          <li><strong>Avenida das Nações</strong> — cultura de diferentes países com arquitetura temática</li>
+          <li><strong>Triplikland</strong> — área com atrações da Hot Wheels e personagens populares</li>
+          <li><strong>Horror Land</strong> — para os mais corajosos, com labirintos de terror e casas assombradas</li>
+        </ol>
+
+        <h2>Guia de Atrações por Faixa Etária</h2>
+
+        <h3>Para Crianças de 0 a 5 Anos</h3>
+        <p>O Beto Carrero World tem uma área especialmente projetada para os <strong>pequenos viajantes</strong>. A <strong>Terra da Fantasia</strong> oferece brinquedos seguros e coloridos:</p>
+        <ul>
+          <li><strong>Trenzinho Mágico</strong> — passeio tranquilo pelo cenário encantado</li>
+          <li><strong>Carrossel Encantado</strong> — clássico para toda a família</li>
+          <li><strong>Xícara Maluca Kids</strong> — versão suave para crianças pequenas</li>
+          <li><strong>Playground interativo</strong> — área de brinquedos ao ar livre com supervisão</li>
+          <li><strong>Shows infantis</strong> — espetáculos com personagens do universo Beto Carrero</li>
+        </ul>
+        <p><strong>Dica de pai/mãe:</strong> Leve carrinho de bebê! O parque é extenso e as crianças pequenas cansam rápido. Há locais para alugar carrinhos na entrada.</p>
+
+        <h3>Para Crianças de 6 a 12 Anos</h3>
+        <p>Esta é a faixa etária que mais aproveita o parque. Praticamente <strong>todas as áreas temáticas</strong> têm atrações adequadas:</p>
+        <ul>
+          <li><strong>Star Mountain</strong> — montanha-russa indoor temática no escuro</li>
+          <li><strong>Crazy River</strong> — boia em corredeiras com muita água (leve roupa extra!)</li>
+          <li><strong>Splash</strong> — queda d'água refrescante</li>
+          <li><strong>Mundo dos Dinossauros</strong> — caminhada entre réplicas gigantes</li>
+          <li><strong>Shows ao vivo</strong> — Velozes e Furiosos, espetáculo de acrobacias e show do Beto Carrero</li>
+          <li><strong>Zoológico</strong> — interação com animais e apresentações educativas</li>
+        </ul>
+
+        <h3>Para Adolescentes e Adultos</h3>
+        <p>Quem busca <strong>adrenalina</strong> encontra no Beto Carrero atrações de nível internacional:</p>
+        <ul>
+          <li><strong>Big Tower</strong> — torre de queda livre de 100 metros de altura</li>
+          <li><strong>Fire Whip</strong> — montanha-russa invertida com loopings</li>
+          <li><strong>Velozes e Furiosos</strong> — show de acrobacias com carros em alta velocidade</li>
+          <li><strong>Horror Land</strong> — casas de terror e labirintos (funciona em períodos específicos)</li>
+          <li><strong>Tirolesa</strong> — sobrevoo sobre o parque com vista panorâmica</li>
+        </ul>
+
+        <h2>Ingressos do Beto Carrero World 2026</h2>
+
+        <h3>Tipos de Ingresso e Preços</h3>
+        <p>Os <strong>preços dos ingressos do Beto Carrero World</strong> variam conforme a data da visita (alta ou baixa temporada) e o canal de compra:</p>
+        <ul>
+          <li><strong>Ingresso online</strong> — compra pelo site oficial com desconto de até 20% sobre o preço da bilheteria</li>
+          <li><strong>Ingresso na bilheteria</strong> — valor integral, sujeito a filas</li>
+          <li><strong>Meia-entrada</strong> — estudantes com carteirinha, idosos (60+), pessoas com deficiência e doadores de sangue (com comprovante)</li>
+          <li><strong>Crianças até 1 metro de altura</strong> — entrada gratuita acompanhadas de adulto pagante</li>
+          <li><strong>Pacotes família</strong> — descontos progressivos para grupos a partir de 4 pessoas</li>
+        </ul>
+        <p><strong>Importante:</strong> Os preços são atualizados frequentemente. Consulte o site oficial do parque ou pergunte na recepção da <strong>Pousada Vila D'Italia</strong> para valores atualizados e promoções vigentes.</p>
+
+        <h3>Onde Comprar com Desconto</h3>
+        <p>Para <strong>economizar nos ingressos</strong>, siga estas dicas:</p>
+        <ul>
+          <li><strong>Site oficial do Beto Carrero</strong> — sempre tem o melhor preço online</li>
+          <li><strong>Compra antecipada</strong> — quanto antes comprar, melhor o preço</li>
+          <li><strong>Datas de baixa temporada</strong> — abril, maio, junho (exceto feriados) e agosto têm preços menores</li>
+          <li><strong>Combos 2 dias</strong> — se pretende ir mais de uma vez, o combo sai mais barato por dia</li>
+          <li><strong>Promoções sazonais</strong> — fique de olho nas redes sociais do parque</li>
+        </ul>
+
+        <h2>Roteiro de 1 Dia no Beto Carrero World</h2>
+
+        <h3>Manhã (8h às 12h) — Atrações Radicais Primeiro</h3>
+        <p>Chegue na <strong>abertura do parque</strong> e vá direto para as atrações mais populares enquanto as filas estão curtas:</p>
+        <ol>
+          <li><strong>8h-8h30</strong> — Entrada e mapa do parque</li>
+          <li><strong>8h30-9h30</strong> — Big Tower e Fire Whip (Aventura Radical)</li>
+          <li><strong>9h30-10h30</strong> — Star Mountain e atrações do Mundo Radical</li>
+          <li><strong>10h30-11h30</strong> — Mundo dos Dinossauros e Zoológico</li>
+          <li><strong>11h30-12h</strong> — Primeira sessão de shows</li>
+        </ol>
+
+        <h3>Tarde (12h às 17h) — Shows e Atrações Aquáticas</h3>
+        <ol>
+          <li><strong>12h-13h</strong> — Almoço (restaurantes dentro do parque ou volte para a pousada — só 5 min!)</li>
+          <li><strong>13h-14h</strong> — Show Velozes e Furiosos (imperdível!)</li>
+          <li><strong>14h-15h</strong> — Atrações aquáticas: Crazy River e Splash</li>
+          <li><strong>15h-16h</strong> — Terra da Fantasia (para famílias com crianças)</li>
+          <li><strong>16h-17h</strong> — Atrações que ficaram para trás</li>
+        </ol>
+
+        <h3>Final da Tarde (17h em diante)</h3>
+        <ol>
+          <li><strong>17h-18h</strong> — Shows de encerramento e fotos nos pontos icônicos</li>
+          <li><strong>18h</strong> — Saída e retorno para a Pousada Vila D'Italia (5 min)</li>
+          <li><strong>18h30</strong> — Mergulho na piscina aquecida da pousada para relaxar!</li>
+        </ol>
+
+        <h2>Dicas Essenciais para o Beto Carrero World</h2>
+
+        <h3>O Que Levar</h3>
+        <ul>
+          <li><strong>Protetor solar e chapéu</strong> — mesmo nos meses mais frios, o sol aparece</li>
+          <li><strong>Roupa de banho e roupa extra</strong> — as atrações aquáticas molham bastante</li>
+          <li><strong>Sapato confortável e fechado</strong> — você vai andar muito! Evite chinelos</li>
+          <li><strong>Garrafa d'água reutilizável</strong> — há bebedouros no parque</li>
+          <li><strong>Mochila leve</strong> — para guardar roupas extras e pertences</li>
+          <li><strong>Carregador portátil</strong> — o celular é essencial para fotos e app do parque</li>
+        </ul>
+
+        <h3>O Que Evitar</h3>
+        <ul>
+          <li><strong>Não chegue depois das 10h</strong> — perde as melhores horas sem fila</li>
+          <li><strong>Não leve mochilas grandes</strong> — atrapalham nos brinquedos</li>
+          <li><strong>Evite finais de semana na alta temporada</strong> — prefira dias úteis</li>
+          <li><strong>Não compre ingresso na bilheteria</strong> — online é sempre mais barato</li>
+        </ul>
+
+        <h3>App do Beto Carrero World</h3>
+        <p>Baixe o <strong>aplicativo oficial do Beto Carrero World</strong> antes de ir. Ele mostra o <strong>mapa interativo, tempo de espera nas filas, horários dos shows e localização dos restaurantes</strong>. É gratuito e funciona offline dentro do parque.</p>
+
+        <h2>Onde Ficar Perto do Beto Carrero World</h2>
+
+        <h3>Por Que a Localização da Hospedagem Importa</h3>
+        <p>A <strong>localização da hospedagem</strong> faz toda a diferença quando você visita o Beto Carrero World. Ficar perto do parque significa:</p>
+        <ul>
+          <li><strong>Menos tempo no trânsito</strong> — mais tempo para aproveitar</li>
+          <li><strong>Possibilidade de voltar para almoçar</strong> — economia nas refeições</li>
+          <li><strong>Descanso entre visitas</strong> — se planeja ir 2 dias, pode descansar na pousada entre eles</li>
+          <li><strong>Economia com transporte</strong> — taxi e uber custam menos em distâncias curtas</li>
+        </ul>
+
+        <h3>Pousada Vila D'Italia — A Mais Perto da Praia e do Parque</h3>
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> combina o que nenhuma outra hospedagem em Penha oferece: estar a <strong>2,5 km do Beto Carrero World</strong> E a <strong>80 metros da Praia da Armação</strong>. Isso significa que após um dia inteiro no parque, você pode relaxar na praia, na piscina aquecida ou na jacuzzi da pousada.</p>
+
+        <p><strong>Estrutura completa para famílias:</strong></p>
+        <ul>
+          <li><strong>18 quartos</strong> com ar-condicionado, TV, frigobar e banheiro privativo</li>
+          <li><strong>2 piscinas</strong> — uma ao ar livre e uma coberta aquecida</li>
+          <li><strong>Jacuzzi/hidromassagem</strong> — perfeita após o parque</li>
+          <li><strong>Café da manhã incluso</strong> — buffet para começar o dia com energia</li>
+          <li><strong>Restaurante e bar</strong> — jante sem sair da pousada</li>
+          <li><strong>Estacionamento gratuito</strong> — fundamental para quem vem de carro</li>
+          <li><strong>Wi-Fi gratuito</strong> em todas as áreas</li>
+          <li><strong>Pet friendly</strong> — traga seu animal</li>
+          <li><strong>Avaliação 8.3 Booking / 8.5 Decolar</strong></li>
+        </ul>
+
+        <h2>Como Chegar ao Beto Carrero World</h2>
+
+        <h3>De Carro</h3>
+        <p>O parque fica na <strong>BR-101, km 120, em Penha SC</strong>. As principais rotas:</p>
+        <ul>
+          <li><strong>De Curitiba</strong> — 140 km pela BR-376/BR-101 (cerca de 2h30)</li>
+          <li><strong>De Florianópolis</strong> — 80 km pela BR-101 Norte (cerca de 1h15)</li>
+          <li><strong>De Joinville</strong> — 95 km pela BR-101 Sul (cerca de 1h15)</li>
+          <li><strong>De Blumenau</strong> — 70 km pela BR-470/BR-101 (cerca de 1h)</li>
+          <li><strong>De São Paulo</strong> — 600 km pela BR-116/BR-376/BR-101 (cerca de 7h)</li>
+          <li><strong>De Porto Alegre</strong> — 470 km pela BR-101 Norte (cerca de 5h30)</li>
+        </ul>
+
+        <h3>De Avião</h3>
+        <p>O <strong>Aeroporto Internacional de Navegantes (NVT)</strong> fica a apenas <strong>14 km da Pousada Vila D'Italia</strong> — cerca de 18 minutos de carro. Recebe voos diretos de São Paulo, Rio de Janeiro, Brasília, Curitiba e Porto Alegre. De lá, é fácil chegar à pousada de taxi ou aplicativo.</p>
+
+        <h2>Conclusão — Sua Viagem ao Beto Carrero Começa Aqui</h2>
+        <p>O <strong>Beto Carrero World</strong> é muito mais que um parque de diversões — é uma experiência completa que marca a memória de famílias inteiras. Com planejamento adequado, ingressos comprados com antecedência e uma hospedagem bem localizada, você aproveita cada minuto e cria lembranças que duram para sempre.</p>
+
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é o ponto de partida perfeito: <strong>5 minutos do parque, 80 metros da praia, piscina aquecida, café da manhã incluso</strong> e o melhor custo-benefício de Penha SC. Reserve pelo site oficial ou WhatsApp e garanta as melhores tarifas para sua família!</p>
+
+        <p class="highlight"><strong>Reserve sua estadia na Pousada Vila D'Italia e viva a experiência completa do Beto Carrero World! 18 quartos, piscina aquecida, café incluso e a 5 min do maior parque da América Latina.</strong></p>
+      </div>
+    `,
+    image: blogBetoCarreroOutono
   }
 };
 
