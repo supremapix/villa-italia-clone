@@ -111,13 +111,13 @@ const KnowledgeSection = () => {
               </Button>
             </a>
             <a href="tel:+5547992738090">
-              <Button size="sm" variant="outline" className="border-white/30 text-white hover:bg-white/10 gap-2">
+              <Button size="sm" variant="outline" className="border-white text-white bg-transparent hover:bg-white hover:text-[#006994] gap-2">
                 <Phone className="w-4 h-4" />
                 (47) 99273-8090
               </Button>
             </a>
             <a href="mailto:contato@viladitalia.com.br">
-              <Button size="sm" variant="outline" className="border-white/30 text-white hover:bg-white/10 gap-2">
+              <Button size="sm" variant="outline" className="border-white text-white bg-transparent hover:bg-white hover:text-[#006994] gap-2">
                 <Mail className="w-4 h-4" />
                 Email
               </Button>
