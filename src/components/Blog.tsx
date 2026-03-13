@@ -7,17 +7,36 @@ import blogTemporadaVerao from "@/assets/blog-temporada-verao-penha.jpg";
 import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
 import blogVeraoJaneiro2026 from "@/assets/blog-verao-janeiro-2026.jpg";
 import blogCuidadosPele from "@/assets/blog-cuidados-pele-verao.jpg";
+import blogFestasPenha from "@/assets/blog-festas-penha.jpg";
+import blogBetoCarreroOutono from "@/assets/blog-beto-carrero-outono.jpg";
+
 const Blog = () => {
   const navigate = useNavigate();
   
   const blogPosts = [
     {
+      slug: "festas-eventos-penha-sc-abril-julho-2026",
+      title: "Festas e Eventos em Penha SC — Abril a Julho 2026",
+      excerpt: "Calendário completo: Festa Junina, Festival de Inverno, eventos gastronômicos e Beto Carrero com filas curtas. Preços até 40% menores na baixa temporada!",
+      date: "13 de Março, 2026",
+      image: blogFestasPenha,
+      featured: true,
+    },
+    {
+      slug: "beto-carrero-world-guia-completo-familias-2026",
+      title: "Beto Carrero World 2026: Guia Completo para Famílias",
+      excerpt: "Atrações por faixa etária, ingressos com desconto, roteiro de 1 dia hora a hora e onde ficar a 5 min do maior parque da América Latina.",
+      date: "13 de Março, 2026",
+      image: blogBetoCarreroOutono,
+      featured: true,
+    },
+    {
       slug: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
       title: "Férias de Verão Jan/Fev/Mar 2026: Penha e Balneário Camboriú",
-      excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis, roteiros e dicas para aproveitar ao máximo suas férias de verão no litoral catarinense!",
+      excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis, roteiros e dicas para aproveitar ao máximo suas férias de verão!",
       date: "3 de Janeiro, 2026",
       image: blogVeraoJaneiro2026,
-      featured: true,
+      featured: false,
     },
     {
       slug: "cuidados-pele-verao-dicas-saude-praia-penha",
@@ -25,7 +44,7 @@ const Blog = () => {
       excerpt: "Dicas essenciais de proteção solar, hidratação e saúde para curtir as praias de Penha com a pele protegida e saudável!",
       date: "2 de Janeiro, 2026",
       image: blogCuidadosPele,
-      featured: true,
+      featured: false,
     },
     {
       slug: "temporada-verao-2025-2026-penha-sc",
