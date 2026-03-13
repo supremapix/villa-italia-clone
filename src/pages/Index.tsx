@@ -23,6 +23,7 @@ import ReservationForm from "@/components/ReservationForm";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
+import KnowledgeSection from "@/components/KnowledgeSection";
 
 const Index = () => {
   return (
