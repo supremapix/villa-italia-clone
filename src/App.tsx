@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Accommodations from "./pages/Accommodations";
+import BlogIndex from "./pages/BlogIndex";
 import BlogPost from "./pages/BlogPost";
 import Neighborhoods from "./pages/Neighborhoods";
 import FAQ from "./pages/FAQ";
