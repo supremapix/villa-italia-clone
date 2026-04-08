@@ -1299,6 +1299,13 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
   }
 };
 
+// Merge legacy posts with new SEO articles
+const blogPosts: Record<string, BlogPostData> = {
+  ...legacyBlogPosts,
+  ...Object.fromEntries(Object.entries(blogArticles1).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
+  ...Object.fromEntries(Object.entries(blogArticles2).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
+};
+
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
