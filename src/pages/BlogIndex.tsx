@@ -17,7 +17,151 @@ import blogBetoCarreroOutono from "@/assets/blog-beto-carrero-outono.jpg";
 import penhaBeach1 from "@/assets/penha-beach-1.webp";
 import penhaBeach3 from "@/assets/penha-beach-3.jpg";
 
+// New 14 articles images
+import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
+import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
+import blogOQueFazerPenha from "@/assets/blog-o-que-fazer-penha.jpg";
+import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
+import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
+import blogIlhaFeiaPenha from "@/assets/blog-ilha-feia-penha.jpg";
+import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogMariculturaPenha from "@/assets/blog-maricultura-penha.jpg";
+import blogPraiasTranquilasSc from "@/assets/blog-praias-tranquilas-sc.jpg";
+import blogTemporadaVerao2027 from "@/assets/blog-temporada-verao-2027.jpg";
+import blogComoChegar from "@/assets/blog-como-chegar-penha.jpg";
+import blogPousadaPertoBeto from "@/assets/blog-pousada-perto-beto-carrero.jpg";
+import blogBaixaTemporada from "@/assets/blog-baixa-temporada-penha.jpg";
+import blogMirantePraiaVermelha from "@/assets/blog-mirante-praia-vermelha.jpg";
+
 const blogPosts = [
+  // === NEW 14 ARTICLES (April–November 2026) — newest first ===
+  {
+    slug: "mirante-praia-vermelha-penha-vista",
+    title: "Mirante da Praia Vermelha em Penha SC: A Vista Mais Bonita do Litoral Norte",
+    excerpt: "Conheça o Mirante da Praia Vermelha em Penha SC — como chegar, melhor horário para a foto perfeita e o point mais instagramável do litoral norte.",
+    date: "1 de Novembro, 2026",
+    image: blogMirantePraiaVermelha,
+    category: "Passeios",
+    featured: false,
+  },
+  {
+    slug: "penha-sc-baixa-temporada-vantagens",
+    title: "Penha SC na Baixa Temporada: Por Que Visitar Fora do Verão Vale Muito",
+    excerpt: "Preços até 40% menores, praias tranquilas, Beto Carrero sem filas e atendimento personalizado. A baixa temporada em Penha é a temporada secreta!",
+    date: "1 de Outubro, 2026",
+    image: blogBaixaTemporada,
+    category: "Viagem",
+    featured: false,
+  },
+  {
+    slug: "pousada-perto-beto-carrero-como-escolher",
+    title: "Pousada Perto do Beto Carrero World: Como Escolher a Melhor",
+    excerpt: "Critérios para escolher a hospedagem ideal perto do parque: distância, café da manhã, piscina, quartos para família e custo-benefício.",
+    date: "15 de Setembro, 2026",
+    image: blogPousadaPertoBeto,
+    category: "Hospedagem",
+    featured: false,
+  },
+  {
+    slug: "como-chegar-penha-sc-dicas-transporte",
+    title: "Como Chegar em Penha SC: Carro, Avião, Ônibus e Todas as Opções",
+    excerpt: "De Curitiba (~2h15), Florianópolis (~1h30) ou São Paulo (~7h). Aeroporto de Navegantes a 14km. Todas as rotas detalhadas.",
+    date: "1 de Setembro, 2026",
+    image: blogComoChegar,
+    category: "Viagem",
+    featured: false,
+  },
+  {
+    slug: "temporada-verao-penha-sc-2027",
+    title: "Temporada de Verão em Penha SC: Planeje sua Viagem com Antecedência",
+    excerpt: "Alta temporada: a população sobe de 30 mil para 100 mil! Saiba como reservar com antecedência e aproveitar ao máximo.",
+    date: "15 de Agosto, 2026",
+    image: blogTemporadaVerao2027,
+    category: "Viagem",
+    featured: false,
+  },
+  {
+    slug: "praias-tranquilas-litoral-norte-sc",
+    title: "Praias Tranquilas no Litoral Norte de SC: Guia para Fugir da Agitação",
+    excerpt: "As praias mais calmas de Penha, Piçarras e Balneário Barra do Sul. Ideal para famílias e quem busca sossego no litoral catarinense.",
+    date: "1 de Agosto, 2026",
+    image: blogPraiasTranquilasSc,
+    category: "Praias",
+    featured: false,
+  },
+  {
+    slug: "maricultura-penha-sc-turismo",
+    title: "Maricultura em Penha SC: Conheça a Capital Brasileira dos Mariscos",
+    excerpt: "Penha é a maior produtora de mariscos do Brasil. Saiba como a maricultura molda a cultura, a gastronomia e o turismo local.",
+    date: "15 de Julho, 2026",
+    image: blogMariculturaPenha,
+    category: "Cultura",
+    featured: false,
+  },
+  {
+    slug: "penha-sc-fim-de-semana-roteiro-rapido",
+    title: "Penha SC no Fim de Semana: Roteiro de 2 Dias para Aproveitar Tudo",
+    excerpt: "Roteiro otimizado de 2 dias: praia, Beto Carrero, gastronomia e mirante. Tudo sem perder nada!",
+    date: "1 de Julho, 2026",
+    image: blogFimDeSemanaPenha,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "ilha-feia-penha-sc-passeio-barco",
+    title: "Ilha Feia em Penha SC: Como Fazer o Passeio de Barco e o Que Esperar",
+    excerpt: "Tudo sobre o passeio de barco para a Ilha Feia: como embarcar, quanto custa, o que ver e dicas para aproveitar ao máximo.",
+    date: "15 de Junho, 2026",
+    image: blogIlhaFeiaPenha,
+    category: "Passeios",
+    featured: false,
+  },
+  {
+    slug: "gastronomia-penha-sc-frutos-do-mar",
+    title: "Gastronomia em Penha SC: Onde Comer Frutos do Mar e os Melhores Restaurantes",
+    excerpt: "Guia gastronômico com foco em frutos do mar frescos. Penha é a maior produtora de mariscos do Brasil!",
+    date: "1 de Junho, 2026",
+    image: blogGastronomiaPenha,
+    category: "Gastronomia",
+    featured: false,
+  },
+  {
+    slug: "penha-sc-com-criancas-roteiro-familia",
+    title: "Penha SC com Crianças: Roteiro Completo de 3 Dias para Famílias",
+    excerpt: "Roteiro família-friendly de 3 dias: Beto Carrero, praias tranquilas, mirantes e pousada com piscina para crianças.",
+    date: "15 de Maio, 2026",
+    image: blogPenhaCriancas,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "o-que-fazer-em-penha-sc",
+    title: "O Que Fazer em Penha SC: 15 Atrações Imperdíveis Além do Beto Carrero",
+    excerpt: "Penha vai além do parque! Ilha Feia, maricultura, trilhas, gastronomia e 15 atrações imperdíveis para qualquer viajante.",
+    date: "1 de Maio, 2026",
+    image: blogOQueFazerPenha,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "beto-carrero-world-dicas-guia-2026",
+    title: "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos e Atrações",
+    excerpt: "Atrações por faixa etária, ingressos com desconto, roteiro de 1 dia hora a hora e onde ficar a 5 min do maior parque da América Latina.",
+    date: "15 de Abril, 2026",
+    image: blogBetoCarreroGuia,
+    category: "Atrações",
+    featured: true,
+  },
+  {
+    slug: "praias-de-penha-sc-guia-completo",
+    title: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias da Cidade",
+    excerpt: "Descubra as 10 melhores praias de Penha SC — Armação, Alegre, Quilombo e mais. Dicas de estrutura, acesso e hospedagem pertinho do mar.",
+    date: "1 de Abril, 2026",
+    image: blogPraiasPenhaSc,
+    category: "Praias",
+    featured: true,
+  },
+  // === EXISTING ARTICLES ===
   {
     slug: "festas-eventos-penha-sc-abril-julho-2026",
     title: "Festas e Eventos em Penha SC de Abril a Julho 2026: Calendário Completo",
@@ -25,7 +169,7 @@ const blogPosts = [
     date: "13 de Março, 2026",
     image: blogFestasPenha,
     category: "Eventos",
-    featured: true,
+    featured: false,
   },
   {
     slug: "beto-carrero-world-guia-completo-familias-2026",
@@ -34,12 +178,12 @@ const blogPosts = [
     date: "13 de Março, 2026",
     image: blogBetoCarreroOutono,
     category: "Atrações",
-    featured: true,
+    featured: false,
   },
   {
     slug: "guia-completo-penha-sc-beto-carrero",
     title: "Guia Completo de Penha SC: Beto Carrero World, Praias e Onde se Hospedar",
-    excerpt: "Planeje sua viagem a Penha SC com este guia completo: o que fazer, as melhores praias, como aproveitar o Beto Carrero World e dicas de hospedagem na Praia da Armação.",
+    excerpt: "Planeje sua viagem a Penha SC com este guia completo: o que fazer, as melhores praias, como aproveitar o Beto Carrero World e dicas de hospedagem.",
     date: "1 de Março, 2025",
     image: penhaBeach1,
     category: "Guias",
@@ -48,7 +192,7 @@ const blogPosts = [
   {
     slug: "praias-penha-sc-litoral-norte",
     title: "As 19 Praias de Penha SC: Guia Completo com Dicas para Cada Praia",
-    excerpt: "Conheça as 19 praias de Penha SC: Armação, Manguinho, Alegre, Saudade e muito mais. Qual é a melhor praia para crianças, surfe, mergulho e família.",
+    excerpt: "Conheça as 19 praias de Penha SC: Armação, Manguinho, Alegre, Saudade e muito mais.",
     date: "1 de Março, 2025",
     image: penhaBeach3,
     category: "Praias",
@@ -57,7 +201,7 @@ const blogPosts = [
   {
     slug: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
     title: "Férias de Verão Jan/Fev/Mar 2026: Penha e Balneário Camboriú",
-    excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis, roteiros e dicas para aproveitar ao máximo suas férias de verão no litoral catarinense!",
+    excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis e roteiros para aproveitar ao máximo suas férias de verão!",
     date: "3 de Janeiro, 2026",
     image: blogVeraoJaneiro2026,
     category: "Viagem",

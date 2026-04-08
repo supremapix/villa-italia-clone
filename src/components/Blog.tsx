@@ -3,95 +3,81 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowRight } from "lucide-react";
 
-import blogTemporadaVerao from "@/assets/blog-temporada-verao-penha.jpg";
-import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
-import blogVeraoJaneiro2026 from "@/assets/blog-verao-janeiro-2026.jpg";
-import blogCuidadosPele from "@/assets/blog-cuidados-pele-verao.jpg";
-import blogFestasPenha from "@/assets/blog-festas-penha.jpg";
-import blogBetoCarreroOutono from "@/assets/blog-beto-carrero-outono.jpg";
+import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
+import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
+import blogOQueFazerPenha from "@/assets/blog-o-que-fazer-penha.jpg";
+import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
+import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
+import blogIlhaFeiaPenha from "@/assets/blog-ilha-feia-penha.jpg";
+import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogMariculturaPenha from "@/assets/blog-maricultura-penha.jpg";
 
 const Blog = () => {
   const navigate = useNavigate();
   
   const blogPosts = [
     {
-      slug: "festas-eventos-penha-sc-abril-julho-2026",
-      title: "Festas e Eventos em Penha SC — Abril a Julho 2026",
-      excerpt: "Calendário completo: Festa Junina, Festival de Inverno, eventos gastronômicos e Beto Carrero com filas curtas. Preços até 40% menores na baixa temporada!",
-      date: "13 de Março, 2026",
-      image: blogFestasPenha,
+      slug: "praias-de-penha-sc-guia-completo",
+      title: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias",
+      excerpt: "Descubra as 10 melhores praias de Penha SC — Armação, Alegre, Quilombo e mais. Dicas de estrutura, acesso e hospedagem pertinho do mar.",
+      date: "1 de Abril, 2026",
+      image: blogPraiasPenhaSc,
       featured: true,
     },
     {
-      slug: "beto-carrero-world-guia-completo-familias-2026",
-      title: "Beto Carrero World 2026: Guia Completo para Famílias",
+      slug: "beto-carrero-world-dicas-guia-2026",
+      title: "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos e Atrações",
       excerpt: "Atrações por faixa etária, ingressos com desconto, roteiro de 1 dia hora a hora e onde ficar a 5 min do maior parque da América Latina.",
-      date: "13 de Março, 2026",
-      image: blogBetoCarreroOutono,
+      date: "15 de Abril, 2026",
+      image: blogBetoCarreroGuia,
       featured: true,
     },
     {
-      slug: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
-      title: "Férias de Verão Jan/Fev/Mar 2026: Penha e Balneário Camboriú",
-      excerpt: "Guia completo com praias num raio de 50km, passeios imperdíveis, roteiros e dicas para aproveitar ao máximo suas férias de verão!",
-      date: "3 de Janeiro, 2026",
-      image: blogVeraoJaneiro2026,
+      slug: "o-que-fazer-em-penha-sc",
+      title: "O Que Fazer em Penha SC: 15 Atrações Imperdíveis",
+      excerpt: "Penha vai além do Beto Carrero! Ilha Feia, maricultura, trilhas, gastronomia e 15 atrações para qualquer viajante.",
+      date: "1 de Maio, 2026",
+      image: blogOQueFazerPenha,
       featured: false,
     },
     {
-      slug: "cuidados-pele-verao-dicas-saude-praia-penha",
-      title: "Cuidados com a Pele no Verão: Guia de Proteção Solar",
-      excerpt: "Dicas essenciais de proteção solar, hidratação e saúde para curtir as praias de Penha com a pele protegida e saudável!",
-      date: "2 de Janeiro, 2026",
-      image: blogCuidadosPele,
+      slug: "penha-sc-com-criancas-roteiro-familia",
+      title: "Penha SC com Crianças: Roteiro de 3 Dias para Famílias",
+      excerpt: "Roteiro família-friendly: Beto Carrero, praias tranquilas, mirantes e pousada com piscina para crianças.",
+      date: "15 de Maio, 2026",
+      image: blogPenhaCriancas,
       featured: false,
     },
     {
-      slug: "temporada-verao-2025-2026-penha-sc",
-      title: "Temporada de Verão 2025/2026 em Penha-SC",
-      excerpt: "O guia completo para suas férias perfeitas no litoral catarinense. Praias, gastronomia, Beto Carrero e muito mais!",
-      date: "22 de Dezembro, 2025",
-      image: blogTemporadaVerao,
+      slug: "gastronomia-penha-sc-frutos-do-mar",
+      title: "Gastronomia em Penha SC: Frutos do Mar e Restaurantes",
+      excerpt: "Guia gastronômico com foco em frutos do mar frescos. Penha é a maior produtora de mariscos do Brasil!",
+      date: "1 de Junho, 2026",
+      image: blogGastronomiaPenha,
       featured: false,
     },
     {
-      slug: "reveillon-2026-penha-santa-catarina",
-      title: "Réveillon 2026 em Penha-SC",
-      excerpt: "Celebre a virada do ano no paraíso do litoral catarinense. Queima de fogos, tradições e dicas para aproveitar!",
-      date: "22 de Dezembro, 2025",
-      image: blogReveillon,
+      slug: "ilha-feia-penha-sc-passeio-barco",
+      title: "Ilha Feia em Penha SC: Passeio de Barco Imperdível",
+      excerpt: "Como embarcar, quanto custa, o que ver e as melhores dicas para a Ilha Feia.",
+      date: "15 de Junho, 2026",
+      image: blogIlhaFeiaPenha,
       featured: false,
     },
     {
-      slug: "melhores-praias-penha",
-      title: "As Melhores Praias de Penha para Visitar",
-      excerpt: "Descubra as praias mais bonitas e tranquilas da região de Penha e arredores.",
-      date: "15 de Outubro, 2025",
-      image: null,
+      slug: "penha-sc-fim-de-semana-roteiro-rapido",
+      title: "Penha SC no Fim de Semana: Roteiro de 2 Dias",
+      excerpt: "Roteiro otimizado de 2 dias: praia, Beto Carrero, gastronomia e mirante.",
+      date: "1 de Julho, 2026",
+      image: blogFimDeSemanaPenha,
       featured: false,
     },
     {
-      slug: "roteiro-3-dias-penha",
-      title: "Roteiro de 3 Dias em Penha e Região",
-      excerpt: "Planeje sua viagem perfeita com nossas dicas de passeios e atrações imperdíveis.",
-      date: "10 de Setembro, 2025",
-      image: null,
-      featured: false,
-    },
-    {
-      slug: "gastronomia-penha",
-      title: "Gastronomia em Penha: Sabores do Litoral",
-      excerpt: "Conheça os melhores restaurantes e pratos típicos da região.",
-      date: "5 de Agosto, 2025",
-      image: null,
-      featured: false,
-    },
-    {
-      slug: "dicas-beto-carrero",
-      title: "Dicas Essenciais para Aproveitar o Beto Carrero World",
-      excerpt: "Tudo o que você precisa saber para uma visita perfeita ao maior parque da América Latina.",
-      date: "20 de Abril, 2025",
-      image: null,
+      slug: "maricultura-penha-sc-turismo",
+      title: "Maricultura em Penha SC: Capital dos Mariscos",
+      excerpt: "A maricultura molda a cultura, gastronomia e turismo de Penha, a maior produtora de mariscos do Brasil.",
+      date: "15 de Julho, 2026",
+      image: blogMariculturaPenha,
       featured: false,
     },
   ];
@@ -164,41 +150,60 @@ const Blog = () => {
         </div>
 
         {/* Regular Posts Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 animate-scale-in">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 animate-scale-in">
           {regularPosts.map((post, index) => (
             <Card
               key={index}
-              className="p-6 hover:shadow-hover transition-smooth cursor-pointer group bg-background border-none shadow-soft"
+              className="overflow-hidden hover:shadow-hover transition-smooth cursor-pointer group bg-background border-none shadow-soft"
               onClick={() => navigate(`/blog/${post.slug}`)}
             >
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-smooth">
-                <Calendar className="w-8 h-8 text-primary" />
+              {post.image && (
+                <div className="relative h-44 overflow-hidden">
+                  <img 
+                    src={post.image} 
+                    alt={post.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
+                  />
+                </div>
+              )}
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <Calendar className="w-3.5 h-3.5 text-muted-foreground" />
+                  <span className="text-xs text-muted-foreground">{post.date}</span>
+                </div>
+                <h3 className="font-bold text-lg mb-2 text-foreground group-hover:text-secondary transition-smooth leading-tight line-clamp-2">
+                  {post.title}
+                </h3>
+                <p className="text-muted-foreground mb-3 leading-relaxed text-sm line-clamp-2">
+                  {post.excerpt}
+                </p>
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  className="w-full gap-2"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    navigate(`/blog/${post.slug}`);
+                  }}
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  Ler Mais
+                </Button>
               </div>
-              <div className="mb-3">
-                <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
-                  {post.date}
-                </span>
-              </div>
-              <h3 className="font-bold text-lg mb-3 text-foreground group-hover:text-secondary transition-smooth leading-tight">
-                {post.title}
-              </h3>
-              <p className="text-muted-foreground mb-4 leading-relaxed text-sm line-clamp-3">
-                {post.excerpt}
-              </p>
-              <Button 
-                variant="outline" 
-                size="sm"
-                className="w-full"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  navigate(`/blog/${post.slug}`);
-                }}
-              >
-                <ArrowRight className="mr-2 h-4 w-4" />
-                Ler Mais
-              </Button>
             </Card>
           ))}
+        </div>
+
+        {/* Ver todos */}
+        <div className="text-center mt-10">
+          <Button
+            size="lg"
+            onClick={() => navigate("/blog")}
+            className="bg-secondary hover:bg-secondary-dark text-secondary-foreground gap-2"
+          >
+            Ver Todos os Artigos
+            <ArrowRight className="h-5 w-5" />
+          </Button>
         </div>
       </div>
     </section>
