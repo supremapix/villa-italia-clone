@@ -18,6 +18,10 @@ import penhaBeach1 from "@/assets/penha-beach-1.webp";
 import penhaBeach2 from "@/assets/penha-beach-2.webp";
 import penhaBeach3 from "@/assets/penha-beach-3.jpg";
 import breakfastImg from "@/assets/breakfast.jpg";
+
+import { blogArticles1 } from "@/data/blogArticles1";
+import { blogArticles2 } from "@/data/blogArticles2";
+
 interface BlogPostData {
   id: string;
   title: string;
@@ -26,7 +30,7 @@ interface BlogPostData {
   image: string;
 }
 
-const blogPosts: Record<string, BlogPostData> = {
+const legacyBlogPosts: Record<string, BlogPostData> = {
   "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu": {
     id: "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
     title: "Férias de Verão Janeiro, Fevereiro e Março 2026: Guia Completo de Penha, Balneário Camboriú e Praias da Região",
