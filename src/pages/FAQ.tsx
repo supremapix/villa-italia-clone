@@ -149,16 +149,16 @@ const faqItems: FAQItem[] = [
     question: "Tem opção para hóspedes com restrições alimentares?",
     answer: "Informe suas restrições alimentares (alergias, vegetarianismo etc) no momento da reserva ou na chegada para que nossa equipe possa se preparar."
   },
-  // BLOCO 5: PETS E FAMÍLIAS (5)
+  // BLOCO 5: FAMÍLIAS (5)
   {
     category: "pets",
     question: "A pousada aceita pets?",
-    answer: "Sim! A Pousada Vila D'Italia é pet friendly e aceita animais de estimação. Consulte as regras e possíveis taxas extras pelo WhatsApp antes de reservar."
+    answer: "Não. Infelizmente a Pousada Vila D'Italia não aceita animais de estimação. Para garantir o conforto e bem-estar de todos os hóspedes, nossa propriedade não é pet friendly. Recomendamos procurar hotéis especializados em pets na região de Penha SC."
   },
   {
     category: "pets",
-    question: "Tem limite de tamanho para pets?",
-    answer: "Consulte nossa equipe pelo WhatsApp informando o porte do seu pet para confirmarmos as condições e a disponibilidade de quartos adequados."
+    question: "Posso levar meu cachorro ou gato para a pousada?",
+    answer: "Não aceitamos animais de estimação de nenhum porte ou espécie. Essa é uma política da pousada que não possui exceções. Sugerimos consultar opções de hospedagem para pets ou hotéis pet friendly na região antes da sua viagem."
   },
   {
     category: "pets",
@@ -245,7 +245,7 @@ const categories = [
   { id: "quartos", label: "Quartos", icon: BedDouble },
   { id: "piscina", label: "Piscina", icon: Waves },
   { id: "cafe", label: "Café", icon: Coffee },
-  { id: "pets", label: "Pets", icon: PawPrint },
+  { id: "pets", label: "Famílias", icon: PawPrint },
   { id: "localizacao", label: "Localização", icon: MapPin },
   { id: "precos", label: "Preços", icon: DollarSign },
 ];
@@ -391,13 +391,12 @@ const FAQ = () => {
       { "@type": "LocationFeatureSpecification", "name": "Café da Manhã Incluso" },
       { "@type": "LocationFeatureSpecification", "name": "Estacionamento Gratuito" },
       { "@type": "LocationFeatureSpecification", "name": "Wi-Fi Gratuito" },
-      { "@type": "LocationFeatureSpecification", "name": "Aceita Pets" },
       { "@type": "LocationFeatureSpecification", "name": "Jacuzzi" },
       { "@type": "LocationFeatureSpecification", "name": "Academia" },
       { "@type": "LocationFeatureSpecification", "name": "Restaurante" }
     ],
     "numberOfRooms": 18,
-    "petsAllowed": true,
+    "petsAllowed": false,
     "checkinTime": "14:00",
     "checkoutTime": "12:00",
     "aggregateRating": {
@@ -413,7 +412,7 @@ const FAQ = () => {
     quartos: "Quartos e Acomodações",
     piscina: "Piscina e Lazer",
     cafe: "Café da Manhã",
-    pets: "Pets e Famílias",
+    pets: "Famílias e Crianças",
     localizacao: "Localização e Acessos",
     precos: "Preços e Temporadas",
   };
@@ -440,9 +439,9 @@ const FAQ = () => {
     <div className="min-h-screen bg-background">
       <EnhancedSEO
         title="Pousada Vila D'Italia — Perguntas Frequentes | Penha SC | Perto do Beto Carrero e Praia Armação"
-        description="Tire todas as suas dúvidas sobre a Pousada Vila D'Italia em Penha SC: reservas, quartos, café da manhã, piscina, pets, Beto Carrero World e Praia da Armação. 42 respostas completas."
+        description="Tire todas as suas dúvidas sobre a Pousada Vila D'Italia em Penha SC: reservas, quartos, café da manhã, piscina, famílias, Beto Carrero World e Praia da Armação. 42 respostas completas."
         canonical="/faq"
-        keywords="pousada em penha sc, pousada perto do beto carrero world, pousada praia armacao penha, hospedagem penha sc, pousada penha com piscina, pousada penha cafe da manha incluso, hotel penha sc beto carrero, pousada familia penha sc, onde ficar em penha sc, pousada penha com cafe da manha, reserva pousada penha, penha sc hospedagem barata, pousada penha com pet, pousada penha sc litoral norte"
+        keywords="pousada em penha sc, pousada perto do beto carrero world, pousada praia armacao penha, hospedagem penha sc, pousada penha com piscina, pousada penha cafe da manha incluso, hotel penha sc beto carrero, pousada familia penha sc, onde ficar em penha sc, pousada penha com cafe da manha, reserva pousada penha, penha sc hospedagem barata, pousada penha sc litoral norte"
         structuredData={faqStructuredData}
         breadcrumbs={[
           { name: "Início", url: "/" },
