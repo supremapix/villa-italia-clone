@@ -826,7 +826,7 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
         <p>Escolher uma hospedagem próxima ao parque traz inúmeras vantagens: menor deslocamento significa mais energia para aproveitar as atrações, facilidade para quem vai visitar o parque em vários dias, opção de voltar para o hotel para almoçar, menor custo com táxi/uber e mais tempo de descanso. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a 2,5km do parque e a 80m da praia — a combinação perfeita para famílias.</p>
 
         <h3>Pousada Vila D'Italia — Pousada Perto da Praia e do Beto Carrero em Penha</h3>
-        <p>A Pousada Vila D'Italia está localizada na Rua Luís Vicente da Silva, 183, no bairro Armação em Penha SC. A apenas 80m da Praia da Armação e 2,5km do Beto Carrero World, oferece 18 quartos equipados com ar-condicionado, TV de tela plana, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (coberta aquecida + ao ar livre), jacuzzi e hidromassagem, café da manhã incluso em estilo buffet, restaurante e bar próprios, estacionamento gratuito e Wi-Fi em todas as áreas. Aceita pets e tem avaliação 8.3 no Booking e 8.5 na Decolar. "Melhor custo-benefício para famílias em Penha" é a avaliação recorrente dos hóspedes.</p>
+        <p>A Pousada Vila D'Italia está localizada na Rua Luís Vicente da Silva, 183, no bairro Armação em Penha SC. A apenas 80m da Praia da Armação e 2,5km do Beto Carrero World, oferece 18 quartos equipados com ar-condicionado, TV de tela plana, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (coberta aquecida + ao ar livre), jacuzzi e hidromassagem, café da manhã incluso em estilo buffet, restaurante e bar próprios, estacionamento gratuito e Wi-Fi em todas as áreas. Avaliação 8.3 no Booking e 8.5 na Decolar. "Melhor custo-benefício para famílias em Penha" é a avaliação recorrente dos hóspedes.</p>
 
         <h2>O Que Fazer em Penha Além do Beto Carrero</h2>
 
@@ -961,7 +961,7 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
         <h2>Como se Hospedar Perto das Praias de Penha</h2>
 
         <h3>Pousada na Praia da Armação — Melhor Opção</h3>
-        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a melhor opção para quem quer ficar perto das praias de Penha. Localizada a apenas 80 metros da Praia da Armação — a principal e mais estruturada da cidade — a pousada oferece a combinação perfeita de localização e conforto. São 18 quartos com ar-condicionado, TV, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (uma coberta aquecida para os dias mais frios), jacuzzi, café da manhã incluso, restaurante próprio e estacionamento gratuito. A 2,5km do Beto Carrero World, é a base perfeita para explorar tanto as praias quanto o parque. Aceita pets e tem avaliação 8.3 no Booking e 8.5 na Decolar.</p>
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a melhor opção para quem quer ficar perto das praias de Penha. Localizada a apenas 80 metros da Praia da Armação — a principal e mais estruturada da cidade — a pousada oferece a combinação perfeita de localização e conforto. São 18 quartos com ar-condicionado, TV, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (uma coberta aquecida para os dias mais frios), jacuzzi, café da manhã incluso, restaurante próprio e estacionamento gratuito. A 2,5km do Beto Carrero World, é a base perfeita para explorar tanto as praias quanto o parque. Avaliação 8.3 no Booking e 8.5 na Decolar.</p>
 
         <h2>Conclusão</h2>
         <p>Penha vai muito além do Beto Carrero World — suas 19 praias são um convite permanente para explorar, descobrir e se apaixonar pelo litoral catarinense. Cada praia tem sua personalidade, e parte da diversão é justamente encontrar aquela que combina com o seu estilo.</p>
@@ -1078,7 +1078,7 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
           <li><strong>Restaurante próprio</strong> — pratos quentes sem sair da pousada</li>
           <li><strong>Wi-Fi gratuito</strong> em todos os ambientes</li>
           <li><strong>Estacionamento gratuito</strong> — essencial para quem vem de carro de Curitiba, Joinville ou Florianópolis</li>
-          <li><strong>Pet friendly</strong> — traga seu animal de estimação</li>
+          <li><strong>Avaliação 8.3 Booking / 8.5 Decolar</strong> — qualidade comprovada</li>
           <li><strong>Tarifas especiais</strong> de baixa temporada — consulte pelo WhatsApp</li>
         </ul>
 
@@ -1267,7 +1267,7 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
           <li><strong>Restaurante e bar</strong> — jante sem sair da pousada</li>
           <li><strong>Estacionamento gratuito</strong> — fundamental para quem vem de carro</li>
           <li><strong>Wi-Fi gratuito</strong> em todas as áreas</li>
-          <li><strong>Pet friendly</strong> — traga seu animal</li>
+          <li><strong>Café da manhã incluso</strong> em estilo buffet</li>
           <li><strong>Avaliação 8.3 Booking / 8.5 Decolar</strong></li>
         </ul>
 
