@@ -197,7 +197,7 @@ const SiteMap = () => {
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="inline-flex items-center gap-2 bg-white/15 text-white px-4 py-2 rounded-full mb-6">
-            <Sitemap className="w-5 h-5" />
+            <LayoutTemplate className="w-5 h-5" />
             <span className="font-semibold text-sm uppercase tracking-wider">Navegação Completa</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-display font-bold text-white mb-4">
@@ -215,7 +215,7 @@ const SiteMap = () => {
           {renderSection(mainPages)}
 
           <div className="border-t border-border my-8" />
-          {renderSection(beachLinks)}
+          {renderSection(beaches)}
 
           <div className="border-t border-border my-8" />
           {renderSection(blogPosts)}
