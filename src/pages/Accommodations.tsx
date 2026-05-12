@@ -339,10 +339,10 @@ const Accommodations = () => {
   return (
     <div className="min-h-screen">
       <EnhancedSEO
-        title="Acomodacoes - Quartos e Suites em Penha SC"
-        description="Quartos e suites confortaveis na Pousada Vila D'Italia em Penha SC. Opcoes para casais, familias e grupos. Ar-condicionado, TV, Wi-Fi e cafe da manha incluso."
+        title="Quartos Casal e Família em Penha SC | Perto do Beto Carrero"
+        description="Acomodação para casal e família em Penha SC, a 5 min do Beto Carrero World. Piscina, café da manhã incluso e perto da Praia de Armação. Reserve já!"
         canonical="/acomodacoes"
-        keywords="quartos penha, suites penha sc, acomodacoes beto carrero, hotel familiar penha, quarto casal penha, suite familia penha"
+        keywords="quarto casal penha sc, quarto familia penha, acomodacoes beto carrero, hotel familiar penha, suite familia penha, hospedagem perto beto carrero"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Acomodacoes", url: "/acomodacoes" }
