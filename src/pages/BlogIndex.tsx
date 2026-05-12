@@ -217,15 +217,7 @@ const blogPosts = [
     category: "Guias",
     featured: false,
   },
-  {
-    slug: "o-que-fazer-em-penha-sc",
-    title: "O Que Fazer em Penha SC: 15 Atrações Imperdíveis Além do Beto Carrero",
-    excerpt: "Penha vai além do parque! Ilha Feia, maricultura, trilhas, gastronomia e 15 atrações imperdíveis para qualquer viajante.",
-    date: "1 de Maio, 2026",
-    image: blogOQueFazerPenha,
-    category: "Guias",
-    featured: false,
-  },
+  // (slug "o-que-fazer-em-penha-sc" agora referenciado nos novos artigos acima)
   {
     slug: "beto-carrero-world-dicas-guia-2026",
     title: "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos e Atrações",
