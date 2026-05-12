@@ -32,6 +32,7 @@ const App = () => (
           <Route path="/bairros-penha" element={<Neighborhoods />} />
           <Route path="/bairros-penha/:slug" element={<Neighborhoods />} />
           <Route path="/beto-carrero-world" element={<BetoCarreroWorld />} />
+          <Route path="/mapa-do-site" element={<SiteMap />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
