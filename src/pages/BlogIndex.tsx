@@ -33,8 +33,91 @@ import blogPousadaPertoBeto from "@/assets/blog-pousada-perto-beto-carrero.jpg";
 import blogBaixaTemporada from "@/assets/blog-baixa-temporada-penha.jpg";
 import blogMirantePraiaVermelha from "@/assets/blog-mirante-praia-vermelha.jpg";
 
+// New 8 family/Beto Carrero articles
+import blogCuritibaBeto from "@/assets/blog-curitiba-beto-carrero.jpg";
+import blogPenhaAlemBeto from "@/assets/blog-penha-alem-beto.jpg";
+import blogMelhorEpocaBeto from "@/assets/blog-melhor-epoca-beto.jpg";
+import blogPousadaPenhaEscolha from "@/assets/blog-pousada-penha-escolha.jpg";
+import blogRoteiroLondrinaSc from "@/assets/blog-roteiro-londrina-sc.jpg";
+import blogDicasBetoFamilia from "@/assets/blog-dicas-beto-familia.jpg";
+import blogPraiaArmacaoTudo from "@/assets/blog-praia-armacao-tudo.jpg";
+import blogRoteiroMaringaBeto from "@/assets/blog-roteiro-maringa-beto.jpg";
+
 const blogPosts = [
-  // === NEW 14 ARTICLES (April–November 2026) — newest first ===
+  // === NEW 8 FAMILY / BETO CARRERO ARTICLES (May–Sep 2026) ===
+  {
+    slug: "roteiro-maringa-beto-carrero-world",
+    title: "Roteiro Saindo de Maringá: Fim de Semana no Beto Carrero World com Crianças",
+    excerpt: "Maringá–Penha em ~5h: estratégias de saída, parque, praia e retorno tranquilo para a família.",
+    date: "20 de Setembro, 2026",
+    image: blogRoteiroMaringaBeto,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "praia-armacao-penha-sc",
+    title: "Praia da Armação em Penha SC: Tudo Que Você Precisa Saber Antes de Ir",
+    excerpt: "Mar calmo, estrutura completa, estacionamento e melhores meses para curtir em família.",
+    date: "1 de Setembro, 2026",
+    image: blogPraiaArmacaoTudo,
+    category: "Praias",
+    featured: false,
+  },
+  {
+    slug: "dicas-beto-carrero-world-familia",
+    title: "Dicas para Aproveitar o Beto Carrero World no Máximo com a Família",
+    excerpt: "Ingresso online, atrações por idade, o que levar e como combinar parque com dias de praia.",
+    date: "10 de Agosto, 2026",
+    image: blogDicasBetoFamilia,
+    category: "Atrações",
+    featured: false,
+  },
+  {
+    slug: "roteiro-litoral-norte-sc-saindo-de-londrina",
+    title: "Roteiro de 4 Dias no Litoral Norte de SC Saindo de Londrina",
+    excerpt: "Viagem, Beto Carrero, praias de Penha e retorno tranquilo. Tudo planejadinho para a família.",
+    date: "20 de Julho, 2026",
+    image: blogRoteiroLondrinaSc,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "pousada-perto-beto-carrero-world-penha-sc",
+    title: "Pousada Perto do Beto Carrero World: Por Que se Hospedar em Penha é a Melhor Escolha",
+    excerpt: "Penha vs Balneário Camboriú vs Itajaí: distância, preço, tranquilidade e custo-benefício.",
+    date: "1 de Julho, 2026",
+    image: blogPousadaPenhaEscolha,
+    category: "Hospedagem",
+    featured: false,
+  },
+  {
+    slug: "melhor-epoca-beto-carrero-world-criancas",
+    title: "Melhor Época para Visitar o Beto Carrero World com Crianças",
+    excerpt: "Meses com menos fila, dicas de férias escolares e estratégias para aproveitar mais.",
+    date: "10 de Junho, 2026",
+    image: blogMelhorEpocaBeto,
+    category: "Atrações",
+    featured: false,
+  },
+  {
+    slug: "o-que-fazer-em-penha-sc",
+    title: "O Que Fazer em Penha SC Além do Beto Carrero World",
+    excerpt: "Praias, centro histórico, gastronomia, pesca artesanal e pôr do sol inesquecível.",
+    date: "20 de Maio, 2026",
+    image: blogPenhaAlemBeto,
+    category: "Guias",
+    featured: false,
+  },
+  {
+    slug: "curitiba-ate-beto-carrero-world-quanto-tempo",
+    title: "Quanto Tempo de Curitiba até o Beto Carrero World? Guia Completo de Rotas",
+    excerpt: "180 km, 2h a 2h30 pela BR-101. Pedágios, melhores horários, paradas e dicas para a família.",
+    date: "5 de Maio, 2026",
+    image: blogCuritibaBeto,
+    category: "Viagem",
+    featured: false,
+  },
+  // === EXISTING 14 ARTICLES (April–November 2026) — newest first ===
   {
     slug: "mirante-praia-vermelha-penha-vista",
     title: "Mirante da Praia Vermelha em Penha SC: A Vista Mais Bonita do Litoral Norte",
