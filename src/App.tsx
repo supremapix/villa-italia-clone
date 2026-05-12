@@ -11,6 +11,7 @@ import BlogPost from "./pages/BlogPost";
 import Neighborhoods from "./pages/Neighborhoods";
 import FAQ from "./pages/FAQ";
 import BetoCarreroWorld from "./pages/BetoCarreroWorld";
+import SiteMap from "./pages/SiteMap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
