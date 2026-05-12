@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import EnhancedSEO from "@/components/EnhancedSEO";
-import { Sitemap, Home, Bed, FileText, HelpCircle, MapPin, TreePine, Newspaper, Map, ExternalLink } from "lucide-react";
+import { LayoutTemplate, Home, Bed, FileText, HelpCircle, MapPin, TreePine, Newspaper, Map, ExternalLink } from "lucide-react";
 
 interface SitemapLink {
   label: string;
