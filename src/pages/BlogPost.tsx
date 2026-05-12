@@ -21,6 +21,7 @@ import breakfastImg from "@/assets/breakfast.jpg";
 
 import { blogArticles1 } from "@/data/blogArticles1";
 import { blogArticles2 } from "@/data/blogArticles2";
+import { blogArticles3 } from "@/data/blogArticles3";
 
 interface BlogPostData {
   id: string;
@@ -1304,6 +1305,7 @@ const blogPosts: Record<string, BlogPostData> = {
   ...legacyBlogPosts,
   ...Object.fromEntries(Object.entries(blogArticles1).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
   ...Object.fromEntries(Object.entries(blogArticles2).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
+  ...Object.fromEntries(Object.entries(blogArticles3).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
 };
 
 const BlogPost = () => {
