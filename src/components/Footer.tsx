@@ -167,6 +167,14 @@ const Footer = () => {
               </li>
               <li>
                 <button
+                  onClick={() => window.location.href = "/mapa-do-site"}
+                  className="text-background/80 hover:text-primary transition-smooth"
+                >
+                  Mapa do Site
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => scrollToSection("contact")}
                   className="text-background/80 hover:text-primary transition-smooth"
                 >
