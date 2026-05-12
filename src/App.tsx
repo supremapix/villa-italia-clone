@@ -10,6 +10,7 @@ import BlogIndex from "./pages/BlogIndex";
 import BlogPost from "./pages/BlogPost";
 import Neighborhoods from "./pages/Neighborhoods";
 import FAQ from "./pages/FAQ";
+import BetoCarreroWorld from "./pages/BetoCarreroWorld";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/faq" element={<FAQ />} />
           <Route path="/bairros-penha" element={<Neighborhoods />} />
           <Route path="/bairros-penha/:slug" element={<Neighborhoods />} />
+          <Route path="/beto-carrero-world" element={<BetoCarreroWorld />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

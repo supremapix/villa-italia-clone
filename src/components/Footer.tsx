@@ -159,10 +159,10 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => window.location.href = "/faq#localizacao"}
+                  onClick={() => window.location.href = "/beto-carrero-world"}
                   className="text-background/80 hover:text-primary transition-smooth"
                 >
-                  Pousada perto Beto Carrero
+                  Perto do Beto Carrero World
                 </button>
               </li>
               <li>

@@ -5,6 +5,7 @@ import KeyInfo from "@/components/KeyInfo";
 import Gallery from "@/components/Gallery";
 import Welcome from "@/components/Welcome";
 import PenhaAccordion from "@/components/PenhaAccordion";
+import HomeBetoFAQ from "@/components/HomeBetoFAQ";
 import EnhancedSEO from "@/components/EnhancedSEO";
 
 import Amenities from "@/components/Amenities";
@@ -58,6 +59,7 @@ const Index = () => {
         <InstagramFeed />
         <Suggestions />
         <ReservationForm />
+        <HomeBetoFAQ />
         <Contact />
       </main>
       <Footer />
