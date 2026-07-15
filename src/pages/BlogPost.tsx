@@ -22,6 +22,7 @@ import breakfastImg from "@/assets/breakfast.jpg";
 import { blogArticles1 } from "@/data/blogArticles1";
 import { blogArticles2 } from "@/data/blogArticles2";
 import { blogArticles3 } from "@/data/blogArticles3";
+import { blogArticles4 } from "@/data/blogArticles4";
 
 interface BlogPostData {
   id: string;
