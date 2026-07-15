@@ -396,6 +396,8 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
       <div class="blog-content">
         <p class="lead"><strong>A temporada de verão 2025/2026</strong> chegou em <strong>Penha, Santa Catarina</strong>, e a cidade está pronta para receber milhares de turistas que buscam <strong>praias paradisíacas</strong>, <strong>diversão garantida</strong> e uma <strong>infraestrutura turística de primeira qualidade</strong>. Se você está planejando suas férias de final de ano, este é o momento ideal para descobrir tudo o que essa joia do litoral catarinense tem a oferecer.</p>
 
+        <p class="highlight"><strong>📅 Atualização:</strong> a temporada 2025/2026 foi um sucesso — agora as atenções se voltam para o <strong>verão 2026/2027</strong>. Confira o novo <a href="/blog/temporada-verao-penha-sc-2027" class="text-primary hover:text-primary/80 underline font-medium">Guia da Temporada 2026/2027 em Penha SC</a>.</p>
+
         <h2>Por Que Escolher Penha Para Suas Férias de Verão?</h2>
         
         <p>Localizada no litoral norte de Santa Catarina, <strong>Penha</strong> se destaca como um dos destinos turísticos mais procurados do sul do Brasil. A cidade oferece uma <strong>combinação única</strong> de belezas naturais, entretenimento de classe mundial e uma atmosfera acolhedora que encanta visitantes de todas as idades. Com mais de <strong>25 praias diferentes</strong>, desde pequenas enseadas tranquilas até extensas faixas de areia com ondas perfeitas para surf, há opções para todos os gostos e estilos de viagem.</p>
