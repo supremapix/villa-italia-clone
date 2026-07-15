@@ -438,8 +438,8 @@ const FAQ = () => {
   return (
     <div className="min-h-screen bg-background">
       <EnhancedSEO
-        title="Pousada Vila D'Italia — Perguntas Frequentes | Penha SC | Perto do Beto Carrero e Praia Armação"
-        description="Tire todas as suas dúvidas sobre a Pousada Vila D'Italia em Penha SC: reservas, quartos, café da manhã, piscina, famílias, Beto Carrero World e Praia da Armação. 42 respostas completas."
+        title="Perguntas Frequentes — Penha SC"
+        description="Dúvidas sobre a Pousada Vila D'Italia em Penha SC: reservas, quartos, café da manhã, piscina, Beto Carrero World e Praia de Armação."
         canonical="/faq"
         keywords="pousada em penha sc, pousada perto do beto carrero world, pousada praia armacao penha, hospedagem penha sc, pousada penha com piscina, pousada penha cafe da manha incluso, hotel penha sc beto carrero, pousada familia penha sc, onde ficar em penha sc, pousada penha com cafe da manha, reserva pousada penha, penha sc hospedagem barata, pousada penha sc litoral norte"
         structuredData={faqStructuredData}

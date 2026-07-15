@@ -1,0 +1,19 @@
+# Pousada Vila D'Italia
+
+> Pousada em Penha/SC a poucos metros da Praia de Armação e a 5 minutos do Beto Carrero World, com piscina, café da manhã incluso e 18 suítes ideais para famílias.
+
+A Pousada Vila D'Italia fica na R. Luís Vicente da Silva, 183 — Penha/SC. Oferece piscina ao ar livre, piscina coberta com hidromassagem, Wi-Fi, estacionamento gratuito e café da manhã incluso. Reservas pelo Omnibees ou pelo WhatsApp +55 47 99273-8090.
+
+## Pages
+
+- [Home](/): apresentação da pousada, estrutura, localização e reservas.
+- [Acomodações](/acomodacoes): tipos de quartos, capacidade, comodidades e valores.
+- [Beto Carrero World](/beto-carrero-world): guia de distâncias, dicas e como se hospedar perto do parque.
+- [Bairros e Praias de Penha](/bairros-penha): as 25 praias e bairros de Penha/SC.
+- [Blog](/blog): guias de viagem, roteiros regionais e eventos em Penha e região.
+- [FAQ](/faq): perguntas frequentes sobre reservas, café da manhã, famílias e Beto Carrero.
+- [Mapa do Site](/mapa-do-site): navegação completa do site.
+
+## Optional
+
+- [Sitemap XML](/sitemap.xml): índice de URLs para crawlers.
