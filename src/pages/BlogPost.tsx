@@ -1307,6 +1307,7 @@ const blogPosts: Record<string, BlogPostData> = {
   ...Object.fromEntries(Object.entries(blogArticles1).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
   ...Object.fromEntries(Object.entries(blogArticles2).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
   ...Object.fromEntries(Object.entries(blogArticles3).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
+  ...Object.fromEntries(Object.entries(blogArticles4).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
 };
 
 const BlogPost = () => {
