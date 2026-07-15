@@ -1124,6 +1124,15 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
       <div class="blog-content">
         <p class="lead">O <strong>Beto Carrero World</strong> é o <strong>maior parque temático da América Latina</strong> e um dos destinos mais procurados por famílias brasileiras. Localizado em <strong>Penha, no litoral norte de Santa Catarina</strong>, o parque recebe mais de <strong>2 milhões de visitantes por ano</strong> e oferece mais de <strong>100 atrações</strong> para todas as idades. Neste guia completo e atualizado para <strong>2026</strong>, você encontra tudo que precisa para planejar a visita perfeita com sua família.</p>
 
+        <div class="highlight"><h3>⚠️ Atenção ao novo calendário 2026 do parque</h3>
+        <ul>
+          <li>Desde <strong>18/05/2026</strong>, o parque <strong>abre às 10h</strong>; os brinquedos funcionam até as <strong>18h</strong> e o fechamento é às <strong>20h</strong>.</li>
+          <li>Entre <strong>agosto e novembro de 2026</strong>, o parque <strong>não abre às terças e quartas-feiras</strong> (exceto em períodos de feriado).</li>
+          <li>Parque <strong>fechado nos dias 1, 2, 8 e 9 de dezembro de 2026</strong>. Depois disso, funcionamento diário até março de 2027.</li>
+          <li>Sempre confira o calendário oficial em <a href="https://www.betocarrero.com.br" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary/80 underline">betocarrero.com.br</a> antes de reservar.</li>
+        </ul>
+        <p><strong>Reforço prático:</strong> hospedando-se na Pousada Vila D'Itália, a 5 minutos do parque, é fácil reorganizar o roteiro — praia num dia, parque no outro.</p></div>
+
         <h2>Conhecendo o Beto Carrero World</h2>
 
         <h3>História e Grandeza do Parque</h3>
