@@ -509,7 +509,9 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
     date: "22 de Dezembro, 2025",
     content: `
       <div class="blog-content">
-        <p class="lead">O <strong>Réveillon 2026 em Penha, Santa Catarina</strong>, promete ser uma das celebrações mais <strong>memoráveis</strong> do litoral brasileiro. Com praias deslumbrantes como cenário, <strong>queima de fogos espetacular</strong> e uma atmosfera festiva única, a cidade se prepara para receber visitantes de todo o Brasil e do mundo para celebrar a chegada do novo ano de forma inesquecível.</p>
+        <p class="lead">O <strong>Réveillon em Penha e Balneário Camboriú</strong> é tradição — e a virada <strong>2026/2027</strong> já tem reservas abertas. Este artigo é uma retrospectiva das celebrações da última virada e um ponto de partida para quem quer planejar o próximo réveillon com antecedência. Muitas das dicas aqui são <strong>atemporais</strong>: onde ver os fogos em Penha, o clima da Praia de Armação e a importância de reservar hospedagem cedo.</p>
+
+        <p class="highlight"><strong>📅 Planejando a próxima virada?</strong> Veja o novo <a href="/blog/reveillon-2026-2027-penha-balneario-camboriu" class="text-primary hover:text-primary/80 underline font-medium">Guia do Réveillon 2026/2027 em Penha e Balneário Camboriú</a> com programação atualizada, regras da orla de BC e a estratégia inteligente de dormir em Penha.</p>
 
         <h2>Por Que Celebrar o Réveillon em Penha?</h2>
 
