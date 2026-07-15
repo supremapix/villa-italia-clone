@@ -1107,6 +1107,9 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é sua base perfeita: <strong>piscina aquecida para os dias frios, café da manhã para começar o dia com energia, 80 metros da praia e 5 minutos do Beto Carrero</strong>. Consulte as tarifas especiais de baixa temporada pelo WhatsApp e garanta a melhor hospedagem em Penha SC.</p>
 
+        <h2>E depois de julho?</h2>
+        <p>O segundo semestre continua rico em eventos. Confira o novo <a href="/blog/festas-eventos-penha-regiao-agosto-dezembro-2026" class="text-primary hover:text-primary/80 underline font-medium">Calendário de Festas e Eventos em Penha e Região de Agosto a Dezembro 2026</a> — inclui Oktoberfest Blumenau, Marejada Itajaí, feriados prolongados, iluminação de Natal em BC e o Réveillon 2026/2027.</p>
+
         <p class="highlight"><strong>Reserve agora sua estadia na Pousada Vila D'Italia para abril, maio, junho ou julho e aproveite as melhores tarifas do ano! Piscina aquecida, café incluso e a 5 min do Beto Carrero World.</strong></p>
       </div>
     `,
