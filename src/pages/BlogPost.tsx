@@ -41,6 +41,8 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
       <div class="blog-content">
         <p class="lead">O <strong>verão 2026</strong> chegou com toda força ao <strong>litoral catarinense</strong>! Se você está planejando suas <strong>férias de janeiro, fevereiro ou março</strong>, este guia completo vai ajudá-lo a descobrir os melhores destinos, passeios imperdíveis e dicas essenciais para aproveitar ao máximo sua estadia na <strong>região de Penha</strong> e arredores. Das praias paradisíacas até as atrações urbanas de <strong>Balneário Camboriú</strong>, prepare-se para viver experiências inesquecíveis!</p>
 
+        <p class="highlight"><strong>📅 Atualização:</strong> a temporada 2025/2026 já ficou para trás — agora o planejamento é para o próximo verão. Veja o <a href="/blog/temporada-verao-penha-sc-2027" class="text-primary hover:text-primary/80 underline font-medium">Guia da Temporada 2026/2027</a> e o <a href="/blog/festas-eventos-penha-regiao-agosto-dezembro-2026" class="text-primary hover:text-primary/80 underline font-medium">Calendário de Eventos Agosto–Dezembro 2026</a>.</p>
+
         <h2>Por Que Escolher a Região de Penha Para Suas Férias?</h2>
 
         <p>A <strong>região de Penha</strong>, no litoral norte de Santa Catarina, é um verdadeiro tesouro para os turistas que buscam a <strong>combinação perfeita</strong> entre natureza exuberante, entretenimento de qualidade e infraestrutura turística completa. Com mais de <strong>25 praias catalogadas</strong>, desde pequenas enseadas secretas até extensas faixas de areia com ondas perfeitas para surf, a região oferece opções para todos os perfis de viajantes.</p>
