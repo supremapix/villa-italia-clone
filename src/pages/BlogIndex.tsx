@@ -44,6 +44,61 @@ import blogPraiaArmacaoTudo from "@/assets/blog-praia-armacao-tudo.jpg";
 import blogRoteiroMaringaBeto from "@/assets/blog-roteiro-maringa-beto.jpg";
 
 const blogPosts = [
+  // === NEW EVENTS 2ND SEMESTER 2026 / 2027 ===
+  {
+    slug: "festa-nacional-do-marisco-2027-penha-sc",
+    title: "Festa Nacional do Marisco 2027 em Penha SC: O Que Esperar da 27ª Edição",
+    excerpt: "Retrospectiva da 26ª edição, o que se sabe sobre a 27ª e por que reservar cedo — a cidade lota durante a festa.",
+    date: "15 de Novembro, 2026",
+    image: blogMariculturaPenha,
+    category: "Eventos",
+    featured: true,
+  },
+  {
+    slug: "natal-2026-penha-balneario-camboriu-blumenau",
+    title: "Natal 2026 no Litoral de SC: Luzes em BC, Magia em Blumenau e Praia em Penha",
+    excerpt: "Iluminação da orla de Balneário Camboriú, Magia de Natal na Vila Germânica e Beto Carrero em clima de fim de ano.",
+    date: "1 de Novembro, 2026",
+    image: blogFimDeSemanaPenha,
+    category: "Eventos",
+    featured: false,
+  },
+  {
+    slug: "reveillon-2026-2027-penha-balneario-camboriu",
+    title: "Réveillon 2026/2027 em Penha e Balneário Camboriú: Guia Completo da Virada",
+    excerpt: "Fogos na Praia Central de BC, regras da orla e a estratégia inteligente de dormir em Penha e curtir os dois cenários.",
+    date: "1 de Outubro, 2026",
+    image: blogReveillon,
+    category: "Eventos",
+    featured: true,
+  },
+  {
+    slug: "oktoberfest-blumenau-marejada-itajai-2026-base-penha",
+    title: "Oktoberfest Blumenau e Marejada Itajaí 2026: Por Que Se Hospedar em Penha",
+    excerpt: "Dois eventos gigantes em outubro. Penha fica no meio do caminho, com preço melhor e praia de bônus.",
+    date: "15 de Agosto, 2026",
+    image: blogGastronomiaPenha,
+    category: "Eventos",
+    featured: false,
+  },
+  {
+    slug: "feriados-prolongados-2026-penha-beto-carrero",
+    title: "Feriados Prolongados do 2º Semestre de 2026: Aproveite Penha e o Beto Carrero",
+    excerpt: "Cinco feriadões entre setembro e novembro — mini-roteiros de 3 dias e alerta para o 12 de outubro no parque.",
+    date: "5 de Agosto, 2026",
+    image: blogPenhaCriancas,
+    category: "Viagem",
+    featured: false,
+  },
+  {
+    slug: "festas-eventos-penha-regiao-agosto-dezembro-2026",
+    title: "Festas e Eventos em Penha e Região de Agosto a Dezembro 2026: Calendário Completo",
+    excerpt: "Oktoberfest, Marejada, Fenarreco, iluminação de Natal e feriados prolongados — Penha como base estratégica.",
+    date: "20 de Julho, 2026",
+    image: blogFestasPenha,
+    category: "Eventos",
+    featured: true,
+  },
   // === NEW 8 FAMILY / BETO CARRERO ARTICLES (May–Sep 2026) ===
   {
     slug: "roteiro-maringa-beto-carrero-world",

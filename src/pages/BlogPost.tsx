@@ -22,6 +22,7 @@ import breakfastImg from "@/assets/breakfast.jpg";
 import { blogArticles1 } from "@/data/blogArticles1";
 import { blogArticles2 } from "@/data/blogArticles2";
 import { blogArticles3 } from "@/data/blogArticles3";
+import { blogArticles4 } from "@/data/blogArticles4";
 
 interface BlogPostData {
   id: string;
@@ -39,6 +40,8 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
     content: `
       <div class="blog-content">
         <p class="lead">O <strong>verão 2026</strong> chegou com toda força ao <strong>litoral catarinense</strong>! Se você está planejando suas <strong>férias de janeiro, fevereiro ou março</strong>, este guia completo vai ajudá-lo a descobrir os melhores destinos, passeios imperdíveis e dicas essenciais para aproveitar ao máximo sua estadia na <strong>região de Penha</strong> e arredores. Das praias paradisíacas até as atrações urbanas de <strong>Balneário Camboriú</strong>, prepare-se para viver experiências inesquecíveis!</p>
+
+        <p class="highlight"><strong>📅 Atualização:</strong> a temporada 2025/2026 já ficou para trás — agora o planejamento é para o próximo verão. Veja o <a href="/blog/temporada-verao-penha-sc-2027" class="text-primary hover:text-primary/80 underline font-medium">Guia da Temporada 2026/2027</a> e o <a href="/blog/festas-eventos-penha-regiao-agosto-dezembro-2026" class="text-primary hover:text-primary/80 underline font-medium">Calendário de Eventos Agosto–Dezembro 2026</a>.</p>
 
         <h2>Por Que Escolher a Região de Penha Para Suas Férias?</h2>
 
@@ -393,6 +396,8 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
       <div class="blog-content">
         <p class="lead"><strong>A temporada de verão 2025/2026</strong> chegou em <strong>Penha, Santa Catarina</strong>, e a cidade está pronta para receber milhares de turistas que buscam <strong>praias paradisíacas</strong>, <strong>diversão garantida</strong> e uma <strong>infraestrutura turística de primeira qualidade</strong>. Se você está planejando suas férias de final de ano, este é o momento ideal para descobrir tudo o que essa joia do litoral catarinense tem a oferecer.</p>
 
+        <p class="highlight"><strong>📅 Atualização:</strong> a temporada 2025/2026 foi um sucesso — agora as atenções se voltam para o <strong>verão 2026/2027</strong>. Confira o novo <a href="/blog/temporada-verao-penha-sc-2027" class="text-primary hover:text-primary/80 underline font-medium">Guia da Temporada 2026/2027 em Penha SC</a>.</p>
+
         <h2>Por Que Escolher Penha Para Suas Férias de Verão?</h2>
         
         <p>Localizada no litoral norte de Santa Catarina, <strong>Penha</strong> se destaca como um dos destinos turísticos mais procurados do sul do Brasil. A cidade oferece uma <strong>combinação única</strong> de belezas naturais, entretenimento de classe mundial e uma atmosfera acolhedora que encanta visitantes de todas as idades. Com mais de <strong>25 praias diferentes</strong>, desde pequenas enseadas tranquilas até extensas faixas de areia com ondas perfeitas para surf, há opções para todos os gostos e estilos de viagem.</p>
@@ -504,7 +509,9 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
     date: "22 de Dezembro, 2025",
     content: `
       <div class="blog-content">
-        <p class="lead">O <strong>Réveillon 2026 em Penha, Santa Catarina</strong>, promete ser uma das celebrações mais <strong>memoráveis</strong> do litoral brasileiro. Com praias deslumbrantes como cenário, <strong>queima de fogos espetacular</strong> e uma atmosfera festiva única, a cidade se prepara para receber visitantes de todo o Brasil e do mundo para celebrar a chegada do novo ano de forma inesquecível.</p>
+        <p class="lead">O <strong>Réveillon em Penha e Balneário Camboriú</strong> é tradição — e a virada <strong>2026/2027</strong> já tem reservas abertas. Este artigo é uma retrospectiva das celebrações da última virada e um ponto de partida para quem quer planejar o próximo réveillon com antecedência. Muitas das dicas aqui são <strong>atemporais</strong>: onde ver os fogos em Penha, o clima da Praia de Armação e a importância de reservar hospedagem cedo.</p>
+
+        <p class="highlight"><strong>📅 Planejando a próxima virada?</strong> Veja o novo <a href="/blog/reveillon-2026-2027-penha-balneario-camboriu" class="text-primary hover:text-primary/80 underline font-medium">Guia do Réveillon 2026/2027 em Penha e Balneário Camboriú</a> com programação atualizada, regras da orla de BC e a estratégia inteligente de dormir em Penha.</p>
 
         <h2>Por Que Celebrar o Réveillon em Penha?</h2>
 
@@ -1100,6 +1107,9 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é sua base perfeita: <strong>piscina aquecida para os dias frios, café da manhã para começar o dia com energia, 80 metros da praia e 5 minutos do Beto Carrero</strong>. Consulte as tarifas especiais de baixa temporada pelo WhatsApp e garanta a melhor hospedagem em Penha SC.</p>
 
+        <h2>E depois de julho?</h2>
+        <p>O segundo semestre continua rico em eventos. Confira o novo <a href="/blog/festas-eventos-penha-regiao-agosto-dezembro-2026" class="text-primary hover:text-primary/80 underline font-medium">Calendário de Festas e Eventos em Penha e Região de Agosto a Dezembro 2026</a> — inclui Oktoberfest Blumenau, Marejada Itajaí, feriados prolongados, iluminação de Natal em BC e o Réveillon 2026/2027.</p>
+
         <p class="highlight"><strong>Reserve agora sua estadia na Pousada Vila D'Italia para abril, maio, junho ou julho e aproveite as melhores tarifas do ano! Piscina aquecida, café incluso e a 5 min do Beto Carrero World.</strong></p>
       </div>
     `,
@@ -1113,6 +1123,15 @@ const legacyBlogPosts: Record<string, BlogPostData> = {
     content: `
       <div class="blog-content">
         <p class="lead">O <strong>Beto Carrero World</strong> é o <strong>maior parque temático da América Latina</strong> e um dos destinos mais procurados por famílias brasileiras. Localizado em <strong>Penha, no litoral norte de Santa Catarina</strong>, o parque recebe mais de <strong>2 milhões de visitantes por ano</strong> e oferece mais de <strong>100 atrações</strong> para todas as idades. Neste guia completo e atualizado para <strong>2026</strong>, você encontra tudo que precisa para planejar a visita perfeita com sua família.</p>
+
+        <div class="highlight"><h3>⚠️ Atenção ao novo calendário 2026 do parque</h3>
+        <ul>
+          <li>Desde <strong>18/05/2026</strong>, o parque <strong>abre às 10h</strong>; os brinquedos funcionam até as <strong>18h</strong> e o fechamento é às <strong>20h</strong>.</li>
+          <li>Entre <strong>agosto e novembro de 2026</strong>, o parque <strong>não abre às terças e quartas-feiras</strong> (exceto em períodos de feriado).</li>
+          <li>Parque <strong>fechado nos dias 1, 2, 8 e 9 de dezembro de 2026</strong>. Depois disso, funcionamento diário até março de 2027.</li>
+          <li>Sempre confira o calendário oficial em <a href="https://www.betocarrero.com.br" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary/80 underline">betocarrero.com.br</a> antes de reservar.</li>
+        </ul>
+        <p><strong>Reforço prático:</strong> hospedando-se na Pousada Vila D'Itália, a 5 minutos do parque, é fácil reorganizar o roteiro — praia num dia, parque no outro.</p></div>
 
         <h2>Conhecendo o Beto Carrero World</h2>
 
@@ -1306,6 +1325,7 @@ const blogPosts: Record<string, BlogPostData> = {
   ...Object.fromEntries(Object.entries(blogArticles1).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
   ...Object.fromEntries(Object.entries(blogArticles2).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
   ...Object.fromEntries(Object.entries(blogArticles3).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
+  ...Object.fromEntries(Object.entries(blogArticles4).map(([k, v]) => [k, { id: v.id, title: v.title, date: v.date, content: v.content, image: v.image }])),
 };
 
 const BlogPost = () => {
