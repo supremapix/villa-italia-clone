@@ -191,6 +191,15 @@ export const blogArticles1: Record<string, BlogPostData> = {
     content: `<div class="blog-content">
       <p class="lead">O <strong>Beto Carrero World</strong> é o <strong>maior parque temático da América Latina</strong> e uma das atrações mais visitadas do Brasil. Localizado em <strong>Penha, Santa Catarina</strong>, o parque recebe milhões de visitantes anualmente com suas mais de <strong>100 atrações</strong>, shows ao vivo e áreas temáticas para todas as idades. Neste guia completo de 2026, reunimos todas as dicas essenciais para você planejar sua visita perfeita.</p>
 
+      <div class="highlight"><h3>⚠️ Atenção ao novo calendário 2026 do parque</h3>
+      <ul>
+        <li>Desde <strong>18/05/2026</strong>, o parque <strong>abre às 10h</strong>; brinquedos funcionam até as <strong>18h</strong> e fechamento às <strong>20h</strong>.</li>
+        <li>Entre <strong>agosto e novembro de 2026</strong>, o parque <strong>não abre às terças e quartas-feiras</strong> (exceto em períodos de feriado).</li>
+        <li>Parque <strong>fechado nos dias 1, 2, 8 e 9 de dezembro de 2026</strong>. Depois disso, funcionamento diário até março de 2027.</li>
+        <li>Confira sempre o calendário oficial em <a href="https://www.betocarrero.com.br" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary/80 underline">betocarrero.com.br</a> antes de reservar.</li>
+      </ul>
+      <p><strong>Dica prática:</strong> hospedando-se na Pousada Vila D'Itália, a 5 minutos do parque, é fácil reorganizar o roteiro — praia num dia, parque no outro.</p></div>
+
       <h2>História e Dados do Parque</h2>
       <p>Inaugurado em <strong>28 de dezembro de 1991</strong>, o Beto Carrero World ocupa uma área de <strong>14 milhões de metros quadrados</strong>, tornando-o não apenas o maior parque da América Latina, mas um dos maiores do mundo. O parque foi fundado pelo empresário e artista <strong>João Baptista Sérgio Murad</strong>, conhecido como Beto Carrero, que sonhava em criar um espaço de diversão e entretenimento para toda a família brasileira.</p>
       <p>Ao longo de mais de 30 anos de história, o parque se reinventou constantemente, incorporando áreas temáticas licenciadas como a <strong>DreamWorks</strong> (com personagens do <strong>Madagascar</strong>, <strong>Shrek</strong> e <strong>Kung Fu Panda</strong>) e montanhas-russas de padrão internacional.</p>
