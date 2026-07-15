@@ -15,9 +15,11 @@ const FloatingButtons = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="group"
+        aria-label="Contato via WhatsApp"
       >
         <Button
           size="icon"
+          aria-label="Contato via WhatsApp"
           className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-[#25D366] hover:bg-[#20BA5A] shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
           <MessageCircle className="h-5 w-5 md:h-6 md:w-6 text-white" />
@@ -30,9 +32,11 @@ const FloatingButtons = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="group"
+        aria-label="Ver localização no mapa"
       >
         <Button
           size="icon"
+          aria-label="Ver localização no mapa"
           className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-cta hover:bg-cta-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
           <MapPin className="h-5 w-5 md:h-6 md:w-6 text-white" />
@@ -43,9 +47,11 @@ const FloatingButtons = () => {
       <a
         href={emailUrl}
         className="group"
+        aria-label="Enviar e-mail para a pousada"
       >
         <Button
           size="icon"
+          aria-label="Enviar e-mail para a pousada"
           className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-secondary hover:bg-secondary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
           <Mail className="h-5 w-5 md:h-6 md:w-6 text-white" />
@@ -58,9 +64,11 @@ const FloatingButtons = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="group"
+        aria-label="Fazer reserva online"
       >
         <Button
           size="icon"
+          aria-label="Fazer reserva online"
           className="h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         >
           <Calendar className="h-5 w-5 md:h-6 md:w-6 text-white" />
