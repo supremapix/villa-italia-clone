@@ -60,7 +60,7 @@ const InstagramFeed = () => {
             <iframe
               src={`https://www.instagram.com/${instagramHandle}/embed`}
               width="100%"
-              height="750"
+              height="520"
               frameBorder="0"
               scrolling="no"
               title={`Feed do Instagram da Pousada Villa D'Italia`}
