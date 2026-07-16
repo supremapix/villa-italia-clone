@@ -3,26 +3,66 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowRight } from "lucide-react";
 
-import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
-import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
-import blogOQueFazerPenha from "@/assets/blog-o-que-fazer-penha.jpg";
-import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
-import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
-import blogIlhaFeiaPenha from "@/assets/blog-ilha-feia-penha.jpg";
-import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
+import blogFestasPenha from "@/assets/blog-festas-penha.jpg";
 import blogMariculturaPenha from "@/assets/blog-maricultura-penha.jpg";
+import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
+import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
+import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
+import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
 
 const Blog = () => {
   const navigate = useNavigate();
   
   const blogPosts = [
     {
-      slug: "praias-de-penha-sc-guia-completo",
-      title: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias",
-      excerpt: "Descubra as 10 melhores praias de Penha SC — Armação, Alegre, Quilombo e mais. Dicas de estrutura, acesso e hospedagem pertinho do mar.",
-      date: "1 de Abril, 2026",
-      image: blogPraiasPenhaSc,
+      slug: "reveillon-2026-2027-penha-balneario-camboriu",
+      title: "Réveillon 2026/2027 em Penha e Balneário Camboriú: Guia da Virada",
+      excerpt: "Queima de fogos, festas na praia, pacotes e onde se hospedar para curtir a virada no litoral norte de SC sem pagar caro.",
+      date: "1 de Outubro, 2026",
+      image: blogReveillon,
       featured: true,
+    },
+    {
+      slug: "natal-2026-penha-balneario-camboriu-blumenau",
+      title: "Natal 2026 no Litoral de SC: Luzes em BC, Magia em Blumenau e Praia em Penha",
+      excerpt: "Iluminação de Natal em Balneário Camboriú, espetáculos em Blumenau e clima de fim de ano em Penha — roteiro completo.",
+      date: "1 de Novembro, 2026",
+      image: blogFestasPenha,
+      featured: true,
+    },
+    {
+      slug: "festa-nacional-do-marisco-2027-penha-sc",
+      title: "Festa Nacional do Marisco 2027 em Penha SC: 27ª Edição",
+      excerpt: "O que esperar da maior festa gastronômica do litoral catarinense, datas, atrações e dicas para se hospedar em Penha.",
+      date: "15 de Novembro, 2026",
+      image: blogMariculturaPenha,
+      featured: false,
+    },
+    {
+      slug: "oktoberfest-blumenau-marejada-itajai-2026-base-penha",
+      title: "Oktoberfest Blumenau e Marejada Itajaí 2026: Base em Penha",
+      excerpt: "Por que se hospedar em Penha para curtir a Oktoberfest e a Marejada — distâncias, custos e roteiro do feriado.",
+      date: "15 de Agosto, 2026",
+      image: blogGastronomiaPenha,
+      featured: false,
+    },
+    {
+      slug: "feriados-prolongados-2026-penha-beto-carrero",
+      title: "Feriados Prolongados do 2º Semestre 2026: Penha e Beto Carrero",
+      excerpt: "Independência, Nossa Senhora, Finados e Proclamação: aproveite os feriadões com filas curtas no parque e praias tranquilas.",
+      date: "5 de Agosto, 2026",
+      image: blogFimDeSemanaPenha,
+      featured: false,
+    },
+    {
+      slug: "festas-eventos-penha-regiao-agosto-dezembro-2026",
+      title: "Festas e Eventos em Penha e Região — Agosto a Dezembro 2026",
+      excerpt: "Calendário completo: Oktoberfest, Marejada, Natal, Réveillon e feriadões. Hospedagem estratégica em Penha SC.",
+      date: "20 de Julho, 2026",
+      image: blogPenhaCriancas,
+      featured: false,
     },
     {
       slug: "beto-carrero-world-dicas-guia-2026",
@@ -30,54 +70,14 @@ const Blog = () => {
       excerpt: "Atrações por faixa etária, ingressos com desconto, roteiro de 1 dia hora a hora e onde ficar a 5 min do maior parque da América Latina.",
       date: "15 de Abril, 2026",
       image: blogBetoCarreroGuia,
-      featured: true,
-    },
-    {
-      slug: "o-que-fazer-em-penha-sc",
-      title: "O Que Fazer em Penha SC: 15 Atrações Imperdíveis",
-      excerpt: "Penha vai além do Beto Carrero! Ilha Feia, maricultura, trilhas, gastronomia e 15 atrações para qualquer viajante.",
-      date: "1 de Maio, 2026",
-      image: blogOQueFazerPenha,
       featured: false,
     },
     {
-      slug: "penha-sc-com-criancas-roteiro-familia",
-      title: "Penha SC com Crianças: Roteiro de 3 Dias para Famílias",
-      excerpt: "Roteiro família-friendly: Beto Carrero, praias tranquilas, mirantes e pousada com piscina para crianças.",
-      date: "15 de Maio, 2026",
-      image: blogPenhaCriancas,
-      featured: false,
-    },
-    {
-      slug: "gastronomia-penha-sc-frutos-do-mar",
-      title: "Gastronomia em Penha SC: Frutos do Mar e Restaurantes",
-      excerpt: "Guia gastronômico com foco em frutos do mar frescos. Penha é a maior produtora de mariscos do Brasil!",
-      date: "1 de Junho, 2026",
-      image: blogGastronomiaPenha,
-      featured: false,
-    },
-    {
-      slug: "ilha-feia-penha-sc-passeio-barco",
-      title: "Ilha Feia em Penha SC: Passeio de Barco Imperdível",
-      excerpt: "Como embarcar, quanto custa, o que ver e as melhores dicas para a Ilha Feia.",
-      date: "15 de Junho, 2026",
-      image: blogIlhaFeiaPenha,
-      featured: false,
-    },
-    {
-      slug: "penha-sc-fim-de-semana-roteiro-rapido",
-      title: "Penha SC no Fim de Semana: Roteiro de 2 Dias",
-      excerpt: "Roteiro otimizado de 2 dias: praia, Beto Carrero, gastronomia e mirante.",
-      date: "1 de Julho, 2026",
-      image: blogFimDeSemanaPenha,
-      featured: false,
-    },
-    {
-      slug: "maricultura-penha-sc-turismo",
-      title: "Maricultura em Penha SC: Capital dos Mariscos",
-      excerpt: "A maricultura molda a cultura, gastronomia e turismo de Penha, a maior produtora de mariscos do Brasil.",
-      date: "15 de Julho, 2026",
-      image: blogMariculturaPenha,
+      slug: "praias-de-penha-sc-guia-completo",
+      title: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias",
+      excerpt: "Descubra as 10 melhores praias de Penha SC — Armação, Alegre, Quilombo e mais. Estrutura, acesso e hospedagem pertinho do mar.",
+      date: "1 de Abril, 2026",
+      image: blogPraiasPenhaSc,
       featured: false,
     },
   ];
