@@ -51,7 +51,7 @@ const InstagramFeed = () => {
 
           {/* Instagram Embed */}
           <div
-            className={`overflow-hidden rounded-lg shadow-lg mb-8 transition-all duration-700 delay-200 ${
+            className={`overflow-hidden rounded-lg shadow-lg mb-2 transition-all duration-700 delay-200 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -60,7 +60,7 @@ const InstagramFeed = () => {
             <iframe
               src={`https://www.instagram.com/${instagramHandle}/embed`}
               width="100%"
-              height="520"
+              height="460"
               frameBorder="0"
               scrolling="no"
               title={`Feed do Instagram da Pousada Villa D'Italia`}
