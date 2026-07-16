@@ -9,35 +9,35 @@ const PenhaNews = () => {
   const newsItems = [
     {
       icon: PartyPopper,
-      title: "Festas e Eventos Abr-Jul 2026",
-      description: "Festa Junina, Festival de Inverno, eventos gastronômicos e Beto Carrero com filas curtas. Preços até 40% menores!",
+      title: "Eventos Ago–Dez 2026 em Penha e Região",
+      description: "Oktoberfest Blumenau, Marejada Itajaí, feriadões e Natal iluminado em BC. Calendário completo com hospedagem estratégica em Penha.",
       color: "from-orange-500/20 to-red-500/20",
       iconColor: "text-orange-600",
-      link: "/blog/festas-eventos-penha-sc-abril-julho-2026"
+      link: "/blog/festas-eventos-penha-regiao-agosto-dezembro-2026"
     },
     {
       icon: Ticket,
-      title: "Guia Beto Carrero 2026",
-      description: "Roteiro completo, ingressos com desconto, atrações por faixa etária e dicas para aproveitar ao máximo com a família.",
+      title: "Réveillon 2026/2027 no Litoral Norte SC",
+      description: "Queima de fogos, festas na praia, pacotes e onde se hospedar para curtir a virada em Penha e Balneário Camboriú.",
       color: "from-blue-500/20 to-indigo-500/20",
       iconColor: "text-blue-600",
-      link: "/blog/beto-carrero-world-guia-completo-familias-2026"
+      link: "/blog/reveillon-2026-2027-penha-balneario-camboriu"
     },
     {
       icon: Sparkles,
-      title: "Baixa Temporada — Melhor Custo",
-      description: "Abril a julho: clima agradável, praias tranquilas, piscina aquecida e tarifas especiais na Pousada Vila D'Italia.",
+      title: "Natal 2026: Luzes em BC e Magia em Blumenau",
+      description: "Iluminação da orla de Balneário Camboriú, espetáculos natalinos em Blumenau e clima de fim de ano em Penha.",
       color: "from-yellow-500/20 to-orange-500/20",
       iconColor: "text-yellow-600",
-      link: "/blog/festas-eventos-penha-sc-abril-julho-2026"
+      link: "/blog/natal-2026-penha-balneario-camboriu-blumenau"
     },
     {
       icon: Newspaper,
-      title: "Calendário de Eventos 2026",
-      description: "Semana Santa, Dia das Mães, Arraial de Penha, Festa de São João, Festival do Pinhão e férias de julho!",
+      title: "Festa Nacional do Marisco 2027",
+      description: "27ª edição da maior festa gastronômica do litoral catarinense: datas, atrações e hospedagem em Penha SC.",
       color: "from-green-500/20 to-teal-500/20",
       iconColor: "text-green-600",
-      link: "/blog/festas-eventos-penha-sc-abril-julho-2026"
+      link: "/blog/festa-nacional-do-marisco-2027-penha-sc"
     }
   ];
 
