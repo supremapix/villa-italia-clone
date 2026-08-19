@@ -23,7 +23,7 @@ const CTA = `
 <div class="highlight" style="text-align:center; margin:2rem 0;">
   <h3>🏨 Reserve na Pousada Vila D'Itália</h3>
   <p>A poucos metros da Praia de Armação e a 5 minutos do Beto Carrero World. 18 quartos para casais e famílias, café da manhã incluído e piscina.</p>
-  <p><a href="https://book.omnibees.com/hotel/18988" class="text-primary hover:text-primary/80 underline font-bold" target="_blank" rel="noopener noreferrer">👉 Consultar disponibilidade</a></p>
+  <p><a href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Vim%20do%20blog%20e%20gostaria%20de%20fazer%20uma%20reserva" class="text-primary hover:text-primary/80 underline font-bold" target="_blank" rel="noopener noreferrer">👉 Consultar disponibilidade via WhatsApp</a></p>
   <p>📞 <a href="https://wa.me/5547992738090" class="text-primary hover:text-primary/80 underline">WhatsApp (47) 99273-8090</a></p>
 </div>`;
 
