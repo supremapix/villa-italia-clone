@@ -12,12 +12,8 @@ const SummerAlert = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    // Show popup after 2 seconds
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 2000);
-
-    return () => clearTimeout(timer);
+    // Popup is disabled as per user request
+    setIsOpen(false);
   }, []);
 
   return (
@@ -35,12 +31,12 @@ const SummerAlert = () => {
             Aproveite nossas tarifas especiais e garanta os melhores dias de sol, praia e diversão em Penha!
           </p>
           <div className="flex gap-4">
-            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer" className="flex-1">
+            <a href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Vi%20o%20aviso%20de%20vagas%20no%20site%20e%20gostaria%20de%20reservar" target="_blank" rel="noopener noreferrer" className="flex-1">
               <Button
                 size="lg"
                 className="w-full bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white font-bold"
               >
-                Reserve Agora
+                Solicitar Reserva WhatsApp
               </Button>
             </a>
             <Button

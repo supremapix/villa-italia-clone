@@ -538,7 +538,7 @@ const Accommodations = () => {
                 }
               }}
             >
-              Reserve Sua Estadia
+              Solicitar Reserva WhatsApp
             </Button>
           </div>
         </div>
