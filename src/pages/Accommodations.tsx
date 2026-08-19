@@ -529,7 +529,14 @@ const Accommodations = () => {
               variant="cta" 
               size="lg"
               className="shadow-lg hover:shadow-xl transition-all"
-              onClick={() => window.open("https://book.omnibees.com/hotel/18988", "_blank")}
+              onClick={() => {
+                const element = document.getElementById("reservation-form");
+                if (element) {
+                  element.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  window.location.href = "/#reservation";
+                }
+              }}
             >
               Reserve Sua Estadia
             </Button>
