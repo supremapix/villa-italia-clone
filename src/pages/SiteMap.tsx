@@ -234,11 +234,11 @@ const SiteMap = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <button
-                onClick={() => window.open("https://book.omnibees.com/hotel/18988", "_blank", "noopener,noreferrer")}
+                onClick={() => window.open("https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Vim%20do%20Sitemap%20e%20gostaria%20de%20fazer%20uma%20reserva", "_blank", "noopener,noreferrer")}
                 className="inline-flex items-center justify-center px-6 py-3 bg-cta text-cta-foreground font-semibold rounded-lg hover:bg-cta-dark transition-smooth"
               >
                 <Bed className="w-4 h-4 mr-2" />
-                Reservar Online
+                Solicitar Reserva WhatsApp
               </button>
               <button
                 onClick={() => window.open("https://wa.me/5547992738090?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20uma%20reserva", "_blank", "noopener,noreferrer")}
