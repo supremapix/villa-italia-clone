@@ -38,7 +38,7 @@ const SummerAlert = () => {
               >
                 Solicitar Reserva WhatsApp
               </Button>
-            </a>
+            </div>
             <Button
               size="lg"
               variant="outline"
