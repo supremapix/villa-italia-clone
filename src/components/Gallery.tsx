@@ -398,14 +398,20 @@ const Gallery = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
-            <Button
-              size="lg"
-              className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-xl px-10 py-7 shadow-glow hover:scale-105 transition-all duration-300"
-            >
-              Reserve Sua Estadia Agora
-            </Button>
-          </a>
+          <Button
+            size="lg"
+            className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-xl px-10 py-7 shadow-glow hover:scale-105 transition-all duration-300"
+            onClick={() => {
+              const element = document.getElementById("reservation-form");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/#reservation";
+              }
+            }}
+          >
+            Solicitar Reserva via WhatsApp
+          </Button>
         </div>
       </div>
 

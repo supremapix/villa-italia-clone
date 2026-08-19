@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import SummerAlert from "@/components/SummerAlert";
+
 import Hero from "@/components/Hero";
 import KeyInfo from "@/components/KeyInfo";
 import Gallery from "@/components/Gallery";
@@ -39,7 +39,7 @@ const Index = () => {
         ]}
       />
       <Navigation />
-      <SummerAlert />
+      
       <main>
         <Hero />
         <KeyInfo />

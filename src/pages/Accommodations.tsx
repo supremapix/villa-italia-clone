@@ -362,9 +362,16 @@ const Accommodations = () => {
           <Button 
             variant="cta" 
             size="lg"
-            onClick={() => window.open("https://book.omnibees.com/hotel/18988", "_blank")}
+            onClick={() => {
+              const element = document.getElementById("reservation-form");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/#reservation";
+              }
+            }}
           >
-            Reserve Agora
+            Solicitar Reserva via WhatsApp
           </Button>
         </div>
       </section>

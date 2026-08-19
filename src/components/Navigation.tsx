@@ -95,12 +95,10 @@ const Navigation = () => {
                 {link.label}
               </button>
             ))}
-            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
-              <Button variant="cta" size="lg">
-                <Phone className="w-4 h-4" />
-                Reserve Agora
-              </Button>
-            </a>
+            <Button variant="cta" size="lg" onClick={() => scrollToSection("contact")}>
+              <Phone className="w-4 h-4" />
+              Reservar via WhatsApp
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -130,16 +128,15 @@ const Navigation = () => {
                 </button>
               ))}
               <div className="px-4 pt-2">
-                <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer" className="block">
-                  <Button
-                    variant="cta"
-                    size="lg"
-                    className="w-full"
-                  >
-                    <Phone className="w-4 h-4" />
-                    Reserve Agora
-                  </Button>
-                </a>
+                <Button
+                  variant="cta"
+                  size="lg"
+                  className="w-full"
+                  onClick={() => scrollToSection("contact")}
+                >
+                  <Phone className="w-4 h-4" />
+                  Reservar via WhatsApp
+                </Button>
               </div>
             </div>
           </div>

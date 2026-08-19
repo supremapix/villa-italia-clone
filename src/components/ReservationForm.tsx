@@ -61,7 +61,7 @@ const ReservationForm = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-muted/30 to-background">
+    <section id="reservation-form" className="py-20 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
@@ -210,17 +210,6 @@ const ReservationForm = () => {
                   <Phone className="w-5 h-5 mr-2" />
                   Enviar via WhatsApp
                 </Button>
-                <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer" className="flex-1">
-                  <Button
-                    type="button"
-                    variant="cta"
-                    size="lg"
-                    className="w-full text-lg h-14"
-                  >
-                    <Calendar className="w-5 h-5 mr-2" />
-                    Reservar Online
-                  </Button>
-                </a>
               </div>
             </form>
           </Card>
