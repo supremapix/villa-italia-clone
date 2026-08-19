@@ -688,9 +688,9 @@ const FAQ = () => {
             Garanta as melhores tarifas, sem intermediários. Café da manhã incluso, piscina aquecida, Wi-Fi e estacionamento — tudo a 80m da praia e 5 min do Beto Carrero World.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Vim%20do%20FAQ%20e%20gostaria%20de%20fazer%20uma%20reserva" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-secondary hover:bg-secondary-dark text-secondary-foreground text-lg px-8 py-6 gap-2">
-                Reserve Pelo Site Oficial
+                Solicitar Reserva WhatsApp
               </Button>
             </a>
             <a href="https://wa.me/5547992738090?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20uma%20reserva" target="_blank" rel="noopener noreferrer">

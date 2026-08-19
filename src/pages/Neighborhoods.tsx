@@ -1346,11 +1346,11 @@ const Neighborhoods = () => {
                       asChild
                     >
                       <a
-                        href="https://book.omnibees.com/hotel/18988"
+                        href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Estou%20vendo%20as%20praias%20de%20Penha%20e%20gostaria%20de%20fazer%20uma%20reserva"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Reserve sua Estadia
+                        Solicitar Reserva WhatsApp
                       </a>
                     </Button>
                     <Button
