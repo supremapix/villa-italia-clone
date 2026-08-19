@@ -110,17 +110,16 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4"
             style={{ animation: 'fadeInUp 0.8s ease-out 1s both' }}
           >
-            <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="hero"
-                size="lg"
-                className="text-lg px-8 py-6 relative overflow-hidden group animate-pulse-glow"
-              >
-                <span className="absolute inset-0 animate-shimmer" />
-                <Phone className="w-5 h-5 relative z-10" />
-                <span className="relative z-10">Reserve sua estadia</span>
-              </Button>
-            </a>
+            <Button
+              variant="hero"
+              size="lg"
+              onClick={scrollToContact}
+              className="text-lg px-8 py-6 relative overflow-hidden group animate-pulse-glow"
+            >
+              <span className="absolute inset-0 animate-shimmer" />
+              <Phone className="w-5 h-5 relative z-10" />
+              <span className="relative z-10">Solicitar reserva WhatsApp</span>
+            </Button>
             <Button
               variant="outline"
               size="lg"

@@ -398,10 +398,17 @@ const PenhaAccordion = () => {
             <Button
               size="lg"
               variant="cta"
-              onClick={() => window.open("https://book.omnibees.com/hotel/18988", "_blank")}
+              onClick={() => {
+                const element = document.getElementById("reservation-form");
+                if (element) {
+                  element.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  window.location.href = "/#reservation";
+                }
+              }}
               className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full sm:w-auto max-w-md sm:max-w-none"
             >
-              Reserve Agora na Pousada Vila D'Italia
+              Solicitar Reserva WhatsApp na Pousada Vila D'Italia
             </Button>
           </div>
         </div>

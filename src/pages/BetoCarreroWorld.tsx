@@ -147,12 +147,12 @@ const BetoCarreroWorld = () => {
             World. Garanta sua vaga e venha criar memórias inesquecíveis em Penha/SC.
           </p>
           <a
-            href="https://book.omnibees.com/hotel/18988"
+            href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Estou%20no%20site%20e%20gostaria%20de%20fazer%20uma%20reserva%20perto%20do%20Beto%20Carrero"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button variant="cta" size="lg">
-              Ver disponibilidade e reservar
+              Solicitar reserva via WhatsApp
             </Button>
           </a>
           <div className="mt-6">

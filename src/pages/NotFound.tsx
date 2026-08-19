@@ -34,10 +34,10 @@ const NotFound = () => {
             </Button>
           </Link>
           
-          <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá!%20Me%20perdi%20no%20site%20mas%20quero%20fazer%20uma%20reserva" target="_blank" rel="noopener noreferrer">
             <Button variant="secondary" size="lg" className="text-lg px-8">
               <Search className="w-5 h-5" />
-              Fazer Reserva
+              Solicitar Reserva WhatsApp
             </Button>
           </a>
         </div>

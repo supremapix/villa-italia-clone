@@ -219,14 +219,20 @@ const RoomGallerySlider = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-8">
-          <a href="https://book.omnibees.com/hotel/18988" target="_blank" rel="noopener noreferrer">
-            <Button
-              size="lg"
-              className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-lg px-8 py-6"
-            >
-              Reserve Seu Quarto
-            </Button>
-          </a>
+          <Button
+            size="lg"
+            className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-lg px-8 py-6"
+            onClick={() => {
+              const element = document.getElementById("reservation-form");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/#reservation";
+              }
+            }}
+          >
+            Solicitar Reserva via WhatsApp
+          </Button>
         </div>
       </div>
 
