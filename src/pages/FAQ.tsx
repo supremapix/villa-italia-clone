@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { ChevronDown, Plus, Minus, HelpCircle, Search, Phone, MessageCircle, MapPin, Coffee, Waves, PawPrint, DollarSign, BedDouble, CalendarCheck } from "lucide-react";
+import PousadaMap from "@/components/PousadaMap";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -705,6 +706,8 @@ const FAQ = () => {
 
       {/* JSON-LD LodgingBusiness */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingStructuredData) }} />
+
+      <PousadaMap />
 
       <Footer />
       <FloatingButtons />
