@@ -6,6 +6,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
 import RoomGallerySlider from "@/components/RoomGallerySlider";
 import EnhancedSEO from "@/components/EnhancedSEO";
+import PousadaMap from "@/components/PousadaMap";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Star, Users, Wifi, Coffee, AirVent, Tv, Refrigerator, Quote, Sparkles } from "lucide-react";
@@ -543,6 +544,8 @@ const Accommodations = () => {
           </div>
         </div>
       </section>
+
+      <PousadaMap />
 
       <RoomGallerySlider />
 
