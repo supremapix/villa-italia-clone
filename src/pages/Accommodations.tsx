@@ -544,6 +544,8 @@ const Accommodations = () => {
         </div>
       </section>
 
+      <PousadaMap />
+
       <RoomGallerySlider />
 
       <PenhaNews />

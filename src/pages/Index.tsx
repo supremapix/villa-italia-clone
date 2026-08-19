@@ -25,6 +25,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ScrollToTop from "@/components/ScrollToTop";
 import KnowledgeSection from "@/components/KnowledgeSection";
+import PousadaMap from "@/components/PousadaMap";
 
 const Index = () => {
   return (
@@ -61,6 +62,7 @@ const Index = () => {
         <ReservationForm />
         <HomeBetoFAQ />
         <Contact />
+        <PousadaMap />
       </main>
       <Footer />
       <FloatingButtons />
