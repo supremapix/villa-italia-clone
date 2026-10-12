@@ -611,13 +611,13 @@ const BlogIndex = () => {
               <Button size="lg" variant="outline" className="border-white text-white bg-transparent hover:bg-white hover:text-primary text-lg px-8 py-6">WhatsApp</Button>
             </a>
           </div>
+          <div className="text-center mt-8 text-xs text-primary-foreground/60">
+            <p>Fotos reais da região: Licença Creative Commons / Domínio Público.</p>
+          </div>
         </div>
       </section>
 
       <Footer />
-      <div className="text-center pb-8 text-xs text-muted-foreground">
-        <p>Fotos reais da região: Licença Creative Commons / Domínio Público.</p>
-      </div>
       <FloatingButtons />
     </div>
   );

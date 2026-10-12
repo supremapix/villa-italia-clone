@@ -116,28 +116,30 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-6 bg-background border-t border-border animate-fade-in absolute w-full left-0 z-50">
+          <div className="lg:hidden py-4 bg-background border-t border-border animate-fade-in absolute w-full left-0 z-50 shadow-xl max-h-[85vh] overflow-y-auto">
             <div className="flex flex-col">
+              {/* WhatsApp no topo para acesso rápido */}
+              <div className="px-6 py-4 bg-muted/40 border-b border-border">
+                <Button
+                  variant="cta"
+                  size="lg"
+                  className="w-full text-xl py-7 flex items-center justify-center gap-3 shadow-md"
+                  onClick={() => scrollToSection("contact")}
+                >
+                  <Phone className="w-6 h-6" />
+                  <span className="font-bold">Chamar no WhatsApp</span>
+                </Button>
+              </div>
+
               {navLinks.map((link) => (
                 <button
                   key={link.id}
                   onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
-                  className="text-left px-6 py-5 text-2xl text-foreground font-semibold border-b border-border hover:bg-muted transition-smooth"
+                  className="text-left px-6 py-4 text-xl text-foreground font-semibold border-b border-border hover:bg-muted transition-colors"
                 >
                   {link.label}
                 </button>
               ))}
-              <div className="px-6 py-6">
-                <Button
-                  variant="cta"
-                  size="lg"
-                  className="w-full text-xl py-8 flex items-center justify-center gap-3"
-                  onClick={() => scrollToSection("contact")}
-                >
-                  <Phone className="w-8 h-8" />
-                  <span className="font-bold">Chamar no WhatsApp</span>
-                </Button>
-              </div>
             </div>
           </div>
         )}
