@@ -116,26 +116,26 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 bg-background border-t border-border animate-fade-in">
-            <div className="flex flex-col gap-4">
+          <div className="lg:hidden py-6 bg-background border-t border-border animate-fade-in absolute w-full left-0 z-50">
+            <div className="flex flex-col">
               {navLinks.map((link) => (
                 <button
                   key={link.id}
                   onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
-                  className="text-left px-4 py-2 text-foreground hover:text-secondary hover:bg-muted transition-smooth font-medium rounded-md"
+                  className="text-left px-6 py-5 text-2xl text-foreground font-semibold border-b border-border hover:bg-muted transition-smooth"
                 >
                   {link.label}
                 </button>
               ))}
-              <div className="px-4 pt-2">
+              <div className="px-6 py-6">
                 <Button
                   variant="cta"
                   size="lg"
-                  className="w-full"
+                  className="w-full text-xl py-8 flex items-center justify-center gap-3"
                   onClick={() => scrollToSection("contact")}
                 >
-                  <Phone className="w-4 h-4" />
-                  Reservar via WhatsApp
+                  <Phone className="w-8 h-8" />
+                  <span className="font-bold">Chamar no WhatsApp</span>
                 </Button>
               </div>
             </div>

@@ -1,19 +1,24 @@
-# Pousada Vila D'Italia
+# Pousada Vila D'Itália
 
-> Pousada em Penha/SC a poucos metros da Praia de Armação e a 5 minutos do Beto Carrero World, com piscina, café da manhã incluso e 18 suítes ideais para famílias.
+A Pousada Vila D'Itália oferece uma hospedagem acolhedora em Penha, Santa Catarina, localizada a poucos passos da Praia de Armação e a apenas 5 minutos do Beto Carrero World. Com piscina, café da manhã incluso e uma atmosfera familiar, somos a escolha ideal para suas férias.
 
-A Pousada Vila D'Italia fica na R. Luís Vicente da Silva, 183 — Penha/SC. Oferece piscina ao ar livre, piscina coberta com hidromassagem, Wi-Fi, estacionamento gratuito e café da manhã incluso. Reservas pelo Omnibees ou pelo WhatsApp +55 47 99273-8090.
+## Informações de Contato
+- Endereço: R. Luís Vicente da Silva, 183, Centro, Penha - SC, CEP 88385-000
+- Reservas (WhatsApp): +55 47 99273-8090
+- Recepção (WhatsApp): +55 47 99204-5122
+- E-mail: contato@viladitalia.com.br
 
-## Pages
+## Páginas Principais
+- Home: https://www.pousadaviladitalia.com.br
+- Acomodações: https://www.pousadaviladitalia.com.br/acomodacoes
+- Blog: https://www.pousadaviladitalia.com.br/blog
+- Bairros e Praias de Penha: https://www.pousadaviladitalia.com.br/bairros-penha
+- Beto Carrero World: https://www.pousadaviladitalia.com.br/beto-carrero-world
+- FAQ: https://www.pousadaviladitalia.com.br/faq
 
-- [Home](/): apresentação da pousada, estrutura, localização e reservas.
-- [Acomodações](/acomodacoes): tipos de quartos, capacidade, comodidades e valores.
-- [Beto Carrero World](/beto-carrero-world): guia de distâncias, dicas e como se hospedar perto do parque.
-- [Bairros e Praias de Penha](/bairros-penha): as 25 praias e bairros de Penha/SC.
-- [Blog](/blog): guias de viagem, roteiros regionais e eventos em Penha e região.
-- [FAQ](/faq): perguntas frequentes sobre reservas, café da manhã, famílias e Beto Carrero.
-- [Mapa do Site](/mapa-do-site): navegação completa do site.
-
-## Optional
-
-- [Sitemap XML](/sitemap.xml): índice de URLs para crawlers.
+## Destaques do Blog
+O nosso blog oferece dicas valiosas sobre:
+- Beto Carrero World: Guias, dicas para famílias, melhor época para visitar.
+- Praias de Penha: Guia das praias da região, praias tranquilas, lazer.
+- Gastronomia e Lazer em Penha.
+- Roteiros e dicas de viagem para quem visita Santa Catarina.

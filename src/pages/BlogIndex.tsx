@@ -18,13 +18,13 @@ import penhaBeach1 from "@/assets/penha-beach-1.webp";
 import penhaBeach3 from "@/assets/penha-beach-3.jpg";
 
 // New 14 articles images
-import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
-import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
-import blogOQueFazerPenha from "@/assets/blog-o-que-fazer-penha.jpg";
-import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
-import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
-import blogIlhaFeiaPenha from "@/assets/blog-ilha-feia-penha.jpg";
-import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogPraiasPenhaScReal from "@/assets/penha-praia-armacao-real.jpg";
+import blogBetoCarreroGuiaReal from "@/assets/beto-carrero-castelo-real.jpg";
+import blogOQueFazerPenhaReal from "@/assets/penha-vista-geral-real.jpg";
+import blogPenhaCriancas from "@/assets/penha-praia-paciencia-real.jpg";
+import blogGastronomiaPenha from "@/assets/balneario-camboriu-noite-real.jpg";
+import blogIlhaFeiaPenha from "@/assets/penha-vista-geral-real.jpg";
+import blogFimDeSemanaPenha from "@/assets/penha-praia-armacao-real.jpg";
 import blogMariculturaPenha from "@/assets/blog-maricultura-penha.jpg";
 import blogPraiasTranquilasSc from "@/assets/blog-praias-tranquilas-sc.jpg";
 import blogTemporadaVerao2027 from "@/assets/blog-temporada-verao-2027.jpg";
@@ -32,6 +32,7 @@ import blogComoChegar from "@/assets/blog-como-chegar-penha.jpg";
 import blogPousadaPertoBeto from "@/assets/blog-pousada-perto-beto-carrero.jpg";
 import blogBaixaTemporada from "@/assets/blog-baixa-temporada-penha.jpg";
 import blogMirantePraiaVermelha from "@/assets/blog-mirante-praia-vermelha.jpg";
+import { blogArticles5 } from "@/data/blogArticles5";
 
 // New 8 family/Beto Carrero articles
 import blogCuritibaBeto from "@/assets/blog-curitiba-beto-carrero.jpg";
@@ -44,6 +45,15 @@ import blogPraiaArmacaoTudo from "@/assets/blog-praia-armacao-tudo.jpg";
 import blogRoteiroMaringaBeto from "@/assets/blog-roteiro-maringa-beto.jpg";
 
 const blogPosts = [
+  ...Object.values(blogArticles5).map(article => ({
+    slug: article.id,
+    title: article.title,
+    excerpt: article.metaDescription.substring(0, 100) + "...",
+    date: article.date,
+    image: article.image,
+    category: article.category,
+    featured: false,
+  })),
   // === NEW EVENTS 2ND SEMESTER 2026 / 2027 ===
   {
     slug: "festa-nacional-do-marisco-2027-penha-sc",
@@ -278,7 +288,7 @@ const blogPosts = [
     title: "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos e Atrações",
     excerpt: "Atrações por faixa etária, ingressos com desconto, roteiro de 1 dia hora a hora e onde ficar a 5 min do maior parque da América Latina.",
     date: "15 de Abril, 2026",
-    image: blogBetoCarreroGuia,
+    image: blogBetoCarreroGuiaReal,
     category: "Atrações",
     featured: true,
   },
@@ -287,7 +297,7 @@ const blogPosts = [
     title: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias da Cidade",
     excerpt: "Descubra as 10 melhores praias de Penha SC — Armação, Alegre, Quilombo e mais. Dicas de estrutura, acesso e hospedagem pertinho do mar.",
     date: "1 de Abril, 2026",
-    image: blogPraiasPenhaSc,
+    image: blogPraiasPenhaScReal,
     category: "Praias",
     featured: true,
   },
@@ -491,7 +501,7 @@ const BlogIndex = () => {
       {featured.length > 0 && (
         <section className="container mx-auto px-4 mb-12">
           <div className="grid md:grid-cols-2 gap-6">
-            {featured.map((post) => (
+            {featured.map((post, index) => (
               <Card
                 key={post.slug}
                 className="overflow-hidden hover:shadow-hover transition-smooth cursor-pointer group bg-card border-none shadow-soft"
@@ -499,11 +509,27 @@ const BlogIndex = () => {
               >
                 {post.image && (
                   <div className="relative h-56 overflow-hidden">
-                    <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-smooth" loading="lazy" />
+                    <img 
+                      src={post.image} 
+                      alt={post.title} 
+                      className="w-full h-full object-cover" 
+                      width="600"
+                      height="300"
+                      loading={index === 0 ? "eager" : "lazy"}
+                      fetchpriority={index === 0 ? "high" : "auto"}
+                    />
                     <div className="absolute top-4 left-4 flex gap-2">
                       <span className="bg-cta text-cta-foreground px-3 py-1 rounded-full text-sm font-semibold">Destaque</span>
                       <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">{post.category}</span>
                     </div>
+                    <a
+                      href="https://wa.me/5547992738090"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-xs py-2 px-4 flex items-center justify-center hover:bg-black/80 transition-colors"
+                    >
+                      📞 (47) 99273-8090
+                    </a>
                   </div>
                 )}
                 <div className="p-6">
@@ -531,10 +557,25 @@ const BlogIndex = () => {
             >
               {post.image ? (
                 <div className="relative h-44 overflow-hidden">
-                  <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-smooth" loading="lazy" />
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover" 
+                    width="400"
+                    height="200"
+                    loading="lazy"
+                  />
                   <div className="absolute top-3 left-3">
                     <span className="bg-primary text-primary-foreground px-2.5 py-0.5 rounded-full text-xs font-semibold">{post.category}</span>
                   </div>
+                  <a
+                    href="https://wa.me/5547992738090"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-xs py-1.5 px-3 flex items-center justify-center hover:bg-black/80 transition-colors"
+                  >
+                    📞 (47) 99273-8090
+                  </a>
                 </div>
               ) : (
                 <div className="h-44 bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
@@ -574,6 +615,9 @@ const BlogIndex = () => {
       </section>
 
       <Footer />
+      <div className="text-center pb-8 text-xs text-muted-foreground">
+        <p>Fotos reais da região: Licença Creative Commons / Domínio Público.</p>
+      </div>
       <FloatingButtons />
     </div>
   );

@@ -8,6 +8,12 @@ import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft } from "lucide-react";
 
+import penhaPraiaArmacaoReal from "@/assets/penha-praia-armacao-real.jpg";
+import betoCarreroCasteloReal from "@/assets/beto-carrero-castelo-real.jpg";
+import penhaVistaGeralReal from "@/assets/penha-vista-geral-real.jpg";
+import penhaPraiaPacienciaReal from "@/assets/penha-praia-paciencia-real.jpg";
+import balnearioCamboriuNoiteReal from "@/assets/balneario-camboriu-noite-real.jpg";
+
 import blogTemporadaVerao from "@/assets/blog-temporada-verao-penha.jpg";
 import blogReveillon from "@/assets/blog-reveillon-penha-2025.jpg";
 import blogVeraoJaneiro2026 from "@/assets/blog-verao-janeiro-2026.jpg";
@@ -1409,13 +1415,35 @@ const BlogPost = () => {
           </Button>
 
           {/* Featured Image */}
-          <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
+          <div className="relative mb-4 rounded-xl overflow-hidden shadow-lg">
             <img 
-              src={post.image} 
+              src={(() => {
+                if (post.id.includes("praias-de-penha")) return penhaPraiaArmacaoReal;
+                if (post.id.includes("beto-carrero")) return betoCarreroCasteloReal;
+                if (post.id.includes("o-que-fazer-em-penha")) return penhaVistaGeralReal;
+                if (post.id.includes("mirante-praia-vermelha")) return penhaPraiaPacienciaReal;
+                if (post.id.includes("reveillon") || post.id.includes("natal")) return balnearioCamboriuNoiteReal;
+                return post.image;
+              })()}
               alt={post.title}
               className="w-full h-64 md:h-96 object-cover"
+              width="1200"
+              height="600"
+              loading="eager"
             />
+            <a
+              href="https://wa.me/5547992738090"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-sm py-2 px-4 flex items-center justify-center hover:bg-black/80 transition-colors"
+            >
+              📞 Reserva via WhatsApp: (47) 99273-8090
+            </a>
           </div>
+          {/* Attribution */}
+          {post.id.includes("praias-de-penha") || post.id.includes("beto-carrero") || post.id.includes("o-que-fazer-em-penha") || post.id.includes("mirante-praia-vermelha") || post.id.includes("reveillon") || post.id.includes("natal") ? (
+             <p className="text-xs text-muted-foreground mb-8 italic">Foto: Wikimedia Commons</p>
+          ) : null}
 
           <div className="mb-8">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 leading-tight">

@@ -119,6 +119,14 @@ const Blog = () => {
                       Destaque
                     </span>
                   </div>
+                  <a
+                    href="https://wa.me/5547992738090"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-xs py-1.5 px-3 flex items-center justify-center hover:bg-black/80 transition-colors"
+                  >
+                    📞 (47) 99273-8090
+                  </a>
                 </div>
               )}
               <div className="p-6">
@@ -205,6 +213,9 @@ const Blog = () => {
             <ArrowRight className="h-5 w-5" />
           </Button>
         </div>
+      </div>
+      <div className="text-center mt-8 text-xs text-muted-foreground">
+        <p>Fotos reais da região: Licença Creative Commons / Domínio Público.</p>
       </div>
     </section>
   );

@@ -1,12 +1,12 @@
 // Articles 1-7 (April - July 2026)
 
-import blogPraiasPenhaSc from "@/assets/blog-praias-penha-sc.jpg";
-import blogBetoCarreroGuia from "@/assets/blog-beto-carrero-guia-2026.jpg";
-import blogOQueFazerPenha from "@/assets/blog-o-que-fazer-penha.jpg";
-import blogPenhaCriancas from "@/assets/blog-penha-criancas.jpg";
-import blogGastronomiaPenha from "@/assets/blog-gastronomia-penha.jpg";
-import blogIlhaFeiaPenha from "@/assets/blog-ilha-feia-penha.jpg";
-import blogFimDeSemanaPenha from "@/assets/blog-fim-de-semana-penha.jpg";
+import blogPraiasPenhaScReal from "@/assets/penha-praia-armacao-real.jpg";
+import blogBetoCarreroGuiaReal from "@/assets/beto-carrero-castelo-real.jpg";
+import blogOQueFazerPenhaReal from "@/assets/penha-vista-geral-real.jpg";
+import blogPenhaCriancas from "@/assets/penha-praia-paciencia-real.jpg";
+import blogGastronomiaPenha from "@/assets/balneario-camboriu-noite-real.jpg";
+import blogIlhaFeiaPenha from "@/assets/penha-vista-geral-real.jpg";
+import blogFimDeSemanaPenha from "@/assets/penha-praia-armacao-real.jpg";
 
 export interface BlogPostData {
   id: string;
@@ -37,7 +37,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
     metaDescription: "Descubra as 10 melhores praias de Penha SC — Praia da Armação, Praia Alegre, Quilombo e mais. Dicas de estrutura, acesso e como se hospedar pertinho do mar.",
     keywords: "praias de Penha SC, praia da Armação Penha, Praia Alegre Penha SC, praias litoral norte SC, melhores praias Penha",
     category: "Praias",
-    image: blogPraiasPenhaSc,
+    image: blogPraiasPenhaScReal,
     content: `<div class="blog-content">
       <p class="lead">Se você está planejando uma viagem ao <strong>litoral norte de Santa Catarina</strong>, precisa conhecer as <strong>praias de Penha SC</strong>. Esta cidade encantadora abriga algumas das praias mais bonitas e diversificadas do sul do Brasil, combinando <strong>águas calmas para famílias</strong>, <strong>ondas perfeitas para surf</strong> e <strong>enseadas secretas</strong> cercadas por Mata Atlântica. Neste guia completo, apresentamos as <strong>10 melhores praias de Penha</strong> com informações detalhadas sobre cada uma.</p>
 
@@ -187,7 +187,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
     metaDescription: "Tudo sobre o Beto Carrero World em 2026: atrações, ingressos, melhores épocas e onde se hospedar a apenas 5 minutos do parque em Penha SC.",
     keywords: "Beto Carrero World dicas, ingresso Beto Carrero 2026, hospedagem perto Beto Carrero, parque Penha SC, atrações Beto Carrero",
     category: "Atrações",
-    image: blogBetoCarreroGuia,
+    image: blogBetoCarreroGuiaReal,
     content: `<div class="blog-content">
       <p class="lead">O <strong>Beto Carrero World</strong> é o <strong>maior parque temático da América Latina</strong> e uma das atrações mais visitadas do Brasil. Localizado em <strong>Penha, Santa Catarina</strong>, o parque recebe milhões de visitantes anualmente com suas mais de <strong>100 atrações</strong>, shows ao vivo e áreas temáticas para todas as idades. Neste guia completo de 2026, reunimos todas as dicas essenciais para você planejar sua visita perfeita.</p>
 
@@ -314,7 +314,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
     metaDescription: "Penha vai muito além do Beto Carrero! Veja 15 coisas para fazer em Penha SC: praias, trilhas, maricultura, gastronomia e pontos turísticos.",
     keywords: "o que fazer em Penha SC, turismo Penha SC, atrações Penha Santa Catarina, roteiro Penha SC, pontos turísticos Penha",
     category: "Guias",
-    image: blogOQueFazerPenha,
+    image: blogOQueFazerPenhaReal,
     content: `<div class="blog-content">
       <p class="lead">Quando se fala em <strong>Penha SC</strong>, a maioria das pessoas pensa imediatamente no <strong>Beto Carrero World</strong>. Mas esta cidade do litoral norte catarinense oferece muito mais do que o maior parque temático da América Latina. Com <strong>praias paradisíacas</strong>, <strong>tradição pesqueira</strong>, <strong>gastronomia excepcional</strong> e uma <strong>cultura açoriana</strong> fascinante, Penha é um destino completo que merece ser explorado com calma. Confira as <strong>15 atrações imperdíveis</strong> para incluir no seu roteiro!</p>
 
