@@ -1,8 +1,6 @@
 import ImageCredit from '@/components/ImageCredit';
 import { useParams, useNavigate, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import PenhaNews from "@/components/PenhaNews";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
@@ -162,8 +160,6 @@ const BlogPost = () => {
         </article>
       </main>
       <PenhaNews />
-      <Footer />
-      <FloatingButtons />
     </div>
   );
 };

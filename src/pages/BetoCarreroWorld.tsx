@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -152,9 +150,6 @@ const BetoCarreroWorld = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
-      <FloatingButtons />
     </div>
   );
 };

@@ -2,6 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Shared social controls: reserve room so the rail never covers the footer. */
+body { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+.suprema-credit { display:inline-flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; min-height:48px; padding:12px 18px; border:1px solid #a9b9ae; border-radius:24px; background:#f8f5ee; color:#243f36!important; }
+.suprema-credit span { display:inline; line-height:1.8; }
+.suprema-credit img { height:18px; width:auto; max-width:110px; object-fit:contain; }
+.suprema-heart { display:inline-block; vertical-align:middle; color:#b52336; animation:suprema-heartbeat 3s ease-in-out infinite; }
+@keyframes suprema-heartbeat { 50% { transform:scale(1.12); } }
+.instagram-section { position:relative; overflow:hidden; padding:48px 16px; background:#f9fafb80; border-block:1px solid #e5e7eb; color:#243f36; }
+.instagram-content { position:relative; max-width:800px; margin:auto; text-align:center; }
+.instagram-content h1 { font-size:clamp(30px,5vw,48px); margin:24px 0; line-height:1.2; }
+.instagram-heading { font-size:clamp(22px,3vw,30px); font-weight:700; line-height:1.4; overflow-wrap:anywhere; }
+.instagram-heading span { display:block; }
+.instagram-content p { font-size:18px; line-height:1.7; color:#374151; margin:20px 0; }
+.instagram-badge,.instagram-cta { background:linear-gradient(110deg,#9d174d,#9a3412); color:white!important; display:inline-flex; gap:10px; align-items:center; justify-content:center; border-radius:24px; padding:12px 20px; flex-wrap:wrap; }
+.instagram-content .instagram-badge { font-size:15px; font-weight:700; overflow-wrap:anywhere; }
+.instagram-cta { min-height:56px; font-size:18px; font-weight:700; }
+.instagram-cta:hover { background:linear-gradient(110deg,#831843,#7c2d12); }
+.instagram-card { margin:32px auto 20px; max-width:540px; border:1px solid #e5e7eb; border-radius:24px; overflow:hidden; background:white; box-shadow:0 12px 40px #243f3610; transition:transform .2s; }
+.instagram-card:hover { transform:scale(1.01); }
+.instagram-card iframe { width:100%; aspect-ratio:9/11; border:0; display:block; }
+.instagram-content .instagram-help { font-size:16px; }
+.instagram-location { display:flex; align-items:center; justify-content:center; gap:8px; }
+.instagram-location svg { flex-shrink:0; }
+.instagram-glow { position:absolute; width:240px; height:240px; border-radius:50%; filter:blur(64px); opacity:.25; pointer-events:none; }
+.instagram-glow-pink { top:30px; left:-80px; background:#f9a8d4; }
+.instagram-glow-gold { bottom:80px; right:-90px; background:#fde68a; }
+.instagram-in-view .instagram-content { animation:instagram-fade .5s ease-out; }
+@keyframes instagram-fade { from { opacity:.6; transform:translateY(16px); } to { opacity:1; transform:none; } }
+@media(min-width:768px) { .instagram-card iframe { aspect-ratio:4/5; } }
+.floating-share,.floating-contact { position:fixed; bottom:calc(12px + env(safe-area-inset-bottom)); z-index:40; }
+.floating-share { left:12px; }
+.floating-contact { right:12px; display:flex; gap:8px; }
+.floating-share,.floating-contact a,.floating-contact button { display:flex; gap:6px; align-items:center; justify-content:center; min-height:48px; padding:12px; border-radius:24px; border:1px solid #9aafa2; background:#243f36; color:#fffaf0; font-size:16px; font-weight:600; box-shadow:0 2px 12px #0002; }
+.floating-contact a:last-child { background:#17643f; }
+.floating-contact .floating-top { position:absolute; bottom:60px; right:0; }
+.floating-actions-editing { visibility:hidden; }
+.share-overlay { position:fixed; inset:0; background:#15291fcc; z-index:90; }
+.share-dialog { position:fixed; z-index:91; top:50%; left:50%; transform:translate(-50%,-50%); width:calc(100% - 24px); max-width:520px; max-height:calc(100dvh - 32px); overflow:auto; padding:24px; border:1px solid #ccd6cc; border-radius:24px; background:#fffdf5f5; backdrop-filter:blur(16px); color:#243f36; }
+.share-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+.share-heading h2 { font-size:24px; font-weight:600; line-height:1.3; }
+.share-close { display:flex; align-items:center; gap:4px; min-height:48px; padding:8px; flex-shrink:0; }
+.share-dialog p { margin:16px 0; line-height:1.5; }
+.share-page-title { font-weight:600; overflow-wrap:anywhere; }
+.share-options { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.share-options a,.share-copy { display:flex; justify-content:center; align-items:center; gap:8px; min-height:48px; padding:12px; border:1px solid #8b9f90; border-radius:12px; background:#f3f4ed; font-weight:600; }
+.share-copy { width:100%; margin-top:16px; background:#243f36; color:white; }
+.share-fallback textarea { width:100%; min-height:140px; padding:12px; border:1px solid #637b6c; border-radius:8px; color:#243f36; background:white; }
+.floating-actions :focus-visible,.suprema-credit:focus-visible,.instagram-section a:focus-visible { outline:3px solid #bc653b; outline-offset:4px; }
+@media(max-width:600px) {
+ .floating-share { left:6px; }
+ .floating-contact { right:6px; gap:5px; }
+ .floating-share,.floating-contact a,.floating-contact button { font-size:14px; padding:10px 8px; gap:4px; }
+ .floating-share svg,.floating-contact svg { width:18px; }
+ .floating-share,.floating-contact a { flex-direction:column; padding:6px 10px; gap:3px; line-height:1.2; min-height:54px; }
+ .share-dialog { padding:16px; }
+ .share-heading { flex-wrap:wrap; }
+}
+@media(prefers-reduced-motion:reduce) { .suprema-heart,.instagram-in-view .instagram-content { animation:none; } .instagram-card { transition:none; } .instagram-card:hover { transform:none; } }
+
 /* Prevent horizontal overflow on mobile */
 html, body {
   overflow-x: hidden;

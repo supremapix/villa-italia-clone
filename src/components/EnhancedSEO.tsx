@@ -21,7 +21,7 @@ interface SEOProps {
 
 const BASE_URL='https://www.pousadaviladitalia.com.br';
 const SITE_NAME="Pousada Vila D'Italia";
-export default function EnhancedSEO({title,description,canonical,image=photo,type='website',keywords,author=SITE_NAME,publishedTime,modifiedTime,structuredData,noIndex=false,breadcrumbs,articleSection,articleTags}:SEOProps){
+export default function EnhancedSEO({title,description,canonical,image='/og-pousada.jpg',type='website',keywords,author=SITE_NAME,publishedTime,modifiedTime,structuredData,noIndex=false,breadcrumbs,articleSection,articleTags}:SEOProps){
  const location=useLocation();
  const url=new URL(canonical || location.pathname,BASE_URL).href;
  const imageUrl=new URL(image,BASE_URL).href;
@@ -33,8 +33,8 @@ export default function EnhancedSEO({title,description,canonical,image=photo,typ
  return <Helmet><html lang="pt-BR"/><title>{fullTitle}</title><meta name="description" content={description}/>
  <meta name="robots" content={noIndex?'noindex, follow':'index, follow, max-image-preview:large'}/>
  {!noIndex&&<link rel="canonical" href={url}/>}{keywords&&<meta name="keywords" content={keywords}/>}<meta name="author" content={author}/>
- <meta property="og:title" content={fullTitle}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/><meta property="og:url" content={url}/><meta property="og:image" content={imageUrl}/><meta property="og:locale" content="pt_BR"/><meta property="og:site_name" content={SITE_NAME}/>
- <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={fullTitle}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={imageUrl}/>
+ <meta property="og:title" content={fullTitle}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/><meta property="og:url" content={url}/><meta property="og:image" content={imageUrl}/><meta property="og:image:alt" content={image==='/og-pousada.jpg'?"Pousada Vila D’Itália em Penha. Reservas: (47) 99273-8090":title}/>{image==='/og-pousada.jpg'&&<meta property="og:image:width" content="1200"/>}{image==='/og-pousada.jpg'&&<meta property="og:image:height" content="630"/>}<meta property="og:locale" content="pt_BR"/><meta property="og:site_name" content={SITE_NAME}/>
+ <meta name="twitter:image:alt" content={image==='/og-pousada.jpg'?"Pousada Vila D’Itália em Penha. Reservas: (47) 99273-8090":title}/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={fullTitle}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={imageUrl}/>
  {publishedTime&&<meta property="article:published_time" content={publishedTime}/>} {modifiedTime&&<meta property="article:modified_time" content={modifiedTime}/>} {articleSection&&<meta property="article:section" content={articleSection}/>} {articleTags?.map(tag=><meta key={tag} property="article:tag" content={tag}/>)}
  {!noIndex&&<script type="application/ld+json">{json(hotel)}</script>}{!noIndex&&<script type="application/ld+json">{json(structuredData||page)}</script>}{crumbs&&!noIndex&&<script type="application/ld+json">{json(crumbs)}</script>}
  </Helmet>;

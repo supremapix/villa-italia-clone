@@ -8,7 +8,7 @@ export default function Navigation() {
  const {pathname}=useLocation();
  const section=(id:string)=>pathname==='/'?`#${id}`:`/#${id}`;
  useEffect(()=>{ const wide=window.matchMedia('(min-width:1101px)'); const close=()=>{if(wide.matches)setOpen(false)}; wide.addEventListener('change',close); return()=>wide.removeEventListener('change',close); },[]);
- const links=<><Link to='/acomodacoes'>Acomodações</Link><a href={section('location')}>Localização e como chegar</a><Link to='/faq'>Informações da estadia</Link><a href={section('about')}>Conheça a pousada</a><a href={section('leisure')}>Lazer</a><Link to='/blog'>Dicas de viagem</Link><a href={section('contact')}>Reservas e contatos</a></>;
+ const links=<><Link to='/acomodacoes'>Acomodações</Link><a href={section('location')}>Localização e como chegar</a><Link to='/faq'>Informações da estadia</Link><a href={section('about')}>Conheça a pousada</a><a href={section('leisure')}>Lazer</a><Link to='/instagram'>Instagram</Link><Link to='/blog'>Dicas de viagem</Link><a href={section('contact')}>Reservas e contatos</a></>;
  return <header className='villa-header'><a className='villa-skip' href='#main-content'>Pular para o conteúdo</a><div className='villa-header-inner'>
  <Link to='/' className='villa-brand' aria-label="Pousada Vila D'Itália — início"><img src={logo} alt=''/><span>Vila D'Itália<small>POUSADA · PENHA / SC</small></span></Link>
  <nav aria-label='Navegação principal' className='villa-nav'>{links}</nav>

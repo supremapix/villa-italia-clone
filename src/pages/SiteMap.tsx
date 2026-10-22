@@ -1,7 +1,5 @@
 import { blogPosts as catalog } from "@/data/blogCatalog";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { LayoutTemplate, Home, Bed, FileText, HelpCircle, MapPin, TreePine, Newspaper, Map, ExternalLink } from "lucide-react";
 
@@ -21,6 +19,7 @@ const mainPages: SitemapSection = {
   title: "Páginas Principais",
   icon: <Home className="w-5 h-5 text-primary" />,
   links: [
+    { label: "Instagram da pousada", path: "/instagram" },
     { label: "Início", path: "/" },
     { label: "Acomodações", path: "/acomodacoes" },
     { label: "Blog da Pousada", path: "/blog" },
@@ -207,9 +206,6 @@ const SiteMap = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
-      <FloatingButtons />
     </div>
   );
 };

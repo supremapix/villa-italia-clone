@@ -2,8 +2,6 @@ import ImageCredit from '@/components/ImageCredit';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -218,8 +216,6 @@ const BlogIndex = () => {
       </section>
 
       </main>
-      <Footer />
-      <FloatingButtons />
     </div>
   );
 };

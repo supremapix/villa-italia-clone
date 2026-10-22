@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import PenhaNews from "@/components/PenhaNews";
 import RoomGallerySlider from "@/components/RoomGallerySlider";
 import EnhancedSEO from "@/components/EnhancedSEO";
@@ -430,9 +428,6 @@ const Accommodations = () => {
       <RoomGallerySlider />
 
       <PenhaNews />
-
-      <Footer />
-      <FloatingButtons />
     </div>
   );
 };

@@ -1,8 +1,6 @@
 import NotFound from "./NotFound";
 import { useParams, useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import PenhaNews from "@/components/PenhaNews";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
@@ -1186,8 +1184,6 @@ const Neighborhoods = () => {
             </div>
           </article>
         </main>
-        <Footer />
-        <FloatingButtons />
       </div>
     );
   }
@@ -1369,8 +1365,6 @@ const Neighborhoods = () => {
         </section>
       </main>
       <PenhaNews />
-      <Footer />
-      <FloatingButtons />
 
       {/* JSON-LD Structured Data for Beach List */}
       <script

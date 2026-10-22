@@ -14,8 +14,6 @@ import SocialMedia from "@/components/SocialMedia";
 import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import ReservationForm from "@/components/ReservationForm";
-import Footer from "@/components/Footer";
-import FloatingButtons from "@/components/FloatingButtons";
 import KnowledgeSection from "@/components/KnowledgeSection";
 import PousadaMap from "@/components/PousadaMap";
 
@@ -49,8 +47,6 @@ const Index = () => {
         <Contact />
         <PousadaMap />
       </main>
-      <Footer />
-      <FloatingButtons />
 
     </div>
   );
