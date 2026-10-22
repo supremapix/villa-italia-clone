@@ -71,3 +71,20 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## Artigos recentes na home
+
+A seção `Blog.tsx` usa exclusivamente `blogCatalog.ts` e seleciona seis matérias
+com `latestPublishedArticles`. Não é necessário editar cards manualmente.
+Cadastre a matéria no catálogo com `id`, título, imagem e `dateISO` de publicação
+no formato YYYY-MM-DD. Datas ausentes, inválidas ou posteriores ao dia do build
+em America/Sao_Paulo ficam fora da home; `status: "draft"` também fica fora.
+Registros existentes sem status são considerados publicados. O status aqui filtra
+somente a seleção da home: não use o catálogo público para guardar conteúdo privado.
+A ordem é publicação decrescente, com desempate estável por `id` crescente.
+`modifiedISO` não altera a posição de uma matéria antiga.
+
+Execute `node scripts/test-latest-articles.mjs` e `npm run build` antes de publicar.
+O build/prerender gera os cards em HTML e o cliente usa a mesma data de corte.
+Cada nova matéria ou liberação de data futura exige novo build e deploy.
+Não há CMS dinâmico, agendamento externo nem atualização automática sem deploy.
