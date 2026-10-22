@@ -54,6 +54,7 @@ const BlogPost = () => {
         description={metaDescription}
         canonical={`/blog/${slug}`}
         image={typeof post.image === 'string' ? post.image : undefined}
+        imageAlt={post.imageAlt}
         type="article"
         keywords={post.keywords}
         publishedTime={post.dateISO}
