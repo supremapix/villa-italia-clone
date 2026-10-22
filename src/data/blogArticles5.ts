@@ -1,5 +1,5 @@
 import blogVistaGeralReal from "@/assets/penha-vista-geral-real.jpg";
-import blogArmacaoReal from "@/assets/penha-praia-armacao-real.jpg";
+import blogSunsetPenha from "@/assets/penha-trapiche-por-do-sol.webp";
 import blogBetoCarreroReal from "@/assets/beto-carrero-castelo-real.jpg";
 import blogCamboriuNoiteReal from "@/assets/balneario-camboriu-noite-real.jpg";
 
@@ -10,6 +10,8 @@ export interface BlogPostData {
   dateISO: string;
   content: string;
   image: string;
+  imageAlt?: string;
+  imageCredit?: {author:string; source:string; license:string; changes:string};
   metaDescription: string;
   keywords: string;
   category: string;
@@ -78,7 +80,9 @@ export const blogArticles5: Record<string, BlogPostData> = {
     metaDescription: "Encontre os melhores pontos para ver o pôr do sol em Penha SC. Dicas de fotografia e os mirantes mais lindos da cidade.",
     keywords: "pôr do sol Penha SC, melhores mirantes Penha, fotos pôr do sol Santa Catarina, onde ver pôr do sol Penha",
     category: "Turismo",
-    image: blogArmacaoReal,
+    image: blogSunsetPenha,
+    imageAlt: "Barcos e pedras no Trapiche de Penha, com céu alaranjado ao pôr do sol",
+    imageCredit: {author:"Bruno Rodrigues dos santos", source:"https://commons.wikimedia.org/wiki/File:Por_do_Sol-Penha_SC.jpg", license:"https://creativecommons.org/licenses/by-sa/4.0/", changes:"Redimensionada e convertida para WebP; enquadramento adaptado na exibição."},
     content: `<div class="blog-content">
       <p class="lead">O espetáculo do pôr do sol em Penha é um dos momentos mais aguardados pelos visitantes. A posição geográfica da cidade proporciona ângulos privilegiados para contemplar o fechamento do dia.</p>
       

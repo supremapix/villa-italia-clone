@@ -1,0 +1,12 @@
+Foto: Por do Sol-Penha SC.jpg
+Autor: Bruno Rodrigues dos santos (Brunorspenha)
+Fonte: https://commons.wikimedia.org/wiki/File:Por_do_Sol-Penha_SC.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/f/f1/Por_do_Sol-Penha_SC.jpg
+Licença: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+Local informado na fonte: Trapiche, Penha, SC; -26.788411, -48.605114.
+Data informada: 11/06/2018, 17:51:50.
+Arquivo: src/assets/penha-trapiche-por-do-sol.webp
+Alterações: redimensionamento para 1600x1200 e conversão WebP qualidade 82.
+A exibição usa object-fit: cover; enquadramento varia conforme o espaço.
+A imagem otimizada permanece sob CC BY-SA 4.0. Não foi gerada por IA.
+Uso limitado à matéria por-do-sol-penha-sc e seus cards/metadados.

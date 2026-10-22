@@ -1,3 +1,4 @@
+import ImageCredit from '@/components/ImageCredit';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
@@ -10,7 +11,7 @@ import { Calendar, ArrowRight, BookOpen, Tag } from "lucide-react";
 
 import { blogPosts as catalog } from '@/data/blogCatalog';
 import { editorialArticles } from '@/data/editorialArticles';
-const blogPosts = Object.values(catalog).map(p=>({slug:p.id,title:p.title,date:p.date,image:p.image,excerpt:p.metaDescription || p.content.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,160), category:p.category || 'Turismo',featured:p.id in editorialArticles}));
+const blogPosts = Object.values(catalog).map(p=>({slug:p.id,title:p.title,date:p.date,image:p.image,imageAlt:p.imageAlt,imageCredit:p.imageCredit,excerpt:p.metaDescription || p.content.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,160), category:p.category || 'Turismo',featured:p.id in editorialArticles}));
 const allCategories = ["Todos", ...Array.from(new Set(blogPosts.map(p => p.category)))];
 
 const BlogIndex = () => {
@@ -110,7 +111,7 @@ const BlogIndex = () => {
                   <div className="relative h-56 overflow-hidden">
                     <img
                       src={post.image}
-                      alt={post.title}
+                      alt={post.imageAlt || post.title}
                       className="w-full h-full object-cover"
                       width="600"
                       height="300"
@@ -131,6 +132,7 @@ const BlogIndex = () => {
                   </div>
                 )}
                 <div className="p-6">
+                  <ImageCredit credit={post.imageCredit} />
                   <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">{post.date}</span>
                   <h2 className="font-bold text-xl md:text-2xl mb-3 mt-2 text-foreground group-hover:text-secondary transition-smooth leading-tight"><Link to={`/blog/${post.slug}`}>{post.title}</Link></h2>
                   <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-2">{post.excerpt}</p>
@@ -156,7 +158,7 @@ const BlogIndex = () => {
                 <div className="relative h-44 overflow-hidden">
                   <img
                     src={post.image}
-                    alt={post.title}
+                    alt={post.imageAlt || post.title}
                     className="w-full h-full object-cover"
                     width="400"
                     height="200"
@@ -180,6 +182,7 @@ const BlogIndex = () => {
                 </div>
               )}
               <div className="p-5">
+                <ImageCredit credit={post.imageCredit} />
                 <div className="flex items-center gap-2 mb-2">
                   <Calendar className="w-3.5 h-3.5 text-muted-foreground" />
                   <span className="text-xs text-muted-foreground">{post.date}</span>

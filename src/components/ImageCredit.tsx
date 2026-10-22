@@ -1,0 +1,9 @@
+import type { Article } from '@/data/blogCatalog';
+
+export default function ImageCredit({ credit }: { credit?: Article['imageCredit'] }) {
+  if (!credit) return null;
+  return <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+    Foto: <a href={credit.source} target="_blank" rel="noopener noreferrer" className="underline" onClick={e => e.stopPropagation()}>{credit.author}</a> · <a href={credit.license} target="_blank" rel="noopener noreferrer" className="underline" onClick={e => e.stopPropagation()}>CC BY-SA 4.0</a>.
+    {' '}{credit.changes}
+  </p>;
+}

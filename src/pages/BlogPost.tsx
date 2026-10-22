@@ -1,3 +1,4 @@
+import ImageCredit from '@/components/ImageCredit';
 import { useParams, useNavigate, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -99,6 +100,7 @@ const BlogPost = () => {
               📞 Reserva via WhatsApp: (47) 99273-8090
             </a>
           </div>
+          <ImageCredit credit={post.imageCredit} />
           <div className="mb-8">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 leading-tight">
               {post.title}

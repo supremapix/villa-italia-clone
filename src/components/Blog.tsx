@@ -1,3 +1,4 @@
+import ImageCredit from '@/components/ImageCredit';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { blogPosts } from '@/data/blogCatalog';
@@ -16,6 +17,7 @@ export default function Blog() {
         {posts.map((post) => <article key={post.id} className="overflow-hidden bg-background border border-stone-200 shadow-soft rounded-xl flex flex-col">
           <img src={post.image} alt={post.imageAlt || post.title} loading="lazy" width="640" height="400" className="w-full h-52 object-cover" />
           <div className="p-6 flex flex-col flex-1">
+            <ImageCredit credit={post.imageCredit} />
             <time dateTime={post.dateISO} className="text-base text-muted-foreground mb-3">{post.dateISO!.split('-').reverse().join('/')}</time>
             <h3 className="font-display font-bold text-xl md:text-2xl text-foreground leading-snug mb-3">{post.title}</h3>
             <p className="text-muted-foreground mb-5 leading-relaxed line-clamp-3">{post.metaDescription || post.content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 160)}</p>
