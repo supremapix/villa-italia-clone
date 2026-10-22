@@ -259,6 +259,8 @@ section[id],div[id] { scroll-margin-top: 110px; }
 .villa-home main > section > .container { max-width: 1240px; padding-left: 40px; padding-right: 40px; }
 .villa-home main h2:not(.villa-hero h2):not(.villa-story h2):not(.villa-room-grid h2) { font-weight: 400; font-size: clamp(30px,3vw,45px); line-height: 1.2; color: #294c3f; }
 .villa-home main h3 { font-weight: 400; }
+.villa-home main #conhecimento-section h2,
+.villa-home main #conhecimento-section h2 span { color: #fffaf0; }
 .villa-home .shadow-elegant,.villa-home .shadow-hover,.villa-home .shadow-glow { box-shadow: none; }
 .villa-home [class*="animate-"],.villa-home [style*="animation"] { animation: none!important; }
 .villa-home #gallery { border-bottom: 1px solid #d6d1c4; }
