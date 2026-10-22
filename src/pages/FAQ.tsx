@@ -372,41 +372,7 @@ const FAQ = () => {
     }))
   };
 
-  const lodgingStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Pousada Vila D'Italia",
-    "url": "https://www.pousadaviladitalia.com.br",
-    "telephone": "+55-47-99273-8090",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "R. Luís Vicente da Silva, 183",
-      "addressLocality": "Penha",
-      "addressRegion": "SC",
-      "postalCode": "88385-000",
-      "addressCountry": "BR"
-    },
-    "geo": { "@type": "GeoCoordinates", "latitude": -26.7729, "longitude": -48.6412 },
-    "amenityFeature": [
-      { "@type": "LocationFeatureSpecification", "name": "Piscina Aquecida" },
-      { "@type": "LocationFeatureSpecification", "name": "Café da Manhã Incluso" },
-      { "@type": "LocationFeatureSpecification", "name": "Estacionamento Gratuito" },
-      { "@type": "LocationFeatureSpecification", "name": "Wi-Fi Gratuito" },
-      { "@type": "LocationFeatureSpecification", "name": "Jacuzzi" },
-      { "@type": "LocationFeatureSpecification", "name": "Academia" },
-      { "@type": "LocationFeatureSpecification", "name": "Restaurante" }
-    ],
-    "numberOfRooms": 18,
-    "petsAllowed": false,
-    "checkinTime": "14:00",
-    "checkoutTime": "12:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "8.3",
-      "bestRating": "10",
-      "ratingCount": "247"
-    }
-  };
+
 
   const categoryLabels: Record<string, string> = {
     reservas: "Reservas e Check-in",
@@ -703,9 +669,6 @@ const FAQ = () => {
           </div>
         </div>
       </section>
-
-      {/* JSON-LD LodgingBusiness */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingStructuredData) }} />
 
       <PousadaMap />
 

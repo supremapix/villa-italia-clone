@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { blogPosts as catalog } from "@/data/blogCatalog";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -31,45 +31,7 @@ const mainPages: SitemapSection = {
   ],
 };
 
-const blogPosts: SitemapSection = {
-  title: "Artigos do Blog",
-  icon: <Newspaper className="w-5 h-5 text-primary" />,
-  links: [
-    { label: "Roteiro Saindo de Maringá: Fim de Semana no Beto Carrero World com Crianças", path: "/blog/roteiro-maringa-beto-carrero-world" },
-    { label: "Praia da Armação em Penha SC: Tudo Que Você Precisa Saber Antes de Ir", path: "/blog/praia-armacao-penha-sc" },
-    { label: "Dicas para Aproveitar o Beto Carrero World no Máximo com a Família", path: "/blog/dicas-beto-carrero-world-familia" },
-    { label: "Roteiro de 4 Dias no Litoral Norte de SC Saindo de Londrina", path: "/blog/roteiro-litoral-norte-sc-saindo-de-londrina" },
-    { label: "Pousada Perto do Beto Carrero World: Por Que se Hospedar em Penha é a Melhor Escolha", path: "/blog/pousada-perto-beto-carrero-world-penha-sc" },
-    { label: "Melhor Época para Visitar o Beto Carrero World com Crianças", path: "/blog/melhor-epoca-beto-carrero-world-criancas" },
-    { label: "O Que Fazer em Penha SC Além do Beto Carrero World", path: "/blog/o-que-fazer-em-penha-sc" },
-    { label: "Quanto Tempo de Curitiba até o Beto Carrero World? Guia Completo de Rotas", path: "/blog/curitiba-ate-beto-carrero-world-quanto-tempo" },
-    { label: "Mirante da Praia Vermelha em Penha SC: A Vista Mais Bonita do Litoral Norte", path: "/blog/mirante-praia-vermelha-penha-vista" },
-    { label: "Penha SC na Baixa Temporada: Por Que Visitar Fora do Verão Vale Muito", path: "/blog/penha-sc-baixa-temporada-vantagens" },
-    { label: "Pousada Perto do Beto Carrero World: Como Escolher a Melhor", path: "/blog/pousada-perto-beto-carrero-como-escolher" },
-    { label: "Como Chegar em Penha SC: Carro, Avião, Ônibus e Todas as Opções", path: "/blog/como-chegar-penha-sc-dicas-transporte" },
-    { label: "Temporada de Verão em Penha SC: Planeje sua Viagem com Antecedência", path: "/blog/temporada-verao-penha-sc-2027" },
-    { label: "Praias Tranquilas no Litoral Norte de SC: Guia para Fugir da Agitação", path: "/blog/praias-tranquilas-litoral-norte-sc" },
-    { label: "Maricultura em Penha SC: Conheça a Capital Brasileira dos Mariscos", path: "/blog/maricultura-penha-sc-turismo" },
-    { label: "Penha SC no Fim de Semana: Roteiro de 2 Dias para Aproveitar Tudo", path: "/blog/penha-sc-fim-de-semana-roteiro-rapido" },
-    { label: "Ilha Feia em Penha SC: Como Fazer o Passeio de Barco e o Que Esperar", path: "/blog/ilha-feia-penha-sc-passeio-barco" },
-    { label: "Gastronomia em Penha SC: Onde Comer Frutos do Mar e os Melhores Restaurantes", path: "/blog/gastronomia-penha-sc-frutos-do-mar" },
-    { label: "Penha SC com Crianças: Roteiro Completo de 3 Dias para Famílias", path: "/blog/penha-sc-com-criancas-roteiro-familia" },
-    { label: "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos e Atrações", path: "/blog/beto-carrero-world-dicas-guia-2026" },
-    { label: "Praias de Penha SC: Guia Completo com as 10 Melhores Praias da Cidade", path: "/blog/praias-de-penha-sc-guia-completo" },
-    { label: "Festas e Eventos em Penha SC de Abril a Julho 2026: Calendário Completo", path: "/blog/festas-eventos-penha-sc-abril-julho-2026" },
-    { label: "Beto Carrero World 2026: Guia Completo para Famílias", path: "/blog/beto-carrero-world-guia-completo-familias-2026" },
-    { label: "Guia Completo de Penha SC: Beto Carrero World, Praias e Onde se Hospedar", path: "/blog/guia-completo-penha-sc-beto-carrero" },
-    { label: "As 19 Praias de Penha SC: Guia Completo com Dicas para Cada Praia", path: "/blog/praias-penha-sc-litoral-norte" },
-    { label: "Férias de Verão Jan/Fev/Mar 2026: Penha e Balneário Camboriú", path: "/blog/ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu" },
-    { label: "Cuidados com a Pele no Verão: Guia de Proteção Solar", path: "/blog/cuidados-pele-verao-dicas-saude-praia-penha" },
-    { label: "Temporada de Verão 2025/2026 em Penha-SC", path: "/blog/temporada-verao-2025-2026-penha-sc" },
-    { label: "Réveillon 2026 em Penha-SC", path: "/blog/reveillon-2026-penha-santa-catarina" },
-    { label: "As Melhores Praias de Penha para Visitar", path: "/blog/melhores-praias-penha" },
-    { label: "Roteiro de 3 Dias em Penha e Região", path: "/blog/roteiro-3-dias-penha" },
-    { label: "Gastronomia em Penha: Sabores do Litoral", path: "/blog/gastronomia-penha" },
-    { label: "Dicas Essenciais para Aproveitar o Beto Carrero World", path: "/blog/dicas-beto-carrero" },
-  ],
-};
+const blogPosts: SitemapSection = {title:'Artigos do Blog',icon:<Newspaper className="w-5 h-5 text-primary"/>,links:Object.values(catalog).map(p=>({label:p.title,path:'/blog/'+p.id}))};
 
 const beaches: SitemapSection = {
   title: "Praias e Bairros de Penha",
@@ -120,7 +82,7 @@ const bookingLinks: SitemapSection = {
 };
 
 const SiteMap = () => {
-  const navigate = useNavigate();
+
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -137,14 +99,7 @@ const SiteMap = () => {
     }
   };
 
-  const handleClick = (link: SitemapLink) => {
-    if (link.external) {
-      window.open(link.path, "_blank", "noopener,noreferrer");
-    } else {
-      navigate(link.path);
-      window.scrollTo(0, 0);
-    }
-  };
+
 
   const renderSection = (section: SitemapSection) => (
     <div className="mb-10">
@@ -155,8 +110,10 @@ const SiteMap = () => {
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
         {section.links.map((link) => (
           <li key={link.path}>
-            <button
-              onClick={() => handleClick(link)}
+            <a
+              href={link.path}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
               className="text-left text-sm md:text-base text-foreground/80 hover:text-primary transition-smooth flex items-start gap-1.5 group w-full"
             >
               {link.external ? (
@@ -165,7 +122,7 @@ const SiteMap = () => {
                 <Map className="w-3.5 h-3.5 mt-1 flex-shrink-0 text-muted-foreground group-hover:text-primary" />
               )}
               <span className="group-hover:underline">{link.label}</span>
-            </button>
+            </a>
           </li>
         ))}
       </ul>

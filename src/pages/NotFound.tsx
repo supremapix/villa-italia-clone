@@ -1,3 +1,4 @@
+import EnhancedSEO from "@/components/EnhancedSEO";
 import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,7 @@ const NotFound = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center gradient-warm">
+      <EnhancedSEO title="Página não encontrada" description="Este endereço não existe. Acesse a página inicial ou o blog da Pousada Vila D’Italia." noIndex />
       <div className="text-center px-4 max-w-2xl mx-auto">
         <div className="mb-8">
           <h1 className="text-8xl md:text-9xl font-display font-bold text-secondary mb-4">404</h1>

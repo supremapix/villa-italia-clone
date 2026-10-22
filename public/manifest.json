@@ -9,38 +9,16 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "pt-BR",
-  "categories": ["travel", "hotels", "tourism"],
+  "categories": [
+    "travel",
+    "hotels",
+    "tourism"
+  ],
   "icons": [
     {
       "src": "/favicon.png",
-      "sizes": "128x103",
-      "type": "image/png"
-    },
-    {
-      "src": "/favicon.png",
-      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/favicon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "/screenshot-wide.jpg",
-      "sizes": "1920x1080",
-      "type": "image/jpeg",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/screenshot-narrow.jpg",
-      "sizes": "750x1334",
-      "type": "image/jpeg",
-      "form_factor": "narrow"
+      "sizes": "128x103"
     }
   ],
   "prefer_related_applications": false,
@@ -50,22 +28,19 @@
       "name": "Reservar Agora",
       "short_name": "Reservar",
       "description": "Faça sua reserva na Pousada Vila D'Itália",
-      "url": "/?action=reservar",
-      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+      "url": "/#reservation-form"
     },
     {
       "name": "Ver Acomodações",
       "short_name": "Quartos",
       "description": "Conheça nossos quartos e suítes",
-      "url": "/acomodacoes",
-      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+      "url": "/acomodacoes"
     },
     {
       "name": "Praias de Penha",
       "short_name": "Praias",
       "description": "Descubra as 25 praias de Penha",
-      "url": "/bairros-penha",
-      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+      "url": "/bairros-penha"
     }
   ]
 }

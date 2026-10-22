@@ -1,0 +1,76 @@
+Auditoria técnica e editorial — 22/10/2026
+
+Base: 85b20219ded113c73119da4483513e909fdd3f23.
+Inventário: 43 artigos existentes; quatro constavam na listagem, mas não no leitor.
+Lote: duas revisões de URLs existentes e duas matérias novas (45 artigos no total).
+
+Correções
+- Catálogo único para listagem, leitura, mapa HTML e geração de rotas/sitemap.
+- Recuperados: trilhas-ecologicas-penha-sc, o-que-fazer-em-dias-de-chuva-penha-sc,
+  por-do-sol-penha-sc e penha-sc-para-casais.
+- Descrições e datas ISO preservadas; datas de publicação originais mantidas nas revisões.
+- Três datas futuras preexistentes retiradas até confirmação: mirante-praia-vermelha-penha-vista,
+  natal-2026-penha-balneario-camboriu-blumenau e festa-nacional-do-marisco-2027-penha-sc.
+- Voltar ao Blog, links rastreáveis nos cartões/mapa, filtro com aria-pressed.
+- Plugin de tipografia habilitado: títulos, listas e espaçamento do corpo dos artigos.
+- Rotas inválidas de artigos e bairros exibem 404 e noindex.
+- Build gera HTML completo, head específico e imagens locais para 77 rotas.
+- Sitemap gerado a partir das mesmas rotas, sem lastmod fictício; 404 fica fora dele.
+- Vercel configurada para arquivos estáticos com cleanUrls; retirada reescrita universal.
+  /index.html mantém redirecionamento permanente. O comportamento do edge requer teste após deploy.
+- Schema central limitado a identidade, endereço, contatos e conteúdo verificável.
+  Retirados preços, estrelas, contagens de avaliações e schema duplicado da FAQ sem fonte.
+- Imagem social usa arquivo existente com URL absoluta; removidas referências inexistentes.
+- Manifest corrigido: screenshots e ícones inexistentes removidos; tamanho real 128x103.
+- Worker antigo aposentado para não substituir navegação desconhecida pela home em cache.
+- Robots.txt preservado após análise: já permite os agentes de busca e IA listados.
+- llms.txt recebe links de guias; é índice auxiliar, sem garantia de uso por mecanismos de IA.
+
+Conteúdo e fontes
+1. Revisão /blog/como-chegar-penha-sc-dicas-transporte
+   Chegada, escolha de transporte, bagagem, combinação com hospedagem e retorno.
+   https://aeroportos.motiva.com.br/navegantes-sc/o-aeroporto/como-chegar-e-sair/
+2. Revisão /blog/o-que-fazer-em-dias-de-chuva-penha-sc
+   Alertas, confirmação de passeios, remarcação e plano alternativo.
+   https://www.sc.gov.br/detalhe/cadastrar-para-avisos-e-alertas-de-desastres-sms-40199
+   https://www.defesacivil.sc.gov.br/
+   https://turismo.penha.sc.gov.br/o-que-fazer/
+   https://www.betocarrero.com.br/
+3. Novo /blog/balneabilidade-praias-penha-como-consultar
+   Como consultar município, ponto, data e histórico, sem declarar uma praia sempre própria.
+   https://balneabilidade.ima.sc.gov.br/
+4. Novo /blog/penha-mobilidade-reduzida-planejamento-viagem
+   Perguntas sobre quarto, percurso, veículo e passeio; não declara a pousada adaptada.
+   https://destino.betocarrero.com.br/dicas-para-cadeirantes-aproveitarem-o-beto-carrero-com-conforto-e-diversao/
+   A página do parque foi localizada na busca oficial; a abertura completa retornou 502.
+   Nenhuma regra específica de gratuidade/documentação foi reproduzida sem validação.
+
+O lote usa fotografias existentes, alt text descritivo, fontes visíveis, respostas diretas,
+links de contexto e contatos reais. Não inclui preços, tempos de deslocamento garantidos,
+novas comodidades ou promessas de ranking. SEO local, GEO e AIO compartilham a mesma base
+de conteúdo visível e verificável, sem conteúdo especial oculto para robôs.
+
+Validação local
+npm run build; npx tsc --noEmit -p tsconfig.app.json; npm run lint (0 erros, 9 avisos).
+npm run test:static: 77 rotas, 258 blocos JSON-LD parseáveis, 429 referências de imagens,
+981 links internos, nenhuma referência ausente. Verifica H1, description, canonical e sitemap.
+node scripts/test-http.mjs com node scripts/serve-static.mjs: 77 respostas 200 com HTML,
+três 404 HTTP e /index.html?origem=teste -> 308 -> /?origem=teste -> 200.
+O servidor de teste reproduz as regras estáticas; não comprova sozinho a configuração do edge.
+Chrome: desktop 1440x1000 e mobile 390x844, sem overflow nas páginas verificadas;
+menu, filtro, leitura, retorno ao blog, formulário com datas invertidas e galeria testados.
+Nenhuma mensagem de WhatsApp enviada. Sem novos erros de hidratação observados.
+
+Limites e próximos cuidados
+- O acervo anterior contém eventos, distâncias, estimativas, avaliações e alegações comerciais
+  que ainda precisam de revisão factual artigo por artigo. A auditoria não os certifica.
+- O schema foi reduzido, mas FAQs e textos antigos podem conter informações comerciais
+  divergentes (ex.: pets, horário de saída). Confirmar com a operação antes de alterar os fatos.
+- Direitos/atribuições de todas as imagens históricas não foram revalidados nesta etapa.
+- O JavaScript ainda gera aviso de chunk acima de 500 kB. Não é falha de build.
+- Não houve submissão de indexação, alteração de DNS, contas ou serviços de pagamento.
+- Sem promessa de ranking, citação em respostas de IA ou aprovação de resultados enriquecidos.
+
+Referência de hospedagem:
+https://vercel.com/kb/guide/custom-404-page
+https://vercel.com/docs/project-configuration/vercel-json

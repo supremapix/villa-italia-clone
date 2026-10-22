@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
-import ScrollToTop from "@/components/ScrollToTop";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -165,7 +164,6 @@ const BetoCarreroWorld = () => {
 
       <Footer />
       <FloatingButtons />
-      <ScrollToTop />
     </div>
   );
 };

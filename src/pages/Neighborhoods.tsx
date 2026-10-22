@@ -1,8 +1,8 @@
+import NotFound from "./NotFound";
 import { useParams, useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
-import ScrollToTop from "@/components/ScrollToTop";
 import PenhaNews from "@/components/PenhaNews";
 import EnhancedSEO from "@/components/EnhancedSEO";
 import { Button } from "@/components/ui/button";
@@ -46,7 +46,7 @@ interface Neighborhood {
   isOfficial?: boolean;
 }
 
-const neighborhoods: Record<string, Neighborhood> = {
+export const neighborhoods: Record<string, Neighborhood> = {
   // ===== PRAIAS OFICIAIS (19) =====
   "armacao": {
     id: "armacao",
@@ -984,6 +984,7 @@ const Neighborhoods = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
+  if (slug && !neighborhoods[slug]) return <NotFound />;
   if (slug && neighborhoods[slug]) {
     const neighborhood = neighborhoods[slug];
     
@@ -1029,7 +1030,7 @@ const Neighborhoods = () => {
           }}
         />
         <Navigation />
-        <main className="pt-24">
+        <main id="main-content" className="pt-24">
           <article className="container mx-auto px-4 py-12 max-w-5xl">
             <Button
               variant="outline"
@@ -1187,7 +1188,6 @@ const Neighborhoods = () => {
         </main>
         <Footer />
         <FloatingButtons />
-        <ScrollToTop />
       </div>
     );
   }
@@ -1371,7 +1371,6 @@ const Neighborhoods = () => {
       <PenhaNews />
       <Footer />
       <FloatingButtons />
-      <ScrollToTop />
 
       {/* JSON-LD Structured Data for Beach List */}
       <script
