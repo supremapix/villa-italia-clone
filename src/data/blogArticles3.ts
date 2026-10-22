@@ -25,52 +25,11 @@ export const blogArticles3: Record<string, BlogPostData> = {
     title: "Quanto Tempo de Curitiba até o Beto Carrero World? Guia Completo de Rotas",
     date: "5 de Maio, 2026",
     dateISO: "2026-05-05",
-    metaDescription: "Curitiba ao Beto Carrero World: 180 km, 2h a 2h30 pela BR-101. Pedágios, melhores horários, paradas e dicas para a família chegar tranquila.",
+    metaDescription: "Planeje a viagem de Curitiba ao Beto Carrero: ligação rodoviária, consulta de trânsito, pedágios e organização das paradas.",
     keywords: "Curitiba Beto Carrero World distância, rota Curitiba Penha SC, BR-101 Curitiba Penha, viagem Curitiba Beto Carrero",
     category: "Viagem",
     image: blogCuritibaBeto,
-    content: `<div class="blog-content">
-      <p class="lead">Se você está em <strong>Curitiba</strong> ou na região metropolitana e quer levar a família para conhecer o <strong>Beto Carrero World</strong>, a boa notícia é que a viagem é curta, segura e cheia de paisagens bonitas. Neste guia, contamos <strong>quanto tempo leva de Curitiba até o Beto Carrero World</strong>, qual é o melhor caminho, onde parar e como organizar o trajeto para chegar descansado.</p>
-
-      <h2>Distância de Curitiba ao Beto Carrero World</h2>
-      <p>A distância entre <strong>Curitiba (PR) e Penha (SC)</strong>, onde fica o Beto Carrero World, é de aproximadamente <strong>180 km</strong>. O tempo médio de viagem fica entre <strong>2h e 2h30</strong>, dependendo do trânsito, dos pedágios e das paradas.</p>
-      <p>É um trajeto bem tranquilo para um fim de semana ou um feriado prolongado: você sai de manhã cedo de Curitiba, almoça em Penha e ainda dá tempo de ir para a praia ou conhecer a pousada antes do passeio no parque.</p>
-
-      <h2>Rota Curitiba–Penha SC: BR-116 e BR-101</h2>
-      <h3>Caminho mais usado</h3>
-      <p>A <strong>rota Curitiba–Penha SC</strong> mais comum segue por:</p>
-      <ul>
-        <li><strong>BR-116</strong> sentido sul, saindo de Curitiba</li>
-        <li>Acesso à <strong>BR-101</strong> na região de Garuva/Joinville</li>
-        <li>Sequência pela BR-101 passando por Joinville, Araquari e Barra Velha</li>
-        <li>Saída para <strong>Penha / Balneário Piçarras</strong> (placas indicando Beto Carrero World)</li>
-      </ul>
-      <p>A maior parte do trajeto é feita em <strong>pista dupla</strong>, com bom asfalto e sinalização clara para o parque.</p>
-
-      <h3>Pedágios no caminho</h3>
-      <p>Ao longo do percurso você passa por algumas <strong>praças de pedágio</strong> na BR-116 e na BR-101. Os valores variam conforme reajustes, mas costumam ficar na faixa de <strong>R$ 30 a R$ 60 ida e volta</strong> para carros de passeio. Vale levar pagamento por aplicativo (tag eletrônica) para agilizar.</p>
-
-      <h2>Melhor Horário para Sair de Curitiba</h2>
-      <p>Para fugir do trânsito e chegar com tempo de descansar, recomendamos sair entre <strong>5h e 7h da manhã</strong>. Em feriados prolongados, sair na <strong>sexta à noite</strong> também é uma boa estratégia, especialmente para famílias que querem aproveitar o sábado inteiro no parque.</p>
-      <p>Evite voltar no <strong>domingo entre 15h e 20h</strong>: esse é o horário mais cheio da BR-101 sentido norte. Se possível, programe o retorno na <strong>segunda de manhã</strong>.</p>
-
-      <h2>Paradas Recomendadas no Caminho</h2>
-      <ul>
-        <li><strong>Garuva (SC)</strong>: postos com banheiros limpos e lanchonetes</li>
-        <li><strong>Joinville</strong>: cidade com várias opções para café, pão de queijo e gasolina</li>
-        <li><strong>Barra Velha</strong>: próxima de Penha, ótima para alongar as pernas antes da reta final</li>
-      </ul>
-
-      <h2>Dicas Práticas para a Viagem com Crianças</h2>
-      <ul>
-        <li>Saia <strong>com o tanque cheio</strong> em Curitiba</li>
-        <li>Leve <strong>água, lanches e frutas</strong> para o trajeto</li>
-        <li>Use <strong>cadeirinha e assento de elevação</strong> conforme a idade</li>
-        <li>Programe uma <strong>parada de 15 minutos</strong> a cada 2 horas</li>
-        <li>Baixe o trajeto offline no Waze ou Google Maps antes de sair</li>
-      </ul>
-
-      <h2>Onde se Hospedar Perto do Beto Carrero World</h2>
+    content: `<div class="blog-content"><p class="lead">O tempo entre Curitiba e o Beto Carrero depende do ponto de saída, da rota escolhida, do trânsito e das pausas. Calcule o trajeto com o endereço exato de destino; uma estimativa entre cidades não garante o horário de chegada.</p><h2>Ligação rodoviária</h2><p>A Arteris identifica a ligação Curitiba–litoral pelo Contorno Leste da BR-116, BR-376 e BR-101. Confira os acessos adequados à sua origem e as condições da rodovia antes de sair.</p><h2>Pedágios e orçamento</h2><p>Consulte as tarifas atuais das praças da rota escolhida e a categoria do veículo. Some combustível, paradas e estacionamento. Este guia não mantém uma faixa de pedágios sem data de validade.</p><h2>Horário de saída e retorno</h2><p>Escolha um horário compatível com o descanso do motorista e confira o trânsito em tempo real. Reserve margem para paradas e imprevistos; não há horário que garanta ausência de filas em feriados.</p><h2>Viagem com crianças</h2><p>Planeje pausas conforme as necessidades do grupo, confirme o equipamento de transporte adequado e mantenha documentos e contatos acessíveis. Consulte o <a href="/blog/como-chegar-penha-sc-dicas-transporte">guia de chegada a Penha</a> para organizar a chegada.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/apresentacao/">Arteris — ligação rodoviária</a>; <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris — condições de tráfego</a>. Confirme condições e disponibilidade para a data da visita.</p><h2>Onde se Hospedar Perto do Beto Carrero World</h2>
       <p>Quem vem de Curitiba costuma escolher uma <strong>pousada perto do parque</strong> para evitar dirigir cansado de noite. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> fica a apenas <strong>5 minutos de carro do Beto Carrero World</strong> e a poucos metros da <strong>Praia da Armação</strong>, o que permite combinar parque e praia no mesmo dia.</p>
       <p>É uma opção bem indicada para famílias de Curitiba, com café da manhã incluso, piscina e quartos para até 6 pessoas — perfeito para quem quer uma base aconchegante sem pagar caro.</p>
 
@@ -263,7 +222,7 @@ export const blogArticles3: Record<string, BlogPostData> = {
     category: "Guias",
     image: blogRoteiroLondrinaSc,
     content: `<div class="blog-content">
-      <p class="lead">A distância de <strong>Londrina (PR) a Penha (SC)</strong> é de aproximadamente <strong>620 km</strong>, com tempo médio de <strong>8h a 9h de viagem</strong>. Para aproveitar bem, o ideal é montar um <strong>roteiro de 4 dias no litoral norte de Santa Catarina saindo de Londrina</strong>. Veja a sugestão completa.</p>
+      <p class="lead">Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
       <h2>Antes de Sair: Dicas Importantes</h2>
       <ul>
@@ -274,7 +233,7 @@ export const blogArticles3: Record<string, BlogPostData> = {
       </ul>
 
       <h2>Dia 1 — Sexta-feira: Viagem e Chegada</h2>
-      <p>Saia de Londrina entre <strong>4h e 6h da manhã</strong>. A rota mais comum passa por Apucarana, Mauá da Serra, Curitiba e segue pela BR-116 + BR-101 até Penha. Faça pelo menos <strong>3 paradas</strong> ao longo do caminho.</p>
+      <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
       <p>Chegue em Penha por volta das <strong>15h</strong>, faça o check-in na pousada, descanse, vá conhecer a <strong>Praia da Armação</strong> e jante em uma marisqueira local. Durma cedo: amanhã é dia de parque.</p>
 
       <h2>Dia 2 — Sábado: Beto Carrero World</h2>
@@ -297,13 +256,13 @@ export const blogArticles3: Record<string, BlogPostData> = {
       </ul>
 
       <h2>Dia 4 — Segunda-feira: Retorno para Londrina</h2>
-      <p>Tome um café reforçado, faça o check-out por volta das <strong>9h</strong> e siga viagem. Saindo nessa hora, você evita o pior do trânsito e chega em Londrina antes da meia-noite com tranquilidade.</p>
+      <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
       <h2>Onde se Hospedar em Penha SC para Famílias de Londrina</h2>
       <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> é uma das opções mais procuradas por famílias do norte do Paraná. Localização <strong>perto do Beto Carrero e da Praia da Armação</strong>, café da manhã incluso, estacionamento próprio e ótimo custo-benefício.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p>`
   },
 
   "dicas-beto-carrero-world-familia": {
@@ -386,7 +345,7 @@ export const blogArticles3: Record<string, BlogPostData> = {
       <p class="lead">A <strong>Praia da Armação em Penha SC</strong>, oficialmente chamada de <strong>Praia da Armação do Itapocorói</strong>, é uma das mais procuradas do litoral norte catarinense. É a praia ideal para quem viaja com crianças e quer mar calmo, boa estrutura e tranquilidade. Veja tudo o que você precisa saber antes de ir.</p>
 
       <h2>Como é a Praia da Armação</h2>
-      <p>A praia tem cerca de <strong>3 km de extensão</strong>, areia clara e fininha, e mar com <strong>águas calmas</strong>, principalmente na porção norte (mais próxima do Beto Carrero World). Essa característica torna a <strong>Praia de Armação uma praia de Penha SC ideal para família</strong>.</p>
+      <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua.  </p>
 
       <h2>Por Que é Ótima para Crianças</h2>
       <ul>
@@ -402,13 +361,13 @@ export const blogArticles3: Record<string, BlogPostData> = {
         <li><strong>Quiosques</strong> com bebida, lanches e frutos do mar</li>
         <li><strong>Restaurantes</strong> à beira-mar</li>
         <li>Aluguel de cadeiras e guarda-sóis</li>
-        <li>Banheiros e duchas públicas</li>
+        <li>Confirme com o Turismo de Penha a infraestrutura disponível no trecho escolhido, incluindo sanitários, acesso e regras de estacionamento.</li>
         <li>Estacionamento (gratuito e privado)</li>
         <li>Calçadão para caminhar e pedalar</li>
       </ul>
 
       <h2>Estacionamento</h2>
-      <p>Há diversas vagas gratuitas nas ruas próximas da orla. Em alta temporada, vale chegar mais cedo (até 9h30) para garantir vaga próxima da areia. Também existem <strong>estacionamentos privados</strong> nas ruas paralelas, com diárias acessíveis.</p>
+      <p>Confirme com o Turismo de Penha a infraestrutura disponível no trecho escolhido, incluindo sanitários, acesso e regras de estacionamento.</p>
 
       <h2>Melhores Meses para Visitar</h2>
       <ul>
@@ -431,7 +390,7 @@ export const blogArticles3: Record<string, BlogPostData> = {
       <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> fica a <strong>poucos metros da Praia da Armação</strong>. Você pode acordar, tomar café da manhã e caminhar até o mar — sem precisar pegar o carro. É a localização perfeita para famílias que querem combinar praia, descanso e visita ao Beto Carrero World.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://turismo.penha.sc.gov.br/o-que-fazer/">Turismo de Penha</a>; <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "roteiro-maringa-beto-carrero-world": {
@@ -439,30 +398,24 @@ export const blogArticles3: Record<string, BlogPostData> = {
     title: "Roteiro Saindo de Maringá: Fim de Semana no Beto Carrero World com Crianças",
     date: "20 de Setembro, 2026",
     dateISO: "2026-09-20",
-    metaDescription: "Roteiro saindo de Maringá para o Beto Carrero World: ~430 km, ~5h de viagem, dicas de saída na sexta, parque, praia e retorno tranquilo.",
+    metaDescription: "Roteiro saindo de Maringá para o Beto Carrero World: organize o trajeto, confirme o trânsito e planeje parque, praia e retorno.",
     keywords: "Maringá Beto Carrero World roteiro, hospedagem Beto Carrero Maringá, Maringá Penha SC, viagem Maringá litoral SC",
     category: "Guias",
     image: blogRoteiroMaringaBeto,
     content: `<div class="blog-content">
-      <p class="lead">Sair de <strong>Maringá rumo ao Beto Carrero World</strong> em um fim de semana com a família é mais fácil do que parece. A distância é de aproximadamente <strong>430 km</strong>, com tempo médio de <strong>5h a 5h30</strong> de viagem. Veja como organizar um roteiro tranquilo e bem aproveitado.</p>
+      <p class="lead">Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
       <h2>Maringá ao Beto Carrero World: Distância e Rota</h2>
-      <p>A rota mais usada de <strong>Maringá (PR) a Penha (SC)</strong> passa por:</p>
-      <ul>
-        <li>BR-376 sentido Curitiba</li>
-        <li>Acesso à BR-116</li>
-        <li>BR-101 até a saída para Penha / Beto Carrero World</li>
-      </ul>
-      <p>É um trajeto bem sinalizado, com pista dupla na maior parte do percurso e diversos pontos de apoio.</p>
+      <p>Calcule a rota a partir do endereço de saída em Maringá. Na ligação Curitiba–litoral, a Arteris identifica os trechos BR-116 (Contorno Leste), BR-376 e BR-101; confira os acessos e as condições atuais antes de viajar.</p>
 
       <h2>Dia 1 — Sexta à Noite ou Sábado de Madrugada</h2>
       <p>Há duas estratégias bastante usadas pelas famílias de Maringá:</p>
 
       <h3>Saída na Sexta à Noite</h3>
-      <p>Sair entre <strong>20h e 22h</strong> de sexta-feira é uma boa opção para quem trabalha. A criançada dorme no carro, o trânsito é leve e você chega em Penha de madrugada, descansa e aproveita o sábado inteiro.</p>
+      <p>Considere sair na véspera apenas se o motorista estiver descansado. Confira a previsão de trânsito e combine a chegada com a hospedagem; viajar à noite não garante percurso livre ou chegada em horário fixo.</p>
 
       <h3>Saída no Sábado Bem Cedo</h3>
-      <p>Sair entre <strong>3h e 5h da manhã</strong> também funciona bem. Você chega em Penha por volta das <strong>9h</strong>, faz o check-in (ou deixa as malas), e já segue para a praia ou para uma volta tranquila pela cidade.</p>
+      <p>Se optar pela manhã, calcule o trajeto e as pausas antes de marcar atividades na chegada. Confirme diretamente com a hospedagem o procedimento se chegar antes do horário reservado.</p>
 
       <h2>Dia 2 — Sábado: Beto Carrero World</h2>
       <p>Foque o sábado todo no parque, aproveitando que é o dia inteiro disponível. Veja as dicas essenciais:</p>
@@ -475,7 +428,7 @@ export const blogArticles3: Record<string, BlogPostData> = {
       </ul>
 
       <h2>Dia 3 — Domingo: Praia e Gastronomia</h2>
-      <p>Aproveite a manhã na <strong>Praia da Armação</strong>, almoce com frutos do mar e siga para um passeio mais tranquilo, como o <strong>Mirante da Praia Vermelha</strong>. Por volta das <strong>15h</strong>, comece o retorno para Maringá.</p>
+      <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
       <h2>Dicas para o Retorno</h2>
       <ul>
@@ -496,6 +449,6 @@ export const blogArticles3: Record<string, BlogPostData> = {
       </ul>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p>`
   }
 };

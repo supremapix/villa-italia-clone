@@ -107,7 +107,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <h2>Praias Tranquilas em Penha SC</h2>
 
       <h3>Praia Alegre</h3>
-      <p>A <strong>Praia Alegre</strong> é a definição de tranquilidade em Penha. Com águas extremamente calmas (quase sem ondas), areia larga e <strong>árvores centenárias</strong> que criam sombra natural, é o refúgio perfeito para quem quer apenas ler um livro ouvindo o mar. A iluminação decorativa ao longo da orla cria um ambiente mágico ao entardecer. Ideal para idosos, gestantes e famílias com crianças muito pequenas.</p>
+      <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua.  </p>
 
       <h3>Praia do Quilombo</h3>
       <p>Cercada por vegetação nativa, a <strong>Praia do Quilombo</strong> oferece <strong>águas cristalinas</strong> e piscinas naturais na maré baixa. O acesso requer uma curta caminhada, o que naturalmente filtra o número de visitantes. É o local perfeito para snorkeling em águas calmas e cristalinas, com vida marinha abundante nos costões rochosos.</p>
@@ -116,7 +116,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Frequentada majoritariamente por <strong>pescadores locais</strong>, a Praia de São Roque preserva a autenticidade da cultura açoriana. É possível observar canoas tradicionais na areia e conversar com os pescadores sobre suas técnicas centenárias. Uma experiência cultural genuína em cenário de postal.</p>
 
       <h3>Praia da Fortaleza</h3>
-      <p>Próxima a ruínas históricas de uma fortaleza colonial portuguesa, esta praia combina <strong>natureza, história e isolamento</strong>. O acesso por trilha garante poucas pessoas mesmo na alta temporada. As águas são calmas e o entorno é de vegetação preservada.</p>
+      <p>Antes de planejar a visita, confirme o local e as condições de acesso no portal de Turismo de Penha. Não considere a existência de uma trilha como garantia de acesso livre ou de segurança.</p>
 
       <h2>Praias Tranquilas em Piçarras</h2>
 
@@ -129,7 +129,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>A <strong>Praia do Grant</strong> é um tesouro escondido do litoral norte. Com águas calmas protegidas pela baía, vegetação rasteira e poucas construções, oferece uma experiência de praia quase deserta. Ideal para quem busca silêncio absoluto e conexão com a natureza.</p>
 
       <h2>Penha Como Hub Central</h2>
-      <p><strong>Penha é a base perfeita</strong> para explorar todas essas praias. Hospedando-se na <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a>, na Praia da Armação, você tem acesso rápido a todas as praias de Penha (minutos de carro) e às praias de Piçarras e Barra do Sul em day trips de menos de 30 minutos.</p>
+      <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
       <p>A pousada oferece o equilíbrio perfeito: <strong>infraestrutura e conforto</strong> (2 piscinas, café da manhã, Wi-Fi) combinados com a <strong>tranquilidade</strong> da Praia da Armação. Após um dia explorando praias isoladas, você volta para uma piscina aquecida e uma cama confortável.</p>
 
       <h2>Melhor Época para Praias Tranquilas</h2>
@@ -151,7 +151,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Para detalhes sobre todas as praias de Penha: <a href="/blog/praias-de-penha-sc-guia-completo" class="text-primary hover:text-primary/80 underline font-medium">Guia Completo das Praias de Penha SC</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://turismo.penha.sc.gov.br/o-que-fazer/">Turismo de Penha</a>; <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "temporada-verao-penha-sc-2027": {
@@ -199,7 +199,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <ul>
         <li><strong>Reserve com antecedência</strong>: Preços de early bird podem ser 20-30% menores</li>
         <li><strong>Viaje durante a semana</strong>: Preços de hospedagem são menores de domingo a quinta</li>
-        <li><strong>Compre ingressos do Beto Carrero online</strong>: Descontos de até 20%</li>
+        <li>Compare os ingressos e opcionais no canal oficial do parque. Verifique preço, data, inclusões e restrições do produto escolhido, sem presumir descontos ou benefícios.</li>
         <li><strong>Almoce nos restaurantes de bairro</strong>: Preços mais acessíveis que na orla</li>
         <li><strong>Aproveite o café da manhã da pousada</strong>: Incluso na diária, economiza uma refeição por dia</li>
       </ul>
@@ -228,7 +228,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Leia também: <a href="/blog/como-chegar-penha-sc-dicas-transporte" class="text-primary hover:text-primary/80 underline font-medium">Como Chegar em Penha</a> e <a href="/blog/pousada-perto-beto-carrero-como-escolher" class="text-primary hover:text-primary/80 underline font-medium">Como Escolher Pousada Perto do Beto Carrero</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "como-chegar-penha-sc-dicas-transporte": {
@@ -294,7 +294,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       </ul>
 
       <h3>Alternativa: Aeroporto de Florianópolis (FLN)</h3>
-      <p>O <strong>Aeroporto de Florianópolis</strong> recebe mais voos, mas fica a 120 km de Penha (~1h30 de carro). Pode ser uma opção se encontrar passagens mais baratas ou voos mais convenientes.</p>
+      <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
       <h2>De Ônibus</h2>
       <p>Para quem prefere viajar de ônibus, as principais opções são:</p>
@@ -340,7 +340,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Veja também: <a href="/blog/penha-sc-fim-de-semana-roteiro-rapido" class="text-primary hover:text-primary/80 underline font-medium">Roteiro de Fim de Semana</a> e <a href="/blog/temporada-verao-penha-sc-2027" class="text-primary hover:text-primary/80 underline font-medium">Temporada de Verão</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p>`
   },
 
   "pousada-perto-beto-carrero-como-escolher": {
@@ -359,7 +359,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Visitar o Beto Carrero World é uma experiência intensa que exige <strong>energia e planejamento</strong>. Hospedar-se próximo ao parque oferece vantagens práticas enormes:</p>
       <ul>
         <li><strong>Economia de tempo</strong>: Sem longos deslocamentos, você ganha horas para aproveitar o parque ou descansar</li>
-        <li><strong>Flexibilidade</strong>: Pode voltar à pousada para descanso e retornar ao parque (com ingresso de 2 dias)</li>
+        <li>Antes de sair do parque durante a visita, confirme com o atendimento as condições de reentrada do seu ingresso. Não presuma que será possível retornar no mesmo dia.</li>
         <li><strong>Menos estresse</strong>: Nada de pegar trânsito cansado no fim do dia</li>
         <li><strong>Aproveitamento máximo</strong>: Chegue cedo ao parque e seja dos primeiros na fila</li>
       </ul>
@@ -432,7 +432,7 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Leia também: <a href="/blog/beto-carrero-world-dicas-guia-2026" class="text-primary hover:text-primary/80 underline font-medium">Guia Completo Beto Carrero 2026</a> e <a href="/blog/penha-sc-com-criancas-roteiro-familia" class="text-primary hover:text-primary/80 underline font-medium">Roteiro com Crianças</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "penha-sc-baixa-temporada-vantagens": {
@@ -617,6 +617,6 @@ export const blogArticles2: Record<string, BlogPostData> = {
       <p>Confira também: <a href="/blog/praias-de-penha-sc-guia-completo" class="text-primary hover:text-primary/80 underline font-medium">Guia das Praias de Penha</a> e <a href="/blog/o-que-fazer-em-penha-sc" class="text-primary hover:text-primary/80 underline font-medium">15 Atrações em Penha SC</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   }
 };

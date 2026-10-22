@@ -1,0 +1,55 @@
+Complemento factual público — 22/10/2026
+Base preservada: 9d769f7cab10a614fea8c5281da6a12e0e1584a7.
+
+28 artigos existentes receberam correções pontuais de conteúdo público. Nenhuma URL
+ou artigo foi criado/removido. Os quatro textos do lote anterior não foram reescritos.
+A página /beto-carrero-world substitui a tabela de distâncias sem origem definida por
+links para consultar o trajeto de cada cidade e indicação de variabilidade do tempo.
+
+Correções confirmadas:
+- Ligação Curitiba–litoral inclui BR-376, além do Contorno Leste BR-116 e BR-101.
+- FAQ do Beto Carrero informa gratuidade até 1 ano e 11 meses desde janeiro de 2026,
+  exceto opcionais. Removidas versões por altura/até 2 anos e benefícios genéricos.
+- 15/11/2026 cai no domingo; 16/11 não se torna automaticamente folga nacional.
+- Site oficial da Oktoberfest confirma 41ª edição de 7 a 25 de outubro de 2026.
+
+Precisão sem referência retirada ou qualificada:
+- Quilometragens, tempos rígidos, pedágios sem data, voos diretos e chegada garantida.
+- Preços R$ 80/120/500 de passeio sem operador, duração universal e descontos infantis.
+- Reentrada no parque, fechamentos específicos, funcionamento diário futuro e descontos.
+- Fogos, regras de orla, shows e programação futura sem anúncio da edição.
+- Retrospectivas de eventos sem documentação de realização.
+- Notas Booking/Decolar sem perfil e data verificados.
+- Garantias de segurança/adequação de praias, infraestrutura pública e procedência
+  de frutos do mar colhidos no dia. Orientações remetem a condições locais e fontes.
+
+Não foram alteradas as políticas ou serviços da pousada. Check-out, pets, piscina,
+jacuzzi, academia, restaurante, inclusão de refeições e promessas comerciais continuam
+pendentes da confirmação do proprietário. Esta revisão não certifica todo o acervo.
+Textos médicos, históricos e outras afirmações fora dos trechos examinados não foram
+tratados como validados. Ausência de comprovação não foi apresentada como falsidade.
+
+Fontes consultadas e vinculadas nos trechos:
+https://www.arteris.com.br/nossas-rodovias/litoral-sul/apresentacao/
+https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/
+https://aeroportos.motiva.com.br/navegantes-sc/o-aeroporto/como-chegar-e-sair/
+https://www.betocarrero.com.br/duvidas-frequentes?conteudo_filtro=crian%C3%A7a
+https://www.betocarrero.com.br/duvidas-frequentes
+https://oktoberfestblumenau.com.br/
+https://oktoberfestblumenau.com.br/ingressos/
+https://www.gov.br/mre/pt-br/eresp/feriados-e-pontos-facultativos
+https://turismo.penha.sc.gov.br/events/penha-confirma-a-26a-edicao-da-festa-nacional-do-marisco/
+https://turismo.penha.sc.gov.br/o-que-fazer/
+https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia
+https://balneabilidade.ima.sc.gov.br/
+
+Limitação de consulta: a abertura integral da FAQ do parque retornou 403; a regra
+infantil foi localizada no resultado indexado do próprio domínio oficial. Por isso
+não foram reproduzidos requisitos documentais ou procedimentos de reentrada específicos.
+Anúncio municipal da 26ª Festa do Marisco não foi usado para inferir a edição 2027.
+
+Validação: build, TypeScript, lint (0 erros, 9 avisos preexistentes); testes estáticos
+de 77 rotas, 429 referências de imagens e 966 links internos; teste de regressão factual
+scripts/test-public-facts.mjs. Conferência mobile do artigo de evento sem overflow.
+Aviso de chunk JavaScript acima de 500 kB permanece. Publicação exige verificação
+do domínio após o deploy; o relatório externo registra os resultados públicos finais.

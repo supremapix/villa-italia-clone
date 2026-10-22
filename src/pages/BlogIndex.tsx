@@ -9,7 +9,8 @@ import { Card } from "@/components/ui/card";
 import { Calendar, ArrowRight, BookOpen, Tag } from "lucide-react";
 
 import { blogPosts as catalog } from '@/data/blogCatalog';
-const blogPosts = Object.values(catalog).map(p=>({slug:p.id,title:p.title,date:p.date,image:p.image,excerpt:p.metaDescription || p.content.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,160), category:p.category || 'Turismo',featured:!!p.modifiedISO}));
+import { editorialArticles } from '@/data/editorialArticles';
+const blogPosts = Object.values(catalog).map(p=>({slug:p.id,title:p.title,date:p.date,image:p.image,excerpt:p.metaDescription || p.content.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,160), category:p.category || 'Turismo',featured:p.id in editorialArticles}));
 const allCategories = ["Todos", ...Array.from(new Set(blogPosts.map(p => p.category)))];
 
 const BlogIndex = () => {

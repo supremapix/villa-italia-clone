@@ -42,7 +42,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p class="lead">Se você está planejando uma viagem ao <strong>litoral norte de Santa Catarina</strong>, precisa conhecer as <strong>praias de Penha SC</strong>. Esta cidade encantadora abriga algumas das praias mais bonitas e diversificadas do sul do Brasil, combinando <strong>águas calmas para famílias</strong>, <strong>ondas perfeitas para surf</strong> e <strong>enseadas secretas</strong> cercadas por Mata Atlântica. Neste guia completo, apresentamos as <strong>10 melhores praias de Penha</strong> com informações detalhadas sobre cada uma.</p>
 
       <h2>1. Praia da Armação do Itapocorói — A Mais Completa</h2>
-      <p>A <strong>Praia da Armação</strong> é a principal praia de Penha e uma das mais procuradas do litoral catarinense. Com aproximadamente <strong>3 quilômetros de extensão</strong>, ela oferece águas calmas e transparentes na porção norte, tornando-se ideal para <strong>famílias com crianças</strong>. A infraestrutura é completa: quiosques à beira-mar, restaurantes, duchas, banheiros públicos e estacionamento organizado.</p>
+      <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua. Confirme com o Turismo de Penha a infraestrutura disponível no trecho, incluindo sanitários, duchas e estacionamento. Não presuma que esses serviços estejam disponíveis em toda a orla. </p>
       <p>A praia fica a apenas <strong>80 metros da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a></strong>, o que a torna a escolha perfeita para quem quer acordar e caminhar até o mar. Na temporada de verão, a faixa de areia conta com guarda-vidas e programação cultural ao entardecer. É também o ponto de partida para diversos <strong>passeios de barco</strong> pela região.</p>
       <ul>
         <li><strong>Ondas</strong>: Calmas a moderadas (variável conforme o trecho)</li>
@@ -53,7 +53,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
 
       <h2>2. Praia Alegre — Tranquilidade e Beleza Natural</h2>
       <p>A <strong>Praia Alegre</strong> é um verdadeiro refúgio de sossego no litoral de Penha SC. Com areia larga e fina, águas calmas e <strong>árvores centenárias</strong> que proporcionam sombra natural, é o local perfeito para quem busca tranquilidade. A praia possui iluminação decorativa ao longo da orla, criando um ambiente encantador para passeios ao entardecer.</p>
-      <p>Diferente das praias mais movimentadas, a Praia Alegre mantém uma atmosfera serena mesmo na alta temporada. É excelente para <strong>leitura na praia</strong>, <strong>contemplação</strong> e <strong>piqueniques à beira-mar</strong>. O mar calmo a torna segura para idosos e crianças pequenas.</p>
+      <p>Diferente das praias mais movimentadas, a Praia Alegre mantém uma atmosfera serena mesmo na alta temporada. É excelente para <strong>leitura na praia</strong>, <strong>contemplação</strong> e <strong>piqueniques à beira-mar</strong>. O condições do mar que devem ser verificadas no dia pequenas.</p>
       <ul>
         <li><strong>Ondas</strong>: Muito calmas, quase sem ondas</li>
         <li><strong>Estrutura</strong>: Moderada — algumas barracas e restaurantes próximos</li>
@@ -176,7 +176,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p>Confira também nosso <a href="/blog/o-que-fazer-em-penha-sc" class="text-primary hover:text-primary/80 underline font-medium">guia de atrações em Penha</a> e o <a href="/blog/beto-carrero-world-dicas-guia-2026" class="text-primary hover:text-primary/80 underline font-medium">guia completo do Beto Carrero World</a> para complementar seu roteiro.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "beto-carrero-world-dicas-guia-2026": {
@@ -194,8 +194,8 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <div class="highlight"><h3>⚠️ Atenção ao novo calendário 2026 do parque</h3>
       <ul>
         <li>Desde <strong>18/05/2026</strong>, o parque <strong>abre às 10h</strong>; brinquedos funcionam até as <strong>18h</strong> e fechamento às <strong>20h</strong>.</li>
-        <li>Entre <strong>agosto e novembro de 2026</strong>, o parque <strong>não abre às terças e quartas-feiras</strong> (exceto em períodos de feriado).</li>
-        <li>Parque <strong>fechado nos dias 1, 2, 8 e 9 de dezembro de 2026</strong>. Depois disso, funcionamento diário até março de 2027.</li>
+        <li>Consulte o calendário oficial do Beto Carrero para a data escolhida. Funcionamento, atrações e espetáculos podem ter condições específicas; não extrapole uma programação para outros meses.</li>
+        <li>Consulte o calendário oficial do Beto Carrero para a data escolhida. Funcionamento, atrações e espetáculos podem ter condições específicas; não extrapole uma programação para outros meses.</li>
         <li>Confira sempre o calendário oficial em <a href="https://www.betocarrero.com.br" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary/80 underline">betocarrero.com.br</a> antes de reservar.</li>
       </ul>
       <p><strong>Dica prática:</strong> hospedando-se na Pousada Vila D'Itália, a 5 minutos do parque, é fácil reorganizar o roteiro — praia num dia, parque no outro.</p></div>
@@ -245,10 +245,10 @@ export const blogArticles1: Record<string, BlogPostData> = {
 
       <h3>Ingressos — Como Economizar</h3>
       <ul>
-        <li><strong>Compre online com antecedência</strong>: Descontos de até 20% em relação à bilheteria</li>
+        <li>Compare os ingressos e opcionais no canal oficial do parque. Verifique preço, data, inclusões e restrições do produto escolhido, sem presumir descontos ou benefícios.</li>
         <li><strong>Ingresso de 2 dias</strong>: Custo-benefício muito melhor — é impossível ver tudo em 1 dia</li>
-        <li><strong>Passaporte Premium</strong>: Fura-fila nas atrações principais — vale a pena na alta temporada</li>
-        <li><strong>Crianças até 2 anos</strong>: Entrada gratuita</li>
+        <li>Compare os ingressos e opcionais no canal oficial do parque. Verifique preço, data, inclusões e restrições do produto escolhido, sem presumir descontos ou benefícios.</li>
+        <li>A FAQ oficial do Beto Carrero informa gratuidade até 1 ano e 11 meses desde janeiro de 2026, exceto opcionais. Confirme documentos e condições antes da visita.</li>
         <li><strong>Desconto para hóspedes</strong>: Algumas pousadas parceiras oferecem descontos — consulte ao reservar</li>
       </ul>
 
@@ -303,7 +303,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p>Leia também: <a href="/blog/pousada-perto-beto-carrero-como-escolher" class="text-primary hover:text-primary/80 underline font-medium">Como escolher a melhor pousada perto do Beto Carrero</a> e <a href="/blog/penha-sc-com-criancas-roteiro-familia" class="text-primary hover:text-primary/80 underline font-medium">roteiro para famílias com crianças</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "o-que-fazer-em-penha-sc": {
@@ -402,7 +402,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <h3>Tarde: Praia da Armação — A Praia das Famílias</h3>
       <p>A <strong>Praia da Armação</strong> é a escolha ideal para o primeiro dia com crianças. Localizada a apenas <strong>80 metros da pousada</strong>, ela oferece:</p>
       <ul>
-        <li><strong>Águas calmas e rasas</strong>: Seguras para crianças brincarem no mar</li>
+        <li><strong>Águas calmas e rasas</strong>: sujeita às condições locais de banho brincarem no mar</li>
         <li><strong>Areia fofa e limpa</strong>: Perfeita para construir castelos de areia</li>
         <li><strong>Quiosques na orla</strong>: Lanches, bebidas e sorvetes sempre à mão</li>
         <li><strong>Guarda-vidas</strong>: Segurança na temporada</li>
@@ -433,17 +433,17 @@ export const blogArticles1: Record<string, BlogPostData> = {
 
       <h3>Dicas Especiais para Famílias</h3>
       <ul>
-        <li><strong>Crianças até 2 anos</strong>: Entrada gratuita</li>
+        <li>A FAQ oficial do Beto Carrero informa gratuidade até 1 ano e 11 meses desde janeiro de 2026, exceto opcionais. Confirme documentos e condições antes da visita.</li>
         <li><strong>Carrinho de bebê</strong>: O parque é grande — leve ou alugue na entrada</li>
         <li><strong>Ponto de encontro</strong>: Combine um local caso se separem</li>
         <li><strong>Crianças menores de 1 metro</strong>: Muitas atrações têm restrição de altura — confira antes de entrar na fila</li>
-        <li><strong>Volte para a pousada</strong>: A apenas 5 minutos, você pode voltar para um descanso e retornar ao parque à tarde</li>
+        <li>Antes de sair do parque durante a visita, confirme com o atendimento as condições de reentrada do seu ingresso. Não presuma que será possível retornar no mesmo dia.</li>
       </ul>
 
       <h2>Dia 3 — Praia Alegre, Mirante e Despedida</h2>
 
       <h3>Manhã: Praia Alegre — A Mais Tranquila</h3>
-      <p>Após o dia intenso no Beto Carrero, o terceiro dia pede tranquilidade. A <strong>Praia Alegre</strong> é perfeita para isso. Com águas muito calmas, areia larga e <strong>árvores centenárias</strong> que proporcionam sombra natural, é o cenário ideal para um último dia de relax em família. As crianças podem brincar na areia com segurança enquanto os pais descansam à sombra.</p>
+      <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua.  </p>
 
       <h3>Tarde: Mirante da Praia Vermelha</h3>
       <p>Antes de partir, faça uma parada no <strong>Mirante da Praia Vermelha</strong> para a <strong>foto de despedida</strong> mais bonita da viagem. A vista panorâmica é espetacular e as crianças adoram a aventura de subir ao mirante. É um fechamento perfeito para 3 dias inesquecíveis.</p>
@@ -460,7 +460,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <h2>Por Que a Pousada Vila D'Itália é Ideal para Famílias</h2>
       <ul>
         <li><strong>Quartos para até 6 pessoas</strong>: Espaço para toda a família no mesmo quarto</li>
-        <li><strong>80m da praia</strong>: Crianças cansadas? Volte para a pousada em 2 minutos a pé</li>
+        <li>Antes de sair do parque durante a visita, confirme com o atendimento as condições de reentrada do seu ingresso. Não presuma que será possível retornar no mesmo dia.</li>
         <li><strong>2 piscinas</strong>: Uma ao ar livre e uma coberta aquecida — diversão mesmo em dias nublados</li>
         <li><strong>Café da manhã incluso</strong>: Frutas, pães, bolos, sucos e mais — tudo o que as crianças adoram</li>
         <li><strong>5 min do Beto Carrero</strong>: Logística perfeita para o dia de parque</li>
@@ -469,7 +469,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p>Veja também: <a href="/blog/penha-sc-fim-de-semana-roteiro-rapido" class="text-primary hover:text-primary/80 underline font-medium">Roteiro de Fim de Semana em Penha</a> e <a href="/blog/praias-de-penha-sc-guia-completo" class="text-primary hover:text-primary/80 underline font-medium">Guia das Praias de Penha</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p><h2>Orientações oficiais para a visita</h2><p>Revisão pontual em 22/10/2026: <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — praia</a>, <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a> e <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>. Esta atualização não representa revisão integral do artigo.</p>`
   },
 
   "gastronomia-penha-sc-frutos-do-mar": {
@@ -485,7 +485,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p class="lead">Se existe um destino no Brasil onde <strong>frutos do mar</strong> são sinônimo de frescor e qualidade, esse destino é <strong>Penha SC</strong>. A cidade ostenta orgulhosamente o título de <strong>maior produtora de mariscos do Brasil</strong>, graças à sua tradição centenária de maricultura. Neste guia gastronômico completo, levamos você a uma jornada pelos sabores do mar de Penha — dos pratos mais tradicionais às experiências gastronômicas mais sofisticadas.</p>
 
       <h2>Penha: A Capital Nacional dos Mariscos</h2>
-      <p>A tradição de <strong>maricultura em Penha</strong> remonta às comunidades pesqueiras açorianas que colonizaram a região. Hoje, a cidade produz toneladas anuais de <strong>mexilhões</strong>, <strong>ostras</strong> e <strong>vieiras</strong>, abastecendo restaurantes de todo o sul do Brasil. Essa produção local garante algo que poucos destinos turísticos podem oferecer: <strong>frutos do mar colhidos no mesmo dia em que são servidos</strong>.</p>
+      <p>A gastronomia local inclui frutos do mar, mas origem, disponibilidade e forma de preparo variam por estabelecimento. Pergunte ao restaurante sobre os ingredientes e a procedência; a localização litorânea não comprova a data de captura ou colheita.</p>
       <p>A proximidade entre as fazendas de maricultura e os restaurantes cria uma <strong>cadeia de frescor</strong> única. Quando você come uma porção de mariscos em Penha, é provável que eles estivessem no mar poucas horas antes. Essa frescura se traduz em <strong>sabor incomparável</strong>, textura perfeita e qualidade nutricional superior.</p>
 
       <h2>Pratos Típicos que Você Precisa Experimentar</h2>
@@ -511,7 +511,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p>A orla da <strong>Praia da Armação</strong> concentra diversos restaurantes com vista para o mar. Sendo a praia mais próxima da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> (apenas 80 metros), é a opção mais conveniente para almoços e jantares. Os restaurantes da região oferecem desde pratos executivos acessíveis até sequências completas de frutos do mar.</p>
 
       <h3>Restaurantes Especializados em Frutos do Mar</h3>
-      <p>Além da orla, Penha possui restaurantes especializados no interior da cidade que atraem moradores e turistas conhecedores. Esses estabelecimentos geralmente compram diretamente dos produtores de maricultura, garantindo preços mais acessíveis e frescor máximo.</p>
+      <p>A gastronomia local inclui frutos do mar, mas origem, disponibilidade e forma de preparo variam por estabelecimento. Pergunte ao restaurante sobre os ingredientes e a procedência; a localização litorânea não comprova a data de captura ou colheita.</p>
 
       <h3>Quiosques e Bares de Praia</h3>
       <p>Para quem busca uma experiência mais casual, os quiosques à beira-mar oferecem petiscos de frutos do mar, porções de camarão, pastéis de camarão e bebidas geladas com vista para o mar. É a combinação perfeita para um almoço descontraído.</p>
@@ -540,7 +540,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <p>Hospedando-se na <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a>, você acorda com o <strong>café da manhã completo</strong> incluído na diária e está a poucos passos dos melhores restaurantes de Penha. A localização estratégica na Praia da Armação coloca a gastronomia local ao seu alcance a pé.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://turismo.penha.sc.gov.br/o-que-fazer/">Turismo de Penha</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "ilha-feia-penha-sc-passeio-barco": {
@@ -553,7 +553,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
     category: "Passeios",
     image: blogIlhaFeiaPenha,
     content: `<div class="blog-content">
-      <p class="lead">A <strong>Ilha Feia</strong> é um dos segredos mais bem guardados do litoral norte de Santa Catarina. Apesar do nome pouco convidativo — que dizem ter origem na aparência rochosa vista de longe — a ilha surpreende visitantes com <strong>águas cristalinas</strong>, <strong>vida marinha abundante</strong> e paisagens deslumbrantes. Localizada a cerca de <strong>20 minutos de barco</strong> da costa de Penha SC, o passeio é uma das experiências mais memoráveis que você pode ter na região.</p>
+      <p class="lead">Peça a um operador identificado uma proposta para a data desejada: roteiro, duração estimada, capacidade, equipamentos, valor total e condições de cancelamento por clima. Não há preço ou duração universal para o passeio.</p>
 
       <h2>Onde Fica e Como Chegar</h2>
       <p>A Ilha Feia está situada na divisa entre os municípios de <strong>Penha</strong> e <strong>Piçarras</strong>, no litoral norte catarinense. A ilha é acessível exclusivamente por barco, partindo de diferentes pontos da costa:</p>
@@ -562,7 +562,7 @@ export const blogArticles1: Record<string, BlogPostData> = {
         <li><strong>Saída por Piçarras</strong>: Alternativa com diferentes operadores</li>
         <li><strong>Saída pela Praia Alegre</strong>: Opção mais tranquila</li>
       </ul>
-      <p>O trajeto de barco leva aproximadamente <strong>20 a 30 minutos</strong>, dependendo das condições do mar e do ponto de embarque. O percurso já é uma atração em si, com vistas panorâmicas da costa, da Serra do Mar e das fazendas de maricultura.</p>
+      <p>Peça a um operador identificado uma proposta para a data desejada: roteiro, duração estimada, capacidade, equipamentos, valor total e condições de cancelamento por clima. Não há preço ou duração universal para o passeio.</p>
 
       <h2>O Que Ver e Fazer na Ilha Feia</h2>
 
@@ -604,18 +604,18 @@ export const blogArticles1: Record<string, BlogPostData> = {
       <h2>Custo Estimado</h2>
       <p>O preço do passeio varia conforme o tipo de embarcação, duração e inclusões:</p>
       <ul>
-        <li><strong>Passeio básico (2-3h)</strong>: A partir de R$ 80 por pessoa</li>
-        <li><strong>Com snorkeling incluso</strong>: A partir de R$ 120 por pessoa</li>
-        <li><strong>Privativo (barco exclusivo)</strong>: A partir de R$ 500 para grupos de até 8 pessoas</li>
+        <li>Peça a um operador identificado uma proposta para a data desejada: roteiro, duração estimada, capacidade, equipamentos, valor total e condições de cancelamento por clima. Não há preço ou duração universal para o passeio.</li>
+        <li>Peça a um operador identificado uma proposta para a data desejada: roteiro, duração estimada, capacidade, equipamentos, valor total e condições de cancelamento por clima. Não há preço ou duração universal para o passeio.</li>
+        <li>Peça a um operador identificado uma proposta para a data desejada: roteiro, duração estimada, capacidade, equipamentos, valor total e condições de cancelamento por clima. Não há preço ou duração universal para o passeio.</li>
       </ul>
-      <p>Crianças geralmente pagam meia ou têm entrada gratuita (menores de 5 anos). Consulte os operadores para valores atualizados.</p>
+      <p>Confirme com o operador identificado o valor para crianças e o que está incluído no passeio.</p>
 
       <h2>Combinação Ideal: Ilha Feia + Pousada</h2>
       <p>O roteiro perfeito de um dia combina o passeio à Ilha Feia pela manhã, retorno para almoço com <a href="/blog/gastronomia-penha-sc-frutos-do-mar" class="text-primary hover:text-primary/80 underline font-medium">frutos do mar</a> na Praia da Armação, e à tarde, descanso na piscina da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a>. A localização da pousada na Praia da Armação facilita o embarque para o passeio e oferece toda a estrutura para um dia completo de lazer.</p>
       <p>Veja também: <a href="/blog/o-que-fazer-em-penha-sc" class="text-primary hover:text-primary/80 underline font-medium">O Que Fazer em Penha SC</a> e <a href="/blog/praias-de-penha-sc-guia-completo" class="text-primary hover:text-primary/80 underline font-medium">Guia das Praias de Penha</a>.</p>
 
       ${CTA_BLOCK}
-    </div>`
+    </div><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://turismo.penha.sc.gov.br/o-que-fazer/">Turismo de Penha</a>. Confirme condições e disponibilidade para a data da visita.</p>`
   },
 
   "penha-sc-fim-de-semana-roteiro-rapido": {

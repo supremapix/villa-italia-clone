@@ -7,17 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Trees, Coffee, Waves, Car, Heart, MapPin } from "lucide-react";
 
-const distances = [
-  { city: "Curitiba", km: "~180 km", time: "2h – 2h30" },
-  { city: "São José dos Pinhais", km: "~175 km", time: "2h – 2h15" },
-  { city: "Ponta Grossa", km: "~230 km", time: "2h30 – 3h" },
-  { city: "Londrina", km: "~380 km", time: "4h – 4h30" },
-  { city: "Maringá", km: "~430 km", time: "4h30 – 5h" },
-  { city: "Joinville", km: "~80 km", time: "1h – 1h15" },
-  { city: "Blumenau", km: "~100 km", time: "1h15 – 1h30" },
-  { city: "Florianópolis", km: "~130 km", time: "1h30 – 2h" },
-  { city: "Porto Alegre", km: "~470 km", time: "5h – 5h30" },
-];
+const distances = ['Curitiba','São José dos Pinhais','Ponta Grossa','Londrina','Maringá','Joinville','Blumenau','Florianópolis','Porto Alegre'];
 
 const benefits = [
   { icon: Trees, text: "5 minutos de carro do Beto Carrero World" },
@@ -93,22 +83,23 @@ const BetoCarreroWorld = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold text-secondary text-center mb-12">
             Quanto tempo de carro até o Beto Carrero World?
           </h2>
-          <Card className="overflow-hidden shadow-soft">
+          <p className="mb-6">Calcule a viagem a partir do seu endereço. Confira as <a className="underline" href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">condições da rodovia na Arteris</a>. Distâncias e tempos dependem do percurso e do dia.</p>
+            <Card className="overflow-hidden shadow-soft">
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead className="bg-secondary text-white">
                   <tr>
                     <th className="px-4 py-3 font-semibold">Cidade de origem</th>
-                    <th className="px-4 py-3 font-semibold">Distância até a pousada</th>
+                    <th className="px-4 py-3 font-semibold">Trajeto até o parque</th>
                     <th className="px-4 py-3 font-semibold">Tempo estimado</th>
                   </tr>
                 </thead>
                 <tbody>
                   {distances.map((d, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/50"}>
-                      <td className="px-4 py-3 font-medium text-foreground">{d.city}</td>
-                      <td className="px-4 py-3 text-muted-foreground">{d.km}</td>
-                      <td className="px-4 py-3 text-muted-foreground">{d.time}</td>
+                      <td className="px-4 py-3 font-medium text-foreground">{d}</td>
+                      <td className="px-4 py-3 text-muted-foreground"><a className="underline" href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(d)}&destination=${encodeURIComponent("Beto Carrero World, Penha, SC")}`} target="_blank" rel="noopener noreferrer">Consultar rota</a></td>
+                      <td className="px-4 py-3 text-muted-foreground">Varia conforme trânsito e paradas</td>
                     </tr>
                   ))}
                 </tbody>

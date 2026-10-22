@@ -45,7 +45,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h3>Em Penha (0 a 10 km)</h3>
         <p>A cidade de <strong>Penha</strong> é um verdadeiro paraíso com suas <strong>25 praias</strong>, cada uma com personalidade única:</p>
         <ul>
-          <li><strong>Praia da Armação do Itapocorói</strong>: A poucos metros da pousada, águas calmas ideais para famílias e crianças</li>
+          <li><strong>Praia da Armação do Itapocorói</strong>: A poucos metros da pousada, condições do mar que devem ser verificadas no dia</li>
           <li><strong>Praia Grande</strong>: Ondas perfeitas para surf e bodyboard, vida noturna animada</li>
           <li><strong>Praia Alegre</strong>: Tranquilidade e beleza natural preservada</li>
           <li><strong>Praia do Quilombo</strong>: Águas cristalinas, perfeita para snorkeling</li>
@@ -170,7 +170,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Janeiro, fevereiro e março são os meses mais procurados do verão catarinense! Reserve agora sua estadia na Pousada Vila D'Itália e garanta férias inesquecíveis em uma das regiões mais bonitas do Brasil. Praias paradisíacas, o maior parque temático da América Latina e a melhor hospitalidade esperam por você!</strong></p>
       </div>
-    `,
+    <h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p>`,
     image: blogVeraoJaneiro2026
   },
   "cuidados-pele-verao-dicas-saude-praia-penha": {
@@ -398,7 +398,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h2>As Praias Mais Procuradas Nesta Temporada</h2>
 
         <h3>Praia da Armação</h3>
-        <p>Considerada a <strong>principal praia de Penha</strong>, a Praia da Armação oferece cerca de 3 quilômetros de areia clara e águas calmas, ideais para famílias com crianças. A orla conta com diversos restaurantes, sorveterias e lojas de artesanato local. Durante a temporada, a praia recebe estrutura especial com <strong>guarda-vidas</strong>, banheiros públicos e área de estacionamento organizada. Para quem busca <a href="/" class="text-primary hover:text-primary/80 underline font-medium">hospedagem de qualidade</a> próxima à praia, a região oferece excelentes opções.</p>
+        <p> Confirme com o Turismo de Penha a infraestrutura disponível no trecho, incluindo sanitários, duchas e estacionamento. Não presuma que esses serviços estejam disponíveis em toda a orla. </p>
 
         <h3>Praia Grande</h3>
         <p>Para os amantes de <strong>esportes aquáticos</strong>, a Praia Grande é o destino certo. Com ondas consistentes durante todo o verão, a praia atrai surfistas de todo o Brasil. À noite, os bares e restaurantes da orla ganham vida com música ao vivo e uma <strong>vida noturna animada</strong>. A praia também é palco de diversos eventos esportivos e culturais durante a temporada.</p>
@@ -477,8 +477,8 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <ul>
           <li><strong>Balneário Camboriú</strong> (24 km): A "Dubai brasileira" com praias urbanas, teleférico e vida noturna agitada</li>
           <li><strong>Bombinhas</strong> (45 km): Praias paradisíacas e mergulho</li>
-          <li><strong>Blumenau</strong> (70 km): Arquitetura germânica e cervejarias artesanais</li>
-          <li><strong>Florianópolis</strong> (120 km): A Ilha da Magia com suas 42 praias</li>
+          <li>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</li>
+          <li>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</li>
         </ul>
 
         <p>Para mais informações sobre a região de Penha e seus bairros, confira nossa página sobre os <a href="/bairros-penha" class="text-primary hover:text-primary/80 underline font-medium">Bairros de Penha</a>.</p>
@@ -491,7 +491,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Venha descobrir por que milhares de turistas escolhem Penha como seu destino de férias preferido. Praias incríveis, o melhor parque temático da América Latina e uma hospitalidade calorosa esperam por você!</strong></p>
       </div>
-    `,
+    <h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p><h2>Orientações oficiais para a visita</h2><p>Revisão pontual em 22/10/2026: <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — praia</a>, <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a> e <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>. Esta atualização não representa revisão integral do artigo.</p>`,
     image: blogTemporadaVerao
   },
   "reveillon-2026-penha-santa-catarina": {
@@ -510,27 +510,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p>A cidade, conhecida mundialmente por abrigar o <strong>Beto Carrero World</strong> – o maior parque temático da América Latina – se transforma durante o período de festas, oferecendo <strong>programação especial</strong> em diversos pontos turísticos. As praias ganham decoração festiva, os restaurantes preparam menus especiais e toda a comunidade se une para receber os turistas com o tradicional <strong>calor da hospitalidade catarinense</strong>.</p>
 
-        <h2>Programação do Réveillon 2025</h2>
-
-        <h3>Festa na Praia da Armação</h3>
-        <p>A <strong>Praia da Armação</strong>, considerada a principal praia de Penha, será o palco central das celebrações. A festa começa no final da tarde do dia 31, com música ao vivo em diversos pontos da orla. À meia-noite, uma <strong>queima de fogos de artifício</strong> de aproximadamente 15 minutos ilumina o céu, criando um cenário mágico refletido nas águas calmas do mar.</p>
-
-        <p>A programação inclui:</p>
-        <ul>
-          <li><strong>Shows musicais</strong> a partir das 21h com bandas locais e DJs</li>
-          <li><strong>Queima de fogos</strong> sincronizada à meia-noite</li>
-          <li>Barracas com <strong>comidas e bebidas típicas</strong></li>
-          <li><strong>Área kids</strong> com atividades para crianças</li>
-          <li>Apresentações de <strong>grupos folclóricos</strong> regionais</li>
-        </ul>
-
-        <h3>Festas Privadas e Restaurantes</h3>
-        <p>Diversos estabelecimentos da cidade organizam <strong>festas de réveillon</strong> com pacotes que incluem jantar especial, open bar, música ao vivo e vista privilegiada para os fogos. Para quem busca <a href="/" class="text-primary hover:text-primary/80 underline font-medium">hospedagem com excelente localização</a>, é importante reservar com antecedência para garantir acesso aos melhores eventos.</p>
-
-        <h3>Beto Carrero World Especial de Ano Novo</h3>
-        <p>O <strong>Beto Carrero World</strong> oferece programação especial durante todo o período de festas, incluindo shows temáticos, decoração natalina até o início de janeiro e horários estendidos. É uma <strong>opção perfeita</strong> para famílias que desejam combinar a magia do parque com as festividades de fim de ano.</p>
-
-        <h2>Tradições e Rituais de Ano Novo na Praia</h2>
+        <h2>Programação da edição: consulte o arquivo oficial</h2><p>Este artigo se refere a uma virada passada. Não mantemos aqui uma retrospectiva de palcos, shows ou duração de fogos sem documentação da edição. Consulte o Turismo de Penha para registros oficiais e o <a href="/blog/reveillon-2026-2027-penha-balneario-camboriu">guia de planejamento da próxima virada</a> para organizar uma nova viagem.</p><h2>Tradições e Rituais de Ano Novo na Praia</h2>
 
         <p>O <strong>réveillon brasileiro</strong>, especialmente no litoral, é rico em tradições e superstições. Em Penha, você poderá participar de diversos rituais que prometem trazer sorte e boas energias para o novo ano:</p>
 
@@ -642,7 +622,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Venha viver a magia do réveillon à beira-mar em Penha! Praias paradisíacas, fogos de artifício espetaculares e a tradicional hospitalidade catarinense esperam por você. Faça de 2026 um ano inesquecível desde o primeiro segundo!</strong></p>
       </div>
-    `,
+    <h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p>`,
     image: blogReveillon
   },
   "melhores-praias-penha": {
@@ -654,7 +634,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <p class="lead"><strong>Penha</strong> é um verdadeiro paraíso para os amantes de praia! Com suas <strong>25 praias</strong>, a cidade oferece opções para todos os gostos.</p>
         
         <h2>Praia da Armação</h2>
-        <p>A <strong>Praia da Armação</strong> é uma das mais procuradas, oferecendo <strong>águas calmas e cristalinas</strong>, perfeitas para famílias com crianças. Com sua areia branquinha e infraestrutura completa, é o local ideal para passar o dia inteiro. Confira nossa <a href="/" class="text-primary hover:text-primary/80 underline font-medium">página inicial</a> para conhecer mais sobre a região.</p>
+        <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua.  </p>
         
         <h2>Praia Grande</h2>
         <p>Para quem busca <strong>mais agitação</strong>, a Praia Grande oferece ondas perfeitas para surf e uma vida noturna vibrante com diversos bares e restaurantes.</p>
@@ -672,7 +652,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         
         <p>Para mais informações sobre hospedagem, entre em <a href="/#contact" class="text-primary hover:text-primary/80 underline font-medium">contato conosco</a>.</p>
       </div>
-    `,
+    <p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`,
     image: penhaBeach1
   },
   "roteiro-3-dias-penha": {
@@ -752,11 +732,11 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         </ul>
         
         <h2>Hospede-se Perto</h2>
-        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Itália</a> fica a apenas <strong>5 minutos do parque</strong>! Isso significa que você pode voltar para almoçar, descansar na piscina e retornar ao parque à tarde com energia renovada.</p>
+        <p>Antes de sair do parque durante a visita, confirme com o atendimento as condições de reentrada do seu ingresso. Não presuma que será possível retornar no mesmo dia.</p>
         
         <p>Faça sua reserva pelo nosso <a href="/#contact" class="text-primary hover:text-primary/80 underline font-medium">formulário de contato</a>.</p>
       </div>
-    `,
+    <h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p>`,
     image: penhaBeach3
   },
   "guia-completo-penha-sc-beto-carrero": {
@@ -765,14 +745,14 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
     date: "1 de Março, 2025",
     content: `
       <div class="blog-content">
-        <p class="lead">Penha é uma das cidades mais visitadas do litoral norte de Santa Catarina — e não é por acaso. Situada a apenas 14 km do Aeroporto Internacional de Navegantes e a 80 km de Florianópolis, a cidade reúne em poucos quilômetros o que a maioria das famílias brasileiras sonha em uma viagem: o maior parque temático da América Latina, praias de água morna e tranquilas, boa gastronomia e hospedagem de qualidade com excelente custo-benefício.</p>
+        <p class="lead">Penha é uma das cidades mais visitadas do litoral norte de Santa Catarina — e não é por acaso. Situada a apenas 14 km do Aeroporto Internacional de Navegantes e no litoral norte de Santa Catarina, a cidade reúne em poucos quilômetros o que a maioria das famílias brasileiras sonha em uma viagem: o maior parque temático da América Latina, praias de água morna e tranquilas, boa gastronomia e hospedagem de qualidade com excelente custo-benefício.</p>
 
         <p>Com mais de 19 praias, atração para todos os gostos e infraestrutura turística desenvolvida, Penha recebe turistas de todo o Sul e Sudeste do Brasil — especialmente de São Paulo, Curitiba, Porto Alegre, Florianópolis, Blumenau e Joinville. Neste guia completo, você vai encontrar tudo que precisa para planejar sua viagem a Penha com a família e aproveitar cada dia ao máximo.</p>
 
         <h2>Por Que Penha SC é o Destino Preferido das Famílias do Sul do Brasil</h2>
 
         <h3>Localização Estratégica no Litoral Norte de SC</h3>
-        <p>Penha está situada entre Itajaí e Balneário Camboriú, com fácil acesso pela BR-101 — a principal rodovia do litoral catarinense. O Aeroporto Internacional de Navegantes (NVT) fica a apenas 14 km, tornando a chegada por avião extremamente prática. A cidade conecta-se facilmente a todos os grandes centros urbanos do Sul e Sudeste: 14km de Itajaí, 30km de Balneário Camboriú, 80km de Florianópolis, 95km de Joinville, 70km de Blumenau, 140km de Curitiba (via balsa em Guaratuba), 230km de Ponta Grossa, 380km de Chapecó, 400km de Cascavel, 470km de Porto Alegre, 470km de São Paulo, 520km de Londrina e 540km de Maringá. Essa localização central faz de Penha o ponto de encontro de famílias de toda a região Sul.</p>
+        <p>Para esse deslocamento, calcule a rota entre os endereços exatos e confira as condições de trânsito no dia. Inclua pausas, acesso ao destino e estacionamento; uma distância entre cidades não garante tempo de chegada.</p>
 
         <h3>Clima em Penha — Quando Ir</h3>
         <p>O clima em Penha é agradável o ano todo, com características distintas por estação. No <strong>verão (dezembro a fevereiro)</strong> as temperaturas ficam entre 25°C e 32°C, com mar quente e muito movimento. O <strong>outono (março a maio)</strong> é excelente — menos turistas, temperaturas agradáveis e preços mais acessíveis. O <strong>inverno (junho a agosto)</strong> é fresco mas com sol frequente, perfeito para quem quer preços baixos e tranquilidade — a piscina aquecida da Vila D'Italia é perfeita para esta época. A <strong>primavera (setembro a novembro)</strong> oferece clima excelente, menos movimento e ótimo custo-benefício.</p>
@@ -797,7 +777,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         </ul>
 
         <h3>Quanto Custa o Ingresso do Beto Carrero</h3>
-        <p>Os preços variam conforme a data (pico vs baixa temporada). Estudantes têm meia-entrada com documento, e crianças até 1 metro não pagam. A compra online geralmente oferece desconto e evita filas na bilheteria. A pousada pode auxiliar com informações atualizadas — consulte na chegada.</p>
+        <p>Os preços variam conforme a data (pico vs baixa temporada). Consulte na FAQ oficial do parque as condições de gratuidades, descontos e documentação. Não use altura como critério geral de gratuidade. A pousada pode auxiliar com informações atualizadas — consulte na chegada.</p>
 
         <h3>Como ir do Hotel ao Beto Carrero World</h3>
         <p>De carro são apenas 5 a 10 minutos da <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a>. Táxi e aplicativos de transporte são opções práticas. Há também ônibus municipal — consulte os horários no destino. A pousada fica a 2,5km do parque — uma das hospedagens mais próximas de Penha.</p>
@@ -805,7 +785,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h2>As Melhores Praias de Penha SC</h2>
 
         <h3>Praia da Armação — A Mais Famosa de Penha</h3>
-        <p>A Praia da Armação é a praia mais popular e estruturada de Penha SC. Com águas calmas e mornas, fundo de areia e ondas fracas, é o destino ideal para famílias com crianças. A infraestrutura é completa: quiosques, restaurantes, lanchonetes, banheiros, duchas e estacionamento. No verão o movimento é intenso, mas no outono e inverno a praia fica tranquila e igualmente bonita. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a apenas 80 metros desta praia — a caminhada mais curta possível!</p>
+        <p>Para visitar essa praia, avalie as condições do mar no dia e siga a sinalização e os guarda-vidas. Água aparentemente calma não garante banho seguro nem adequação para crianças ou idosos. Crianças precisam de supervisão contínua. Confirme com o Turismo de Penha a infraestrutura disponível no trecho, incluindo sanitários, duchas e estacionamento. Não presuma que esses serviços estejam disponíveis em toda a orla. A Pousada Vila D'Italia fica a apenas 80 metros desta praia — a caminhada mais curta possível!</p>
 
         <h3>Praia do Manguinho</h3>
         <p>Menos agitada que a Armação, a Praia do Manguinho é conhecida por suas águas mais calmas e cristalinas, sendo excelente para mergulho e snorkeling. Ideal para quem busca um dia mais tranquilo junto ao mar.</p>
@@ -825,7 +805,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <p>Escolher uma hospedagem próxima ao parque traz inúmeras vantagens: menor deslocamento significa mais energia para aproveitar as atrações, facilidade para quem vai visitar o parque em vários dias, opção de voltar para o hotel para almoçar, menor custo com táxi/uber e mais tempo de descanso. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a 2,5km do parque e a 80m da praia — a combinação perfeita para famílias.</p>
 
         <h3>Pousada Vila D'Italia — Pousada Perto da Praia e do Beto Carrero em Penha</h3>
-        <p>A Pousada Vila D'Italia está localizada na Rua Luís Vicente da Silva, 183, no bairro Armação em Penha SC. A apenas 80m da Praia da Armação e 2,5km do Beto Carrero World, oferece 18 quartos equipados com ar-condicionado, TV de tela plana, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (coberta aquecida + ao ar livre), jacuzzi e hidromassagem, café da manhã incluso em estilo buffet, restaurante e bar próprios, estacionamento gratuito e Wi-Fi em todas as áreas. Avaliação 8.3 no Booking e 8.5 na Decolar. "Melhor custo-benefício para famílias em Penha" é a avaliação recorrente dos hóspedes.</p>
+        <p>A Pousada Vila D'Italia está localizada na Rua Luís Vicente da Silva, 183, no bairro Armação em Penha SC. A apenas 80m da Praia da Armação e 2,5km do Beto Carrero World, oferece 18 quartos equipados com ar-condicionado, TV de tela plana, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (coberta aquecida + ao ar livre), jacuzzi e hidromassagem, café da manhã incluso em estilo buffet, restaurante e bar próprios, estacionamento gratuito e Wi-Fi em todas as áreas.  "Melhor custo-benefício para famílias em Penha" é a avaliação recorrente dos hóspedes.</p>
 
         <h2>O Que Fazer em Penha Além do Beto Carrero</h2>
 
@@ -868,7 +848,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Planeje sua viagem a Penha SC agora! Reserve sua estadia na Pousada Vila D'Italia e viva férias inesquecíveis com sua família no litoral catarinense.</strong></p>
       </div>
-    `,
+    <h2>Fontes e limites desta revisão</h2><p>Revisão das informações públicas em 22/10/2026. Consulte o <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>, a <a href="https://www.betocarrero.com.br/duvidas-frequentes">FAQ oficial do Beto Carrero</a> e a <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris Litoral Sul</a> para programação, regras e condições de viagem. Os dados de serviços da pousada não foram revalidados nesta revisão pública.</p><h2>Orientações oficiais para a visita</h2><p>Revisão pontual em 22/10/2026: <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — praia</a>, <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a> e <a href="https://turismo.penha.sc.gov.br/">Turismo de Penha</a>. Esta atualização não representa revisão integral do artigo.</p>`,
     image: penhaBeach1
   },
   "praias-penha-sc-litoral-norte": {
@@ -887,7 +867,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h2>Praia da Armação — A Rainha das Praias de Penha</h2>
 
         <h3>Como é a Praia da Armação</h3>
-        <p>A Praia da Armação do Itapocorói é a praia mais famosa e estruturada de Penha SC. Localizada na área central turística da cidade, oferece fácil acesso por ruas asfaltadas e sinalização clara. O mar de água morna tem fundo de areia e ondas fracas a moderadas — ideal para famílias com crianças, banho de mar e esportes aquáticos leves. A infraestrutura é completa: barracas, quiosques, duchas, estacionamento e comércio variado ao redor. No verão o movimento é muito alto, mas no outono e inverno a praia fica tranquila e igualmente bonita. A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> fica a apenas 80 metros desta praia.</p>
+        <p> Confirme com o Turismo de Penha a infraestrutura disponível no trecho, incluindo sanitários, duchas e estacionamento. Não presuma que esses serviços estejam disponíveis em toda a orla. A Pousada Vila D'Italia fica a apenas 80 metros desta praia.</p>
 
         <h3>Como Chegar na Praia da Armação</h3>
         <p>Da Pousada Vila D'Italia são apenas 80 metros — uma caminhada de 1 a 2 minutos. De carro, acesse pela Rua Luís Vicente da Silva no bairro Armação. Há estacionamento público e privado nas proximidades.</p>
@@ -960,7 +940,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h2>Como se Hospedar Perto das Praias de Penha</h2>
 
         <h3>Pousada na Praia da Armação — Melhor Opção</h3>
-        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a melhor opção para quem quer ficar perto das praias de Penha. Localizada a apenas 80 metros da Praia da Armação — a principal e mais estruturada da cidade — a pousada oferece a combinação perfeita de localização e conforto. São 18 quartos com ar-condicionado, TV, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (uma coberta aquecida para os dias mais frios), jacuzzi, café da manhã incluso, restaurante próprio e estacionamento gratuito. A 2,5km do Beto Carrero World, é a base perfeita para explorar tanto as praias quanto o parque. Avaliação 8.3 no Booking e 8.5 na Decolar.</p>
+        <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a melhor opção para quem quer ficar perto das praias de Penha. Localizada a apenas 80 metros da Praia da Armação — a principal e mais estruturada da cidade — a pousada oferece a combinação perfeita de localização e conforto. São 18 quartos com ar-condicionado, TV, frigobar e banheiro privativo. A estrutura inclui 2 piscinas (uma coberta aquecida para os dias mais frios), jacuzzi, café da manhã incluso, restaurante próprio e estacionamento gratuito. A 2,5km do Beto Carrero World, é a base perfeita para explorar tanto as praias quanto o parque. </p>
 
         <h2>Conclusão</h2>
         <p>Penha vai muito além do Beto Carrero World — suas 19 praias são um convite permanente para explorar, descobrir e se apaixonar pelo litoral catarinense. Cada praia tem sua personalidade, e parte da diversão é justamente encontrar aquela que combina com o seu estilo.</p>
@@ -969,13 +949,13 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Reserve sua estadia na Pousada Vila D'Italia e descubra as 19 praias de Penha SC! De águas calmas para famílias a recantos escondidos para aventureiros, o litoral de Penha espera por você.</strong></p>
       </div>
-    `,
+    <p>Antes do banho, consulte a balneabilidade do trecho no IMA e siga a sinalização e a orientação dos guarda-vidas. Aparência calma da água não garante segurança. Crianças precisam de supervisão contínua.</p><h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.cbm.sc.gov.br/index.php/dicas-de-prevencao/praia">CBMSC — orientações para praias</a>; <a href="https://balneabilidade.ima.sc.gov.br/">IMA — balneabilidade</a>. Confirme condições e disponibilidade para a data da visita.</p>`,
     image: penhaBeach3
   },
 
   "festas-eventos-penha-sc-abril-julho-2026": {
     id: "festas-eventos-penha-sc-abril-julho-2026",
-    title: "Festas e Eventos em Penha SC de Abril a Julho 2026: Calendário Completo, Festa Junina e Baixa Temporada",
+    title: "Festas e Eventos em Penha de Abril a Julho de 2026: Arquivo e Consulta de Agenda",
     date: "13 de Março, 2026",
     content: `
       <div class="blog-content">
@@ -993,79 +973,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p>Na <strong>Pousada Vila D'Italia</strong>, os 18 quartos com <strong>ar-condicionado, TV, frigobar e café da manhã incluso</strong> mantêm o mesmo padrão de qualidade o ano todo. A diferença é que na baixa temporada você paga menos e tem mais tranquilidade para aproveitar as <strong>2 piscinas, jacuzzi, restaurante e estacionamento gratuito</strong>.</p>
 
-        <h2>Calendário de Festas e Eventos — Abril a Julho 2026</h2>
-
-        <h3>Abril — Semana Santa e Páscoa (Início de Abril)</h3>
-        <p>A <strong>Semana Santa</strong> é um dos períodos mais procurados da baixa temporada em Penha. A cidade recebe turistas de todo o <strong>Sul e Sudeste do Brasil</strong> para o feriado prolongado. Eventos típicos incluem:</p>
-        <ul>
-          <li><strong>Procissões e celebrações religiosas</strong> nas igrejas históricas de Penha e Armação</li>
-          <li><strong>Festival de Frutos do Mar</strong> — restaurantes da região servem pratos especiais com peixes, camarões e mariscos frescos</li>
-          <li><strong>Beto Carrero World em operação especial</strong> — horários estendidos no feriado com menor movimento que no verão</li>
-          <li><strong>Feira de artesanato</strong> na Praia da Armação com produtos regionais e souvenirs</li>
-        </ul>
-        <p><strong>Dica:</strong> Reserve com pelo menos 30 dias de antecedência para a Semana Santa, pois as pousadas em Penha lotam nesse feriado.</p>
-
-        <h3>Maio — Mês das Mães e Tranquilidade Total</h3>
-        <p><strong>Maio em Penha</strong> é sinônimo de tranquilidade. Com as temperaturas ainda agradáveis (18°C a 24°C), é o mês perfeito para casais e famílias que buscam sossego. Destaques:</p>
-        <ul>
-          <li><strong>Dia das Mães</strong> (segundo domingo) — restaurantes da região preparam menus especiais. O restaurante da Pousada Vila D'Italia serve pratos com ingredientes locais</li>
-          <li><strong>Passeios de escuna</strong> pela costa de Penha com menos lotação e preços especiais</li>
-          <li><strong>Trilhas ecológicas</strong> pelo Morro do Careca e áreas de mata atlântica preservada</li>
-          <li><strong>Pesca artesanal</strong> — acompanhe os pescadores da Armação em suas jornadas matinais</li>
-        </ul>
-        <p>Maio é também o melhor mês para quem quer conhecer o <strong>Beto Carrero World com calma</strong> — filas curtas, todas as atrações abertas e clima perfeito para caminhar pelo parque o dia inteiro.</p>
-
-        <h3>Junho — Festa Junina em Penha SC</h3>
-        <p>Junho é o grande mês festivo da baixa temporada em Penha! As <strong>festas juninas</strong> tomam conta da cidade com uma programação animada e colorida:</p>
-        <ul>
-          <li><strong>Arraial de Penha</strong> — tradicional festa junina no centro da cidade com barracas de comidas típicas, quadrilha, fogueira e forró ao vivo</li>
-          <li><strong>Festa Junina nas praias</strong> — quiosques da Praia da Armação decorados com bandeirinhas e servindo quentão, paçoca, milho verde, canjica e pinhão</li>
-          <li><strong>Festa de São João</strong> (24 de junho) — celebrações nas comunidades locais com danças tradicionais e shows</li>
-          <li><strong>Festival do Pinhão e Quentão</strong> — evento gastronômico com o melhor da culinária junina catarinense</li>
-          <li><strong>Beto Carrero World temático</strong> — o parque entra no clima junino com decoração especial, comidas típicas e apresentações temáticas</li>
-        </ul>
-        <p>A <strong>Festa Junina em Penha</strong> é especialmente popular entre famílias com crianças. As escolas locais organizam apresentações de quadrilha abertas ao público, e os restaurantes da região servem <strong>pratos típicos do inverno catarinense</strong> como caldo de peixe, polenta com molho e galinhada caipira.</p>
-
-        <h3>Julho — Férias de Inverno e Beto Carrero</h3>
-        <p>As <strong>férias de julho</strong> aquecem novamente o turismo em Penha, mas com muito menos movimento que o verão. É considerada a <strong>"mini temporada"</strong> do litoral norte de SC:</p>
-        <ul>
-          <li><strong>Férias escolares</strong> — famílias de todo o Paraná, São Paulo e Rio Grande do Sul visitam o Beto Carrero World</li>
-          <li><strong>Festival de Inverno de Penha</strong> — programação cultural com shows musicais, teatro e exposições</li>
-          <li><strong>Beto Carrero World em programação especial de inverno</strong> — horários adaptados e promoções em ingressos</li>
-          <li><strong>Gastronomia de inverno</strong> — restaurantes servem sopas, caldos, fondues e pratos quentes com frutos do mar</li>
-          <li><strong>Passeios para Blumenau</strong> (70 km) — aproveite para conhecer a cultura alemã e a gastronomia colonial</li>
-        </ul>
-        <p>A <strong>piscina aquecida e coberta</strong> da Pousada Vila D'Italia é o grande trunfo de julho: enquanto a temperatura externa fica entre 12°C e 20°C, a piscina da pousada garante diversão para as crianças e relaxamento para os pais. O <strong>café da manhã incluso</strong> no buffet começa o dia com energia para enfrentar o parque.</p>
-
-        <h2>Beto Carrero World na Baixa Temporada — Vantagens Exclusivas</h2>
-
-        <h3>Menos Filas, Mais Diversão</h3>
-        <p>Visitar o <strong>Beto Carrero World de abril a julho</strong> (exceto feriados) é uma experiência completamente diferente da alta temporada. As filas que chegam a <strong>60 minutos no verão</strong> caem para <strong>5 a 15 minutos</strong> — ou seja, você consegue aproveitar muito mais atrações em um único dia.</p>
-
-        <h3>Promoções e Ingressos com Desconto</h3>
-        <p>O parque frequentemente lança <strong>promoções de baixa temporada</strong>: ingressos com desconto para compra online, pacotes família com entrada gratuita para crianças e combos com alimentação inclusa. Fique atento ao site oficial do parque e às redes sociais da <strong>Pousada Vila D'Italia</strong> para as melhores ofertas.</p>
-
-        <h3>Shows e Atrações Especiais</h3>
-        <p>O Beto Carrero mantém sua programação de <strong>shows diários</strong> mesmo na baixa temporada. Os espetáculos de acrobacias, o show do Velozes e Furiosos e as apresentações no Teatro são realizados normalmente. A diferença é que você consegue <strong>lugares melhores</strong> e com mais conforto.</p>
-
-        <h2>O Que Fazer em Penha Além do Beto Carrero (Abril a Julho)</h2>
-
-        <h3>Passeio de Escuna Pirata Capitão Gato</h3>
-        <p>O <strong>passeio de escuna</strong> pela costa de Penha funciona o ano todo (quando o mar permite). No outono e inverno, a experiência é ainda mais especial: o mar mais calmo proporciona uma navegação tranquila com vistas incríveis da <strong>costa catarinense</strong>. O passeio dura cerca de 2 horas e é diversão garantida para crianças e adultos.</p>
-
-        <h3>Gastronomia de Inverno — Frutos do Mar Quentes</h3>
-        <p>Os <strong>restaurantes de Penha</strong> brilham no inverno com pratos que aquecem a alma: <strong>moqueca catarinense, caldeirada de peixe, risoto de camarão, polenta com molho de frutos do mar e sopa de peixe</strong>. O próprio restaurante da Pousada Vila D'Italia serve opções quentes no jantar — sem precisar sair da pousada nos dias mais frios.</p>
-
-        <h3>Cidades Vizinhas para Passeio de Um Dia</h3>
-        <ul>
-          <li><strong>Balneário Camboriú</strong> (30 km) — teleférico Unipraias, Cristo Luz, gastronomia sofisticada</li>
-          <li><strong>Blumenau</strong> (70 km) — cultura alemã, cervejarias artesanais, Vila Germânica</li>
-          <li><strong>Itajaí</strong> (14 km) — porto, Mercado Público, praias urbanas</li>
-          <li><strong>Bombinhas</strong> (50 km) — mergulho, praias paradisíacas, Reserva Biológica Marinha</li>
-          <li><strong>Joinville</strong> (95 km) — maior cidade de SC, museus, jardim botânico</li>
-        </ul>
-
-        <h2>Onde se Hospedar em Penha na Baixa Temporada</h2>
+        <h2>Agenda de abril a julho: conteúdo de arquivo</h2><p>Este período de 2026 já passou. Para consultar quais eventos ocorreram, procure registros datados do organizador. Não reproduzimos uma retrospectiva sem comprovação, nem usamos esse calendário para prever a próxima edição.</p><h2>Planeje uma nova visita</h2><p>Consulte a agenda municipal e o calendário do parque para suas datas. Filas, promoções e atrações disponíveis variam; não há garantia de uma faixa de espera ou de benefício por época do ano. Confirme também as condições da praia no dia.</p><h2>Onde se Hospedar em Penha na Baixa Temporada</h2>
 
         <h3>Pousada Vila D'Italia — Conforto o Ano Todo</h3>
         <p>A <a href="/" class="text-primary hover:text-primary/80 underline font-medium">Pousada Vila D'Italia</a> é a escolha ideal para quem visita Penha de abril a julho. Com <strong>18 quartos</strong> equipados, <strong>piscina aquecida e coberta</strong>, <strong>café da manhã incluso</strong> e localização privilegiada a <strong>80 metros da Praia da Armação</strong> e <strong>2,5 km do Beto Carrero World</strong>, a pousada oferece tudo que sua família precisa para uma estadia confortável mesmo nos meses mais frios.</p>
@@ -1077,7 +985,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
           <li><strong>Restaurante próprio</strong> — pratos quentes sem sair da pousada</li>
           <li><strong>Wi-Fi gratuito</strong> em todos os ambientes</li>
           <li><strong>Estacionamento gratuito</strong> — essencial para quem vem de carro de Curitiba, Joinville ou Florianópolis</li>
-          <li><strong>Avaliação 8.3 Booking / 8.5 Decolar</strong> — qualidade comprovada</li>
+
           <li><strong>Tarifas especiais</strong> de baixa temporada — consulte pelo WhatsApp</li>
         </ul>
 
@@ -1103,7 +1011,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Reserve agora sua estadia na Pousada Vila D'Italia para abril, maio, junho ou julho e aproveite as melhores tarifas do ano! Piscina aquecida, café incluso e a 5 min do Beto Carrero World.</strong></p>
       </div>
-    `,
+    <h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>. Confirme condições e disponibilidade para a data da visita.</p>`,
     image: blogFestasPenha
   },
 
@@ -1118,8 +1026,8 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <div class="highlight"><h3>⚠️ Atenção ao novo calendário 2026 do parque</h3>
         <ul>
           <li>Desde <strong>18/05/2026</strong>, o parque <strong>abre às 10h</strong>; os brinquedos funcionam até as <strong>18h</strong> e o fechamento é às <strong>20h</strong>.</li>
-          <li>Entre <strong>agosto e novembro de 2026</strong>, o parque <strong>não abre às terças e quartas-feiras</strong> (exceto em períodos de feriado).</li>
-          <li>Parque <strong>fechado nos dias 1, 2, 8 e 9 de dezembro de 2026</strong>. Depois disso, funcionamento diário até março de 2027.</li>
+          <li>Consulte o calendário oficial do Beto Carrero para a data escolhida. Funcionamento, atrações e espetáculos podem ter condições específicas; não extrapole uma programação para outros meses.</li>
+          <li>Consulte o calendário oficial do Beto Carrero para a data escolhida. Funcionamento, atrações e espetáculos podem ter condições específicas; não extrapole uma programação para outros meses.</li>
           <li>Sempre confira o calendário oficial em <a href="https://www.betocarrero.com.br" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary/80 underline">betocarrero.com.br</a> antes de reservar.</li>
         </ul>
         <p><strong>Reforço prático:</strong> hospedando-se na Pousada Vila D'Itália, a 5 minutos do parque, é fácil reorganizar o roteiro — praia num dia, parque no outro.</p></div>
@@ -1188,8 +1096,8 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <ul>
           <li><strong>Ingresso online</strong> — compra pelo site oficial com desconto de até 20% sobre o preço da bilheteria</li>
           <li><strong>Ingresso na bilheteria</strong> — valor integral, sujeito a filas</li>
-          <li><strong>Meia-entrada</strong> — estudantes com carteirinha, idosos (60+), pessoas com deficiência e doadores de sangue (com comprovante)</li>
-          <li><strong>Crianças até 1 metro de altura</strong> — entrada gratuita acompanhadas de adulto pagante</li>
+          <li><strong>Descontos e documentação</strong>: consulte as condições vigentes na FAQ oficial do parque para o visitante e o ingresso escolhidos.</li>
+          <li>A FAQ oficial do Beto Carrero informa gratuidade até 1 ano e 11 meses desde janeiro de 2026, exceto opcionais. Confirme documentos e condições antes da visita.</li>
           <li><strong>Pacotes família</strong> — descontos progressivos para grupos a partir de 4 pessoas</li>
         </ul>
         <p><strong>Importante:</strong> Os preços são atualizados frequentemente. Consulte o site oficial do parque ou pergunte na recepção da <strong>Pousada Vila D'Italia</strong> para valores atualizados e promoções vigentes.</p>
@@ -1279,7 +1187,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
           <li><strong>Estacionamento gratuito</strong> — fundamental para quem vem de carro</li>
           <li><strong>Wi-Fi gratuito</strong> em todas as áreas</li>
           <li><strong>Café da manhã incluso</strong> em estilo buffet</li>
-          <li><strong>Avaliação 8.3 Booking / 8.5 Decolar</strong></li>
+
         </ul>
 
         <h2>Como Chegar ao Beto Carrero World</h2>
@@ -1287,16 +1195,16 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
         <h3>De Carro</h3>
         <p>O parque fica na <strong>BR-101, km 120, em Penha SC</strong>. As principais rotas:</p>
         <ul>
-          <li><strong>De Curitiba</strong> — 140 km pela BR-376/BR-101 (cerca de 2h30)</li>
-          <li><strong>De Florianópolis</strong> — 80 km pela BR-101 Norte (cerca de 1h15)</li>
-          <li><strong>De Joinville</strong> — 95 km pela BR-101 Sul (cerca de 1h15)</li>
-          <li><strong>De Blumenau</strong> — 70 km pela BR-470/BR-101 (cerca de 1h)</li>
-          <li><strong>De São Paulo</strong> — 600 km pela BR-116/BR-376/BR-101 (cerca de 7h)</li>
-          <li><strong>De Porto Alegre</strong> — 470 km pela BR-101 Norte (cerca de 5h30)</li>
+          <li>De Curitiba: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
+          <li>De Florianópolis: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
+          <li>De Joinville: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
+          <li>De Blumenau: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
+          <li>De São Paulo: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
+          <li>De Porto Alegre: calcule a rota entre os endereços exatos e consulte trânsito e pedágios atualizados antes de sair.</li>
         </ul>
 
         <h3>De Avião</h3>
-        <p>O <strong>Aeroporto Internacional de Navegantes (NVT)</strong> fica a apenas <strong>14 km da Pousada Vila D'Italia</strong> — cerca de 18 minutos de carro. Recebe voos diretos de São Paulo, Rio de Janeiro, Brasília, Curitiba e Porto Alegre. De lá, é fácil chegar à pousada de taxi ou aplicativo.</p>
+        <p>Para chegar pelo Aeroporto de Navegantes, consulte o endereço e as opções de acesso na operadora aeroportuária. Confirme rotas aéreas com a companhia e estime o transporte terrestre para o horário e destino da sua viagem.</p>
 
         <h2>Conclusão — Sua Viagem ao Beto Carrero Começa Aqui</h2>
         <p>O <strong>Beto Carrero World</strong> é muito mais que um parque de diversões — é uma experiência completa que marca a memória de famílias inteiras. Com planejamento adequado, ingressos comprados com antecedência e uma hospedagem bem localizada, você aproveita cada minuto e cria lembranças que duram para sempre.</p>
@@ -1305,7 +1213,7 @@ export const legacyBlogPosts: Record<string, BlogPostData> = {
 
         <p class="highlight"><strong>Reserve sua estadia na Pousada Vila D'Italia e viva a experiência completa do Beto Carrero World! 18 quartos, piscina aquecida, café incluso e a 5 min do maior parque da América Latina.</strong></p>
       </div>
-    `,
+    <h2>Fontes públicas desta revisão</h2><p>Verificação em 22/10/2026. <a href="https://www.betocarrero.com.br/duvidas-frequentes">Beto Carrero — regras e calendário</a>; <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/apresentacao/">Arteris — ligação rodoviária</a>; <a href="https://www.arteris.com.br/nossas-rodovias/litoral-sul/em-tempo-real/">Arteris — condições de tráfego</a>; <a href="https://aeroportos.motiva.com.br/navegantes-sc/o-aeroporto/como-chegar-e-sair/">Motiva — acesso ao Aeroporto de Navegantes</a>. Confirme condições e disponibilidade para a data da visita.</p>`,
     image: blogBetoCarreroOutono
   }
 };
