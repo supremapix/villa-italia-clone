@@ -9,11 +9,16 @@ const ScrollToTop = () => {
 
   // Scroll to top when route changes
   useEffect(() => {
+    if (location.hash) {
+      const id = location.hash === "#reservation" ? "reservation-form" : decodeURIComponent(location.hash.slice(1));
+      const frame = requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView());
+      return () => cancelAnimationFrame(frame);
+    }
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
     });
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 
   useEffect(() => {
     const toggleVisibility = () => {
@@ -34,7 +39,7 @@ const ScrollToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
     });
   };
 
@@ -45,7 +50,7 @@ const ScrollToTop = () => {
       }`}
     >
       <Button
-        onClick={scrollToTop}
+        aria-label="Voltar ao topo" tabIndex={isVisible ? 0 : -1} onClick={scrollToTop}
         size="icon"
         className="h-14 w-14 rounded-full bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
       >

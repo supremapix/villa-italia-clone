@@ -36,7 +36,7 @@ const apartmentImages = [
 
 const ApartmentRental = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
@@ -49,14 +49,14 @@ const ApartmentRental = () => {
   }, []);
 
   useEffect(() => {
-    if (!isAutoPlaying) return;
+    if (!isAutoPlaying || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const interval = setInterval(nextSlide, 4000);
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);
 
   const handleInteraction = () => {
     setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000);
+
   };
 
   const openLightbox = (index: number) => {
@@ -83,8 +83,8 @@ const ApartmentRental = () => {
               <div className="relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto md:min-h-[400px] overflow-hidden bg-secondary/20 flex-shrink-0">
                 <div className="relative w-full h-full">
                   {apartmentImages.map((image, index) => (
-                    <div 
-                      key={index} 
+                    <div
+                      key={index}
                       className={`absolute inset-0 transition-opacity duration-500 ${
                         index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
                       }`}
@@ -132,10 +132,10 @@ const ApartmentRental = () => {
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
                   Apartamento Completo em Penha
                 </h3>
-                
+
                 <p className="text-muted-foreground mb-6 leading-relaxed text-sm sm:text-base">
-                  Apartamento totalmente equipado para você e sua família aproveitarem as melhores férias em Penha. 
-                  Com cozinha completa, churrasqueira, ar condicionado em todos os ambientes e muito conforto 
+                  Apartamento totalmente equipado para você e sua família aproveitarem as melhores férias em Penha.
+                  Com cozinha completa, churrasqueira, ar condicionado em todos os ambientes e muito conforto
                   para sua estadia. Apartamento para ir caminhando ao Parque Beto Carrero World.
                 </p>
 
@@ -162,12 +162,12 @@ const ApartmentRental = () => {
                   </div>
                 </div>
 
-                <a 
+                <a
                   href="https://api.whatsapp.com/send?phone=5547992738090&text=Olá! Gostaria de saber mais sobre a locação do apartamento em Penha"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button 
+                  <Button
                     size="lg"
                     className="w-full bg-cta hover:bg-cta-dark text-cta-foreground text-base sm:text-lg py-5 sm:py-6"
                   >

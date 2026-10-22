@@ -7,6 +7,7 @@ const Footer = () => {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
+    if (!element) { window.location.href = `/#${id}`; return; }
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -17,9 +18,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Brand Header */}
         <div className="text-center mb-12">
-          <img 
-            src={logo} 
-            alt="Pousada Vila D'Itália" 
+          <img
+            src={logo}
+            alt="Pousada Vila D'Itália"
             className="h-24 w-auto mx-auto brightness-0 invert opacity-95"
           />
           <p className="text-xl md:text-2xl mt-4 text-stone-300 font-display">
@@ -83,8 +84,8 @@ const Footer = () => {
                     7:30 às 21h
                   </span>
                 </div>
-                <a 
-                  href="tel:+5547992738090" 
+                <a
+                  href="tel:+5547992738090"
                   className="block text-3xl md:text-4xl font-extrabold text-white hover:text-secondary transition-colors my-2"
                 >
                   (47) 99273-8090
@@ -109,8 +110,8 @@ const Footer = () => {
                     8:00 às 22h
                   </span>
                 </div>
-                <a 
-                  href="tel:+5547992045122" 
+                <a
+                  href="tel:+5547992045122"
                   className="block text-3xl md:text-4xl font-extrabold text-white hover:text-primary transition-colors my-2"
                 >
                   (47) 99204-5122
@@ -130,7 +131,7 @@ const Footer = () => {
             {/* E-mail */}
             <div className="mt-6 pt-4 border-t border-stone-700 flex items-center gap-3 text-stone-300">
               <Mail className="w-5 h-5 text-secondary flex-shrink-0" />
-              <a 
+              <a
                 href="mailto:contato@viladitalia.com.br"
                 className="text-base md:text-lg font-medium hover:text-white underline transition-colors"
               >
@@ -217,10 +218,10 @@ const Footer = () => {
             © {currentYear} Pousada Vila D'Itália. Todos os direitos reservados.
           </p>
           <p className="text-stone-300 flex items-center justify-center gap-2 text-base">
-            Feito com <Heart className="w-5 h-5 text-secondary fill-secondary inline" /> 
-            <a 
-              href="https://supremamidia.com.br" 
-              target="_blank" 
+            Feito com <Heart className="w-5 h-5 text-secondary fill-secondary inline" />
+            <a
+              href="https://supremamidia.com.br"
+              target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-secondary hover:text-white transition-colors underline"
             >

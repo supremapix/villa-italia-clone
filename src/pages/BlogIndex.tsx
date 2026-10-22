@@ -509,14 +509,13 @@ const BlogIndex = () => {
               >
                 {post.image && (
                   <div className="relative h-56 overflow-hidden">
-                    <img 
-                      src={post.image} 
-                      alt={post.title} 
-                      className="w-full h-full object-cover" 
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover"
                       width="600"
                       height="300"
                       loading={index === 0 ? "eager" : "lazy"}
-                      fetchpriority={index === 0 ? "high" : "auto"}
                     />
                     <div className="absolute top-4 left-4 flex gap-2">
                       <span className="bg-cta text-cta-foreground px-3 py-1 rounded-full text-sm font-semibold">Destaque</span>
@@ -557,10 +556,10 @@ const BlogIndex = () => {
             >
               {post.image ? (
                 <div className="relative h-44 overflow-hidden">
-                  <img 
-                    src={post.image} 
-                    alt={post.title} 
-                    className="w-full h-full object-cover" 
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-full object-cover"
                     width="400"
                     height="200"
                     loading="lazy"

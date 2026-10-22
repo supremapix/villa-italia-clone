@@ -21,7 +21,7 @@ const ReservationForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validação básica
     if (!formData.name || !formData.phone || !formData.checkIn || !formData.checkOut) {
       toast({
@@ -32,6 +32,10 @@ const ReservationForm = () => {
       return;
     }
 
+    if (formData.checkOut <= formData.checkIn) {
+      toast({ title: "Confira as datas", description: "A saída deve ser posterior à chegada.", variant: "destructive" });
+      return;
+    }
     // Montar mensagem para WhatsApp
     const message = encodeURIComponent(
       `Olá! Gostaria de fazer uma reserva na Pousada Vila D'Itália.\n\n` +
@@ -45,7 +49,7 @@ const ReservationForm = () => {
     );
 
     // Redirecionar para WhatsApp
-    window.open(`https://wa.me/5547992738090?text=${message}`, "_blank");
+    window.open(`https://wa.me/5547992738090?text=${message}`, "_blank", "noopener,noreferrer");
 
     toast({
       title: "Redirecionando...",
@@ -53,10 +57,10 @@ const ReservationForm = () => {
     });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.currentTarget.name]: e.currentTarget.value
     });
   };
 
@@ -70,7 +74,7 @@ const ReservationForm = () => {
             </h2>
             <div className="w-20 h-1 bg-cta rounded-full mx-auto mb-6" />
             <p className="text-xl text-muted-foreground">
-              Preencha o formulário abaixo e entraremos em contato rapidamente via WhatsApp
+              Preencha os dados para conversar com nossa equipe pelo WhatsApp
             </p>
           </div>
 
@@ -87,7 +91,7 @@ const ReservationForm = () => {
                     type="text"
                     placeholder="Seu nome completo"
                     value={formData.name}
-                    onChange={handleChange}
+                    onChange={handleChange} onInput={handleChange}
                     required
                     className="h-12"
                   />
@@ -104,7 +108,7 @@ const ReservationForm = () => {
                     type="tel"
                     placeholder="(00) 00000-0000"
                     value={formData.phone}
-                    onChange={handleChange}
+                    onChange={handleChange} onInput={handleChange}
                     required
                     className="h-12"
                   />
@@ -122,7 +126,7 @@ const ReservationForm = () => {
                   type="email"
                   placeholder="seu@email.com"
                   value={formData.email}
-                  onChange={handleChange}
+                  onChange={handleChange} onInput={handleChange}
                   className="h-12"
                 />
               </div>
@@ -138,7 +142,7 @@ const ReservationForm = () => {
                     name="checkIn"
                     type="date"
                     value={formData.checkIn}
-                    onChange={handleChange}
+                    onChange={handleChange} onInput={handleChange}
                     required
                     className="h-12"
                   />
@@ -154,7 +158,7 @@ const ReservationForm = () => {
                     name="checkOut"
                     type="date"
                     value={formData.checkOut}
-                    onChange={handleChange}
+                    onChange={handleChange} onInput={handleChange}
                     required
                     className="h-12"
                   />
@@ -172,7 +176,7 @@ const ReservationForm = () => {
                     min="1"
                     placeholder="2"
                     value={formData.guests}
-                    onChange={handleChange}
+                    onChange={handleChange} onInput={handleChange}
                     className="h-12"
                   />
                 </div>
@@ -188,7 +192,7 @@ const ReservationForm = () => {
                   name="message"
                   placeholder="Conte-nos sobre suas necessidades, preferências ou perguntas..."
                   value={formData.message}
-                  onChange={handleChange}
+                  onChange={handleChange} onInput={handleChange}
                   rows={4}
                   className="resize-none"
                 />
@@ -196,7 +200,7 @@ const ReservationForm = () => {
 
               <div className="bg-muted/50 p-4 rounded-lg">
                 <p className="text-sm text-muted-foreground">
-                  * Campos obrigatórios. Ao enviar este formulário, você será redirecionado para o WhatsApp 
+                  * Campos obrigatórios. Ao enviar este formulário, você será redirecionado para o WhatsApp
                   onde nossa equipe finalizará sua reserva e responderá suas dúvidas.
                 </p>
               </div>
@@ -214,24 +218,7 @@ const ReservationForm = () => {
             </form>
           </Card>
 
-          {/* Trust Badges */}
-          <div className="grid md:grid-cols-3 gap-6 mt-8">
-            <Card className="p-6 text-center bg-background border-primary/20">
-              <div className="text-3xl mb-2">🔒</div>
-              <h3 className="font-semibold mb-1">Reserva Segura</h3>
-              <p className="text-sm text-muted-foreground">Seus dados protegidos</p>
-            </Card>
-            <Card className="p-6 text-center bg-background border-primary/20">
-              <div className="text-3xl mb-2">⚡</div>
-              <h3 className="font-semibold mb-1">Resposta Rápida</h3>
-              <p className="text-sm text-muted-foreground">Atendimento em minutos</p>
-            </Card>
-            <Card className="p-6 text-center bg-background border-primary/20">
-              <div className="text-3xl mb-2">💰</div>
-              <h3 className="font-semibold mb-1">Melhor Preço</h3>
-              <p className="text-sm text-muted-foreground">Garantia de tarifa</p>
-            </Card>
-          </div>
+          <p className="text-center text-sm text-muted-foreground mt-6">A solicitação será preparada no WhatsApp. A reserva depende da confirmação da nossa equipe.</p>
         </div>
       </div>
     </section>

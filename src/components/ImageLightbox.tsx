@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, X, Pause, Play } from "lucide-react";
 
@@ -24,7 +24,7 @@ const ImageLightbox = ({
   initialIndex,
   isOpen,
   onClose,
-  autoPlay = true,
+  autoPlay = false,
   autoPlayInterval = 4000
 }: ImageLightboxProps) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
@@ -50,7 +50,7 @@ const ImageLightbox = ({
 
   // Autoplay effect
   useEffect(() => {
-    if (!isPlaying || !isOpen) return;
+    if (!isPlaying || !isOpen || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const interval = setInterval(nextImage, autoPlayInterval);
     return () => clearInterval(interval);
@@ -82,7 +82,7 @@ const ImageLightbox = ({
 
   const onTouchEnd = () => {
     if (!touchStart || !touchEnd) return;
-    
+
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
@@ -109,7 +109,8 @@ const ImageLightbox = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-[95vw] w-full h-[90vh] p-0 bg-black/95 border-none">
+      <DialogContent className="max-w-[95vw] w-full h-[90vh] p-0 bg-black/95 border-none" aria-describedby={undefined}>
+        <DialogTitle className="sr-only">Fotografias da pousada</DialogTitle>
         <div
           ref={containerRef}
           className="relative w-full h-full flex items-center justify-center"
@@ -121,7 +122,7 @@ const ImageLightbox = ({
           <Button
             variant="ghost"
             size="icon"
-            onClick={onClose}
+            aria-label="Fechar galeria" onClick={onClose}
             className="absolute top-4 right-4 z-50 bg-black/50 hover:bg-black/70 text-white h-10 w-10"
           >
             <X className="h-6 w-6" />
@@ -131,7 +132,7 @@ const ImageLightbox = ({
           <Button
             variant="ghost"
             size="icon"
-            onClick={togglePlayPause}
+            aria-label="Reproduzir ou pausar galeria" onClick={togglePlayPause}
             className="absolute top-4 left-4 z-50 bg-black/50 hover:bg-black/70 text-white h-10 w-10"
           >
             {isPlaying ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
@@ -141,7 +142,7 @@ const ImageLightbox = ({
           <Button
             variant="ghost"
             size="icon"
-            onClick={prevImage}
+            aria-label="Foto anterior" onClick={prevImage}
             className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-50 bg-black/50 hover:bg-black/70 text-white h-12 w-12"
           >
             <ChevronLeft className="h-8 w-8" />
@@ -151,7 +152,7 @@ const ImageLightbox = ({
           <Button
             variant="ghost"
             size="icon"
-            onClick={nextImage}
+            aria-label="Próxima foto" onClick={nextImage}
             className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-50 bg-black/50 hover:bg-black/70 text-white h-12 w-12"
           >
             <ChevronRight className="h-8 w-8" />
@@ -187,7 +188,7 @@ const ImageLightbox = ({
           </div>
 
           {/* Dots for mobile */}
-          <div className="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-1.5 md:hidden">
+          <div className="hidden">
             {images.map((_, index) => (
               <button
                 key={index}

@@ -78,7 +78,7 @@ const restaurantImages = [
 
 const Restaurant = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
@@ -91,14 +91,14 @@ const Restaurant = () => {
   }, []);
 
   useEffect(() => {
-    if (!isAutoPlaying) return;
+    if (!isAutoPlaying || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const interval = setInterval(nextSlide, 4000);
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);
 
   const handleInteraction = () => {
     setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000);
+
   };
 
   const openLightbox = (index: number) => {
@@ -125,8 +125,8 @@ const Restaurant = () => {
               <div className="relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto md:min-h-[400px] overflow-hidden bg-secondary/20 flex-shrink-0">
                 <div className="relative w-full h-full">
                   {restaurantImages.map((image, index) => (
-                    <div 
-                      key={index} 
+                    <div
+                      key={index}
                       className={`absolute inset-0 transition-opacity duration-500 ${
                         index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
                       }`}
@@ -164,7 +164,7 @@ const Restaurant = () => {
                 </button>
 
                 {/* Dots Indicator */}
-                <div className="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 z-20">
+                <div className="hidden">
                   {restaurantImages.map((_, index) => (
                     <button
                       key={index}
@@ -185,10 +185,10 @@ const Restaurant = () => {
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
                   Quiosque do Kaká
                 </h3>
-                
+
                 <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
                   Sabores completos: De petiscos classicos a deliciosas porcoes com camarao, tudo fresquinho para voce.
-                  O Quiosque do Kaka oferece um ambiente agradavel e pratos deliciosos para voce 
+                  O Quiosque do Kaka oferece um ambiente agradavel e pratos deliciosos para voce
                   e sua familia aproveitarem durante a estadia.
                 </p>
 
@@ -229,12 +229,12 @@ const Restaurant = () => {
                   </div>
                 </div>
 
-                <a 
+                <a
                   href="https://api.whatsapp.com/send?phone=5547992045122&text=Olá! Gostaria de saber mais sobre o Quiosque do Kaká"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button 
+                  <Button
                     size="lg"
                     className="w-full bg-cta hover:bg-cta-dark text-cta-foreground text-base sm:text-lg py-5 sm:py-6"
                   >

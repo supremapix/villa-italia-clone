@@ -1,7 +1,4 @@
-import { useState, useEffect } from "react";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight, Star, Pause, Play } from "lucide-react";
+import { useState } from "react";
 import ImageLightbox from "./ImageLightbox";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
@@ -35,11 +32,9 @@ import gallery29 from "@/assets/gallery-29.jpg";
 import gallery30 from "@/assets/gallery-30.jpg";
 import gallery31 from "@/assets/gallery-31.jpg";
 
-const Gallery = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(true);
 
+export default function Gallery() {
+ const [selected,setSelected] = useState<number | null>(null);
   const galleryItems = [
     {
       src: gallery1,
@@ -260,170 +255,6 @@ const Gallery = () => {
     }
   ];
 
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % galleryItems.length);
-  };
 
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + galleryItems.length) % galleryItems.length);
-  };
-
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
-  };
-
-  const togglePlayPause = () => {
-    setIsPlaying(!isPlaying);
-  };
-
-  const openLightbox = (index: number) => {
-    setCurrentIndex(index);
-    setIsLightboxOpen(true);
-  };
-
-  // Autoplay effect
-  useEffect(() => {
-    if (!isPlaying) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % galleryItems.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, [isPlaying, galleryItems.length]);
-
-  return (
-    <section className="py-16 bg-gradient-to-b from-background to-secondary/20">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Conheça Nossa Pousada
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explore as comodidades e áreas de lazer da Pousada Vila D'Itália
-          </p>
-        </div>
-
-        {/* Gallery Slider */}
-        <div className="relative max-w-5xl mx-auto">
-          <Card className="overflow-hidden shadow-elegant border-none">
-            <div 
-              className="relative aspect-video md:aspect-[16/10] group cursor-pointer"
-              onClick={() => openLightbox(currentIndex)}
-            >
-              <img
-                src={galleryItems[currentIndex].src}
-                alt={galleryItems[currentIndex].title}
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
-              
-              {/* Play/Pause Control */}
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={(e) => { e.stopPropagation(); togglePlayPause(); }}
-                className="absolute top-4 left-4 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta opacity-0 group-hover:opacity-100 transition-opacity z-20"
-              >
-                {isPlaying ? (
-                  <Pause className="h-5 w-5 text-cta" />
-                ) : (
-                  <Play className="h-5 w-5 text-cta" />
-                )}
-              </Button>
-
-              {/* Tap to expand hint on mobile */}
-              <div className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-foreground md:hidden">
-                Toque para ampliar
-              </div>
-              
-              {/* Navigation Arrows */}
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={(e) => { e.stopPropagation(); prevSlide(); }}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta h-12 w-12 md:h-14 md:w-14 z-10"
-              >
-                <ChevronLeft className="h-6 w-6 text-cta" />
-              </Button>
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={(e) => { e.stopPropagation(); nextSlide(); }}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-background/80 backdrop-blur-sm hover:bg-background/95 border-2 border-cta h-12 w-12 md:h-14 md:w-14 z-10"
-              >
-                <ChevronRight className="h-6 w-6 text-cta" />
-              </Button>
-
-              {/* Info Overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6 md:p-8">
-                <div className="flex items-center gap-1 mb-2">
-                  {[...Array(galleryItems[currentIndex].rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-cta text-cta" />
-                  ))}
-                </div>
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-2">
-                  {galleryItems[currentIndex].title}
-                </h3>
-                <p className="text-white/90 text-base md:text-lg">
-                  {galleryItems[currentIndex].description}
-                </p>
-              </div>
-            </div>
-          </Card>
-
-          {/* Dots Navigation */}
-          <div className="flex justify-center items-center gap-2 mt-6 flex-wrap">
-            {galleryItems.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`transition-all duration-300 rounded-full ${
-                  index === currentIndex
-                    ? "bg-cta w-12 h-3"
-                    : "bg-muted hover:bg-muted-foreground/30 w-3 h-3"
-                }`}
-                aria-label={`Ir para foto ${index + 1}`}
-              />
-            ))}
-          </div>
-
-          {/* Counter */}
-          <div className="text-center mt-4">
-            <p className="text-muted-foreground font-medium">
-              {currentIndex + 1} / {galleryItems.length}
-            </p>
-          </div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="text-center mt-12">
-          <Button
-            size="lg"
-            className="bg-white text-foreground border-2 border-foreground hover:bg-foreground hover:text-white text-xl px-10 py-7 shadow-glow hover:scale-105 transition-all duration-300"
-            onClick={() => {
-              const element = document.getElementById("reservation-form");
-              if (element) {
-                element.scrollIntoView({ behavior: "smooth" });
-              } else {
-                window.location.href = "/#reservation";
-              }
-            }}
-          >
-            Solicitar Reserva via WhatsApp
-          </Button>
-        </div>
-      </div>
-
-      <ImageLightbox
-        images={galleryItems}
-        initialIndex={currentIndex}
-        isOpen={isLightboxOpen}
-        onClose={() => setIsLightboxOpen(false)}
-        autoPlayInterval={5000}
-      />
-    </section>
-  );
-};
-
-export default Gallery;
+return <section id="gallery" className="villa-gallery"><div className="villa-shell"><div className="villa-gallery-heading"><div><p className="villa-eyebrow">03 / UM PASSEIO PELA VILA</p><h2>Antes de chegar,<br /><em>sinta-se por aqui.</em></h2></div><p>Varandas, jardins e cantinhos para descansar.<br />Fotografias da nossa pousada, para você conhecer de perto.</p></div><div className="villa-photo-grid">{[0,2,6,8].map((index) => <button key={index} onClick={()=>setSelected(index)} aria-label={`Ampliar foto: ${galleryItems[index].title}`}><img src={galleryItems[index].src} alt={galleryItems[index].alt} loading="lazy" /><span>{galleryItems[index].title} <span aria-hidden="true">↗</span></span></button>)}</div><button className="villa-text-link" onClick={()=>setSelected(0)}>Ver todas as {galleryItems.length} fotos ↗</button></div><ImageLightbox images={galleryItems} initialIndex={selected ?? 0} isOpen={selected !== null} onClose={()=>setSelected(null)} autoPlay={false} /></section>;
+}

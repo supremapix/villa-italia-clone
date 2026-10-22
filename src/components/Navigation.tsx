@@ -1,151 +1,25 @@
-import { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo-villa-ditalia.gif";
-import logoRed from "@/assets/logo-villa-ditalia-red.png";
-
-const Navigation = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const scrollToSection = (id: string) => {
-    if (location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    } else {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-    setIsMobileMenuOpen(false);
-  };
-
-  const handleNavigate = (path: string) => {
-    navigate(path);
-    setIsMobileMenuOpen(false);
-  };
-
-  const navLinks = [
-    { label: "Início", id: "hero", type: "scroll" as const },
-    { label: "Sobre", id: "about", type: "scroll" as const },
-    { label: "Acomodações", id: "/acomodacoes", type: "route" as const },
-    { label: "Lazer", id: "leisure", type: "scroll" as const },
-    { label: "Localização", id: "location", type: "scroll" as const },
-    { label: "Perguntas Frequentes", id: "/faq", type: "route" as const },
-    { label: "Blog", id: "/blog", type: "route" as const },
-    { label: "Contato", id: "contact", type: "scroll" as const },
-  ];
-
-  return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-soft"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <button
-            onClick={() => scrollToSection("hero")}
-            className="flex items-center gap-3 hover:opacity-80 transition-smooth"
-          >
-            <img 
-              src={isScrolled ? logoRed : logo}
-              alt="Pousada Villa D'Italia" 
-              className="h-14 md:h-20 w-auto transition-all duration-500"
-              style={{
-                filter: isScrolled 
-                  ? "none" 
-                  : "brightness(1.3) contrast(1.1) drop-shadow(0 2px 8px rgba(0,0,0,0.8))"
-              }}
-            />
-          </button>
-
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
-                className={`${
-                  isScrolled 
-                    ? "text-foreground hover:text-secondary" 
-                    : "text-white hover:text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
-                } transition-smooth font-medium`}
-              >
-                {link.label}
-              </button>
-            ))}
-            <Button variant="cta" size="lg" onClick={() => scrollToSection("contact")}>
-              <Phone className="w-4 h-4" />
-              Reservar via WhatsApp
-            </Button>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className={`lg:hidden p-2 ${
-              isScrolled 
-                ? "text-foreground hover:text-secondary" 
-                : "text-white hover:text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
-            } transition-smooth`}
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 bg-background border-t border-border animate-fade-in absolute w-full left-0 z-50 shadow-xl max-h-[85vh] overflow-y-auto">
-            <div className="flex flex-col">
-              {/* WhatsApp no topo para acesso rápido */}
-              <div className="px-6 py-4 bg-muted/40 border-b border-border">
-                <Button
-                  variant="cta"
-                  size="lg"
-                  className="w-full text-xl py-7 flex items-center justify-center gap-3 shadow-md"
-                  onClick={() => scrollToSection("contact")}
-                >
-                  <Phone className="w-6 h-6" />
-                  <span className="font-bold">Chamar no WhatsApp</span>
-                </Button>
-              </div>
-
-              {navLinks.map((link) => (
-                <button
-                  key={link.id}
-                  onClick={() => link.type === "route" ? handleNavigate(link.id) : scrollToSection(link.id)}
-                  className="text-left px-6 py-4 text-xl text-foreground font-semibold border-b border-border hover:bg-muted transition-colors"
-                >
-                  {link.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-    </nav>
-  );
-};
-
-export default Navigation;
+import logo from "@/assets/logo-villa-ditalia-red.png";
+export default function Navigation() {
+  const [open, setOpen] = useState(false);
+  const { pathname } = useLocation();
+  const section = (id: string) => pathname === "/" ? `#${id}` : `/#${id}`;
+  return <header className="villa-header">
+    <a className="villa-skip" href="#main-content">Pular para o conteúdo</a>
+    <div className="villa-header-inner">
+      <Link to="/" className="villa-brand" aria-label="Pousada Vila D’Itália — início" onClick={() => setOpen(false)}><img src={logo} alt="Pousada Vila D’Itália" /><span>Vila D’Itália<small>POUSADA · PENHA / SC</small></span></Link>
+      <button className="villa-menu-toggle" aria-label={open ? "Fechar menu" : "Abrir menu"} aria-expanded={open} aria-controls="villa-nav" onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
+      <nav id="villa-nav" aria-label="Navegação principal" className={open ? "villa-nav is-open" : "villa-nav"} onKeyDown={e => { if (e.key === "Escape") setOpen(false); }}>
+        <a href={section("about")} onClick={() => setOpen(false)}>A pousada</a>
+        <Link to="/acomodacoes" onClick={() => setOpen(false)}>Acomodações</Link>
+        <a href={section("leisure")} onClick={() => setOpen(false)}>Lazer</a>
+        <a href={section("location")} onClick={() => setOpen(false)}>Localização</a>
+        <Link to="/faq" onClick={() => setOpen(false)}>Dúvidas</Link>
+        <Link to="/blog" onClick={() => setOpen(false)}>Blog</Link>
+        <a className="villa-nav-reserve" href={section("contact")} onClick={() => setOpen(false)}><Phone size={17} /> Reservar</a>
+      </nav>
+    </div>
+  </header>;
+}

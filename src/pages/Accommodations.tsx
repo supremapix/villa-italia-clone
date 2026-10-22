@@ -9,7 +9,7 @@ import EnhancedSEO from "@/components/EnhancedSEO";
 import PousadaMap from "@/components/PousadaMap";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Star, Users, Wifi, Coffee, AirVent, Tv, Refrigerator, Quote, Sparkles } from "lucide-react";
+import { Users, Wifi, Coffee, AirVent, Tv, Refrigerator } from "lucide-react";
 import { useEffect, useRef } from "react";
 import room1 from "@/assets/room-1.jpg";
 import room2 from "@/assets/room-2.jpg";
@@ -296,38 +296,11 @@ const rooms: Room[] = [
   }
 ];
 
-const testimonials = [
-  {
-    name: "Maria Silva",
-    rating: 5,
-    comment: "Excelente pousada! Muito limpa, café da manhã maravilhoso e a localização é perfeita. Ficamos 3 dias e voltaremos com certeza!",
-    date: "Janeiro 2024"
-  },
-  {
-    name: "João Santos",
-    rating: 5,
-    comment: "A pousada superou nossas expectativas. Os quartos são confortáveis, a piscina é ótima e fica muito perto do Beto Carrero. Recomendo!",
-    date: "Dezembro 2023"
-  },
-  {
-    name: "Ana Paula",
-    rating: 5,
-    comment: "Adoramos nossa estadia! Os donos são muito atenciosos, o lugar é limpo e organizado. A praia fica a poucos passos. Voltaremos!",
-    date: "Fevereiro 2024"
-  },
-  {
-    name: "Carlos Eduardo",
-    rating: 5,
-    comment: "Ótimo custo-benefício! Quartos espaçosos, café da manhã completo e a área de lazer é perfeita para as crianças. Muito bom!",
-    date: "Janeiro 2024"
-  }
-];
-
 const Accommodations = () => {
   const [selectedCategory, setSelectedCategory] = useState<RoomCategory>("todos");
 
-  const filteredRooms = selectedCategory === "todos" 
-    ? rooms 
+  const filteredRooms = selectedCategory === "todos"
+    ? rooms
     : rooms.filter(room => room.category === selectedCategory);
 
   const categories = [
@@ -350,7 +323,7 @@ const Accommodations = () => {
         ]}
       />
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-gradient-to-b from-secondary to-background">
         <div className="container mx-auto px-4 text-center">
@@ -360,15 +333,15 @@ const Accommodations = () => {
           <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8">
             Quartos confortáveis e bem equipados para tornar sua estadia inesquecível
           </p>
-          <Button 
-            variant="cta" 
+          <Button
+            variant="cta"
             size="lg"
             onClick={() => {
               const element = document.getElementById("reservation-form");
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
               } else {
-                window.location.href = "/#reservation";
+                window.location.href = "/#reservation-form";
               }
             }}
           >
@@ -399,8 +372,8 @@ const Accommodations = () => {
             {filteredRooms.map((room) => (
               <Card key={room.id} className="overflow-hidden group hover:shadow-hover transition-smooth">
                 <div className="relative aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={room.image} 
+                  <img
+                    src={room.image}
                     alt={room.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-smooth"
                   />
@@ -414,7 +387,7 @@ const Accommodations = () => {
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {room.amenities.map((amenity, idx) => (
-                      <span 
+                      <span
                         key={idx}
                         className="text-xs bg-muted px-3 py-1 rounded-full text-foreground"
                       >
@@ -449,98 +422,6 @@ const Accommodations = () => {
                 <span className="text-sm font-medium text-foreground">{item.label}</span>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-b from-secondary/5 via-background to-secondary/5 relative overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-10 left-10 opacity-10">
-          <Quote className="w-32 h-32 text-secondary" />
-        </div>
-        <div className="absolute bottom-10 right-10 opacity-10">
-          <Sparkles className="w-24 h-24 text-cta" />
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
-          {/* Elegant Header */}
-          <div className="text-center mb-16 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-cta/10 px-4 py-2 rounded-full mb-6">
-              <Star className="w-4 h-4 fill-cta text-cta" />
-              <span className="text-sm font-semibold text-cta">5 Estrelas no Google</span>
-              <Star className="w-4 h-4 fill-cta text-cta" />
-            </div>
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-secondary mb-4">
-              O Que Dizem Nossos Hospedes
-            </h2>
-            <div className="w-24 h-1 bg-cta rounded-full mx-auto mb-6" />
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Avaliacoes reais de pessoas que se hospedaram na Pousada Vila D'Italia
-            </p>
-          </div>
-
-          {/* Scrolling Testimonials Container */}
-          <div className="relative max-w-4xl mx-auto">
-            {/* Gradient overlays for smooth fade effect */}
-            <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-background to-transparent z-10 pointer-events-none" />
-            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent z-10 pointer-events-none" />
-
-            {/* Scrolling container */}
-            <div className="h-[500px] overflow-hidden relative">
-              <div className="animate-scroll-up space-y-6 pb-6">
-                {[...testimonials, ...testimonials].map((testimonial, idx) => (
-                  <Card 
-                    key={idx} 
-                    className="p-6 md:p-8 shadow-elegant border-none bg-card/80 backdrop-blur-sm hover:scale-[1.02] transition-all duration-300"
-                  >
-                    <div className="flex items-start gap-4">
-                      {/* Avatar */}
-                      <div className="w-14 h-14 rounded-full bg-gradient-to-br from-secondary to-cta flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
-                        {testimonial.name.charAt(0)}
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
-                          <div>
-                            <h4 className="font-bold text-lg text-foreground">{testimonial.name}</h4>
-                            <p className="text-sm text-muted-foreground">{testimonial.date}</p>
-                          </div>
-                          <div className="flex gap-0.5">
-                            {[...Array(testimonial.rating)].map((_, i) => (
-                              <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="relative">
-                          <Quote className="absolute -top-2 -left-2 w-6 h-6 text-secondary/20" />
-                          <p className="text-foreground leading-relaxed pl-4 italic">
-                            {testimonial.comment}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <Button 
-              variant="cta" 
-              size="lg"
-              className="shadow-lg hover:shadow-xl transition-all"
-              onClick={() => {
-                const element = document.getElementById("reservation-form");
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
-                } else {
-                  window.location.href = "/#reservation";
-                }
-              }}
-            >
-              Solicitar Reserva WhatsApp
-            </Button>
           </div>
         </div>
       </section>
