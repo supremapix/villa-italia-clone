@@ -154,12 +154,12 @@ const faqItems: FAQItem[] = [
   {
     category: "pets",
     question: "A pousada aceita pets?",
-    answer: "Não. Infelizmente a Pousada Vila D'Italia não aceita animais de estimação. Para garantir o conforto e bem-estar de todos os hóspedes, nossa propriedade não é pet friendly. Recomendamos procurar hotéis especializados em pets na região de Penha SC."
+    answer: "Não. A Pousada Vila D’Italia não aceita pets (animais de estimação). Considere essa política antes de planejar sua hospedagem."
   },
   {
     category: "pets",
     question: "Posso levar meu cachorro ou gato para a pousada?",
-    answer: "Não aceitamos animais de estimação de nenhum porte ou espécie. Essa é uma política da pousada que não possui exceções. Sugerimos consultar opções de hospedagem para pets ou hotéis pet friendly na região antes da sua viagem."
+    answer: "Não. A pousada não aceita pets, incluindo cães e gatos. Se a viagem incluir um animal de estimação, confirme uma hospedagem que o aceite antes de reservar."
   },
   {
     category: "pets",
