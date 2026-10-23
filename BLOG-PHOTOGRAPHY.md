@@ -1,21 +1,19 @@
-# Fotografias reais no blog
+# Capas distintas e procedência do blog
 
-Regra editorial: novas matérias usam somente fotografias reais. Não gerar imagens com IA, não usar nomes de arquivo como prova de autenticidade e não identificar foto de outro lugar como Penha ou Beto Carrero. Registrar fonte, autor, direito de uso, local retratado e alterações antes de aprovar uma fotografia.
+Regra editorial de 23/10/2026: cada matéria deve ter capa visualmente distinta e pertinente. Priorizar fotografias reais próprias ou licenciadas. O cliente permite ilustrações realistas originais para temas genéricos, sempre identificadas como **Imagem ilustrativa**. Nunca apresentar geração como fotografia documental de destinos, parques, quartos, piscinas, serviços ou eventos reais. Não resolver repetição com recortes da mesma foto.
 
-## Acervo reutilizado
+## Registro
+BLOG-PHOTO-INVENTORY.json registra 45 URLs, títulos, arquivos, autoria, fonte, licença e aplicação: seis fotografias reais e 39 ilustrações. BLOG-ILLUSTRATION-PROMPTS.json registra pedidos de geração. Ilustrações criadas na ferramenta integrada OpenAI ImageGen, sem contratação externa; nenhuma licença aberta é atribuída.
 
-`src/assets/gallery-1.jpg` (varanda), `gallery-6.jpg` (piscina) e `room-1.jpg` (quarto) integram o acervo próprio confirmado da pousada, já exibido na home/galeria/acomodações antes desta revisão. Origem de manutenção: repositório do cliente, estado anterior `19289ef8cbe8080c8fe8558a99a88df5e3a37846`; referência pública: https://www.pousadaviladitalia.com.br/#gallery e /acomodacoes.
+src/data/blogPhotography.ts associa cada artigo a uma capa. O pôr do sol mantém seu registro original. Home, índice, artigo e OG/Twitter usam o catálogo único. Novas matérias exigem capa revisada e rebuild/deploy. O catálogo falha se faltar capa; o teste impede arquivos e bytes repetidos. Adequação e diferença visual também exigem revisão humana.
 
-Direito utilizado: reutilização no próprio site autorizada pelo cliente nesta tarefa. Não há licença aberta declarada nem nome de fotógrafo documentado; não atribuir autoria pessoal, inventar CC ou redistribuir como banco de imagens. O registro não substitui contratos de cessão que o proprietário mantenha fora do projeto. As legendas identificam a hospedagem explicitamente; essas fotos não documentam praias, parques, festas ou roteiros citados nos artigos.
+## Fotografias reais
+- room-1.jpg, gallery-6.jpg e gallery-1.jpg: quarto, piscina e varanda do acervo próprio confirmado, anteriormente publicados na galeria/acomodações. Reutilização no site autorizada pelo cliente; fotógrafo não identificado e sem licença aberta declarada. Não inventar autoria nem redistribuir como banco de imagens.
+- Pôr do sol no Trapiche: Bruno Rodrigues dos santos, https://commons.wikimedia.org/wiki/File:Por_do_Sol-Penha_SC.jpg, CC BY-SA 4.0. Preservado. Ver SUNSET-IMAGE-LICENSE.txt.
+- Praia Vermelha: crédito obrigatório Renato Soares - MTUR, 18/03/2018. https://commons.wikimedia.org/wiki/File:RenatoSoares_PraiaVermelha_Penha_SC_(40434982784).jpg. A fonte registra Public Domain Mark aplicado por MTur Destinos e revisado no Commons. PDM é marcação de domínio público, não licença Creative Commons. Crédito preservado; recorte 16:9 e conversão WebP.
+- Castelo das Nações: HVL, 19/12/2018. https://commons.wikimedia.org/wiki/File:Castelo_das_Na%C3%A7%C3%B5es_no_Beto_Carrero_World,_Penha_SC.JPG. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Recorte 16:9 e conversão WebP indicados na legenda.
 
-## Trapiche de Penha
+## Ilustrações e manutenção
+As outras capas mostram planejamento, bagagem, alimentação ou lazer genérico, sem documentar atrações e serviços. Alt e legenda explicitam essa natureza. Imagens antigas sem documentação permanecem desativadas no blog, sem afirmar que sejam falsas; arquivos legados podem ser usados em outras páginas.
 
-`src/assets/penha-trapiche-por-do-sol.webp`: fotografia de Bruno Rodrigues dos santos, [fonte Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Por_do_Sol-Penha_SC.jpg), CC BY-SA 4.0. A fonte identifica Trapiche, Penha, em 11/06/2018. Mantida sem alteração; detalhes de conversão e licença em `SUNSET-IMAGE-LICENSE.txt`. Crédito, fonte, licença e indicação de recorte permanecem visíveis.
-
-## Aplicação e lacunas
-
-`BLOG-PHOTO-INVENTORY.json` registra as 45 URLs, imagem anterior, substituta, fonte, autoria conhecida, direito de uso e aplicações. `src/data/blogPhotography.ts` define o acervo permitido, aplicado no catálogo único. Home, índice, artigo e compartilhamento derivam dele; o alt de OG/Twitter também descreve a fotografia, não o destino do título. Recomendações textuais de PenhaNews não contêm fotos.
-
-As imagens antigas sem documentação foram desativadas no blog; não afirmamos que sejam falsas ou geradas por IA. Permanecem no repositório porque outras páginas podem utilizá-las e não fazem parte desta alteração. Faltam fotografias específicas com procedência/licença documentadas de Beto Carrero, praias, trilhas, passeios e eventos. Até sua obtenção, as fotos de hospedagem são contextuais e claramente legendadas. Nenhuma nova fotografia externa foi copiada.
-
-Para aprovar novo acervo: conferir visualmente o original, verificar local e licença/consentimento, registrar autor e fonte, preservar atribuição exigida e então adicionar ao registro. Nunca contornar o catálogo com fotos manuais nos cards. Executar `npm run build`, `node scripts/test-blog-photography.mjs` e `npm run test:static`. Para atualizar o inventário após uma revisão autorizada: `node scripts/test-blog-photography.mjs --inventory`.
+Novos arquivos WebP 1200×675. Cards preservam lazy loading e enquadramento responsivo; hero do artigo carrega imediatamente. Revisar cada imagem, alt, legenda e título. Verificar fonte e direitos para fotos reais. Rodar node scripts/test-blog-photography.mjs --inventory, npm run build, npx tsc --noEmit, node scripts/test-blog-photography.mjs e npm run test:static; conferir produção após deploy.

@@ -1,0 +1,198 @@
+[
+  {
+    "index": 0,
+    "asset": "src/assets/blog-covers/cover-0.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Open canvas travel bag with folded summer clothes, a beach towel and a paperback on a wooden tabletop, overhead composition, warm morning window light. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 1,
+    "asset": "src/assets/blog-covers/cover-1.webp",
+    "promptSummary": "Photorealistic generic sunscreen bottle, straw hat and sunglasses on sand; no branding, editorial beach travel illustration."
+  },
+  {
+    "index": 2,
+    "asset": "src/assets/blog-covers/cover-2.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Colorful beach umbrellas viewed tightly from below against blue sky, strong geometric composition, no coastline or buildings. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 3,
+    "asset": "src/assets/blog-covers/cover-3.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Two sparkling cider glasses and a small gold clock on a dark linen table, celebratory midnight bokeh, no text on clock face. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 5,
+    "asset": "src/assets/blog-covers/cover-5.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Three blank itinerary cards beside a compass, pencil and folded plain road map with no place names, overhead editorial still life. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 6,
+    "asset": "src/assets/blog-covers/cover-6.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Freshly cooked grilled fish with lemon and herbs on a ceramic plate, close-up food editorial, neutral wooden table, no restaurant context. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 7,
+    "asset": "src/assets/blog-covers/cover-7.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Carefully packed day backpack with refillable water bottle, cap and comfortable walking shoes, three-quarter studio-natural-light view. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 8,
+    "asset": "src/assets/blog-covers/cover-8.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Family travel preparation: adult and child hands arranging sunhats and a paper checklist without legible text on a kitchen table. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 9,
+    "asset": "src/assets/blog-covers/cover-9.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Three different seashells and smooth coastal pebbles on pale sand, low-angle macro photograph, no recognizable beach. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. This is a generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 10,
+    "asset": "src/assets/blog-covers/cover-10.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Blank paper calendar on a wooden desk with colored paper flags and pencil, gentle autumn daylight, no dates or event names. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 12,
+    "asset": "src/assets/blog-covers/cover-12.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Footprints along the edge of shallow sea foam, tightly framed ground-level view of sand and water only, no identifiable coastline. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 13,
+    "asset": "src/assets/blog-covers/cover-13.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Unbranded wristbands and blank admission-ticket-shaped cards next to a compact day bag, editorial still life, absolutely no logos, barcode or text. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark.",
+    "editPrompt": "Edit the last viewed illustration: retain the tabletop objects in the foreground. Replace ENTIRE background behind the objects with a plain warm cream interior studio wall, softly lit by window light. Remove all people, all architecture, all towers, all rollercoasters, all palms, all landscape and all sky. Indoor tabletop still life only, no outdoor setting visible, no window view. Realistic editorial still life of blank tickets, wristbands, backpack and water bottle. No text or logos. Landscape 16:9."
+  },
+  {
+    "index": 14,
+    "asset": "src/assets/blog-covers/cover-14.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Binoculars, walking sandals and a camera placed on a plain wooden bench outdoors, leafy bokeh, no landmark or identifiable trail. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 15,
+    "asset": "src/assets/blog-covers/cover-15.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Child-sized sunhat and small bucket with spade beside adult beach sandals on sand, cheerful family holiday still life. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 16,
+    "asset": "src/assets/blog-covers/cover-16.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Cooked shrimp in a shallow rustic ceramic dish with lime wedges and parsley, appetizing close-up, no restaurant signs. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 17,
+    "asset": "src/assets/blog-covers/cover-17.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Close-up of a life jacket securely fastened around a generic seated adult on a small boat, hands adjusting straps, water blurred in background, no island or coastline. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 18,
+    "asset": "src/assets/blog-covers/cover-18.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Weekend bag and a pair of sunglasses beside two blank itinerary pages on a sunlit table, minimalist spacious horizontal framing. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 19,
+    "asset": "src/assets/blog-covers/cover-19.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Fresh mussels in shells in a simple blue bowl with a fisherman’s rope softly blurred behind, food-produce still life, no farm or coast. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 20,
+    "asset": "src/assets/blog-covers/cover-20.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Single folding beach chair on sand viewed close from behind, calm blurred sea only, no hills, buildings or identifiable location. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 21,
+    "asset": "src/assets/blog-covers/cover-21.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Travel planner notebook with blank pages beside savings jar and packed sunglasses case, summer trip planning editorial, no currency detail or text. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 22,
+    "asset": "src/assets/blog-covers/cover-22.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Rolling suitcase handle and luggage wheels in a generic airport corridor, waist-down traveler, no signs, brand names or identifiable airport. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 25,
+    "asset": "src/assets/blog-covers/cover-25.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Hands holding binoculars above a plain wooden railing, distant sky softly blurred, no visible invented lookout or identifiable landscape. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 26,
+    "asset": "src/assets/blog-covers/cover-26.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Road-trip essentials: folded unlabelled map and sunglasses on passenger seat, parked generic car, no road signs or navigation screen. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 27,
+    "asset": "src/assets/blog-covers/cover-27.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Family choosing travel dates: adult hands and small child hand pointing to blank calendar grid with colored circles but no words or numerals. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 29,
+    "asset": "src/assets/blog-covers/cover-29.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Four travel-day pouches arranged beside a travel notebook and keys, overhead still life suggesting a four-day itinerary, no text or brands. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 30,
+    "asset": "src/assets/blog-covers/cover-30.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Parent tying a child's comfortable sneaker before an outing, close-up hands and shoes on neutral floor, no park or hotel. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 31,
+    "asset": "src/assets/blog-covers/cover-31.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Soft wave lapping over a smooth rock and coarse sand, tight coastal detail with no identifiable shore, natural documentary-style light. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 32,
+    "asset": "src/assets/blog-covers/cover-32.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Child backpack beside a car booster seat in a parked generic car, bright calm daylight, no brand, no child inside, no specific route. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 33,
+    "asset": "src/assets/blog-covers/cover-33.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Hands pinning small colorful blank event notes on a corkboard, editorial preparation scene, no festival venue or dates. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 34,
+    "asset": "src/assets/blog-covers/cover-34.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Traditional soft pretzel on a wooden board alongside a ceramic seafood bowl, still life suggesting regional food experiences, no venue or signage. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 35,
+    "asset": "src/assets/blog-covers/cover-35.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Silver and gold paper confetti beside two festive glasses on a pale outdoor table at twilight, no fireworks, city or event depiction. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 36,
+    "asset": "src/assets/blog-covers/cover-36.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Handmade star ornament and warm fairy lights among evergreen branches, intimate holiday still life, no city or actual event decorations. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 37,
+    "asset": "src/assets/blog-covers/cover-37.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Travel bag next to an open blank calendar and house keys on a bench, broad daylight, no dates, no hotel interior. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 38,
+    "asset": "src/assets/blog-covers/cover-38.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Steaming mussel pot with herbs and lemon, close-up hands serving into ceramic bowl, neutral background, no festival or restaurant claim. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 39,
+    "asset": "src/assets/blog-covers/cover-39.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Hiking boots on earthy ground with fern leaves and a reusable water bottle, close-up, no invented trail, sign or landmark. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 40,
+    "asset": "src/assets/blog-covers/cover-40.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Rain droplets on a window with a closed umbrella and a paperback in foreground, generic neutral indoor still life, no hotel room or identifiable view. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 42,
+    "asset": "src/assets/blog-covers/cover-42.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Two cups of coffee and intertwined adult hands on a small outdoor table with soft greenery bokeh, quiet romantic travel illustration, no hotel setting. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 43,
+    "asset": "src/assets/blog-covers/cover-43.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Beach water sample vial held above a blank field notebook with pencil, sand and sea foam blurred behind, conceptual illustration, no official logos, report or fake screen. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  },
+  {
+    "index": 44,
+    "asset": "src/assets/blog-covers/cover-44.webp",
+    "prompt": "Use case: photorealistic-natural. One original landscape editorial travel-blog illustration, 16:9 framing. Travel checklist notebook with blank pages beside a folded walking cane and luggage handle, dignified accessible-travel planning still life, no claim of hotel accessibility. Realistic materials and natural human anatomy, tasteful warm editorial photography aesthetic, subject clear at small card size, center safe crop. Generic illustrative scene, NOT a real photograph of Penha, any hotel or Beto Carrero. No identifiable landmarks, no invented attractions, no logos, no text, no watermark."
+  }
+]

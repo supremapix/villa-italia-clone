@@ -6,15 +6,17 @@ import { blogArticles4 } from './blogArticles4';
 import { blogArticles5 } from './blogArticles5';
 import { editorialArticles } from './editorialArticles';
 import { publicFactReviewIds } from './publicFactReview';
-import { guesthousePhotoForArticle } from './blogPhotography';
-export interface Article { id:string; title:string; date:string; dateISO?:string; modifiedISO?:string; content:string; image:string; imageAlt?:string; imageCredit?:{author:string; source:string; license:string; licenseLabel?:string; changes:string}; metaDescription?:string; keywords?:string; category?:string; status?:"published" | "draft"; }
+import { articleCovers } from './blogPhotography';
+export interface Article { id:string; title:string; date:string; dateISO?:string; modifiedISO?:string; content:string; image:string; imageAlt?:string; imageCredit?:{kind?:"photograph"|"illustration"; author:string; source:string; license:string; licenseLabel?:string; changes:string}; metaDescription?:string; keywords?:string; category?:string; status?:"published" | "draft"; }
 const previous: Record<string, Article> = {...legacyBlogPosts,...blogArticles1,...blogArticles2,...blogArticles3,...blogArticles4,...blogArticles5};
 const revised = Object.fromEntries(Object.entries(editorialArticles).map(([id,post])=>[id,previous[id] ? {...post,date:previous[id].date,dateISO:previous[id].dateISO} : post]));
 export const blogPosts: Record<string, Article> = {...previous,...revised};
-// Fail closed for new articles: no legacy/unverified photograph reaches any surface.
-// The licensed Trapiche photograph is the sole location photograph approved here.
+// New articles require a reviewed unique cover; never silently reuse a fallback.
 for (const id of Object.keys(blogPosts)) {
-  if (id !== 'por-do-sol-penha-sc') blogPosts[id] = {...blogPosts[id],...guesthousePhotoForArticle(id)};
+  if (id !== 'por-do-sol-penha-sc') {
+    if (!articleCovers[id]) throw new Error('Missing reviewed cover: '+id);
+    blogPosts[id] = {...blogPosts[id],...articleCovers[id]};
+  }
 }
 // These pre-existing records had future publication dates at the audit on 2026-10-22.
 // Keep their URLs and content, but do not present an unverified publication date.

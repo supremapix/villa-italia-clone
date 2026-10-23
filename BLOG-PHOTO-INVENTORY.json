@@ -1,12 +1,14 @@
 [
   {
     "article": "/blog/ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
+    "title": "Férias de Verão Janeiro, Fevereiro e Março 2026: Guia Completo de Penha, Balneário Camboriú e Praias da Região",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-verao-janeiro-2026.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-0.webp",
+    "alt": "Imagem ilustrativa: Mala de verão com roupas, toalha e livro",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -15,16 +17,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/cuidados-pele-verao-dicas-saude-praia-penha",
+    "title": "Cuidados com a Pele no Verão: Guia Completo de Saúde e Proteção Para Suas Férias na Praia",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-cuidados-pele-verao.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-1.webp",
+    "alt": "Imagem ilustrativa: Protetor solar, chapéu e óculos sobre a areia",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -33,16 +37,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/temporada-verao-2025-2026-penha-sc",
+    "title": "Temporada de Verão 2025/2026 em Penha-SC: O Guia Completo para Suas Férias Perfeitas no Litoral Catarinense",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-temporada-verao-penha.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-2.webp",
+    "alt": "Imagem ilustrativa: Guarda-sóis coloridos vistos de baixo",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -51,16 +57,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/reveillon-2026-penha-santa-catarina",
+    "title": "Réveillon 2026 em Penha-SC: Celebre a Virada do Ano no Paraíso do Litoral Catarinense",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-reveillon-penha-2025.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-3.webp",
+    "alt": "Imagem ilustrativa: Taças e relógio em composição de celebração",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -69,16 +77,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/melhores-praias-penha",
+    "title": "As Melhores Praias de Penha para Visitar",
+    "kind": "photograph",
     "previousImage": "src/assets/penha-beach-1.webp",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-4.webp",
+    "alt": "Praia Vermelha em Penha",
+    "author": "Renato Soares - MTUR",
+    "source": "https://commons.wikimedia.org/wiki/File:RenatoSoares_PraiaVermelha_Penha_SC_(40434982784).jpg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
     "application": [
       "article",
       "blog index",
@@ -87,16 +97,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Praia Vermelha, Penha, fotografada em 2018. Recorte e conversão para WebP."
   },
   {
     "article": "/blog/roteiro-3-dias-penha",
+    "title": "Roteiro de 3 Dias em Penha e Região",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-beach-2.webp",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-5.webp",
+    "alt": "Imagem ilustrativa: Cartões de roteiro, bússola e mapa sem identificação",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -105,16 +117,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/gastronomia-penha",
+    "title": "Gastronomia em Penha: Sabores do Litoral",
+    "kind": "illustration",
     "previousImage": "src/assets/breakfast.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-6.webp",
+    "alt": "Imagem ilustrativa: Peixe grelhado com limão e ervas",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -123,16 +137,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/dicas-beto-carrero",
+    "title": "Dicas Essenciais para Aproveitar o Beto Carrero World",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-beach-3.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-7.webp",
+    "alt": "Imagem ilustrativa: Mochila, garrafa, boné e calçados para passeio",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -141,16 +157,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/guia-completo-penha-sc-beto-carrero",
+    "title": "Guia Completo de Penha SC: Beto Carrero World, Praias, Restaurantes e Hospedagem para Famílias",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-beach-1.webp",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-8.webp",
+    "alt": "Imagem ilustrativa: Mãos preparando chapéus e lista de viagem em família",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -159,16 +177,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/praias-penha-sc-litoral-norte",
+    "title": "As 19 Praias de Penha SC — Guia Completo: Qual Visitar, Como Chegar e Dicas por Perfil",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-beach-3.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-9.webp",
+    "alt": "Imagem ilustrativa: Conchas e pedras sobre a areia",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -177,16 +197,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/festas-eventos-penha-sc-abril-julho-2026",
+    "title": "Festas e Eventos em Penha de Abril a Julho de 2026: Arquivo e Consulta de Agenda",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-festas-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-10.webp",
+    "alt": "Imagem ilustrativa: Calendário sem datas com marcadores coloridos",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -195,16 +217,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/beto-carrero-world-guia-completo-familias-2026",
+    "title": "Beto Carrero World 2026: Guia Completo para Famílias — Atrações, Ingressos, Dicas e Onde Ficar",
+    "kind": "photograph",
     "previousImage": "src/assets/blog-beto-carrero-outono.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-11.webp",
+    "alt": "Castelo das Nações no Beto Carrero World, em Penha",
+    "author": "HVL",
+    "source": "https://commons.wikimedia.org/wiki/File:Castelo_das_Na%C3%A7%C3%B5es_no_Beto_Carrero_World,_Penha_SC.JPG",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
     "application": [
       "article",
       "blog index",
@@ -213,16 +237,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Castelo das Nações, Penha, fotografado em 2018. Recorte e conversão para WebP."
   },
   {
     "article": "/blog/praias-de-penha-sc-guia-completo",
+    "title": "Praias de Penha SC: Guia Completo com as 10 Melhores Praias da Cidade",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-praia-armacao-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-12.webp",
+    "alt": "Imagem ilustrativa: Pegadas junto à espuma do mar",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -231,16 +257,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/beto-carrero-world-dicas-guia-2026",
+    "title": "Beto Carrero World 2026: Guia Completo com Dicas de Ingressos, Atrações e Hospedagem",
+    "kind": "illustration",
     "previousImage": "src/assets/beto-carrero-castelo-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-13.webp",
+    "alt": "Imagem ilustrativa: Pulseiras e cartões sem identificação junto a uma bolsa",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -249,16 +277,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/o-que-fazer-em-penha-sc",
+    "title": "O Que Fazer em Penha SC Além do Beto Carrero World",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-penha-alem-beto.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-14.webp",
+    "alt": "Imagem ilustrativa: Binóculos, sandálias e câmera para passeio",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -267,16 +297,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/penha-sc-com-criancas-roteiro-familia",
+    "title": "Penha SC com Crianças: Roteiro Completo de 3 Dias para Famílias",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-praia-paciencia-real.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-15.webp",
+    "alt": "Imagem ilustrativa: Chapéu infantil, balde e sandálias na areia",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -285,16 +317,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/gastronomia-penha-sc-frutos-do-mar",
+    "title": "Gastronomia em Penha SC: Onde Comer Frutos do Mar e os Melhores Restaurantes",
+    "kind": "illustration",
     "previousImage": "src/assets/balneario-camboriu-noite-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-16.webp",
+    "alt": "Imagem ilustrativa: Camarões preparados com limão e ervas",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -303,16 +337,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/ilha-feia-penha-sc-passeio-barco",
+    "title": "Ilha Feia em Penha SC: Como Fazer o Passeio de Barco e o Que Esperar",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-vista-geral-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-17.webp",
+    "alt": "Imagem ilustrativa: Pessoa ajustando colete salva-vidas em barco",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -321,16 +357,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/penha-sc-fim-de-semana-roteiro-rapido",
+    "title": "Penha SC no Fim de Semana: Roteiro de 2 Dias para Aproveitar Tudo",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-praia-armacao-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-18.webp",
+    "alt": "Imagem ilustrativa: Bolsa de fim de semana e folhas de planejamento",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -339,16 +377,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/maricultura-penha-sc-turismo",
+    "title": "Maricultura em Penha SC: Conheça a Capital Brasileira dos Mariscos",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-maricultura-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-19.webp",
+    "alt": "Imagem ilustrativa: Mexilhões em conchas numa tigela azul",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -357,16 +397,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/praias-tranquilas-litoral-norte-sc",
+    "title": "Praias Tranquilas no Litoral Norte de SC: Guia para Fugir da Agitação",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-praias-tranquilas-sc.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-20.webp",
+    "alt": "Imagem ilustrativa: Cadeira de praia diante de água desfocada",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -375,16 +417,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/temporada-verao-penha-sc-2027",
+    "title": "Temporada de Verão em Penha SC: Planeje sua Viagem com Antecedência",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-temporada-verao-2027.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-21.webp",
+    "alt": "Imagem ilustrativa: Caderno de planejamento, pote de economias e óculos",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -393,16 +437,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/como-chegar-penha-sc-dicas-transporte",
+    "title": "Como chegar a Penha: organize o trajeto do aeroporto até a hospedagem",
+    "kind": "illustration",
     "previousImage": "src/assets/gallery-1.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-22.webp",
+    "alt": "Imagem ilustrativa: Bagagem em corredor genérico de aeroporto",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -411,10 +457,12 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/pousada-perto-beto-carrero-como-escolher",
+    "title": "Pousada Perto do Beto Carrero World: Como Escolher a Melhor",
+    "kind": "photograph",
     "previousImage": "src/assets/blog-pousada-perto-beto-carrero.jpg",
     "image": "src/assets/room-1.jpg",
     "alt": "Quarto de casal da Pousada Vila D’Itália",
@@ -429,13 +477,15 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Quarto da Pousada Vila D’Itália. Fotografia da hospedagem."
+    "locationNote": "Quarto de casal da Pousada Vila D’Itália. Fotografia da hospedagem."
   },
   {
     "article": "/blog/penha-sc-baixa-temporada-vantagens",
+    "title": "Penha SC na Baixa Temporada: Por Que Visitar Fora do Verão Vale Muito",
+    "kind": "photograph",
     "previousImage": "src/assets/blog-baixa-temporada-penha.jpg",
     "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
+    "alt": "Piscina externa da Pousada Vila D’Itália",
     "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
     "source": "https://www.pousadaviladitalia.com.br/#gallery",
     "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
@@ -447,16 +497,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Piscina externa da Pousada Vila D’Itália. Fotografia da hospedagem."
   },
   {
     "article": "/blog/mirante-praia-vermelha-penha-vista",
+    "title": "Mirante da Praia Vermelha em Penha SC: A Vista Mais Bonita do Litoral Norte",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-mirante-praia-vermelha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-25.webp",
+    "alt": "Imagem ilustrativa: Mãos segurando binóculos sobre um corrimão",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -465,16 +517,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/curitiba-ate-beto-carrero-world-quanto-tempo",
+    "title": "Quanto Tempo de Curitiba até o Beto Carrero World? Guia Completo de Rotas",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-curitiba-beto-carrero.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-26.webp",
+    "alt": "Imagem ilustrativa: Mapa sem identificação e óculos em carro estacionado",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -483,16 +537,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/melhor-epoca-beto-carrero-world-criancas",
+    "title": "Melhor Época para Visitar o Beto Carrero World com Crianças",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-melhor-epoca-beto.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-27.webp",
+    "alt": "Imagem ilustrativa: Mãos de adulto e criança sobre calendário sem datas",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -501,13 +557,15 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/pousada-perto-beto-carrero-world-penha-sc",
+    "title": "Pousada Perto do Beto Carrero World: Por Que se Hospedar em Penha é a Melhor Escolha",
+    "kind": "photograph",
     "previousImage": "src/assets/blog-pousada-penha-escolha.jpg",
-    "image": "src/assets/room-1.jpg",
-    "alt": "Quarto de casal da Pousada Vila D’Itália",
+    "image": "src/assets/gallery-1.jpg",
+    "alt": "Varanda e jardim da Pousada Vila D’Itália",
     "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
     "source": "https://www.pousadaviladitalia.com.br/#gallery",
     "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
@@ -519,16 +577,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Quarto da Pousada Vila D’Itália. Fotografia da hospedagem."
+    "locationNote": "Varanda e jardim da Pousada Vila D’Itália. Fotografia da hospedagem."
   },
   {
     "article": "/blog/roteiro-litoral-norte-sc-saindo-de-londrina",
+    "title": "Roteiro de 4 Dias no Litoral Norte de Santa Catarina Saindo de Londrina",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-roteiro-londrina-sc.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-29.webp",
+    "alt": "Imagem ilustrativa: Organizadores de bagagem, caderno e chaves",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -537,16 +597,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/dicas-beto-carrero-world-familia",
+    "title": "Dicas para Aproveitar o Beto Carrero World no Máximo com a Família",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-dicas-beto-familia.jpg",
-    "image": "src/assets/gallery-6.jpg",
-    "alt": "Piscina externa e varandas da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-30.webp",
+    "alt": "Imagem ilustrativa: Adulto amarrando o tênis de uma criança",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -555,16 +617,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Piscina da Pousada Vila D’Itália. Fotografia da hospedagem, não de uma praia ou parque."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/praia-armacao-penha-sc",
+    "title": "Praia da Armação em Penha SC: Tudo Que Você Precisa Saber Antes de Ir",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-praia-armacao-tudo.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-31.webp",
+    "alt": "Imagem ilustrativa: Detalhe de onda, pedra e areia sem identificação de praia",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -573,16 +637,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/roteiro-maringa-beto-carrero-world",
+    "title": "Roteiro Saindo de Maringá: Fim de Semana no Beto Carrero World com Crianças",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-roteiro-maringa-beto.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-32.webp",
+    "alt": "Imagem ilustrativa: Mochila infantil junto a assento de elevação em carro parado",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -591,16 +657,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/festas-eventos-penha-regiao-agosto-dezembro-2026",
+    "title": "Festas e Eventos em Penha e Região em 2026: Como Consultar a Agenda",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-festas-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-33.webp",
+    "alt": "Imagem ilustrativa: Mãos organizando cartões de eventos sem identificação",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -609,16 +677,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/oktoberfest-blumenau-marejada-itajai-2026-base-penha",
+    "title": "Oktoberfest Blumenau e Marejada Itajaí 2026: Por Que Se Hospedar em Penha",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-gastronomia-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-34.webp",
+    "alt": "Imagem ilustrativa: Pretzel e prato de frutos do mar em composição gastronômica",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -627,16 +697,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/reveillon-2026-2027-penha-balneario-camboriu",
+    "title": "Réveillon 2026/2027 em Penha e Balneário Camboriú: Guia Completo da Virada",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-reveillon-penha-2025.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-35.webp",
+    "alt": "Imagem ilustrativa: Confetes e taças em mesa ao entardecer",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -645,16 +717,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/natal-2026-penha-balneario-camboriu-blumenau",
+    "title": "Natal 2026 no Litoral de SC: Luzes em Balneário Camboriú, Magia de Natal em Blumenau e Praia em Penha",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-fim-de-semana-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-36.webp",
+    "alt": "Imagem ilustrativa: Estrela decorativa, folhagem e luzes natalinas",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -663,16 +737,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/feriados-prolongados-2026-penha-beto-carrero",
+    "title": "Feriados Prolongados do 2º Semestre de 2026: Aproveite Penha e o Beto Carrero",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-penha-criancas.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-37.webp",
+    "alt": "Imagem ilustrativa: Bagagem, calendário sem datas e chaves",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -681,16 +757,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/festa-nacional-do-marisco-2027-penha-sc",
+    "title": "Festa Nacional do Marisco em Penha: o que confirmar para planejar 2027",
+    "kind": "illustration",
     "previousImage": "src/assets/blog-maricultura-penha.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-38.webp",
+    "alt": "Imagem ilustrativa: Panela de mexilhões sendo servidos",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -699,16 +777,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/trilhas-ecologicas-penha-sc",
+    "title": "Trilhas Ecológicas em Penha SC: Onde Caminhar na Natureza",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-vista-geral-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-39.webp",
+    "alt": "Imagem ilustrativa: Botas de caminhada, samambaias e garrafa de água",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -717,16 +797,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/o-que-fazer-em-dias-de-chuva-penha-sc",
+    "title": "Chuva em Penha: como adaptar o roteiro sem perder o dia",
+    "kind": "illustration",
     "previousImage": "src/assets/breakfast.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-40.webp",
+    "alt": "Imagem ilustrativa: Gotas na janela, guarda-chuva fechado e livro",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -735,10 +817,12 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/por-do-sol-penha-sc",
+    "title": "Pôr do Sol em Penha SC: os Melhores Mirantes e Pontos para Fotos",
+    "kind": "photograph",
     "previousImage": "src/assets/penha-trapiche-por-do-sol.webp",
     "image": "src/assets/penha-trapiche-por-do-sol.webp",
     "alt": "Barcos e pedras no Trapiche de Penha, com céu alaranjado ao pôr do sol",
@@ -757,12 +841,14 @@
   },
   {
     "article": "/blog/penha-sc-para-casais",
+    "title": "Penha SC para Casais: Roteiro Romântico de Fim de Semana",
+    "kind": "illustration",
     "previousImage": "src/assets/balneario-camboriu-noite-real.jpg",
-    "image": "src/assets/room-1.jpg",
-    "alt": "Quarto de casal da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-42.webp",
+    "alt": "Imagem ilustrativa: Duas xícaras e mãos de casal sobre uma mesa",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -771,16 +857,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Quarto da Pousada Vila D’Itália. Fotografia da hospedagem."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/balneabilidade-praias-penha-como-consultar",
+    "title": "Balneabilidade em Penha: como consultar a praia antes de sair",
+    "kind": "illustration",
     "previousImage": "src/assets/penha-praia-armacao-real.jpg",
-    "image": "src/assets/gallery-1.jpg",
-    "alt": "Varanda de madeira e jardim da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-43.webp",
+    "alt": "Imagem ilustrativa: Frasco de amostra de água e caderno sem relatório oficial",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -789,16 +877,18 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Varanda da Pousada Vila D’Itália. Fotografia da hospedagem, não do passeio abordado no texto."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   },
   {
     "article": "/blog/penha-mobilidade-reduzida-planejamento-viagem",
+    "title": "Penha com mobilidade reduzida: perguntas para planejar uma viagem confortável",
+    "kind": "illustration",
     "previousImage": "src/assets/gallery-1.jpg",
-    "image": "src/assets/room-1.jpg",
-    "alt": "Quarto de casal da Pousada Vila D’Itália",
-    "author": "Acervo da Pousada Vila D’Itália (fotógrafo não identificado)",
-    "source": "https://www.pousadaviladitalia.com.br/#gallery",
-    "license": "Reutilização no site autorizada pelo cliente; sem licença aberta declarada",
+    "image": "src/assets/blog-covers/cover-44.webp",
+    "alt": "Imagem ilustrativa: Caderno de planejamento, bastões de apoio e bagagem",
+    "author": "Gerada por IA para o blog da Pousada Vila D’Itália",
+    "source": "",
+    "license": "Ilustração original gerada com OpenAI ImageGen; sem licença aberta declarada",
     "application": [
       "article",
       "blog index",
@@ -807,6 +897,6 @@
       "Twitter",
       "sharing"
     ],
-    "locationNote": "Quarto da Pousada Vila D’Itália. Fotografia da hospedagem."
+    "locationNote": "Cena genérica ilustrativa; não é registro de um destino, evento ou serviço da pousada."
   }
 ]
