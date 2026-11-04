@@ -9,6 +9,12 @@
       "source": "/index.html",
       "destination": "/",
       "permanent": true
-    }
+    },
+    { "source": "/contato.html", "destination": "/#contact", "permanent": true },
+    { "source": "/contato", "destination": "/#contact", "permanent": true },
+    { "source": "/fotos.html", "destination": "/#gallery", "permanent": true },
+    { "source": "/fotos", "destination": "/#gallery", "permanent": true },
+    { "source": "/localiza.html", "destination": "/#location", "permanent": true },
+    { "source": "/localiza", "destination": "/#location", "permanent": true }
   ]
 }
