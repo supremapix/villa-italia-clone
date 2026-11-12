@@ -16,6 +16,14 @@ const BlogPost = () => {
 
   if (!post) return <NotFound />;
 
+  const historicalSeason = [
+    "ferias-verao-janeiro-fevereiro-marco-2026-penha-balneario-camboriu",
+    "temporada-verao-2025-2026-penha-sc",
+    "reveillon-2026-penha-santa-catarina",
+    "festas-eventos-penha-sc-abril-julho-2026",
+    "oktoberfest-blumenau-marejada-itajai-2026-base-penha"
+  ].includes(slug || "");
+
   // Generate structured data for blog post
   const articleStructuredData = {
     "@context": "https://schema.org",
@@ -80,6 +88,9 @@ const BlogPost = () => {
             Voltar ao Blog
           </Button>
 
+          {historicalSeason && <aside aria-label="Informação sobre a data do guia" className="mb-6 rounded-lg border border-primary/25 bg-primary/5 p-5 text-base leading-relaxed">
+            <strong>Guia de uma temporada encerrada.</strong> As datas deste artigo não representam uma oferta vigente. Confirme programação, valores e regras da edição em que pretende viajar. <Link className="underline" to="/blog/temporada-verao-penha-sc-2027">Veja o planejamento para o verão de 2027.</Link>
+          </aside>}
           {/* Featured Image */}
           <div className="relative mb-4 rounded-xl overflow-hidden shadow-lg">
             <img 

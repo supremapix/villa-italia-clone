@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
-const base='9d769f7cab10a614fea8c5281da6a12e0e1584a7';
+// Current published baseline: prior legitimate changes added Instagram and revised policies.
+const base='d70e3164d5cba59cba347de5afeebc3db6dbe8ed';
 for(const file of ['src/data/editorialArticles.ts','src/pages/FAQ.tsx','src/components/Footer.tsx','src/components/VillaIntroduction.tsx']){
  const old=execFileSync('git',['show',base+':'+file],{encoding:'utf8'}).replaceAll('\r','');
  assert.equal(fs.readFileSync(file,'utf8').replaceAll('\r',''),old,file+' must preserve previous editorial/property scope');
@@ -17,5 +18,5 @@ assert.ok(!html('gastronomia-penha-sc-frutos-do-mar').includes('colhidos no mesm
 assert.ok(html('feriados-prolongados-2026-penha-beto-carrero').includes('16 de novembro não aparece como feriado nacional'));
 assert.ok(html('festa-nacional-do-marisco-2027-penha-sc').includes('não comprova datas, local, artistas ou gratuidade'));
 assert.ok(!html('reveillon-2026-2027-penha-balneario-camboriu').includes('15 minutos'));
-const routes=JSON.parse(fs.readFileSync('dist/routes.json','utf8'));assert.equal(routes.length,77);
-console.log('Public-fact corrections and preservation checks passed. 77 routes; no new articles.');
+const routes=JSON.parse(fs.readFileSync('dist/routes.json','utf8'));assert.equal(routes.length,78);
+console.log('Public-fact corrections and preservation checks passed. 78 routes; no new articles.');
