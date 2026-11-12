@@ -45,11 +45,11 @@ const Amenities = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-secondary mb-4">
-            Você merece aproveitar uma estadia dos sonhos
+            Piscinas e lazer na sua pousada em Penha
           </h2>
           <div className="w-20 h-1 bg-cta rounded-full mx-auto mb-6" />
           <p className="text-xl text-foreground max-w-3xl mx-auto">
-            Venha conhecer a Pousada Vila D'Itália! Aqui você encontra uma estrutura completa para proporcionar dias incríveis de descanso e diversão.
+            Conheça as piscinas externa e coberta da Pousada Vila D'Itália e as regras de uso para planejar os momentos de descanso entre os passeios por Penha.
           </p>
         </div>
 
@@ -58,7 +58,9 @@ const Amenities = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-hover h-[500px] md:h-[600px] lg:h-[700px]">
             <img
               src={poolImage}
-              alt="Piscina externa"
+              alt="Piscina externa da Pousada Vila D'Itália em Penha, Santa Catarina"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover hover:scale-105 transition-smooth"
             />
             <div className="absolute top-4 right-4 flex gap-1">
@@ -95,6 +97,15 @@ const Amenities = () => {
             })}
           </div>
         </Card>
+
+        <nav aria-label="Planeje sua hospedagem com piscina" className="mb-12 flex flex-wrap justify-center gap-3">
+          <a href="/acomodacoes" className="inline-flex min-h-12 items-center rounded-lg border border-secondary px-5 py-3 font-semibold text-secondary hover:bg-secondary/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary">
+            Ver fotos e opções de acomodações
+          </a>
+          <a href="#reservation-form" className="inline-flex min-h-12 items-center rounded-lg bg-secondary px-5 py-3 font-semibold text-secondary-foreground hover:bg-secondary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary">
+            Consultar a estadia nas minhas datas
+          </a>
+        </nav>
 
         {/* Amenities Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 animate-scale-in">

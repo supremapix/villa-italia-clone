@@ -21,10 +21,10 @@ const Index = () => {
   return (
     <div className="min-h-screen villa-home">
       <EnhancedSEO
-        title="Pousada Penha SC perto do Beto Carrero"
-        description="Pousada Vila D'Italia em Penha/SC: a poucos passos da Praia de Armação e 5min do Beto Carrero World. Piscina, café da manhã, ideal para famílias."
+        title="Pousada com piscina em Penha SC"
+        description="Conheça a Vila D'Itália em Penha SC: piscinas externa e coberta, fotos das acomodações e informações para sua viagem ao Beto Carrero. Consulte datas e valores."
         canonical="/"
-        keywords="pousada penha, hotel penha sc, pousada beto carrero, hospedagem penha, pousada praia armacao, pousada com piscina penha, cafe da manha incluso, hospedagem barata penha, hotel familiar penha"
+        keywords="pousada penha, pousada beto carrero, hospedagem penha, pousada praia armacao, pousada com piscina penha, hotel familiar penha"
         breadcrumbs={[
           { name: "Home", url: "/" }
         ]}
