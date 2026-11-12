@@ -4,9 +4,16 @@
 
 /* Shared social controls: reserve room so the rail never covers the footer. */
 body { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
-.suprema-credit { display:inline-flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; min-height:48px; padding:12px 18px; border:1px solid #a9b9ae; border-radius:24px; background:#f8f5ee; color:#243f36!important; }
-.suprema-credit span { display:inline; line-height:1.8; }
-.suprema-credit img { height:18px; width:auto; max-width:110px; object-fit:contain; }
+/* Suprema signature: larger logo and clear authorship, following Shopcell. */
+.suprema-credit-panel { width:min(100%,750px); margin:32px auto 0; padding:28px 24px; border:1px solid #b98d68; border-radius:24px; background:linear-gradient(135deg,#f8f5ee,#e8e9df); color:#243f36; box-shadow:0 8px 28px #00000014; }
+.suprema-credit-panel .suprema-credit-intro { display:flex; align-items:center; justify-content:center; gap:7px; margin:0 0 14px; color:#243f36; font-size:14px; }
+.suprema-credit { display:inline-flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:24px; max-width:100%; min-height:48px; padding:12px; border:2px solid #385c4e; border-radius:20px; color:#243f36!important; text-decoration:none; transition:box-shadow .2s ease; }
+.suprema-credit:hover { box-shadow:0 0 0 3px #385c4e25; }
+.suprema-credit img { display:block; height:74px; width:220px; max-width:100%; object-fit:contain; background:#fff; border-radius:10px; padding:10px; }
+.suprema-credit-copy { display:flex; flex-direction:column; align-items:flex-start; gap:7px; text-align:left; }
+.suprema-credit-copy strong { font-size:20px; line-height:1.35; }
+.suprema-credit-cta { display:flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color:#774326; }
+@media(max-width:540px) { .suprema-credit-panel { padding:24px 16px; } .suprema-credit { width:100%; gap:14px; } .suprema-credit-copy { align-items:center; text-align:center; } }
 .suprema-heart { display:inline-block; vertical-align:middle; color:#b52336; animation:suprema-heartbeat 3s ease-in-out infinite; }
 @keyframes suprema-heartbeat { 50% { transform:scale(1.12); } }
 .instagram-section { position:relative; overflow:hidden; padding:48px 16px; background:#f9fafb80; border-block:1px solid #e5e7eb; color:#243f36; }
@@ -59,7 +66,7 @@ body { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
  .share-dialog { padding:16px; }
  .share-heading { flex-wrap:wrap; }
 }
-@media(prefers-reduced-motion:reduce) { .suprema-heart,.instagram-in-view .instagram-content { animation:none; } .instagram-card { transition:none; } .instagram-card:hover { transform:none; } }
+@media(prefers-reduced-motion:reduce) { .suprema-heart,.instagram-in-view .instagram-content { animation:none; } .instagram-card,.suprema-credit { transition:none; } .instagram-card:hover { transform:none; } }
 
 /* Prevent horizontal overflow on mobile */
 html, body {
