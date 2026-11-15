@@ -24,6 +24,8 @@ const BlogPost = () => {
     "oktoberfest-blumenau-marejada-itajai-2026-base-penha"
   ].includes(slug || "");
 
+  const brandedHolidayCover = ["natal-2026-penha-balneario-camboriu-blumenau", "reveillon-2026-2027-penha-balneario-camboriu"].includes(slug || "");
+
   // Generate structured data for blog post
   const articleStructuredData = {
     "@context": "https://schema.org",
@@ -96,7 +98,7 @@ const BlogPost = () => {
             <img 
               src={post.image}
               alt={post.imageAlt || post.title}
-              className="w-full h-64 md:h-96 object-cover"
+              className={brandedHolidayCover ? "w-full h-auto object-contain" : "w-full h-64 md:h-96 object-cover"}
               width="1200"
               height="600"
               loading="eager"
@@ -105,7 +107,7 @@ const BlogPost = () => {
               href="https://wa.me/5547992738090"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-sm py-2 px-4 flex items-center justify-center hover:bg-black/80 transition-colors"
+              className={`${brandedHolidayCover ? "" : "absolute bottom-0 left-0 right-0"} bg-black/60 text-white text-sm py-2 px-4 flex items-center justify-center hover:bg-black/80 transition-colors`}
             >
               📞 Reserva via WhatsApp: (47) 99273-8090
             </a>

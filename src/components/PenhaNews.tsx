@@ -18,15 +18,15 @@ const PenhaNews = () => {
     {
       icon: Ticket,
       title: "Réveillon 2026/2027 no Litoral Norte SC",
-      description: "Queima de fogos, festas na praia, pacotes e onde se hospedar para curtir a virada em Penha e Balneário Camboriú.",
+      description: "Como conferir festas e planejar hospedagem e retorno. Consulte o apartamento exclusivo para as datas da virada.",
       color: "from-blue-500/20 to-indigo-500/20",
       iconColor: "text-blue-600",
       link: "/blog/reveillon-2026-2027-penha-balneario-camboriu"
     },
     {
       icon: Sparkles,
-      title: "Natal 2026: Luzes em BC e Magia em Blumenau",
-      description: "Iluminação da orla de Balneário Camboriú, espetáculos natalinos em Blumenau e clima de fim de ano em Penha.",
+      title: "Natal 2026 em Penha: planeje a sua estadia",
+      description: "Natal Encantado, refeições, passeios em família e apartamento para locação: veja o que confirmar antes da viagem.",
       color: "from-yellow-500/20 to-orange-500/20",
       iconColor: "text-yellow-600",
       link: "/blog/natal-2026-penha-balneario-camboriu-blumenau"
