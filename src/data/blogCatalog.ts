@@ -26,3 +26,7 @@ for (const id of ['mirante-praia-vermelha-penha-vista','natal-2026-penha-balnear
 for (const id of publicFactReviewIds) {
   if (blogPosts[id]) blogPosts[id] = {...blogPosts[id], modifiedISO:'2026-10-22'};
 }
+
+for (const id of ["natal-2026-penha-balneario-camboriu-blumenau","reveillon-2026-2027-penha-balneario-camboriu"]) {
+ blogPosts[id] = {...blogPosts[id], modifiedISO:"2026-11-15"};
+}

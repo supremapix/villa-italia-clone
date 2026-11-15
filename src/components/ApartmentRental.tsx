@@ -65,9 +65,20 @@ const ApartmentRental = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-b from-secondary/10 to-background">
+    <section id="apartment" className="py-16 bg-gradient-to-b from-secondary/10 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
+          <div className="mb-6 rounded-2xl border border-primary/25 bg-secondary/20 p-5 text-left">
+            <p className="text-sm font-semibold text-primary">Natal 2026 • Ano-Novo 2027</p>
+            <h2 className="mt-2 text-xl font-bold">Apartamento exclusivo para locação nas festas</h2>
+            <p className="mt-2">Disponibilidade informada em 15/11/2026. Consulte as datas exatas, capacidade, valores e condições com a equipe. A disponibilidade pode mudar com novas reservas.</p>
+            <p className="mt-3 flex flex-wrap gap-4">
+              <a className="font-semibold underline" href="/blog/natal-2026-penha-balneario-camboriu-blumenau">Planejar o Natal</a>
+              <a className="font-semibold underline" href="/blog/reveillon-2026-2027-penha-balneario-camboriu">Planejar o Réveillon</a>
+              <a className="font-semibold underline" href="https://wa.me/5547992738090?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20o%20apartamento%20para%20as%20festas%20de%20fim%20de%20ano.">Consultar o apartamento</a>
+            </p>
+          </div>
+
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
             Apartamento para Locação
           </h2>
