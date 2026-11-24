@@ -28,7 +28,7 @@ const faqItems: FAQItem[] = [
   {
     category: "reservas",
     question: "Qual o horário de check-in e check-out?",
-    answer: "O check-in é a partir das 14h e o check-out até as 12h (ao meio-dia). Em casos de disponibilidade podemos acomodar check-in antecipado ou check-out tardio — consulte nossa equipe pelo WhatsApp com antecedência."
+    answer: "O check-in é a partir das 14h e o check-out até as 11h30. Em casos de disponibilidade podemos acomodar check-in antecipado ou check-out tardio — consulte nossa equipe pelo WhatsApp com antecedência."
   },
   {
     category: "reservas",
